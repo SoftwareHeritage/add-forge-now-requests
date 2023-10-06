@@ -1,0 +1,188 @@
+image:
+  name: 192.168.49.2:5000/add-forge-now:20230907.4
+
+default:
+  before_script:
+    - if [ -f build.env ]; then source build.env; fi
+    - source .gitlab-ci/bash-functions.sh
+  tags:
+    - AddForgeNowRequest
+
+variables:
+  STAGING_SCHEDULER_URL: http://scheduler.local:5008
+  PRODUCTION_SCHEDULER_URL: http://saatchi.local:5008
+  AMQP_URL: http://amqp.local:15672
+  GITLAB_URL: http://gitlab.local
+  WEBAPP_URL: http://webapp.local:5080
+  LISTING_DELAY: 20
+  PROJECT_ID: 1
+  PROJECT_NAME: add-forge-now-requests
+  MILESTONE_ID: 1
+
+# STAGES
+
+stages:
+  - staging_list_origins
+  - staging_ingest_origins
+  - staging_set_status
+  #- production_list-origins
+  #- production_ingest-origins
+  - production_set_status
+
+# TEMPLATES
+
+.staging_status:
+  artifacts:
+    public: false
+    untracked: true
+    expire_in: "7 days"
+    paths:
+      - "build.env"
+  dependencies:
+    - "check_and_prepare"
+
+.on_success_status:
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "trigger"
+      when: on_success
+
+.on_failure_status:
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "trigger"
+      when: on_failure
+
+# JOBS
+
+check_and_prepare:
+  stage: .pre
+  script:
+    - gitlab_create_issue
+    - webapp_comment_and_status
+    - check_network_ports
+    - register_vars staging "$STAGING_SCHEDULER_URL"
+  artifacts:
+    public: false
+    untracked: true
+    expire_in: "7 days"
+    paths:
+      - "build.env"
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "trigger"
+
+1s_register_lister:
+  stage: staging_list_origins
+  script:
+    - scheduler_register_lister
+  extends:
+    - .on_success_status
+  dependencies:
+    - "check_and_prepare"
+
+2s_check_listed_origins:
+  stage: staging_list_origins
+  script:
+    - scheduler_check_listed_origins
+  extends:
+    - .on_success_status
+  needs:
+    - job: check_and_prepare
+      artifacts: true
+    - job: 1s_register_lister
+
+3s_schedule_first_visits:
+  stage: staging_ingest_origins
+  script:
+    - scheduler_schedule_first_visits
+  extends:
+    - .on_success_status
+
+4s_check_ingested_origins:
+  stage: staging_ingest_origins
+  script:
+    - scheduler_check_ingested_origins
+  extends:
+    - .on_success_status
+  needs:
+    - job: check_and_prepare
+      artifacts: true
+    - job: 3s_schedule_first_visits
+
+staging_status_successful:
+  stage: staging_set_status
+  extends:
+    - .staging_status
+    - .on_success_status
+  script:
+    - gitlab_update_issue success
+    - webapp_comment_and_status SCHEDULED
+    - register_vars production "$PRODUCTION_SCHEDULER_URL"
+
+staging_status_unsuccessful:
+  stage: staging_set_status
+  extends:
+    - .staging_status
+    - .on_failure_status
+  script:
+    - gitlab_update_issue failure
+    - register_vars production "$PRODUCTION_SCHEDULER_URL"
+
+#1p_register-lister:
+#  stage: production_list-origins
+#  script:
+#    - scheduler_register_lister
+#  extends:
+#    - .on_success_status
+#  dependencies:
+#    - "staging_status_successful"
+#
+#2p_check-listed-origins:
+#  stage: production_list-origins
+#  script:
+#    - scheduler_check_listed_origins
+#  extends:
+#    - .on_success_status
+#  needs:
+#    - job: staging_status_successful
+#      artifacts: true
+#    - job: 1p_register-lister
+#
+#3p_schedule-first-visits:
+#  stage: production_ingest-origins
+#  script:
+#    - scheduler_schedule_first_visits
+#  extends:
+#    - .on_success_status
+#
+#4p_check-ingested-origins:
+#  stage: production_ingest-origins
+#  script:
+#    - scheduler_check_ingested_origins
+#  extends:
+#    - .on_success_status
+#  needs:
+#    - job: staging_status_successful
+#      artifacts: true
+#    - job: 3p_schedule-first-visits
+#
+production_status_successful:
+  stage: production_set_status
+  extends:
+    - .on_success_status
+  script:
+    - gitlab_update_issue success
+    - gitlab_close_issue
+    - webapp_comment_and_status FIRST_ORIGIN_LOADED
+    - gitlab_commit_readme_history successful
+  dependencies:
+    - "staging_status_successful"
+
+production_status_unsuccessful:
+  stage: production_set_status
+  extends:
+    - .on_failure_status
+  script:
+    - gitlab_update_issue failure
+    - webapp_comment_and_status UNSUCCESSFUL
+    - gitlab_commit_readme_history unsuccessful
+  dependencies:
+    - "staging_status_unsuccessful"
