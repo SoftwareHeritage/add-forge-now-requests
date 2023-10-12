@@ -1,5 +1,5 @@
 image:
-  name: 192.168.49.2:5000/add-forge-now:20230907.4
+  name: container-registry.softwareheritage.org/swh/infra/swh-apps/add-forge-now:20231013.1
 
 default:
   before_script:
@@ -9,25 +9,26 @@ default:
     - AddForgeNowRequest
 
 variables:
-  STAGING_SCHEDULER_URL: http://scheduler.local:5008
-  PRODUCTION_SCHEDULER_URL: http://saatchi.local:5008
-  AMQP_URL: http://amqp.local:15672
-  GITLAB_URL: http://gitlab.local
-  WEBAPP_URL: http://webapp.local:5080
-  LISTING_DELAY: 20
-  PROJECT_ID: 1
+  STAGING_SCHEDULER_URL: https://scheduler.internal.staging.swh.network
+  PRODUCTION_SCHEDULER_URL: https://scheduler.internal.softwareheritage.org
+  STAGING_AMQP_URL: http://scheduler0.internal.staging.swh.network:15672
+  PRODUCTION_AMQP_URL: http://saatchi.internal.softwareheritage.org:15672
+  GITLAB_URL: https://gitlab.softwareheritage.org
+  WEBAPP_URL: https://archive.softwareheritage.org
+  LISTING_DELAY: 300
+  PROJECT_ID: 474
   PROJECT_NAME: add-forge-now-requests
-  MILESTONE_ID: 1
+  MILESTONE_ID: 53
 
 # STAGES
 
-stages:
-  - staging_list_origins
-  - staging_ingest_origins
-  - staging_set_status
+#stages:
+  #- staging_list_origins
+  #- staging_ingest_origins
+  #- staging_set_status
   #- production_list-origins
   #- production_ingest-origins
-  - production_set_status
+  #- production_set_status
 
 # TEMPLATES
 
@@ -69,63 +70,63 @@ check_and_prepare:
   rules:
     - if: $CI_PIPELINE_SOURCE == "trigger"
 
-1s_register_lister:
-  stage: staging_list_origins
-  script:
-    - scheduler_register_lister
-  extends:
-    - .on_success_status
-  dependencies:
-    - "check_and_prepare"
-
-2s_check_listed_origins:
-  stage: staging_list_origins
-  script:
-    - scheduler_check_listed_origins
-  extends:
-    - .on_success_status
-  needs:
-    - job: check_and_prepare
-      artifacts: true
-    - job: 1s_register_lister
-
-3s_schedule_first_visits:
-  stage: staging_ingest_origins
-  script:
-    - scheduler_schedule_first_visits
-  extends:
-    - .on_success_status
-
-4s_check_ingested_origins:
-  stage: staging_ingest_origins
-  script:
-    - scheduler_check_ingested_origins
-  extends:
-    - .on_success_status
-  needs:
-    - job: check_and_prepare
-      artifacts: true
-    - job: 3s_schedule_first_visits
-
-staging_status_successful:
-  stage: staging_set_status
-  extends:
-    - .staging_status
-    - .on_success_status
-  script:
-    - gitlab_update_issue success
-    - webapp_comment_and_status SCHEDULED
-    - register_vars production "$PRODUCTION_SCHEDULER_URL"
-
-staging_status_unsuccessful:
-  stage: staging_set_status
-  extends:
-    - .staging_status
-    - .on_failure_status
-  script:
-    - gitlab_update_issue failure
-    - register_vars production "$PRODUCTION_SCHEDULER_URL"
-
+#1s_register_lister:
+#  stage: staging_list_origins
+#  script:
+#    - scheduler_register_lister
+#  extends:
+#    - .on_success_status
+#  dependencies:
+#    - "check_and_prepare"
+#
+#2s_check_listed_origins:
+#  stage: staging_list_origins
+#  script:
+#    - scheduler_check_listed_origins
+#  extends:
+#    - .on_success_status
+#  needs:
+#    - job: check_and_prepare
+#      artifacts: true
+#    - job: 1s_register_lister
+#
+#3s_schedule_first_visits:
+#  stage: staging_ingest_origins
+#  script:
+#    - scheduler_schedule_first_visits
+#  extends:
+#    - .on_success_status
+#
+#4s_check_ingested_origins:
+#  stage: staging_ingest_origins
+#  script:
+#    - scheduler_check_ingested_origins
+#  extends:
+#    - .on_success_status
+#  needs:
+#    - job: check_and_prepare
+#      artifacts: true
+#    - job: 3s_schedule_first_visits
+#
+#staging_status_successful:
+#  stage: staging_set_status
+#  extends:
+#    - .staging_status
+#    - .on_success_status
+#  script:
+#    - gitlab_update_issue success
+#    - webapp_comment_and_status SCHEDULED
+#    - register_vars production "$PRODUCTION_SCHEDULER_URL"
+#
+#staging_status_unsuccessful:
+#  stage: staging_set_status
+#  extends:
+#    - .staging_status
+#    - .on_failure_status
+#  script:
+#    - gitlab_update_issue failure
+#    - register_vars production "$PRODUCTION_SCHEDULER_URL"
+#
 #1p_register-lister:
 #  stage: production_list-origins
 #  script:
@@ -164,25 +165,25 @@ staging_status_unsuccessful:
 #      artifacts: true
 #    - job: 3p_schedule-first-visits
 #
-production_status_successful:
-  stage: production_set_status
-  extends:
-    - .on_success_status
-  script:
-    - gitlab_update_issue success
-    - gitlab_close_issue
-    - webapp_comment_and_status FIRST_ORIGIN_LOADED
-    - gitlab_commit_readme_history successful
-  dependencies:
-    - "staging_status_successful"
-
-production_status_unsuccessful:
-  stage: production_set_status
-  extends:
-    - .on_failure_status
-  script:
-    - gitlab_update_issue failure
-    - webapp_comment_and_status UNSUCCESSFUL
-    - gitlab_commit_readme_history unsuccessful
-  dependencies:
-    - "staging_status_unsuccessful"
+#production_status_successful:
+#  stage: production_set_status
+#  extends:
+#    - .on_success_status
+#  script:
+#    - gitlab_update_issue success
+#    - gitlab_close_issue
+#    - webapp_comment_and_status FIRST_ORIGIN_LOADED
+#    - gitlab_commit_readme_history successful
+#  dependencies:
+#    - "staging_status_successful"
+#
+#production_status_unsuccessful:
+#  stage: production_set_status
+#  extends:
+#    - .on_failure_status
+#  script:
+#    - gitlab_update_issue failure
+#    - webapp_comment_and_status UNSUCCESSFUL
+#    - gitlab_commit_readme_history unsuccessful
+#  dependencies:
+#    - "staging_status_unsuccessful"
