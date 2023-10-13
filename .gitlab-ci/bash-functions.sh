@@ -1,7 +1,7 @@
 set -euo pipefail
 
 check_network_ports () {
-    for url in $STAGING_SCHEDULER_URL $PRODUCTION_SCHEDULER_URL $AMQP_URL; do
+    for url in $AMQP_URL; do
         echo -e "\n# ${url} #"; curl -sI "$url"
     done
     echo -e "\n# amqp.local 5672 #"
@@ -58,26 +58,26 @@ gitlab_update_issue () {
 
 register_vars () {
     local ENV=$1
-    local SCHEDULER_URL=$2
+    local SWH_CONFIG_FILENAME=$2
     echo "ENV=$ENV" > build.env
-    echo "SCHEDULER_URL=$SCHEDULER_URL" >> build.env
     echo "ISSUE_ID=$ISSUE_ID" >> build.env
+    echo "SWH_CONFIG_FILENAME=$SWH_CONFIG_FILENAME" >> build.env
 }
 
 scheduler_check_ingested_origins () {
-    swh scheduler --url "$SCHEDULER_URL" \
+    swh scheduler --config-file "$SWH_CONFIG_FILENAME" \
     origin check-ingested-origins -l -w \
     "$LISTER_TYPE" "$INSTANCE_NAME"
 }
 
 scheduler_check_listed_origins () {
-    swh scheduler --url "$SCHEDULER_URL" \
+    swh scheduler --config-file "$SWH_CONFIG_FILENAME" \
     origin check-listed-origins -l \
     "$LISTER_TYPE" "$INSTANCE_NAME"
 }
 
 scheduler_register_lister () {
-    swh scheduler --url "$SCHEDULER_URL" \
+    swh scheduler --config-file "$SWH_CONFIG_FILENAME" \
     add-forge-now --preset "$ENV" \
     register-lister "$LISTER_TYPE" \
     instance="$INSTANCE_NAME"
@@ -86,7 +86,6 @@ scheduler_register_lister () {
 
 scheduler_schedule_first_visits () {
     swh scheduler --config-file "$SWH_CONFIG_FILENAME" \
-    --url "$SCHEDULER_URL" \
     add-forge-now --preset "$ENV" \
     schedule-first-visits \
     --type-name git \

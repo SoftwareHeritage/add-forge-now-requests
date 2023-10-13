@@ -9,12 +9,12 @@ default:
     - AddForgeNowRequest
 
 variables:
-  STAGING_SCHEDULER_URL: https://scheduler.internal.staging.swh.network
-  PRODUCTION_SCHEDULER_URL: https://scheduler.internal.softwareheritage.org
   STAGING_AMQP_URL: http://scheduler0.internal.staging.swh.network:15672
   PRODUCTION_AMQP_URL: http://saatchi.internal.softwareheritage.org:15672
   GITLAB_URL: https://gitlab.softwareheritage.org
   WEBAPP_URL: https://archive.softwareheritage.org
+  STAGING_CONFIG_FILENAME: /etc/swh/scheduler-staging.yml
+  PRODUCTION_CONFIG_FILENAME: /etc/swh/scheduler-production.yml
   LISTING_DELAY: 300
   PROJECT_ID: 474
   PROJECT_NAME: add-forge-now-requests
@@ -60,7 +60,7 @@ check_and_prepare:
     - gitlab_create_issue
     - webapp_comment_and_status
     - check_network_ports
-    - register_vars staging "$STAGING_SCHEDULER_URL"
+    - register_vars staging "$STAGING_CONFIG_FILENAME"
   artifacts:
     public: false
     untracked: true
@@ -116,7 +116,7 @@ check_and_prepare:
 #  script:
 #    - gitlab_update_issue success
 #    - webapp_comment_and_status SCHEDULED
-#    - register_vars production "$PRODUCTION_SCHEDULER_URL"
+#    - register_vars production "$PRODUCTION_CONFIG_FILENAME"
 #
 #staging_status_unsuccessful:
 #  stage: staging_set_status
@@ -125,7 +125,7 @@ check_and_prepare:
 #    - .on_failure_status
 #  script:
 #    - gitlab_update_issue failure
-#    - register_vars production "$PRODUCTION_SCHEDULER_URL"
+#    - register_vars production "$PRODUCTION_CONFIG_FILENAME"
 #
 #1p_register-lister:
 #  stage: production_list-origins
