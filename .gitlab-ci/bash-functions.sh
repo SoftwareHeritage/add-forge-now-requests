@@ -1,13 +1,17 @@
 set -euo pipefail
 
 check_network_ports () {
-    for url in $AMQP_URL; do
-        echo -e "\n# ${url} #"; curl -sI "$url"
+    for url in $STAGING_AMQP_URL $PRODUCTION_AMQP_URL; do
+        echo -e "# ${url} #"
+        curl -sI "$url"
+        domain_name=$(awk -F '/' '{split($3,a,":");print a[1]}' <<< "$url")
+        echo -e "# $domain_name 5672 #"
+        nc -zv "$domain_name" 5672
+        echo
     done
-    echo -e "\n# amqp.local 5672 #"
-    nc -zv amqp.local 5672
-    echo -e "\n# https://${INSTANCE_NAME} #"
-    curl -sI --connect-timeout 5 https://"${INSTANCE_NAME}"./ | grep '^HTTP.*\(2..\|3..\)'
+    echo -e "# https://${INSTANCE_NAME} #"
+    curl -sI --connect-timeout 5 https://"${INSTANCE_NAME}"./ | \
+    grep '^HTTP.*\(2..\|3..\)'
 }
 
 gitlab_close_issue () {
