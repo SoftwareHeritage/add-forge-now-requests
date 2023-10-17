@@ -1,5 +1,7 @@
 # Add Forge Now Requests
 
+[![pipeline status](https://gitlab.softwareheritage.org/swh/infra/add-forge-now-requests/badges/main/pipeline.svg)](https://gitlab.softwareheritage.org/swh/infra/add-forge-now-requests/-/commits/main)
+
 ## Trigger pipeline manually
 
 ```bash
