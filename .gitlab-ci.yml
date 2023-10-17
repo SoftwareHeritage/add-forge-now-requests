@@ -22,8 +22,8 @@ variables:
 
 # STAGES
 
-#stages:
-  #- staging_list_origins
+stages:
+  - staging_list_origins
   #- staging_ingest_origins
   #- staging_set_status
   #- production_list-origins
@@ -70,15 +70,17 @@ check_and_prepare:
   rules:
     - if: $CI_PIPELINE_SOURCE == "trigger"
 
-#1s_register_lister:
-#  stage: staging_list_origins
-#  script:
+1s_register_lister:
+  stage: staging_list_origins
+  script:
 #    - scheduler_register_lister
-#  extends:
-#    - .on_success_status
-#  dependencies:
-#    - "check_and_prepare"
-#
+    - ls -trl /etc/swh/
+    - sleep 600
+  extends:
+    - .on_success_status
+  dependencies:
+    - "check_and_prepare"
+
 #2s_check_listed_origins:
 #  stage: staging_list_origins
 #  script:
