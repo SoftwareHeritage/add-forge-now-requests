@@ -5,10 +5,13 @@
 ## Trigger pipeline manually
 
 ```bash
-ᐅ PROJECT_ID=474
-ᐅ GITLAB_URL=https://gitlab.softwareheritage.org
-ᐅ INSTANCE_NAME="gitlab.softwareheritage.org"
+ᐅ TOKEN=xxxxxxxx
+ᐅ REF_NAME=main
 ᐅ LISTER_TYPE=gitlab
+ᐅ INSTANCE_NAME="git.bluemosh.com"
+ᐅ REQUEST_ID=14
+ᐅ GITLAB_URL=https://gitlab.softwareheritage.org
+ᐅ PROJECT_ID=474
 ᐅ curl -X POST \
      --fail \
      -F "token=$TOKEN" \
