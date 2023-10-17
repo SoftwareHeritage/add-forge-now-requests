@@ -74,7 +74,6 @@ check_and_prepare:
   stage: staging_list_origins
   script:
 #    - scheduler_register_lister
-    - ls -trl /etc/swh/
     - sleep 600
   extends:
     - .on_success_status
