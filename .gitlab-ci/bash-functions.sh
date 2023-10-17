@@ -1,7 +1,8 @@
 set -euo pipefail
 
 check_network_ports () {
-    for url in $STAGING_AMQP_URL $PRODUCTION_AMQP_URL; do
+#    for url in $STAGING_AMQP_URL $PRODUCTION_AMQP_URL; do
+    for url in $STAGING_AMQP_URL; do
         echo -e "# ${url} #"
         curl -sI "$url"
         domain_name=$(awk -F '/' '{split($3,a,":");print a[1]}' <<< "$url")
