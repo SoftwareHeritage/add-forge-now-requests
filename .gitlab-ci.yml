@@ -58,8 +58,8 @@ stages:
 check_and_prepare:
   stage: .pre
   script:
-#    - gitlab_create_issue
-#    - webapp_comment_and_status
+    - gitlab_create_issue
+    - webapp_comment_and_status
     - check_network_ports
     - register_vars staging "$STAGING_CONFIG_FILENAME"
   artifacts:
