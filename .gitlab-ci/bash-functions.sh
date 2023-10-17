@@ -65,7 +65,7 @@ register_vars () {
     local ENV=$1
     local SWH_CONFIG_FILENAME=$2
     echo "ENV=$ENV" > build.env
-    echo "ISSUE_ID=$ISSUE_ID" >> build.env
+#    echo "ISSUE_ID=$ISSUE_ID" >> build.env
     echo "SWH_CONFIG_FILENAME=$SWH_CONFIG_FILENAME" >> build.env
 }
 
