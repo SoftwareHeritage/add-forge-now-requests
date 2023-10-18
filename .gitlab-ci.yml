@@ -13,7 +13,7 @@ variables:
   PRODUCTION_AMQP_URL: http://saatchi.internal.softwareheritage.org:15672
   GITLAB_URL: https://gitlab.softwareheritage.org
   #WEBAPP_URL: https://archive.softwareheritage.org
-  WEBAPP_URL: https://webapp.staging.swh.network
+  WEBAPP_URL: http://webapp.internal.staging.swh.network
   STAGING_CONFIG_FILENAME: /etc/swh/scheduler-staging.yml
   PRODUCTION_CONFIG_FILENAME: /etc/swh/scheduler-production.yml
   LISTING_DELAY: 300
