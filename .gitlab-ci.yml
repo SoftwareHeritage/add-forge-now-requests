@@ -94,6 +94,8 @@ stages:
   extends:
     - .on_success_status
   needs:
+    - job: 01_create_issue_and_register
+      artifacts: true
     - job: 1s_register_lister
 
 3s_schedule_first_visits:
@@ -110,6 +112,8 @@ stages:
   extends:
     - .on_success_status
   needs:
+    - job: 01_create_issue_and_register
+      artifacts: true
     - job: 3s_schedule_first_visits
 
 staging_status_successful:
