@@ -3,7 +3,7 @@ image:
 
 default:
   before_script:
-    - if [ -f build.env ]; then source build.env; fi
+    - if [ -f build.env ]; then source build.env ; ls -trl build.env ; fi
     - source .gitlab-ci/bash-functions.sh
   tags:
     - AddForgeNowRequest
