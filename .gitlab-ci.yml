@@ -59,7 +59,7 @@ stages:
   stage: .pre
   script:
     - gitlab_create_issue
-    - register_vars staging "$STAGING_CONFIG_FILENAME"
+    - register_vars staging
   artifacts:
     public: false
     untracked: true
@@ -120,7 +120,7 @@ staging_status_successful:
   script:
     - gitlab_update_issue success
     - webapp_comment_and_status SCHEDULED
-    - register_vars production "$PRODUCTION_CONFIG_FILENAME"
+    - register_vars production
 
 staging_status_unsuccessful:
   stage: staging_set_status
@@ -129,7 +129,7 @@ staging_status_unsuccessful:
     - .on_failure_status
   script:
     - gitlab_update_issue failure
-    - register_vars production "$PRODUCTION_CONFIG_FILENAME"
+    - register_vars production
 
 #1p_register-lister:
 #  stage: production_list-origins
