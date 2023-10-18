@@ -42,11 +42,10 @@ gitlab_commit_readme_history () {
 }
 
 gitlab_create_issue () {
-local WEBAPP_LINK=$(awk -F '.' '{split($1,a,"/");print "https://"a[3]"."$3"."$4"."$5}' <<< "$WEBAPP_URL")
 ISSUE_ID=$(curl -s -X POST -H "PRIVATE-TOKEN: ${ADD_FORGE_NOW_ISSUE_TOKEN}" \
 "${GITLAB_URL}/api/v4/projects/${PROJECT_ID}/issues?\
 title=%5BAdd%20Forge%20Now%5D%20process%20https%3A%2F%2F${INSTANCE_NAME}&\
-labels=AddForgeNow&description=${WEBAPP_LINK}/admin/add-forge/request/${REQUEST_ID}/\
+labels=AddForgeNow&description=${WEBAPP_URL}/admin/add-forge/request/${REQUEST_ID}/\
 %20%20%0D%0AType%3A%20${LISTER_TYPE}&\
 milestone_id=${MILESTONE_ID}" \
 | jq '.iid')
