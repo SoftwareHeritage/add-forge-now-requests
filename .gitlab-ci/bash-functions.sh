@@ -11,10 +11,10 @@ check_network_ports () {
         echo
     done
     echo -e "# $WEBAPP_URL #"
-    curl -sI --connect-timeout 5 "$WEBAPP_URL" / | \
+    curl -sI --connect-timeout 5 "$WEBAPP_URL" | \
     grep '^HTTP.*\(2..\|3..\)'
-    echo -e "# https://${INSTANCE_NAME} #"
-    curl -sI --connect-timeout 5 https://"${INSTANCE_NAME}" / | \
+    echo -e "\n# https://${INSTANCE_NAME} #"
+    curl -sI --connect-timeout 5 "https://${INSTANCE_NAME}/" | \
     grep '^HTTP.*\(2..\|3..\)'
 }
 
