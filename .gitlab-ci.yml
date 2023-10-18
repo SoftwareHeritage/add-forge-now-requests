@@ -41,7 +41,7 @@ stages:
     paths:
       - "build.env"
   dependencies:
-    - "check_and_prepare"
+    - "01_create_issue_and_register"
 
 .on_success_status:
   rules:
@@ -55,13 +55,11 @@ stages:
 
 # JOBS
 
-check_and_prepare:
+01_create_issue_and_register:
   stage: .pre
   script:
     - gitlab_create_issue
     - register_vars staging "$STAGING_CONFIG_FILENAME"
-    - check_network_ports
-    - webapp_comment_and_status
   artifacts:
     public: false
     untracked: true
@@ -71,14 +69,23 @@ check_and_prepare:
   rules:
     - if: $CI_PIPELINE_SOURCE == "trigger"
 
+02_check_ports_and_comment:
+  stage: .pre
+  script:
+    - check_network_ports
+    - webapp_comment_and_status
+  extends:
+    - .on_success_status
+  needs:
+    - job: 01_create_issue_and_register
+      artifacts: true
+
 1s_register_lister:
   stage: staging_list_origins
   script:
     - scheduler_register_lister
   extends:
     - .on_success_status
-  dependencies:
-    - "check_and_prepare"
 
 2s_check_listed_origins:
   stage: staging_list_origins
@@ -87,8 +94,6 @@ check_and_prepare:
   extends:
     - .on_success_status
   needs:
-    - job: check_and_prepare
-      artifacts: true
     - job: 1s_register_lister
 
 3s_schedule_first_visits:
@@ -105,8 +110,6 @@ check_and_prepare:
   extends:
     - .on_success_status
   needs:
-    - job: check_and_prepare
-      artifacts: true
     - job: 3s_schedule_first_visits
 
 staging_status_successful:
