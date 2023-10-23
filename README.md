@@ -35,3 +35,4 @@
 | git.armaanb.net | gitweb | successful | 2023-10-23 09:31:10 +0000UTC | #10 |
 | git.dotslashplay.it | cgit | unsuccessful | 2023-10-23 10:12:29 +0000UTC | #11 |
 | gitea.elara.ws | gitea | successful | 2023-10-23 13:33:42 +0000UTC | #13 |
+| git.einval.com | gitweb | successful | 2023-10-23 17:38:33 +0000UTC | #15 |
