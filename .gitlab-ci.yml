@@ -3,7 +3,7 @@ image:
 
 default:
   before_script:
-    - if [ -f build.env ]; then source build.env ; grep -q SWH_CONFIG_FILENAME build.env ; fi
+    - if [ -f build.env ]; then source build.env; fi
     - export SWH_CONFIG_FILENAME="$SWH_CONFIG_FILENAME"
     - source .gitlab-ci/bash-functions.sh
   tags:
