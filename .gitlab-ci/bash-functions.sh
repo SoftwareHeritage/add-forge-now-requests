@@ -64,6 +64,14 @@ gitlab_update_issue () {
     "${GITLAB_URL}/api/v4/projects/${PROJECT_ID}/issues/${ISSUE_ID}/notes?body=${COMMENT}"
 }
 
+gitlab_update_vars () {
+    local VAR_NAME=$1
+    local VAR_VALUE=$2
+    curl -sq -X PUT -H "PRIVATE-TOKEN: $ADD_FORGE_NOW_ISSUE_TOKEN" \
+    -F "value=$VAR_VALUE" \
+    "${GITLAB_URL}/api/v4/projects/${PROJECT_ID}/variables/${VAR_NAME}" > /dev/null
+}
+
 register_vars () {
     local ENV=$1
     local SWH_CONFIG_FILENAME=${ENV^^}_CONFIG_FILENAME
@@ -99,6 +107,21 @@ scheduler_schedule_first_visits () {
     --type-name git \
     --lister-name "$LISTER_TYPE" \
     --lister-instance-name "$INSTANCE_NAME"
+}
+
+webapp_check_token () {
+    if ! curl -s -H 'Content-Type: application/json' \
+    -H "Authorization: Bearer $WEBAPP_TOKEN" \
+    "${WEBAPP_URL}/api/1/add-forge/request/${REQUEST_ID}/get/" \
+    > /dev/null
+    then
+        NEW_WEBAPP_TOKEN=$(swh auth \
+        --oidc-server-url "$OIDC_URL" \
+        --realm-name "$OIDC_REALM" \
+        --password "$WEBAPP_PASSWORD" \
+        generate-token "$WEBAPP_USER")
+        gitlab_update_vars WEBAPP_TOKEN "$NEW_WEBAPP_TOKEN"
+    fi
 }
 
 webapp_comment_and_status () {
