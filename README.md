@@ -37,3 +37,4 @@
 | gitea.elara.ws | gitea | successful | 2023-10-23 13:33:42 +0000UTC | #13 |
 | git.einval.com | gitweb | successful | 2023-10-23 17:38:33 +0000UTC | #15 |
 | git.dynare.org | gitlab | successful | 2023-10-24 07:28:49 +0000UTC | #14 |
+| git.eyrie.org | gitweb | successful | 2023-10-25 08:18:15 +0000UTC | #16 |
