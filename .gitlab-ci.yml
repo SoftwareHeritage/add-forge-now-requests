@@ -15,7 +15,7 @@ variables:
   GITLAB_URL: https://gitlab.softwareheritage.org
   #WEBAPP_URL: https://archive.softwareheritage.org
   WEBAPP_URL: https://webapp.staging.swh.network
-  OIDC_URL: https://auth.softwareheritage.org/auth
+  OIDC_URL: https://auth.softwareheritage.org/auth/
   OIDC_REALM: SoftwareHeritageStaging
   STAGING_CONFIG_FILENAME: /etc/swh/scheduler-staging.yml
   PRODUCTION_CONFIG_FILENAME: /etc/swh/scheduler-production.yml

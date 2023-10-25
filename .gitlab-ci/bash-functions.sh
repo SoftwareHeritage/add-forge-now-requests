@@ -113,13 +113,13 @@ webapp_check_token () {
     if curl -s -H 'Content-Type: application/json' \
     -H "Authorization: Bearer $WEBAPP_TOKEN" \
     "${WEBAPP_URL}/api/1/add-forge/request/${REQUEST_ID}/get/" | \
-    grep -q "Invalid HTTP authorization header format"
+    grep -q "AuthenticationFailed"
     then
         NEW_WEBAPP_TOKEN=$(swh auth \
         --oidc-server-url "$OIDC_URL" \
         --realm-name "$OIDC_REALM" \
-        --password "$WEBAPP_PASSWORD" \
-        generate-token "$WEBAPP_USER")
+        generate-token "$WEBAPP_USER" \
+        --password "$WEBAPP_PASSWORD")
         gitlab_update_vars WEBAPP_TOKEN "$NEW_WEBAPP_TOKEN" && \
         echo "Webapp token has been regenerated."
     else
