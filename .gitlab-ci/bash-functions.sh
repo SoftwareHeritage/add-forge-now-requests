@@ -2,20 +2,18 @@ set -euo pipefail
 
 check_network_ports () {
 #    for url in $STAGING_AMQP_URL $PRODUCTION_AMQP_URL; do
-    for url in $STAGING_AMQP_URL; do
-        echo -e "# ${url} #"
-        curl -sI "$url"
+    for url in "$STAGING_AMQP_URL"
+    do
         domain_name=$(awk -F '/' '{split($3,a,":");print a[1]}' <<< "$url")
-        echo -e "# $domain_name 5672 #"
+        echo -e "\n# $domain_name 5672 #"
         nc -zv "$domain_name" 5672
-        echo
     done
-    echo -e "# $WEBAPP_URL #"
-    curl -sI --connect-timeout 5 "$WEBAPP_URL" | \
-    grep '^HTTP.*\(2..\|3..\)'
-    echo -e "\n# https://${INSTANCE_NAME} #"
-    curl -sI --connect-timeout 5 "https://${INSTANCE_NAME}/" | \
-    grep '^HTTP.*\(2..\|3..\)'
+    for url in "$WEBAPP_URL" "$OIDC_URL" "https://${INSTANCE_NAME}" "$STAGING_AMQP_URL"
+    do
+        echo -e "\n# $url #"
+        curl -sI --connect-timeout 5 "$url" | \
+        grep '^HTTP.*\(2..\|3..\)'
+    done
 }
 
 gitlab_close_issue () {
@@ -64,10 +62,10 @@ gitlab_update_issue () {
     "${GITLAB_URL}/api/v4/projects/${PROJECT_ID}/issues/${ISSUE_ID}/notes?body=${COMMENT}"
 }
 
-gitlab_update_vars () {
+gitlab_update_var () {
     local VAR_NAME=$1
     local VAR_VALUE=$2
-    curl -sq -X PUT -H "PRIVATE-TOKEN: $ADD_FORGE_NOW_ISSUE_TOKEN" \
+    curl -s -X PUT -H "PRIVATE-TOKEN: $ADD_FORGE_NOW_ISSUE_TOKEN" \
     -F "value=$VAR_VALUE" \
     "${GITLAB_URL}/api/v4/projects/${PROJECT_ID}/variables/${VAR_NAME}" > /dev/null
 }
@@ -120,7 +118,7 @@ webapp_check_token () {
         --realm-name "$OIDC_REALM" \
         generate-token "$WEBAPP_USER" \
         --password "$WEBAPP_PASSWORD")
-        gitlab_update_vars WEBAPP_TOKEN "$NEW_WEBAPP_TOKEN" && \
+        gitlab_update_var WEBAPP_TOKEN "$NEW_WEBAPP_TOKEN" && \
         echo "Webapp token has been regenerated."
     else
         echo "Webapp token is valid."
