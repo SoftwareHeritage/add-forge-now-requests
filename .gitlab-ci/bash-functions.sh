@@ -110,10 +110,10 @@ scheduler_schedule_first_visits () {
 }
 
 webapp_check_token () {
-    if ! curl -s -H 'Content-Type: application/json' \
+    if curl -s -H 'Content-Type: application/json' \
     -H "Authorization: Bearer $WEBAPP_TOKEN" \
-    "${WEBAPP_URL}/api/1/add-forge/request/${REQUEST_ID}/get/" \
-    > /dev/null
+    "${WEBAPP_URL}/api/1/add-forge/request/${REQUEST_ID}/get/" | \
+    grep -q "Invalid HTTP authorization header format"
     then
         NEW_WEBAPP_TOKEN=$(swh auth \
         --oidc-server-url "$OIDC_URL" \
@@ -122,6 +122,8 @@ webapp_check_token () {
         generate-token "$WEBAPP_USER")
         gitlab_update_vars WEBAPP_TOKEN "$NEW_WEBAPP_TOKEN" && \
         echo "Webapp token has been regenerated."
+    else
+        echo "Webapp token is valid."
     fi
 }
 
