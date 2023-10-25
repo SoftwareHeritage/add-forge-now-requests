@@ -72,17 +72,27 @@ stages:
   rules:
     - if: $CI_PIPELINE_SOURCE == "trigger"
 
-02_check_ports_and_comment:
+02_check_ports_and_token:
   stage: .pre
   script:
     - check_network_ports
     - webapp_check_token
+  extends:
+    - .on_success_status
+  needs:
+    - job: 01_create_issue_and_register
+      artifacts: true
+
+03_comment_request:
+  stage: .pre
+  script:
     - webapp_comment_and_status
   extends:
     - .on_success_status
   needs:
     - job: 01_create_issue_and_register
       artifacts: true
+    - job: 02_check_ports_and_token
 
 1s_register_lister:
   stage: staging_list_origins

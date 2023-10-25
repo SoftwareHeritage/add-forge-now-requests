@@ -120,7 +120,8 @@ webapp_check_token () {
         --realm-name "$OIDC_REALM" \
         --password "$WEBAPP_PASSWORD" \
         generate-token "$WEBAPP_USER")
-        gitlab_update_vars WEBAPP_TOKEN "$NEW_WEBAPP_TOKEN"
+        gitlab_update_vars WEBAPP_TOKEN "$NEW_WEBAPP_TOKEN" && \
+        echo "Webapp token has been regenerated."
     fi
 }
 
