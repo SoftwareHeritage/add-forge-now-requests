@@ -38,3 +38,4 @@
 | git.einval.com | gitweb | successful | 2023-10-23 17:38:33 +0000UTC | #15 |
 | git.dynare.org | gitlab | successful | 2023-10-24 07:28:49 +0000UTC | #14 |
 | git.eyrie.org | gitweb | successful | 2023-10-25 08:18:15 +0000UTC | #16 |
+| git.freesoftwareextremist.com | cgit | successful | 2023-10-26 08:31:27 +0000UTC | #17 |
