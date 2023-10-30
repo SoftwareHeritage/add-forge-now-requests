@@ -43,3 +43,4 @@
 | git.congatec.com | gitlab | successful | 2023-10-30 08:59:42 +0000UTC | #19 |
 | git.elektrollart.org | gitea | successful | 2023-10-30 09:31:50 +0000UTC | #20 |
 | gitlab.e.foundation | gitlab | unsuccessful | 2023-10-30 11:13:27 +0000UTC | #22 |
+| gitlab.raptorengineering.com | gitlab | unsuccessful | 2023-10-30 11:17:28 +0000UTC | #21 |
