@@ -42,3 +42,4 @@
 | git.gnunet.org | cgit | successful | 2023-10-27 12:42:36 +0000UTC | #18 |
 | git.congatec.com | gitlab | successful | 2023-10-30 08:59:42 +0000UTC | #19 |
 | git.elektrollart.org | gitea | successful | 2023-10-30 09:31:50 +0000UTC | #20 |
+| gitlab.e.foundation | gitlab | unsuccessful | 2023-10-30 11:13:27 +0000UTC | #22 |
