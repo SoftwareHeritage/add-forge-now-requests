@@ -40,3 +40,4 @@
 | git.eyrie.org | gitweb | successful | 2023-10-25 08:18:15 +0000UTC | #16 |
 | git.freesoftwareextremist.com | cgit | successful | 2023-10-26 08:31:27 +0000UTC | #17 |
 | git.gnunet.org | cgit | successful | 2023-10-27 12:42:36 +0000UTC | #18 |
+| git.congatec.com | gitlab | successful | 2023-10-30 08:59:42 +0000UTC | #19 |
