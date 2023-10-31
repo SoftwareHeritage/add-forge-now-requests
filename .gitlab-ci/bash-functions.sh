@@ -84,6 +84,15 @@ scheduler_check_ingested_origins () {
     "$LISTER_TYPE" "$INSTANCE_NAME"
 }
 
+scheduler_check_success_rate () {
+    success_rate=$(swh scheduler --config-file "$SWH_CONFIG_FILENAME" \
+    origin check-ingested-origins \
+    "$LISTER_TYPE" "$INSTANCE_NAME" | \
+    awk '/success rate/{split($4,a,".");print a[1]}')
+    [ "$success_rate" -lt "$INGESTION_SUCCESS_LIMIT" ] && \
+    echo "There are too many ingestion failures." && exit 1
+}
+
 scheduler_check_listed_origins () {
     swh scheduler --config-file "$SWH_CONFIG_FILENAME" \
     origin check-listed-origins -l \

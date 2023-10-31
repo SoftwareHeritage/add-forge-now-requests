@@ -23,6 +23,7 @@ variables:
   PROJECT_ID: 474
   PROJECT_NAME: add-forge-now-requests
   MILESTONE_ID: 53
+  INGESTION_SUCCESS_LIMIT: 30
 
 # STAGES
 
@@ -123,6 +124,7 @@ stages:
   stage: staging_ingest_origins
   script:
     - scheduler_check_ingested_origins
+    - scheduler_check_success_rate
   extends:
     - .on_success_status
   needs:
