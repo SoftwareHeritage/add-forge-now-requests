@@ -47,3 +47,4 @@
 | gitlab.raptorengineering.com | gitlab | successful | 2023-10-31 20:39:58 +0000UTC | #21 |
 | gitlab.xiph.org | gitlab | successful | 2023-11-02 08:57:59 +0000UTC | #23 |
 | git.subdivi.de | cgit | successful | 2023-11-02 09:06:57 +0000UTC | #24 |
+| g.blicky.net | cgit | unsuccessful | 2023-11-02 10:11:09 +0000UTC | #25 |
