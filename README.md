@@ -45,3 +45,4 @@
 | gitlab.e.foundation | gitlab | unsuccessful | 2023-10-30 11:13:27 +0000UTC | #22 |
 | gitlab.raptorengineering.com | gitlab | unsuccessful | 2023-10-30 11:17:28 +0000UTC | #21 |
 | gitlab.raptorengineering.com | gitlab | successful | 2023-10-31 20:39:58 +0000UTC | #21 |
+| gitlab.xiph.org | gitlab | successful | 2023-11-02 08:57:59 +0000UTC | #23 |
