@@ -51,3 +51,4 @@
 | code.blicky.net | gitea | unsuccessful | 2023-11-02 11:48:28 +0000UTC | #26 |
 | gitlab.e.foundation | gitlab | successful | 2023-11-02 15:51:57 +0000UTC | #22 |
 | git.spwhitton.name | cgit | unsuccessful | 2023-11-03 03:39:40 +0000UTC | #27 |
+| gitlab.xfce.org | gitlab | successful | 2023-11-03 18:28:19 +0000UTC | #29 |
