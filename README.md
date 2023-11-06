@@ -57,3 +57,4 @@
 | git.0x90.space | gitea | successful | 2023-11-06 09:26:38 +0000UTC | #31 |
 | git.rjp.is | gitea | successful | 2023-11-06 11:19:20 +0000UTC | #33 |
 | git.enlightenment.org | gitea | successful | 2023-11-06 11:37:30 +0000UTC | #32 |
+| git.glasklar.is | gitlab | successful | 2023-11-06 12:44:44 +0000UTC | #34 |
