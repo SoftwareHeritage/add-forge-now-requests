@@ -55,3 +55,4 @@
 | source.denx.de | gitlab | unsuccessful | 2023-11-03 21:07:54 +0000UTC | #28 |
 | gitlab.tails.boum.org | gitlab | successful | 2023-11-04 04:42:50 +0000UTC | #30 |
 | git.0x90.space | gitea | successful | 2023-11-06 09:26:38 +0000UTC | #31 |
+| git.rjp.is | gitea | successful | 2023-11-06 11:19:20 +0000UTC | #33 |
