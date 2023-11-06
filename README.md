@@ -59,3 +59,4 @@
 | git.enlightenment.org | gitea | successful | 2023-11-06 11:37:30 +0000UTC | #32 |
 | git.glasklar.is | gitlab | successful | 2023-11-06 12:44:44 +0000UTC | #34 |
 | git.kaliko.me | gitweb | successful | 2023-11-06 17:33:23 +0000UTC | #35 |
+| git.stderr.nl | gitweb | successful | 2023-11-06 18:04:03 +0000UTC | #36 |
