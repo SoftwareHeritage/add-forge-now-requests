@@ -60,3 +60,4 @@
 | git.glasklar.is | gitlab | successful | 2023-11-06 12:44:44 +0000UTC | #34 |
 | git.kaliko.me | gitweb | successful | 2023-11-06 17:33:23 +0000UTC | #35 |
 | git.stderr.nl | gitweb | successful | 2023-11-06 18:04:03 +0000UTC | #36 |
+| git.gag.com | gitweb | unsuccessful | 2023-11-08 09:47:51 +0000UTC | #37 |
