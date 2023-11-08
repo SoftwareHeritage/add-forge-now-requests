@@ -65,3 +65,4 @@
 | git.candlhat.org | gitweb | unsuccessful | 2023-11-08 09:49:42 +0000UTC | #39 |
 | git.donarmstrong.com | gitweb | unsuccessful | 2023-11-08 09:50:59 +0000UTC | #40 |
 | git.gag.com | gitweb | successful | 2023-11-08 13:05:48 +0000UTC | #37 |
+| git.icculus.org | gitweb | successful | 2023-11-08 17:56:06 +0000UTC | #38 |
