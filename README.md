@@ -62,3 +62,4 @@
 | git.stderr.nl | gitweb | successful | 2023-11-06 18:04:03 +0000UTC | #36 |
 | git.gag.com | gitweb | unsuccessful | 2023-11-08 09:47:51 +0000UTC | #37 |
 | git.icculus.org | gitweb | unsuccessful | 2023-11-08 09:48:24 +0000UTC | #38 |
+| git.candlhat.org | gitweb | unsuccessful | 2023-11-08 09:49:42 +0000UTC | #39 |
