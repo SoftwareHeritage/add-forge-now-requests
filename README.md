@@ -68,3 +68,4 @@
 | git.icculus.org | gitweb | successful | 2023-11-08 17:56:06 +0000UTC | #38 |
 | git.deb.at | gitweb | unsuccessful | 2023-11-09 09:53:18 +0000UTC | #41 |
 | git.tartarus.org | gitweb | unsuccessful | 2023-11-09 09:59:51 +0000UTC | #42 |
+| git.tartarus.org | gitweb | successful | 2023-11-09 12:02:10 +0000UTC | #42 |
