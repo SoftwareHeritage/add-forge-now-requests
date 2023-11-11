@@ -71,3 +71,4 @@
 | git.tartarus.org | gitweb | successful | 2023-11-09 12:02:10 +0000UTC | #42 |
 | git.deb.at | gitweb | successful | 2023-11-09 12:51:38 +0000UTC | #41 |
 | git.neil.brown.name | gitweb | successful | 2023-11-09 21:27:36 +0000UTC | #43 |
+| git.ghostscript.com | gitweb | successful | 2023-11-11 12:42:53 +0000UTC | #44 |
