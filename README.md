@@ -72,3 +72,4 @@
 | git.deb.at | gitweb | successful | 2023-11-09 12:51:38 +0000UTC | #41 |
 | git.neil.brown.name | gitweb | successful | 2023-11-09 21:27:36 +0000UTC | #43 |
 | git.ghostscript.com | gitweb | successful | 2023-11-11 12:42:53 +0000UTC | #44 |
+| git.videolan.org | gitweb | successful | 2023-11-14 00:20:53 +0000UTC | #46 |
