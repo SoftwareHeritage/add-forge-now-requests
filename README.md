@@ -74,3 +74,4 @@
 | git.ghostscript.com | gitweb | successful | 2023-11-11 12:42:53 +0000UTC | #44 |
 | git.videolan.org | gitweb | successful | 2023-11-14 00:20:53 +0000UTC | #46 |
 | git.moodle.org | gitweb | successful | 2023-11-14 14:17:34 +0000UTC | #45 |
+| git.openstreetmap.org | gitweb | successful | 2023-11-14 14:43:17 +0000UTC | #47 |
