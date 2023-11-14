@@ -73,3 +73,4 @@
 | git.neil.brown.name | gitweb | successful | 2023-11-09 21:27:36 +0000UTC | #43 |
 | git.ghostscript.com | gitweb | successful | 2023-11-11 12:42:53 +0000UTC | #44 |
 | git.videolan.org | gitweb | successful | 2023-11-14 00:20:53 +0000UTC | #46 |
+| git.moodle.org | gitweb | successful | 2023-11-14 14:17:34 +0000UTC | #45 |
