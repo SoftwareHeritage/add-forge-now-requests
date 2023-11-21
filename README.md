@@ -77,3 +77,4 @@
 | git.openstreetmap.org | gitweb | successful | 2023-11-14 14:43:17 +0000UTC | #47 |
 | code.videolan.org | gitlab | successful | 2023-11-20 08:21:00 +0000UTC | #48 |
 | git.openssl.org | gitweb | successful | 2023-11-20 13:09:39 +0000UTC | #49 |
+| repo.or.cz | gitweb | unsuccessful | 2023-11-21 09:05:17 +0000UTC | #50 |
