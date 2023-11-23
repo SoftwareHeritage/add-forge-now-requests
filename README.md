@@ -79,3 +79,4 @@
 | git.openssl.org | gitweb | successful | 2023-11-20 13:09:39 +0000UTC | #49 |
 | repo.or.cz | gitweb | unsuccessful | 2023-11-21 09:05:17 +0000UTC | #50 |
 | git.iem.at | gitlab | successful | 2023-11-22 10:07:53 +0000UTC | #51 |
+| git.devuan.org | gitea | successful | 2023-11-23 11:40:18 +0000UTC | #52 |
