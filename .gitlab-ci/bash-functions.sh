@@ -147,7 +147,7 @@ webapp_check_token () {
 }
 
 webapp_comment_and_status () {
-    local COMMENT="For details, see ${GITLAB_URL}/infra/${PROJECT_NAME}/-/issues/${ISSUE_ID}."
+    local COMMENT="For details, see ${GITLAB_URL}/swh/infra/${PROJECT_NAME}/-/issues/${ISSUE_ID}."
     if [ "$#" -eq 0 ]; then
         local TEXT="${COMMENT}"
     elif [ "$#" -eq 1 ]; then
