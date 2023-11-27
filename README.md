@@ -82,3 +82,4 @@
 | git.devuan.org | gitea | successful | 2023-11-23 11:40:18 +0000UTC | #52 |
 | git.geany.org | cgit | successful | 2023-11-24 17:00:41 +0000UTC | #53 |
 | git.h8u.de | gitea | successful | 2023-11-25 01:22:02 +0000UTC | #54 |
+| git.ideasonboard.org | cgit | unsuccessful | 2023-11-27 14:41:52 +0000UTC | #57 |
