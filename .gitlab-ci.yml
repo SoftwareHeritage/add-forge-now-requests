@@ -210,4 +210,4 @@ production_status_unsuccessful:
 #    - webapp_comment_and_status UNSUCCESSFUL
     - gitlab_commit_readme_history unsuccessful
   dependencies:
-    - "staging_status_unsuccessful"
+    - "staging_status_successful"
