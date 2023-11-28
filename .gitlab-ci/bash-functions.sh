@@ -108,15 +108,11 @@ scheduler_check_listed_origins () {
 }
 
 scheduler_register_lister () {
-    set -x
-    cat build.env
-    [ "$ENV" = "production" ] && sleep 600
     swh scheduler --config-file "$SWH_CONFIG_FILENAME" \
     add-forge-now --preset "$ENV" \
     register-lister "$LISTER_TYPE" \
     instance="$INSTANCE_NAME"
     sleep "$LISTING_DELAY"
-    set +x
 }
 
 #scheduler_register_lister () {
