@@ -1,12 +1,7 @@
 set -euo pipefail
 
 check_network_ports () {
-    DB=$(awk '/^[[:space:]]*db:/{split($2,a,"=");print a[2]}' /etc/swh/scheduler-*)
-    for db in $DB
-    do
-        echo -e "\n# $db 5432 #"
-        nc -zv "$db" 5432
-    done
+    SCHEDULER_URLS=$(awk '/^[[:space:]]*url:/{print $2}' /etc/swh/scheduler-*.yml)
     for url in "$STAGING_AMQP_URL" "$PRODUCTION_AMQP_URL"
     do
         domain_name=$(awk -F '/' '{split($3,a,":");print a[1]}' <<< "$url")
@@ -14,11 +9,11 @@ check_network_ports () {
         nc -zv "$domain_name" 5672
     done
     for url in "$STAGING_AMQP_URL" "$PRODUCTION_AMQP_URL" \
-        "$WEBAPP_URL" "$OIDC_URL" "https://${INSTANCE_NAME}"
+        "$WEBAPP_URL" "$OIDC_URL" "https://${INSTANCE_NAME}" $SCHEDULER_URLS
     do
         echo -e "\n# $url #"
         curl -sI --connect-timeout 5 "$url" | \
-        grep '^HTTP.*\(2..\|3..\)'
+        grep '^HTTP/\(1\.1\|2\)[[:space:]]*\(2..\|3..\)'
     done
 }
 
