@@ -84,3 +84,4 @@
 | git.h8u.de | gitea | successful | 2023-11-25 01:22:02 +0000UTC | #54 |
 | git.ideasonboard.org | cgit | unsuccessful | 2023-11-27 14:41:52 +0000UTC | #57 |
 | git.haproxy.org | gitweb | successful | 2023-11-27 17:31:12 +0000UTC | #56 |
+| git.juef.net | stagit | unsuccessful | 2023-11-28 08:41:48 +0000UTC | #58 |
