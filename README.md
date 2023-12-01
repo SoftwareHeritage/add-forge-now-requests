@@ -87,3 +87,4 @@
 | git.juef.net | stagit | unsuccessful | 2023-11-28 08:41:48 +0000UTC | #58 |
 | git.hadrons.org | cgit | successful | 2023-11-28 10:25:26 +0000UTC | #55 |
 | git.kyleam.com | cgit | successful | 2023-12-01 09:23:43 +0000UTC | #62 |
+| git.kuschku.de | gitlab | successful | 2023-12-01 10:43:24 +0000UTC | #61 |
