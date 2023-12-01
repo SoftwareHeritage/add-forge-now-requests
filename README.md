@@ -86,3 +86,4 @@
 | git.haproxy.org | gitweb | successful | 2023-11-27 17:31:12 +0000UTC | #56 |
 | git.juef.net | stagit | unsuccessful | 2023-11-28 08:41:48 +0000UTC | #58 |
 | git.hadrons.org | cgit | successful | 2023-11-28 10:25:26 +0000UTC | #55 |
+| git.kyleam.com | cgit | successful | 2023-12-01 09:23:43 +0000UTC | #62 |
