@@ -181,6 +181,7 @@ staging_status_unsuccessful:
   needs:
     - job: staging_status_successful
       artifacts: true
+    - job: 2p_check-listed-origins
 
 4p_check-ingested-origins:
   stage: production_ingest-origins
