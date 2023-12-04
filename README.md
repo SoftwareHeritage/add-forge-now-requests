@@ -94,3 +94,4 @@
 | git.aims.ac.za | gitlab | unsuccessful | 2023-12-04 14:45:19 +0000UTC | #66 |
 | git.aims.ac.za | gitlab | successful | 2023-12-04 15:13:39 +0000UTC | #66 |
 | gitlab.developers.cam.ac.uk | gitlab | successful | 2023-12-04 16:02:35 +0000UTC | #63 |
+| notabug.org | gogs | successful | 2023-12-04 16:09:04 +0000UTC | #67 |
