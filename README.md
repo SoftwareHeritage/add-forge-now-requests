@@ -92,3 +92,4 @@
 | gitlab.developers.cam.ac.uk | gitlab | unsuccessful | 2023-12-04 13:09:26 +0000UTC | #63 |
 | git.abscue.de | gitlab | unsuccessful | 2023-12-04 13:21:05 +0000UTC | #65 |
 | git.aims.ac.za | gitlab | unsuccessful | 2023-12-04 14:45:19 +0000UTC | #66 |
+| git.aims.ac.za | gitlab | successful | 2023-12-04 15:13:39 +0000UTC | #66 |
