@@ -89,3 +89,4 @@
 | git.kyleam.com | cgit | successful | 2023-12-01 09:23:43 +0000UTC | #62 |
 | git.kuschku.de | gitlab | successful | 2023-12-01 10:43:24 +0000UTC | #61 |
 | git.3naly.xyz | gitea | successful | 2023-12-04 13:05:43 +0000UTC | #64 |
+| gitlab.developers.cam.ac.uk | gitlab | unsuccessful | 2023-12-04 13:09:26 +0000UTC | #63 |
