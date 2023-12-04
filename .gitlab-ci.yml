@@ -19,7 +19,8 @@ variables:
   OIDC_REALM: SoftwareHeritageStaging
   STAGING_CONFIG_FILENAME: /etc/swh/scheduler-staging.yml
   PRODUCTION_CONFIG_FILENAME: /etc/swh/scheduler-production.yml
-  LISTING_DELAY: 300
+  STAGING_LISTING_DELAY: 300
+  PRODUCTION_LISTING_DELAY: 600
   PROJECT_ID: 474
   PROJECT_NAME: add-forge-now-requests
   MILESTONE_ID: 53
