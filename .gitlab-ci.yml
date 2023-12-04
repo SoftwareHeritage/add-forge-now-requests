@@ -177,6 +177,9 @@ staging_status_unsuccessful:
     - scheduler_schedule_first_visits
   extends:
     - .on_success_status
+  needs:
+    - job: staging_status_successful
+      artifacts: true
 
 4p_check-ingested-origins:
   stage: production_ingest-origins
