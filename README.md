@@ -98,3 +98,4 @@
 | git.abscue.de | gitlab | successful | 2023-12-04 22:49:14 +0000UTC | #65 |
 | chaos.expert | gitlab | successful | 2023-12-05 13:05:31 +0000UTC | #68 |
 | git.ao2.it | gitweb | successful | 2023-12-05 14:53:14 +0000UTC | #70 |
+| git.asgardius.company | gitea | successful | 2023-12-05 16:41:38 +0000UTC | #71 |
