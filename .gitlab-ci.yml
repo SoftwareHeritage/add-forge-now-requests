@@ -216,3 +216,4 @@ production_status_unsuccessful:
     - gitlab_commit_readme_history unsuccessful
   dependencies:
     - "staging_status_successful"
+    - "staging_status_unsuccessful"
