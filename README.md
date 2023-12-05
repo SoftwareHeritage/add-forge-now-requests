@@ -96,3 +96,4 @@
 | gitlab.developers.cam.ac.uk | gitlab | successful | 2023-12-04 16:02:35 +0000UTC | #63 |
 | notabug.org | gogs | successful | 2023-12-04 16:09:04 +0000UTC | #67 |
 | git.abscue.de | gitlab | successful | 2023-12-04 22:49:14 +0000UTC | #65 |
+| chaos.expert | gitlab | successful | 2023-12-05 13:05:31 +0000UTC | #68 |
