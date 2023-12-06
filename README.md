@@ -106,3 +106,4 @@
 | git.bubu1.eu | gitlab | successful | 2023-12-06 11:23:18 +0000UTC | #76 |
 | git.build2.org | cgit | successful | 2023-12-06 11:34:33 +0000UTC | #77 |
 | gitlab.bzed.at | gitlab | unsuccessful | 2023-12-06 12:41:32 +0000UTC | #78 |
+| git.catgirl.land | gitea | unsuccessful | 2023-12-06 12:42:41 +0000UTC | #79 |
