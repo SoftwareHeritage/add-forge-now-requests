@@ -103,3 +103,4 @@
 | git.bluemosh.com | gitlab | unsuccessful | 2023-12-06 08:14:21 +0000UTC | #75 |
 | git.bleu255.com | stagit | successful | 2023-12-06 10:11:04 +0000UTC | #74 |
 | git.benjamin.barenblat.name | cgit | successful | 2023-12-06 10:48:08 +0000UTC | #73 |
+| git.bubu1.eu | gitlab | successful | 2023-12-06 11:23:18 +0000UTC | #76 |
