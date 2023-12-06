@@ -101,3 +101,4 @@
 | git.asgardius.company | gitea | successful | 2023-12-05 16:41:38 +0000UTC | #71 |
 | gitlab.coko.foundation | gitlab | successful | 2023-12-05 17:33:37 +0000UTC | #69 |
 | git.bluemosh.com | gitlab | unsuccessful | 2023-12-06 08:14:21 +0000UTC | #75 |
+| git.bleu255.com | stagit | successful | 2023-12-06 10:11:04 +0000UTC | #74 |
