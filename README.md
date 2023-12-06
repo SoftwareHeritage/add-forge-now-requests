@@ -105,3 +105,4 @@
 | git.benjamin.barenblat.name | cgit | successful | 2023-12-06 10:48:08 +0000UTC | #73 |
 | git.bubu1.eu | gitlab | successful | 2023-12-06 11:23:18 +0000UTC | #76 |
 | git.build2.org | cgit | successful | 2023-12-06 11:34:33 +0000UTC | #77 |
+| gitlab.bzed.at | gitlab | unsuccessful | 2023-12-06 12:41:32 +0000UTC | #78 |
