@@ -108,3 +108,4 @@
 | gitlab.bzed.at | gitlab | unsuccessful | 2023-12-06 12:41:32 +0000UTC | #78 |
 | git.catgirl.land | gitea | unsuccessful | 2023-12-06 12:42:41 +0000UTC | #79 |
 | git.claws-mail.org | gitweb | successful | 2023-12-07 00:06:15 +0000UTC | #80 |
+| gitlab.bzed.at | gitlab | successful | 2023-12-07 00:44:28 +0000UTC | #78 |
