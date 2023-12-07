@@ -117,3 +117,4 @@
 | git.crc.id.au | gitea | successful | 2023-12-07 11:13:05 +0000UTC | #86 |
 | git.cuvoodoo.info | gitea | successful | 2023-12-07 11:45:42 +0000UTC | #87 |
 | git.data.coop | gitea | successful | 2023-12-07 12:40:27 +0000UTC | #88 |
+| git.decadent.org.uk | gitweb | successful | 2023-12-07 12:52:23 +0000UTC | #89 |
