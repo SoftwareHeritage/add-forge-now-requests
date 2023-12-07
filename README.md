@@ -121,3 +121,4 @@
 | git.beagleboard.org | gitlab | successful | 2023-12-07 16:56:23 +0000UTC | #72 |
 | git.catgirl.land | gitea | successful | 2023-12-07 16:57:39 +0000UTC | #79 |
 | git.distorted.org.uk | gitweb | successful | 2023-12-07 18:20:24 +0000UTC | #91 |
+| git.dotya.ml | gitea | successful | 2023-12-07 19:17:47 +0000UTC | #92 |
