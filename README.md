@@ -113,3 +113,4 @@
 | git.codelabs.ch | gitweb | successful | 2023-12-07 09:11:04 +0000UTC | #82 |
 | git.codesynthesis.com | cgit | successful | 2023-12-07 09:32:18 +0000UTC | #83 |
 | git.cppget.org | cgit | successful | 2023-12-07 11:11:19 +0000UTC | #85 |
+| git.coop | gitlab | successful | 2023-12-07 11:11:37 +0000UTC | #84 |
