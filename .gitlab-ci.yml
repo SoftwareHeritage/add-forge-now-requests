@@ -38,15 +38,13 @@ stages:
 
 # TEMPLATES
 
-.staging_status:
+.artifacts:
   artifacts:
     public: false
     untracked: true
     expire_in: "7 days"
     paths:
       - "build.env"
-  dependencies:
-    - "01_create_issue_and_register"
 
 .on_success_status:
   rules:
@@ -58,6 +56,14 @@ stages:
     - if: $CI_PIPELINE_SOURCE == "trigger"
       when: on_failure
 
+.staging_status_dependencies:
+  dependencies:
+    - "01_create_issue_and_register"
+
+.production_status_dependencies:
+  dependencies:
+    - "1p_register-lister"
+
 # JOBS
 
 01_create_issue_and_register:
@@ -65,12 +71,8 @@ stages:
   script:
     - gitlab_create_issue
     - register_vars staging
-  artifacts:
-    public: false
-    untracked: true
-    expire_in: "7 days"
-    paths:
-      - "build.env"
+  extends:
+    - .artifacts
   rules:
     - if: $CI_PIPELINE_SOURCE == "trigger"
 
@@ -135,28 +137,31 @@ stages:
 
 staging_status_successful:
   stage: staging_set_status
-  extends:
-    - .staging_status
-    - .on_success_status
   script:
     - gitlab_update_issue success
     - webapp_comment_and_status SCHEDULED
     - register_vars production
+  extends:
+    - .artifacts
+    - .on_success_status
+    - .staging_status_dependencies
 
 staging_status_unsuccessful:
   stage: staging_set_status
-  extends:
-    - .staging_status
-    - .on_failure_status
   script:
     - gitlab_update_issue failure
     - register_vars production
+  extends:
+    - .artifacts
+    - .on_failure_status
+    - .staging_status_dependencies
 
 1p_register-lister:
   stage: production_list-origins
   script:
     - scheduler_register_lister
   extends:
+    - .artifacts
     - .on_success_status
   dependencies:
     - "staging_status_successful"
@@ -196,24 +201,21 @@ staging_status_unsuccessful:
 
 production_status_successful:
   stage: production_set_status
-  extends:
-    - .on_success_status
   script:
     - gitlab_update_issue success
     - gitlab_close_issue
     - webapp_comment_and_status FIRST_ORIGIN_LOADED
     - gitlab_commit_readme_history successful
-  dependencies:
-    - "staging_status_successful"
+  extends:
+    - .on_success_status
+    - .production_status_dependencies
 
 production_status_unsuccessful:
   stage: production_set_status
-  extends:
-    - .on_failure_status
   script:
     - gitlab_update_issue failure
 #    - webapp_comment_and_status UNSUCCESSFUL
     - gitlab_commit_readme_history unsuccessful
-  dependencies:
-    - "staging_status_successful"
-    - "staging_status_unsuccessful"
+  extends:
+    - .on_failure_status
+    - .production_status_dependencies
