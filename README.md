@@ -119,3 +119,4 @@
 | git.data.coop | gitea | successful | 2023-12-07 12:40:27 +0000UTC | #88 |
 | git.decadent.org.uk | gitweb | successful | 2023-12-07 12:52:23 +0000UTC | #89 |
 | git.beagleboard.org | gitlab | successful | 2023-12-07 16:56:23 +0000UTC | #72 |
+| git.catgirl.land | gitea | successful | 2023-12-07 16:57:39 +0000UTC | #79 |
