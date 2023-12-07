@@ -115,3 +115,4 @@
 | git.cppget.org | cgit | successful | 2023-12-07 11:11:19 +0000UTC | #85 |
 | git.coop | gitlab | successful | 2023-12-07 11:11:37 +0000UTC | #84 |
 | git.crc.id.au | gitea | successful | 2023-12-07 11:13:05 +0000UTC | #86 |
+| git.cuvoodoo.info | gitea | successful | 2023-12-07 11:45:42 +0000UTC | #87 |
