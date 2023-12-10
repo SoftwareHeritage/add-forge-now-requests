@@ -132,3 +132,4 @@
 | git.envs.net | gitea | successful | 2023-12-10 15:34:09 +0000UTC | #104 |
 | git.finalrewind.org | cgit | successful | 2023-12-10 15:36:54 +0000UTC | #105 |
 | git.entrouvert.org | gitea | successful | 2023-12-10 16:12:31 +0000UTC | #103 |
+| git.efficios.com | gitweb | successful | 2023-12-10 23:44:15 +0000UTC | #101 |
