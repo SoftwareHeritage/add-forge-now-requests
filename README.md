@@ -128,3 +128,4 @@
 | git.eeqj.de | gitea | successful | 2023-12-08 23:50:20 +0000UTC | #100 |
 | gitea.osgeo.org | gitea | successful | 2023-12-09 00:36:56 +0000UTC | #97 |
 | gitea.treehouse.systems | gitea | successful | 2023-12-09 01:08:49 +0000UTC | #99 |
+| git.eleves.ens.fr | gitlab | successful | 2023-12-10 12:21:50 +0000UTC | #102 |
