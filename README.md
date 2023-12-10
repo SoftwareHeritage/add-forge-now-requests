@@ -130,3 +130,4 @@
 | gitea.treehouse.systems | gitea | successful | 2023-12-09 01:08:49 +0000UTC | #99 |
 | git.eleves.ens.fr | gitlab | successful | 2023-12-10 12:21:50 +0000UTC | #102 |
 | git.envs.net | gitea | successful | 2023-12-10 15:34:09 +0000UTC | #104 |
+| git.finalrewind.org | cgit | successful | 2023-12-10 15:36:54 +0000UTC | #105 |
