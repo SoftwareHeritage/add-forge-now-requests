@@ -137,3 +137,4 @@
 | git.fluxo.info | cgit | successful | 2023-12-11 12:37:46 +0000UTC | #107 |
 | git.disroot.org | gitea | successful | 2023-12-11 13:21:52 +0000UTC | #90 |
 | git.exim.org | gitweb | successful | 2023-12-11 15:07:25 +0000UTC | #109 |
+| git.g3la.de | gitea | successful | 2023-12-11 15:07:44 +0000UTC | #110 |
