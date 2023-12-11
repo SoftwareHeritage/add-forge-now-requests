@@ -136,3 +136,4 @@
 | git.flow3r.garden | gitlab | successful | 2023-12-11 10:57:17 +0000UTC | #106 |
 | git.fluxo.info | cgit | successful | 2023-12-11 12:37:46 +0000UTC | #107 |
 | git.disroot.org | gitea | successful | 2023-12-11 13:21:52 +0000UTC | #90 |
+| git.exim.org | gitweb | successful | 2023-12-11 15:07:25 +0000UTC | #109 |
