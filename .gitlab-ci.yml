@@ -40,9 +40,8 @@ stages:
 
 .artifacts:
   artifacts:
-    public: false
     untracked: true
-    expire_in: "7 days"
+    expire_in: 7 days
     paths:
       - "build.env"
 
