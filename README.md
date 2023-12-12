@@ -139,3 +139,4 @@
 | git.exim.org | gitweb | successful | 2023-12-11 15:07:25 +0000UTC | #109 |
 | git.g3la.de | gitea | successful | 2023-12-11 15:07:44 +0000UTC | #110 |
 | git.gir.st | gitweb | successful | 2023-12-11 15:59:55 +0000UTC | #112 |
+| git.froggi.es | gitea | successful | 2023-12-12 01:18:39 +0000UTC | #108 |
