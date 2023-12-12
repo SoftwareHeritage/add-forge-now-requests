@@ -145,3 +145,4 @@
 | git.haiku-os.org | cgit | successful | 2023-12-12 13:06:43 +0000UTC | #117 |
 | git.harrault.fr | gitlab | successful | 2023-12-12 18:50:12 +0000UTC | #121 |
 | git.hcoop.net | gitweb | successful | 2023-12-12 18:59:13 +0000UTC | #122 |
+| gitea.com | gitea | successful | 2023-12-12 22:19:57 +0000UTC | #96 |
