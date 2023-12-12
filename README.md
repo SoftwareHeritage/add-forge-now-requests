@@ -143,3 +143,4 @@
 | git.gotroot.ca | gitea | successful | 2023-12-12 10:23:58 +0000UTC | #115 |
 | git.guilhem.org | cgit | successful | 2023-12-12 10:24:56 +0000UTC | #116 |
 | git.haiku-os.org | cgit | successful | 2023-12-12 13:06:43 +0000UTC | #117 |
+| git.harrault.fr | gitlab | successful | 2023-12-12 18:50:12 +0000UTC | #121 |
