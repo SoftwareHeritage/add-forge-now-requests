@@ -149,3 +149,4 @@
 | git.hardenedbsd.org | gitlab | successful | 2023-12-13 07:08:16 +0000UTC | #118 |
 | git.imirhil.fr | gitea | successful | 2023-12-13 11:02:00 +0000UTC | #126 |
 | git.icinga.com | gitlab | successful | 2023-12-13 13:38:31 +0000UTC | #124 |
+| git.ieval.ro | gitweb | successful | 2023-12-13 13:50:06 +0000UTC | #125 |
