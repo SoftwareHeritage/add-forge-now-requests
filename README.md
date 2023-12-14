@@ -157,3 +157,4 @@
 | gitlab.brokenpipe.de | gitlab | successful | 2023-12-14 10:14:34 +0000UTC | #135 |
 | git.k1024.org | gitweb | successful | 2023-12-14 10:49:13 +0000UTC | #133 |
 | git.jami.net | gitlab | successful | 2023-12-14 13:05:52 +0000UTC | #132 |
+| gitlab.anu.edu.au | gitlab | successful | 2023-12-14 19:13:56 +0000UTC | #137 |
