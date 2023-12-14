@@ -151,3 +151,4 @@
 | git.icinga.com | gitlab | successful | 2023-12-13 13:38:31 +0000UTC | #124 |
 | git.ieval.ro | gitweb | successful | 2023-12-13 13:50:06 +0000UTC | #125 |
 | git.imp.fu-berlin.de | gitlab | successful | 2023-12-13 17:23:48 +0000UTC | #127 |
+| git.hedwing.dev | gitea | successful | 2023-12-14 00:55:04 +0000UTC | #123 |
