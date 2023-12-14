@@ -154,3 +154,4 @@
 | git.hedwing.dev | gitea | successful | 2023-12-14 00:55:04 +0000UTC | #123 |
 | git.jamessan.com | cgit | successful | 2023-12-14 03:30:43 +0000UTC | #131 |
 | git.ircad.fr | gitlab | successful | 2023-12-14 03:51:30 +0000UTC | #129 |
+| gitlab.brokenpipe.de | gitlab | successful | 2023-12-14 10:14:34 +0000UTC | #135 |
