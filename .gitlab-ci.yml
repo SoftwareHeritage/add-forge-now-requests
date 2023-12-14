@@ -60,10 +60,8 @@ stages:
     - "01_create_issue_and_register"
 
 .production_status_dependencies:
-  needs:
-    - job: 1p_register-lister
-      artifacts: true
-    - job: 4p_check-ingested-origins
+  dependencies:
+    - "1p_register-lister"
 
 # JOBS
 
@@ -210,6 +208,8 @@ production_status_successful:
   extends:
     - .on_success_status
     - .production_status_dependencies
+  needs:
+    - job: 4p_check-ingested-origins
 
 production_status_unsuccessful:
   stage: production_set_status
