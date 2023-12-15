@@ -160,3 +160,4 @@
 | gitlab.anu.edu.au | gitlab | successful | 2023-12-14 19:13:56 +0000UTC | #137 |
 | git.infradead.org | gitweb | successful | 2023-12-14 22:35:29 +0000UTC | #128 |
 | gitlab.bsc.es | gitlab | successful | 2023-12-15 02:53:16 +0000UTC | #136 |
+| git.kernel.dk | cgit | successful | 2023-12-15 16:42:52 +0000UTC | #134 |
