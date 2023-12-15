@@ -59,10 +59,6 @@ stages:
   dependencies:
     - "01_create_issue_and_register"
 
-.production_status_dependencies:
-  dependencies:
-    - "1p_register-lister"
-
 # JOBS
 
 01_create_issue_and_register:
@@ -172,9 +168,8 @@ staging_status_unsuccessful:
   extends:
     - .on_success_status
   needs:
-    - job: staging_status_successful
-      artifacts: true
     - job: 1p_register-lister
+      artifacts: true
 
 3p_schedule-first-visits:
   stage: production_ingest-origins
@@ -183,7 +178,7 @@ staging_status_unsuccessful:
   extends:
     - .on_success_status
   needs:
-    - job: staging_status_successful
+    - job: 1p_register-lister
       artifacts: true
     - job: 2p_check-listed-origins
 
@@ -194,7 +189,7 @@ staging_status_unsuccessful:
   extends:
     - .on_success_status
   needs:
-    - job: staging_status_successful
+    - job: 1p_register-lister
       artifacts: true
     - job: 3p_schedule-first-visits
 
@@ -207,8 +202,9 @@ production_status_successful:
     - gitlab_commit_readme_history successful
   extends:
     - .on_success_status
-    - .production_status_dependencies
   needs:
+    - job: 1p_register-lister
+      artifacts: true
     - job: 4p_check-ingested-origins
 
 production_status_unsuccessful:
@@ -219,4 +215,6 @@ production_status_unsuccessful:
     - gitlab_commit_readme_history unsuccessful
   extends:
     - .on_failure_status
-    - .production_status_dependencies
+  needs:
+    - job: 1p_register-lister
+      artifacts: true
