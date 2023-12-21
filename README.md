@@ -162,3 +162,4 @@
 | gitlab.bsc.es | gitlab | successful | 2023-12-15 02:53:16 +0000UTC | #136 |
 | git.kernel.dk | cgit | successful | 2023-12-15 16:42:52 +0000UTC | #134 |
 | git.goldelico.com | gitweb | successful | 2023-12-17 12:52:22 +0000UTC | #119 |
+| gitlab.cern.ch | gitlab | unsuccessful | 2023-12-21 15:21:21 +0000UTC | #138 |
