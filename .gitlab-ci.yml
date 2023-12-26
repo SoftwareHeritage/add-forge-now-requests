@@ -54,9 +54,10 @@ stages:
     - if: $CI_PIPELINE_SOURCE == "trigger"
       when: on_failure
 
-.staging_status_dependencies:
-  dependencies:
-    - "01_create_issue_and_register"
+.staging_dependencies:
+  needs:
+    - job: 01_create_issue_and_register
+      artifacts: true
 
 .production_dependencies:
   needs:
@@ -82,9 +83,7 @@ stages:
     - webapp_check_token
   extends:
     - .on_success_status
-  needs:
-    - job: 01_create_issue_and_register
-      artifacts: true
+    - .staging_dependencies
 
 03_comment_request:
   stage: .pre
@@ -92,9 +91,8 @@ stages:
     - webapp_comment_and_status
   extends:
     - .on_success_status
+    - .staging_dependencies
   needs:
-    - job: 01_create_issue_and_register
-      artifacts: true
     - job: 02_check_ports_and_token
 
 1s_register_lister:
@@ -110,9 +108,8 @@ stages:
     - scheduler_check_listed_origins
   extends:
     - .on_success_status
+    - .staging_dependencies
   needs:
-    - job: 01_create_issue_and_register
-      artifacts: true
     - job: 1s_register_lister
 
 3s_schedule_first_visits:
@@ -121,6 +118,9 @@ stages:
     - scheduler_schedule_first_visits
   extends:
     - .on_success_status
+    - .staging_dependencies
+  needs:
+    - job: 2s_check_listed_origins
 
 4s_check_ingested_origins:
   stage: staging_ingest_origins
@@ -129,9 +129,8 @@ stages:
     - scheduler_check_success_rate
   extends:
     - .on_success_status
+    - .staging_dependencies
   needs:
-    - job: 01_create_issue_and_register
-      artifacts: true
     - job: 3s_schedule_first_visits
 
 staging_status_successful:
@@ -143,7 +142,7 @@ staging_status_successful:
   extends:
     - .artifacts
     - .on_success_status
-    - .staging_status_dependencies
+    - .staging_dependencies
 
 staging_status_unsuccessful:
   stage: staging_set_status
@@ -153,7 +152,7 @@ staging_status_unsuccessful:
   extends:
     - .artifacts
     - .on_failure_status
-    - .staging_status_dependencies
+    - .staging_dependencies
 
 1p_register-lister:
   stage: production_list-origins
