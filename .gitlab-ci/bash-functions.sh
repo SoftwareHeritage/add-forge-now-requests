@@ -74,11 +74,9 @@ gitlab_update_var () {
 register_vars () {
     local ENV=$1
     local SWH_CONFIG_FILENAME=${ENV^^}_CONFIG_FILENAME
-    local LISTING_DELAY=${ENV^^}_LISTING_DELAY
     echo "ENV=$ENV" > build.env
     echo "ISSUE_ID=$ISSUE_ID" >> build.env
     echo "SWH_CONFIG_FILENAME=${!SWH_CONFIG_FILENAME}" >> build.env
-    echo "LISTING_DELAY=${!LISTING_DELAY}" >> build.env
 }
 
 scheduler_check_ingested_origins () {
