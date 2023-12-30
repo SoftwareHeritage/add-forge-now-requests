@@ -164,3 +164,4 @@
 | git.goldelico.com | gitweb | successful | 2023-12-17 12:52:22 +0000UTC | #119 |
 | gitlab.cern.ch | gitlab | unsuccessful | 2023-12-21 15:21:21 +0000UTC | #138 |
 | gitlab.constantvzw.org | gitlab | successful | 2023-12-26 14:37:50 +0000UTC | #143 |
+| gitlab.collabora.com | gitlab | successful | 2023-12-30 03:40:14 +0000UTC | #142 |
