@@ -168,3 +168,4 @@
 | gitlab.digitalcourage.de | gitlab | successful | 2023-12-31 10:40:51 +0000UTC | #145 |
 | gitlab.arm.com | gitlab | successful | 2023-12-31 15:25:03 +0000UTC | #144 |
 | gitlab.dkrz.de | gitlab | successful | 2024-01-01 00:38:51 +0000UTC | #146 |
+| gitlab.dragonflyaerospace.com | gitlab | successful | 2024-01-01 14:03:44 +0000UTC | #149 |
