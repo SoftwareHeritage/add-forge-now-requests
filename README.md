@@ -38,3 +38,4 @@
 | gitlab.fi.muni.cz | gitlab | successful | 2024-01-03 05:39:19 +0000UTC | #154 |
 | gitlab.ub.uni-bielefeld.de | gitlab | successful | 2024-01-03 08:26:37 +0000UTC | #148 |
 | gitlab.fuss.bz.it | gitlab | successful | 2024-01-03 09:06:44 +0000UTC | #155 |
+| salsa.debian.org | gitlab | successful | 2024-01-03 11:22:13 +0000UTC | #156 |
