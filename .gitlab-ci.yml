@@ -155,7 +155,7 @@ staging_status_unsuccessful:
     - .on_success_status
   dependencies:
     - "staging_status_successful"
-
+1p_register-lister
 2p_check-listed-origins:
   stage: production_list-origins
   script:
@@ -208,5 +208,5 @@ production_status_unsuccessful:
     - gitlab_commit_readme_history unsuccessful
   extends:
     - .on_failure_status
-    - .production_dependencies
-
+  dependencies:
+    - "1p_register-lister"
