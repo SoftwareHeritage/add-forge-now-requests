@@ -155,7 +155,7 @@ staging_status_unsuccessful:
     - .on_success_status
   dependencies:
     - "staging_status_successful"
-1p_register-lister
+
 2p_check-listed-origins:
   stage: production_list-origins
   script:
