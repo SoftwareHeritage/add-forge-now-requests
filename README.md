@@ -40,3 +40,4 @@
 | gitlab.fuss.bz.it | gitlab | successful | 2024-01-03 09:06:44 +0000UTC | #155 |
 | salsa.debian.org | gitlab | successful | 2024-01-03 11:22:13 +0000UTC | #156 |
 | gitlab.linux.community | gitlab | successful | 2024-01-03 11:26:07 +0000UTC | #157 |
+| gitlab.lisn.upsaclay.fr | gitlab | successful | 2024-01-03 12:17:55 +0000UTC | #158 |
