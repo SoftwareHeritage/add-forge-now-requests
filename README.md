@@ -43,3 +43,4 @@
 | gitlab.lisn.upsaclay.fr | gitlab | successful | 2024-01-03 12:17:55 +0000UTC | #158 |
 | gitlab.pyicu.org | gitlab | successful | 2024-01-04 22:46:22 +0000UTC | #162 |
 | git.taler.net | cgit | successful | 2024-01-04 23:05:28 +0000UTC | #160 |
+| git.ralph.or.at | gitlab | successful | 2024-01-04 23:06:29 +0000UTC | #163 |
