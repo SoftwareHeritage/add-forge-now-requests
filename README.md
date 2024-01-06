@@ -47,3 +47,4 @@
 | gitlab.onelab.info | gitlab | successful | 2024-01-05 00:35:39 +0000UTC | #161 |
 | git.cgsecurity.org | cgit | successful | 2024-01-06 13:06:57 +0000UTC | #165 |
 | gitlab.kitware.com | gitlab | successful | 2024-01-06 14:40:01 +0000UTC | #159 |
+| git.dawidpotocki.com | cgit | successful | 2024-01-06 15:49:57 +0000UTC | #166 |
