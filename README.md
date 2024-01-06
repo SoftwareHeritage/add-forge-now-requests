@@ -45,3 +45,4 @@
 | git.taler.net | cgit | successful | 2024-01-04 23:05:28 +0000UTC | #160 |
 | git.ralph.or.at | gitlab | successful | 2024-01-04 23:06:29 +0000UTC | #163 |
 | gitlab.onelab.info | gitlab | successful | 2024-01-05 00:35:39 +0000UTC | #161 |
+| git.cgsecurity.org | cgit | successful | 2024-01-06 13:06:57 +0000UTC | #165 |
