@@ -52,3 +52,4 @@
 | git.laquadrature.net | gitlab | successful | 2024-01-06 16:10:04 +0000UTC | #168 |
 | git.2li.ch | gitea | successful | 2024-01-06 16:25:04 +0000UTC | #170 |
 | git.cryptech.is | cgit | successful | 2024-01-06 17:48:30 +0000UTC | #172 |
+| git.datacontroller.io | gitea | successful | 2024-01-08 15:14:49 +0000UTC | #174 |
