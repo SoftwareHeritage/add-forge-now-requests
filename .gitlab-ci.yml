@@ -13,8 +13,7 @@ variables:
   STAGING_AMQP_URL: http://scheduler0.internal.staging.swh.network:15672
   PRODUCTION_AMQP_URL: http://saatchi.internal.softwareheritage.org:15672
   GITLAB_URL: https://gitlab.softwareheritage.org
-  #WEBAPP_URL: https://archive.softwareheritage.org
-  WEBAPP_URL: https://webapp.staging.swh.network
+  WEBAPP_URL: https://archive.softwareheritage.org
   OIDC_URL: https://auth.softwareheritage.org/auth/
   OIDC_REALM: SoftwareHeritageStaging
   STAGING_CONFIG_FILENAME: /etc/swh/scheduler-staging.yml
