@@ -61,3 +61,4 @@
 | gitlab.fusiondirectory.org | gitlab | successful | 2024-02-06 17:42:40 +0000UTC | #180 |
 | gitlab.futo.org | gitlab | successful | 2024-02-06 18:53:00 +0000UTC | #181 |
 | gitlab.ics.muni.cz | gitlab | unsuccessful | 2024-02-06 19:30:25 +0000UTC | #184 |
+| gitlab.exherbo.org | gitlab | successful | 2024-02-06 20:32:23 +0000UTC | #178 |
