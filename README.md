@@ -55,3 +55,4 @@
 | git.datacontroller.io | gitea | successful | 2024-01-08 15:14:49 +0000UTC | #174 |
 | git.alexwennerberg.com | stagit | successful | 2024-01-08 15:21:31 +0000UTC | #173 |
 | git.distrust.co | gitea | successful | 2024-01-08 16:49:57 +0000UTC | #176 |
+| gitlab.fsinf.at | gitlab | successful | 2024-02-06 10:22:10 +0000UTC | #179 |
