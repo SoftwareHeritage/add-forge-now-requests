@@ -59,3 +59,4 @@
 | gitlab.eurecom.fr | gitlab | successful | 2024-02-06 14:30:29 +0000UTC | #177 |
 | gitlab.hrz.tu-chemnitz.de | gitlab | unsuccessful | 2024-02-06 15:55:59 +0000UTC | #183 |
 | gitlab.fusiondirectory.org | gitlab | successful | 2024-02-06 17:42:40 +0000UTC | #180 |
+| gitlab.futo.org | gitlab | successful | 2024-02-06 18:53:00 +0000UTC | #181 |
