@@ -57,3 +57,4 @@
 | git.distrust.co | gitea | successful | 2024-01-08 16:49:57 +0000UTC | #176 |
 | gitlab.fsinf.at | gitlab | successful | 2024-02-06 10:22:10 +0000UTC | #179 |
 | gitlab.eurecom.fr | gitlab | successful | 2024-02-06 14:30:29 +0000UTC | #177 |
+| gitlab.hrz.tu-chemnitz.de | gitlab | unsuccessful | 2024-02-06 15:55:59 +0000UTC | #183 |
