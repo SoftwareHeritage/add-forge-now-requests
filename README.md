@@ -70,3 +70,4 @@
 | gitlab.haskell.org | gitlab | unsuccessful | 2024-02-07 19:38:42 +0000UTC | #182 |
 | gitlab.iqrf.org | gitlab | unsuccessful | 2024-02-07 19:38:43 +0000UTC | #186 |
 | gitlab.lis-lab.fr | gitlab | unsuccessful | 2024-02-07 19:38:44 +0000UTC | #190 |
+| gitlab.incom.co | gitlab | successful | 2024-02-07 19:38:46 +0000UTC | #185 |
