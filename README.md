@@ -69,3 +69,4 @@
 | gitlab.linphone.org | gitlab | successful | 2024-02-07 18:23:18 +0000UTC | #189 |
 | gitlab.haskell.org | gitlab | unsuccessful | 2024-02-07 19:38:42 +0000UTC | #182 |
 | gitlab.iqrf.org | gitlab | unsuccessful | 2024-02-07 19:38:43 +0000UTC | #186 |
+| gitlab.lis-lab.fr | gitlab | unsuccessful | 2024-02-07 19:38:44 +0000UTC | #190 |
