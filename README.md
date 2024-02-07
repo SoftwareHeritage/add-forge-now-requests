@@ -66,3 +66,4 @@
 | gitlab.ics.muni.cz | gitlab | successful | 2024-02-07 08:14:12 +0000UTC | #184 |
 | gitlab.libresilicon.com | gitlab | unsuccessful | 2024-02-07 09:39:54 +0000UTC | #188 |
 | gitlab.kwant-project.org | gitlab | successful | 2024-02-07 17:26:00 +0000UTC | #187 |
+| gitlab.linphone.org | gitlab | successful | 2024-02-07 18:23:18 +0000UTC | #189 |
