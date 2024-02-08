@@ -75,3 +75,4 @@
 | gitlab.iqrf.org | gitlab | successful | 2024-02-08 08:06:03 +0000UTC | #186 |
 | gitlab.lms.tf.fau.de | gitlab | successful | 2024-02-08 10:06:42 +0000UTC | #191 |
 | gitlab.met.fu-berlin.de | gitlab | successful | 2024-02-08 14:36:34 +0000UTC | #195 |
+| gitlab.metager.de | gitlab | successful | 2024-02-08 15:25:14 +0000UTC | #194 |
