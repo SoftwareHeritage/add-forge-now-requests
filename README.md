@@ -74,3 +74,4 @@
 | gitlab.haskell.org | gitlab | successful | 2024-02-08 08:00:38 +0000UTC | #182 |
 | gitlab.iqrf.org | gitlab | successful | 2024-02-08 08:06:03 +0000UTC | #186 |
 | gitlab.lms.tf.fau.de | gitlab | successful | 2024-02-08 10:06:42 +0000UTC | #191 |
+| gitlab.met.fu-berlin.de | gitlab | successful | 2024-02-08 14:36:34 +0000UTC | #195 |
