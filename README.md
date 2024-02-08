@@ -78,3 +78,4 @@
 | gitlab.metager.de | gitlab | successful | 2024-02-08 15:25:14 +0000UTC | #194 |
 | gitlab.lis-lab.fr | gitlab | successful | 2024-02-08 15:48:28 +0000UTC | #190 |
 | gitlab.matrix.org | gitlab | successful | 2024-02-08 15:52:21 +0000UTC | #193 |
+| gitlab.lrz.de | gitlab | successful | 2024-02-08 16:20:29 +0000UTC | #192 |
