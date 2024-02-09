@@ -86,3 +86,4 @@
 | gitlab.physik.lmu.de | gitlab | successful | 2024-02-09 12:03:34 +0000UTC | #202 |
 | gitlab.oit.duke.edu | gitlab | successful | 2024-02-09 12:20:35 +0000UTC | #200 |
 | gitlab-research.centralesupelec.fr | gitlab | successful | 2024-02-09 13:05:24 +0000UTC | #204 |
+| gitlab.riscosopen.org | gitlab | successful | 2024-02-09 15:37:10 +0000UTC | #206 |
