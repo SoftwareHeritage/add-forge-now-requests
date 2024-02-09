@@ -89,7 +89,7 @@ scheduler_check_success_rate () {
     success_rate=$(swh scheduler --config-file "$SWH_CONFIG_FILENAME" \
     origin check-ingested-origins \
     "$LISTER_TYPE" "$INSTANCE_NAME" | \
-    awk '/success rate/{split($4,a,".");print a[1]}')
+    awk '/success rate:/{split($3,a,".");print a[1]}')
     if [ "$success_rate" -lt "$INGESTION_SUCCESS_LIMIT" ]; then
         echo "There are too many ingestion failures."
         exit 1
