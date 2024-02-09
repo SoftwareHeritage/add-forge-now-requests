@@ -85,3 +85,4 @@
 | gitlab.orfeo-toolbox.org | gitlab | successful | 2024-02-09 11:27:11 +0000UTC | #201 |
 | gitlab.physik.lmu.de | gitlab | successful | 2024-02-09 12:03:34 +0000UTC | #202 |
 | gitlab.oit.duke.edu | gitlab | successful | 2024-02-09 12:20:35 +0000UTC | #200 |
+| gitlab-research.centralesupelec.fr | gitlab | successful | 2024-02-09 13:05:24 +0000UTC | #204 |
