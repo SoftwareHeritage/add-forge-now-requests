@@ -178,6 +178,7 @@ staging_status_unsuccessful:
   stage: production_ingest-origins
   script:
     - scheduler_check_ingested_origins
+    - scheduler_check_success_rate
   extends:
     - .on_success_status
   needs:
