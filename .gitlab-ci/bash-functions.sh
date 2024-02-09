@@ -80,8 +80,16 @@ register_vars () {
 }
 
 scheduler_check_ingested_origins () {
+    ARGS=(-l -w)
+    [[ "$ENV" == "staging" ]] && ARGS+=( --watch-period '10m')
     swh scheduler --config-file "$SWH_CONFIG_FILENAME" \
-    origin check-ingested-origins -l -w \
+    origin check-ingested-origins "${ARGS[@]}" \
+    "$LISTER_TYPE" "$INSTANCE_NAME"
+}
+
+scheduler_check_listed_origins () {
+    swh scheduler --config-file "$SWH_CONFIG_FILENAME" \
+    origin check-listed-origins -l \
     "$LISTER_TYPE" "$INSTANCE_NAME"
 }
 
@@ -94,12 +102,6 @@ scheduler_check_success_rate () {
         echo "There are too many ingestion failures."
         exit 1
     fi
-}
-
-scheduler_check_listed_origins () {
-    swh scheduler --config-file "$SWH_CONFIG_FILENAME" \
-    origin check-listed-origins -l \
-    "$LISTER_TYPE" "$INSTANCE_NAME"
 }
 
 scheduler_register_lister () {
