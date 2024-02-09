@@ -94,3 +94,4 @@
 | gitlab.software.imdea.org | gitlab | successful | 2024-02-09 17:58:10 +0000UTC | #210 |
 | gitlab.shinice.net | gitlab | successful | 2024-02-09 18:05:04 +0000UTC | #209 |
 | gitlab.spline.de | gitlab | successful | 2024-02-09 20:33:26 +0000UTC | #211 |
+| git.alsa-project.org | gitweb | successful | 2024-02-09 20:35:23 +0000UTC | #215 |
