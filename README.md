@@ -92,3 +92,4 @@
 | gitlab.rrze.fau.de | gitlab | successful | 2024-02-09 16:12:53 +0000UTC | #207 |
 | gitlab-student.centralesupelec.fr | gitlab | successful | 2024-02-09 17:32:03 +0000UTC | #205 |
 | gitlab.software.imdea.org | gitlab | successful | 2024-02-09 17:58:10 +0000UTC | #210 |
+| gitlab.shinice.net | gitlab | successful | 2024-02-09 18:05:04 +0000UTC | #209 |
