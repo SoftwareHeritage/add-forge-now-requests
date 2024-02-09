@@ -80,3 +80,4 @@
 | gitlab.matrix.org | gitlab | successful | 2024-02-08 15:52:21 +0000UTC | #193 |
 | gitlab.lrz.de | gitlab | successful | 2024-02-08 16:20:29 +0000UTC | #192 |
 | gitlab.obspm.fr | gitlab | successful | 2024-02-08 23:45:55 +0000UTC | #199 |
+| gitlab.nic.cz | gitlab | successful | 2024-02-09 00:39:41 +0000UTC | #197 |
