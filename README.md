@@ -89,3 +89,4 @@
 | gitlab.riscosopen.org | gitlab | successful | 2024-02-09 15:37:10 +0000UTC | #206 |
 | gitlab.nuiton.org | gitlab | successful | 2024-02-09 15:45:44 +0000UTC | #198 |
 | gitlab.science.mcgill.ca | gitlab | successful | 2024-02-09 15:55:35 +0000UTC | #208 |
+| gitlab.rrze.fau.de | gitlab | successful | 2024-02-09 16:12:53 +0000UTC | #207 |
