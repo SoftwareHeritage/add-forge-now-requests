@@ -98,3 +98,4 @@
 | gitlab.redox-os.org | gitlab | successful | 2024-02-10 00:15:52 +0000UTC | #203 |
 | gitlab.steamos.cloud | gitlab | successful | 2024-02-10 10:21:17 +0000UTC | #212 |
 | git.abfelbaum.dev | gitlab | successful | 2024-02-10 13:36:33 +0000UTC | #214 |
+| git.0x0.st | gitea | successful | 2024-02-10 13:55:38 +0000UTC | #213 |
