@@ -106,3 +106,4 @@
 | git.dhvlab.org | gitlab | successful | 2024-02-10 15:49:19 +0000UTC | #222 |
 | gitext.faps.fau.de | gitlab | successful | 2024-02-10 17:54:20 +0000UTC | #224 |
 | git.dst.etit.tu-chemnitz.de | gitlab | successful | 2024-02-10 18:03:33 +0000UTC | #223 |
+| git.froth.zone | gitea | successful | 2024-02-10 18:24:47 +0000UTC | #225 |
