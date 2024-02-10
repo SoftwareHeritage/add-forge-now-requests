@@ -99,3 +99,4 @@
 | gitlab.steamos.cloud | gitlab | successful | 2024-02-10 10:21:17 +0000UTC | #212 |
 | git.abfelbaum.dev | gitlab | successful | 2024-02-10 13:36:33 +0000UTC | #214 |
 | git.0x0.st | gitea | successful | 2024-02-10 13:55:38 +0000UTC | #213 |
+| git.calcurse.org | cgit | successful | 2024-02-10 14:52:56 +0000UTC | #218 |
