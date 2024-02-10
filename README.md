@@ -107,3 +107,4 @@
 | gitext.faps.fau.de | gitlab | successful | 2024-02-10 17:54:20 +0000UTC | #224 |
 | git.dst.etit.tu-chemnitz.de | gitlab | successful | 2024-02-10 18:03:33 +0000UTC | #223 |
 | git.froth.zone | gitea | successful | 2024-02-10 18:24:47 +0000UTC | #225 |
+| gitlab.stums.techfak.fau.de | gitlab | successful | 2024-02-10 18:25:23 +0000UTC | #226 |
