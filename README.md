@@ -96,3 +96,4 @@
 | gitlab.spline.de | gitlab | successful | 2024-02-09 20:33:26 +0000UTC | #211 |
 | git.alsa-project.org | gitweb | successful | 2024-02-09 20:35:23 +0000UTC | #215 |
 | gitlab.redox-os.org | gitlab | successful | 2024-02-10 00:15:52 +0000UTC | #203 |
+| gitlab.steamos.cloud | gitlab | successful | 2024-02-10 10:21:17 +0000UTC | #212 |
