@@ -108,3 +108,4 @@
 | git.dst.etit.tu-chemnitz.de | gitlab | successful | 2024-02-10 18:03:33 +0000UTC | #223 |
 | git.froth.zone | gitea | successful | 2024-02-10 18:24:47 +0000UTC | #225 |
 | gitlab.stums.techfak.fau.de | gitlab | successful | 2024-02-10 18:25:23 +0000UTC | #226 |
+| gitlab.synchrotron-soleil.fr | gitlab | successful | 2024-02-10 19:15:06 +0000UTC | #227 |
