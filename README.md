@@ -103,3 +103,4 @@
 | gitcdr.univ-ubs.fr | gitea | successful | 2024-02-10 15:13:36 +0000UTC | #219 |
 | git.corrupt.link | gitea | successful | 2024-02-10 15:41:20 +0000UTC | #221 |
 | git.cryptomilk.org | cgit | successful | 2024-02-10 15:42:13 +0000UTC | #220 |
+| git.dhvlab.org | gitlab | successful | 2024-02-10 15:49:19 +0000UTC | #222 |
