@@ -113,3 +113,4 @@
 | gitlab.tic-ac.org | gitlab | successful | 2024-02-11 20:07:26 +0000UTC | #229 |
 | git.cworth.org | gitweb | successful | 2024-02-11 20:17:59 +0000UTC | #232 |
 | gitlab.telecom-paris.fr | gitlab | successful | 2024-02-11 21:16:26 +0000UTC | #228 |
+| gitlab.trisquel.org | gitlab | successful | 2024-02-11 22:37:32 +0000UTC | #230 |
