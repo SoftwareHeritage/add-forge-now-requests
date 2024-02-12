@@ -114,3 +114,4 @@
 | git.cworth.org | gitweb | successful | 2024-02-11 20:17:59 +0000UTC | #232 |
 | gitlab.telecom-paris.fr | gitlab | successful | 2024-02-11 21:16:26 +0000UTC | #228 |
 | gitlab.trisquel.org | gitlab | successful | 2024-02-11 22:37:32 +0000UTC | #230 |
+| git.dec05eba.com | cgit | successful | 2024-02-12 16:06:50 +0000UTC | #233 |
