@@ -119,3 +119,4 @@
 | gitlab.eng.unimelb.edu.au | gitlab | successful | 2024-02-12 18:21:24 +0000UTC | #235 |
 | swen20003.eng.unimelb.edu.au | gitlab | successful | 2024-02-12 18:22:39 +0000UTC | #236 |
 | git.fs.lmu.de | gitlab | successful | 2024-02-12 20:25:37 +0000UTC | #239 |
+| git.ameliorated.info | gitea | successful | 2024-02-12 20:41:02 +0000UTC | #240 |
