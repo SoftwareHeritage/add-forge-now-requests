@@ -117,3 +117,4 @@
 | git.dec05eba.com | cgit | successful | 2024-02-12 16:06:50 +0000UTC | #233 |
 | gitea.lyrion.ch | gitea | successful | 2024-02-12 16:07:44 +0000UTC | #234 |
 | gitlab.eng.unimelb.edu.au | gitlab | successful | 2024-02-12 18:21:24 +0000UTC | #235 |
+| swen20003.eng.unimelb.edu.au | gitlab | successful | 2024-02-12 18:22:39 +0000UTC | #236 |
