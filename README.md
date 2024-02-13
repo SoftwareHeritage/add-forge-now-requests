@@ -126,3 +126,4 @@
 | git.bitmycode.com | gitlab | successful | 2024-02-13 10:26:29 +0000UTC | #244 |
 | git.blazebone.com | cgit | successful | 2024-02-13 10:28:19 +0000UTC | #245 |
 | gitlab.unimelb.edu.au | gitlab | successful | 2024-02-13 11:13:51 +0000UTC | #237 |
+| git.ardour.org | gitea | successful | 2024-02-13 11:31:43 +0000UTC | #241 |
