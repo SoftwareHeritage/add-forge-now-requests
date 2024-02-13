@@ -121,3 +121,4 @@
 | git.fs.lmu.de | gitlab | successful | 2024-02-12 20:25:37 +0000UTC | #239 |
 | git.ameliorated.info | gitea | successful | 2024-02-12 20:41:02 +0000UTC | #240 |
 | git.exeter.ac.uk | gitlab | successful | 2024-02-12 22:24:26 +0000UTC | #238 |
+| git.asonix.dog | gitea | successful | 2024-02-13 10:13:17 +0000UTC | #242 |
