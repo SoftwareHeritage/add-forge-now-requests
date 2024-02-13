@@ -123,3 +123,4 @@
 | git.exeter.ac.uk | gitlab | successful | 2024-02-12 22:24:26 +0000UTC | #238 |
 | git.asonix.dog | gitea | successful | 2024-02-13 10:13:17 +0000UTC | #242 |
 | git.aweirdimagination.net | gitea | successful | 2024-02-13 10:14:13 +0000UTC | #243 |
+| git.bitmycode.com | gitlab | successful | 2024-02-13 10:26:29 +0000UTC | #244 |
