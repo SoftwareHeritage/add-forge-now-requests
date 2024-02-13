@@ -129,3 +129,4 @@
 | git.ardour.org | gitea | successful | 2024-02-13 11:31:43 +0000UTC | #241 |
 | git.botox.bz | gitea | successful | 2024-02-13 12:09:40 +0000UTC | #246 |
 | git.0pointer.net | cgit | successful | 2024-02-13 12:27:56 +0000UTC | #248 |
+| git.captnemo.in | gitea | successful | 2024-02-13 13:01:15 +0000UTC | #247 |
