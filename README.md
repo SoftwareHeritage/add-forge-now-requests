@@ -134,3 +134,4 @@
 | git.adbjesus.com | cgit | successful | 2024-02-13 14:36:27 +0000UTC | #252 |
 | git.adriansopar.hu | cgit | successful | 2024-02-13 14:37:42 +0000UTC | #253 |
 | git.adammathes.com | cgit | successful | 2024-02-13 14:45:14 +0000UTC | #251 |
+| git.toradex.com | cgit | successful | 2024-02-15 12:55:55 +0000UTC | #250 |
