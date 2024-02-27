@@ -136,3 +136,4 @@
 | git.adammathes.com | cgit | successful | 2024-02-13 14:45:14 +0000UTC | #251 |
 | git.toradex.com | cgit | successful | 2024-02-15 12:55:55 +0000UTC | #250 |
 | git.average.name | gitea | successful | 2024-02-23 02:54:02 +0000UTC | #255 |
+| git.fdn.fr | gitlab | successful | 2024-02-27 00:38:11 +0000UTC | #256 |
