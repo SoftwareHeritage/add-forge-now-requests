@@ -139,3 +139,4 @@
 | git.fdn.fr | gitlab | successful | 2024-02-27 00:38:11 +0000UTC | #256 |
 | git.benkard.de | cgit | successful | 2024-02-27 02:27:16 +0000UTC | #257 |
 | git.fps.ee | cgit | successful | 2024-02-29 10:20:44 +0000UTC | #260 |
+| gitea.nouspiro.space | gitea | successful | 2024-03-01 02:14:42 +0000UTC | #262 |
