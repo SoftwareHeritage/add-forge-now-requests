@@ -1,5 +1,19 @@
 set -euo pipefail
 
+check_duplicated_task () {
+    duplicated_task_query="select count(id) from task \
+    where arguments -> 'kwargs' ->> 'instance' like '%${INSTANCE_NAME}%' \
+    or arguments -> 'kwargs' ->> 'url' like '%${INSTANCE_NAME}%' and \
+    type != 'load-git';"
+    duplicated_task=$(psql -d "$PG_SCHEDULER" -A -t -c \
+    "$duplicated_task_query")
+    if [ "$duplicated_task" -gt 0 ]
+    then
+        echo "$INSTANCE_NAME is already registered in the scheduler database."
+        exit 1
+    fi
+}
+
 check_network_ports () {
     SCHEDULER_URLS=$(awk '/^[[:space:]]*url:/{print $2}' /etc/swh/scheduler-*.yml)
     for url in "$STAGING_AMQP_URL" "$PRODUCTION_AMQP_URL"
@@ -111,16 +125,6 @@ scheduler_register_lister () {
     instance="$INSTANCE_NAME"
     sleep "$LISTING_DELAY"
 }
-
-#scheduler_register_lister () {
-#  ARGS=( instance="$INSTANCE_NAME" )
-#  [ "$ENV" == 'staging' ] && ARGS+=( max_pages=1 )
-#  swh scheduler --config-file "$SWH_CONFIG_FILENAME" \
-#  add-forge-now --preset "$ENV" \
-#  register-lister "$LISTER_TYPE" \
-#  "${ARGS[@]}"
-#  sleep "$LISTING_DELAY"
-#  }
 
 scheduler_schedule_first_visits () {
     swh scheduler --config-file "$SWH_CONFIG_FILENAME" \

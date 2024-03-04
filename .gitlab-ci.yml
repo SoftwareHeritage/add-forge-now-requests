@@ -89,6 +89,17 @@ stages:
       artifacts: true
     - job: 02_check_ports_and_token
 
+04_check_duplicated_task:
+  stage: .pre
+  script:
+    - check_duplicated_task
+  extends:
+    - .on_success_status
+  needs:
+    - job: 01_create_issue_and_register
+      artifacts: true
+    - job: 03_comment_request
+
 1s_register_lister:
   stage: staging_list_origins
   script:
