@@ -144,3 +144,4 @@
 | git.harmonicflow.org | cgit | successful | 2024-03-02 05:23:24 +0000UTC | #263 |
 | git.drk.sc | gitlab | successful | 2024-03-02 08:34:33 +0000UTC | #264 |
 | kolaente.dev | gitea | successful | 2024-03-05 10:56:15 +0000UTC | #266 |
+| gitlab.ifi.lmu.de | gitlab | successful | 2024-03-07 08:26:57 +0000UTC | #268 |
