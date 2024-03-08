@@ -146,3 +146,4 @@
 | kolaente.dev | gitea | successful | 2024-03-05 10:56:15 +0000UTC | #266 |
 | gitlab.ifi.lmu.de | gitlab | successful | 2024-03-07 08:26:57 +0000UTC | #268 |
 | git1.toradex.com | cgit | successful | 2024-03-07 09:26:13 +0000UTC | #274 |
+| git.informatik.uni-leipzig.de | gitlab | successful | 2024-03-08 09:24:11 +0000UTC | #276 |
