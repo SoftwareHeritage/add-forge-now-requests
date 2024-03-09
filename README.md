@@ -147,3 +147,4 @@
 | gitlab.ifi.lmu.de | gitlab | successful | 2024-03-07 08:26:57 +0000UTC | #268 |
 | git1.toradex.com | cgit | successful | 2024-03-07 09:26:13 +0000UTC | #274 |
 | git.informatik.uni-leipzig.de | gitlab | successful | 2024-03-08 09:24:11 +0000UTC | #276 |
+| git.anonymousmessenger.ly | gogs | successful | 2024-03-09 00:40:21 +0000UTC | #271 |
