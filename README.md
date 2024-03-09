@@ -149,3 +149,4 @@
 | git.informatik.uni-leipzig.de | gitlab | successful | 2024-03-08 09:24:11 +0000UTC | #276 |
 | git.anonymousmessenger.ly | gogs | successful | 2024-03-09 00:40:21 +0000UTC | #271 |
 | git.blakerain.com | gitea | successful | 2024-03-09 00:59:27 +0000UTC | #278 |
+| git.askiiart.net | gitea | successful | 2024-03-09 03:02:36 +0000UTC | #273 |
