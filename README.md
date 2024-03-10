@@ -152,3 +152,4 @@
 | git.askiiart.net | gitea | successful | 2024-03-09 03:02:36 +0000UTC | #273 |
 | git.andrewyu.org | cgit | successful | 2024-03-10 04:24:14 +0000UTC | #279 |
 | git.automotivelinux.org | cgit | successful | 2024-03-10 07:16:44 +0000UTC | #280 |
+| git.bnfr.net | cgit | successful | 2024-03-10 09:01:27 +0000UTC | #281 |
