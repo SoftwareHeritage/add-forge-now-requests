@@ -156,3 +156,4 @@
 | git.bnfr.net | cgit | successful | 2024-03-10 09:01:27 +0000UTC | #281 |
 | www.8cubes.com | gitea | successful | 2024-03-11 22:15:50 +0000UTC | #285 |
 | gitlab.denx.de | gitlab | successful | 2024-03-11 22:43:34 +0000UTC | #284 |
+| code.umd.edu | gitlab | successful | 2024-03-12 10:17:55 +0000UTC | #287 |
