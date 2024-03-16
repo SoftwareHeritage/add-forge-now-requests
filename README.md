@@ -163,3 +163,4 @@
 | git.sciprog.center | gitea | successful | 2024-03-15 03:49:04 +0000UTC | #290 |
 | git.adyxax.org | cgit | successful | 2024-03-16 04:35:54 +0000UTC | #291 |
 | git.chylex.com | gitea | successful | 2024-03-16 05:40:19 +0000UTC | #296 |
+| cgit.freebsd.org | cgit | successful | 2024-03-16 15:15:31 +0000UTC | #283 |
