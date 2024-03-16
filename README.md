@@ -161,3 +161,4 @@
 | git.brodokk.space | cgit | successful | 2024-03-13 02:05:50 +0000UTC | #288 |
 | git.calculate-linux.org | gitea | successful | 2024-03-13 18:46:22 +0000UTC | #289 |
 | git.sciprog.center | gitea | successful | 2024-03-15 03:49:04 +0000UTC | #290 |
+| git.adyxax.org | cgit | successful | 2024-03-16 04:35:54 +0000UTC | #291 |
