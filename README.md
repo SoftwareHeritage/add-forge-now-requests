@@ -167,3 +167,4 @@
 | git.comnets.net | gitlab | unsuccessful | 2024-03-19 02:17:17 +0000UTC | #299 |
 | git.concertos.live | gitea | unsuccessful | 2024-03-19 07:05:13 +0000UTC | #304 |
 | git.datenwolf.net | cgit | successful | 2024-03-19 13:16:10 +0000UTC | #301 |
+| git.danieljon.es | cgit | successful | 2024-03-19 13:18:16 +0000UTC | #300 |
