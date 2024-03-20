@@ -171,3 +171,4 @@
 | git.comnets.net | gitlab | successful | 2024-03-19 13:19:13 +0000UTC | #299 |
 | git.concertos.live | gitea | successful | 2024-03-19 13:20:40 +0000UTC | #304 |
 | browse.dgit.debian.org | cgit | unsuccessful | 2024-03-20 03:54:55 +0000UTC | #307 |
+| git.compilenix.org | gitlab | successful | 2024-03-20 04:26:33 +0000UTC | #306 |
