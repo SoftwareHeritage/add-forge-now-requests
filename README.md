@@ -172,3 +172,4 @@
 | git.concertos.live | gitea | successful | 2024-03-19 13:20:40 +0000UTC | #304 |
 | browse.dgit.debian.org | cgit | unsuccessful | 2024-03-20 03:54:55 +0000UTC | #307 |
 | git.compilenix.org | gitlab | successful | 2024-03-20 04:26:33 +0000UTC | #306 |
+| git.ivysaur.me | gitea | successful | 2024-03-20 05:00:56 +0000UTC | #308 |
