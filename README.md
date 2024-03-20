@@ -170,3 +170,4 @@
 | git.danieljon.es | cgit | successful | 2024-03-19 13:18:16 +0000UTC | #300 |
 | git.comnets.net | gitlab | successful | 2024-03-19 13:19:13 +0000UTC | #299 |
 | git.concertos.live | gitea | successful | 2024-03-19 13:20:40 +0000UTC | #304 |
+| browse.dgit.debian.org | cgit | unsuccessful | 2024-03-20 03:54:55 +0000UTC | #307 |
