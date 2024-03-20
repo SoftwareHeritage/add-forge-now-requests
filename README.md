@@ -174,3 +174,4 @@
 | git.compilenix.org | gitlab | successful | 2024-03-20 04:26:33 +0000UTC | #306 |
 | git.ivysaur.me | gitea | successful | 2024-03-20 05:00:56 +0000UTC | #308 |
 | git.jakstys.lt | gitea | successful | 2024-03-20 05:14:34 +0000UTC | #309 |
+| gitlab.echothree.com | gitlab | successful | 2024-03-20 08:53:20 +0000UTC | #305 |
