@@ -177,3 +177,4 @@
 | gitlab.echothree.com | gitlab | successful | 2024-03-20 08:53:20 +0000UTC | #305 |
 | git.acid.vegas | stagit | successful | 2024-03-20 13:38:28 +0000UTC | #310 |
 | browse.dgit.debian.org | cgit | successful | 2024-03-20 13:44:25 +0000UTC | #307 |
+| git.sisudoc.org | cgit | successful | 2024-03-21 23:14:03 +0000UTC | #311 |
