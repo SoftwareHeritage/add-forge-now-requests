@@ -19,7 +19,7 @@
      -F "ref=$REF_NAME" \
      -F "variables[LISTER_TYPE]=$LISTER_TYPE" \
      -F "variables[INSTANCE_NAME]=$INSTANCE_NAME" \
-     -F "variables[REQUEST_ID]=$REQUEST_ID"
+     -F "variables[REQUEST_ID]=$REQUEST_ID" \
 "$GITLAB_URL/api/v4/projects/$PROJECT_ID/trigger/pipeline"
 ```
 
