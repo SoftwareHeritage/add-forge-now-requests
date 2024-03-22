@@ -179,3 +179,4 @@
 | browse.dgit.debian.org | cgit | successful | 2024-03-20 13:44:25 +0000UTC | #307 |
 | git.sisudoc.org | cgit | successful | 2024-03-21 23:14:03 +0000UTC | #311 |
 | git.ee.ethz.ch | gitlab | unsuccessful | 2024-03-21 23:45:50 +0000UTC | #312 |
+| git.ee.ethz.ch | gitlab | successful | 2024-03-22 09:00:12 +0000UTC | #312 |
