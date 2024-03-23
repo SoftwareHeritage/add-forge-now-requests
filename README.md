@@ -181,3 +181,4 @@
 | git.ee.ethz.ch | gitlab | unsuccessful | 2024-03-21 23:45:50 +0000UTC | #312 |
 | git.ee.ethz.ch | gitlab | successful | 2024-03-22 09:00:12 +0000UTC | #312 |
 | gitlab.inf.ethz.ch | gitlab | successful | 2024-03-23 05:38:46 +0000UTC | #315 |
+| git.archive.org | gitlab | successful | 2024-03-23 12:04:50 +0000UTC | #314 |
