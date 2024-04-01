@@ -206,3 +206,4 @@
 | gitea.quitesimple.org | gitea | successful | 2024-04-01 10:58:48 +0000UTC | #340 |
 | gitea.dmz.rs | gitea | successful | 2024-04-01 11:11:17 +0000UTC | #339 |
 | gitea.planet-casio.com | gitea | successful | 2024-04-01 11:23:15 +0000UTC | #338 |
+| gitea.it | gitea | successful | 2024-04-01 11:31:47 +0000UTC | #331 |
