@@ -190,3 +190,4 @@
 | gitea.anclarma.fr | gitea | successful | 2024-04-01 05:46:53 +0000UTC | #320 |
 | gitea.caracals.org | gitea | successful | 2024-04-01 05:46:56 +0000UTC | #325 |
 | gitea.claws.top | gitea | successful | 2024-04-01 05:47:04 +0000UTC | #326 |
+| gitea.apps.kunc.me | gitea | successful | 2024-04-01 05:47:11 +0000UTC | #321 |
