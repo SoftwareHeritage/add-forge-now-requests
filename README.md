@@ -218,3 +218,4 @@
 | git.freaks.dev | cgit | successful | 2024-04-01 18:23:39 +0000UTC | #354 |
 | git.fripost.org | cgit | successful | 2024-04-01 18:25:54 +0000UTC | #356 |
 | git.frama-c.com | gitlab | successful | 2024-04-01 18:46:25 +0000UTC | #353 |
+| git.fucktheforce.de | cgit | successful | 2024-04-01 19:38:04 +0000UTC | #357 |
