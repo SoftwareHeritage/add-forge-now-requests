@@ -193,3 +193,4 @@
 | gitea.apps.kunc.me | gitea | successful | 2024-04-01 05:47:11 +0000UTC | #321 |
 | gitea.arknix.com | gitea | successful | 2024-04-01 05:47:24 +0000UTC | #322 |
 | gitea.blesmrt.net | gitea | successful | 2024-04-01 05:49:36 +0000UTC | #323 |
+| gitea.digitalcircle.com.br | gitea | successful | 2024-04-01 08:19:43 +0000UTC | #328 |
