@@ -186,3 +186,4 @@
 | git.com.de | gitea | successful | 2024-03-23 14:35:44 +0000UTC | #298 |
 | git.diapason.digital | gitea | successful | 2024-04-01 03:46:12 +0000UTC | #317 |
 | git.deprecated.org | cgit | successful | 2024-04-01 04:37:15 +0000UTC | #316 |
+| git.digitalstudium.com | gitea | successful | 2024-04-01 04:47:29 +0000UTC | #318 |
