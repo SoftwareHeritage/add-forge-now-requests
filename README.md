@@ -199,3 +199,4 @@
 | git.do.srb2.org | gitlab | successful | 2024-04-01 09:27:26 +0000UTC | #319 |
 | gitea.c3d2.de | gitea | successful | 2024-04-01 09:55:57 +0000UTC | #324 |
 | gitea.lf3.cuni.cz | gitea | successful | 2024-04-01 10:02:25 +0000UTC | #332 |
+| gitea.lntu.edu.cn | gitea | successful | 2024-04-01 10:11:40 +0000UTC | #333 |
