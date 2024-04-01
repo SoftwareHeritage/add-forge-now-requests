@@ -197,3 +197,4 @@
 | gitea.dashucun.com | gitea | successful | 2024-04-01 08:23:57 +0000UTC | #327 |
 | gitea.geologie.ac.at | gitea | successful | 2024-04-01 08:29:22 +0000UTC | #330 |
 | git.do.srb2.org | gitlab | successful | 2024-04-01 09:27:26 +0000UTC | #319 |
+| gitea.c3d2.de | gitea | successful | 2024-04-01 09:55:57 +0000UTC | #324 |
