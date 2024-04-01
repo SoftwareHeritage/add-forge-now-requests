@@ -195,3 +195,4 @@
 | gitea.blesmrt.net | gitea | successful | 2024-04-01 05:49:36 +0000UTC | #323 |
 | gitea.digitalcircle.com.br | gitea | successful | 2024-04-01 08:19:43 +0000UTC | #328 |
 | gitea.dashucun.com | gitea | successful | 2024-04-01 08:23:57 +0000UTC | #327 |
+| gitea.geologie.ac.at | gitea | successful | 2024-04-01 08:29:22 +0000UTC | #330 |
