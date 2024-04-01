@@ -204,3 +204,4 @@
 | gitea.ndda.fr | gitea | successful | 2024-04-01 10:20:34 +0000UTC | #336 |
 | gitea.michalczyk.pro | gitea | successful | 2024-04-01 10:22:13 +0000UTC | #335 |
 | gitea.quitesimple.org | gitea | successful | 2024-04-01 10:58:48 +0000UTC | #340 |
+| gitea.dmz.rs | gitea | successful | 2024-04-01 11:11:17 +0000UTC | #339 |
