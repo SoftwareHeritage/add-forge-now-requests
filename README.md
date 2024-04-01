@@ -196,3 +196,4 @@
 | gitea.digitalcircle.com.br | gitea | successful | 2024-04-01 08:19:43 +0000UTC | #328 |
 | gitea.dashucun.com | gitea | successful | 2024-04-01 08:23:57 +0000UTC | #327 |
 | gitea.geologie.ac.at | gitea | successful | 2024-04-01 08:29:22 +0000UTC | #330 |
+| git.do.srb2.org | gitlab | successful | 2024-04-01 09:27:26 +0000UTC | #319 |
