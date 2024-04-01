@@ -200,3 +200,4 @@
 | gitea.c3d2.de | gitea | successful | 2024-04-01 09:55:57 +0000UTC | #324 |
 | gitea.lf3.cuni.cz | gitea | successful | 2024-04-01 10:02:25 +0000UTC | #332 |
 | gitea.lntu.edu.cn | gitea | successful | 2024-04-01 10:11:40 +0000UTC | #333 |
+| gitea.math.uni-leipzig.de | gitea | successful | 2024-04-01 10:12:12 +0000UTC | #334 |
