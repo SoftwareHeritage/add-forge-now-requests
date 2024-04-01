@@ -188,3 +188,4 @@
 | git.deprecated.org | cgit | successful | 2024-04-01 04:37:15 +0000UTC | #316 |
 | git.digitalstudium.com | gitea | successful | 2024-04-01 04:47:29 +0000UTC | #318 |
 | gitea.anclarma.fr | gitea | successful | 2024-04-01 05:46:53 +0000UTC | #320 |
+| gitea.caracals.org | gitea | successful | 2024-04-01 05:46:56 +0000UTC | #325 |
