@@ -214,3 +214,4 @@
 | git.eno.space | cgit | successful | 2024-04-01 14:58:50 +0000UTC | #351 |
 | git.egiz.gv.at | cgit | successful | 2024-04-01 15:21:12 +0000UTC | #347 |
 | git.eta.st | gitlab | successful | 2024-04-01 15:54:04 +0000UTC | #352 |
+| git.frezzen.de | gitea | successful | 2024-04-01 18:22:10 +0000UTC | #355 |
