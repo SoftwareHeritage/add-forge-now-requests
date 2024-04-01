@@ -213,3 +213,4 @@
 | git.emacsconf.org | cgit | successful | 2024-04-01 14:52:49 +0000UTC | #348 |
 | git.eno.space | cgit | successful | 2024-04-01 14:58:50 +0000UTC | #351 |
 | git.egiz.gv.at | cgit | successful | 2024-04-01 15:21:12 +0000UTC | #347 |
+| git.eta.st | gitlab | successful | 2024-04-01 15:54:04 +0000UTC | #352 |
