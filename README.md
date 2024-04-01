@@ -202,3 +202,4 @@
 | gitea.lntu.edu.cn | gitea | successful | 2024-04-01 10:11:40 +0000UTC | #333 |
 | gitea.math.uni-leipzig.de | gitea | successful | 2024-04-01 10:12:12 +0000UTC | #334 |
 | gitea.ndda.fr | gitea | successful | 2024-04-01 10:20:34 +0000UTC | #336 |
+| gitea.michalczyk.pro | gitea | successful | 2024-04-01 10:22:13 +0000UTC | #335 |
