@@ -222,3 +222,4 @@
 | git.gnu.ca | cgit | successful | 2024-04-02 02:27:47 +0000UTC | #359 |
 | git.furworks.de | gitea | successful | 2024-04-02 08:44:10 +0000UTC | #358 |
 | gitea.ttmath.org | gitea | successful | 2024-04-02 10:15:22 +0000UTC | #343 |
+| gitea.slowb.ro | gitea | successful | 2024-04-02 18:26:35 +0000UTC | #341 |
