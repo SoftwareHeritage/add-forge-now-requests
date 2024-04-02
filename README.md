@@ -220,3 +220,4 @@
 | git.frama-c.com | gitlab | successful | 2024-04-01 18:46:25 +0000UTC | #353 |
 | git.fucktheforce.de | cgit | successful | 2024-04-01 19:38:04 +0000UTC | #357 |
 | git.gnu.ca | cgit | successful | 2024-04-02 02:27:47 +0000UTC | #359 |
+| git.furworks.de | gitea | successful | 2024-04-02 08:44:10 +0000UTC | #358 |
