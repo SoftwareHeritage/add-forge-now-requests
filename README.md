@@ -225,3 +225,4 @@
 | gitea.slowb.ro | gitea | successful | 2024-04-02 18:26:35 +0000UTC | #341 |
 | gitea.swigg.net | gitea | successful | 2024-04-03 01:03:06 +0000UTC | #342 |
 | gitlab.switch.ch | gitlab | successful | 2024-04-04 02:18:12 +0000UTC | #362 |
+| 0xacab.org | gitlab | successful | 2024-04-05 13:49:38 +0000UTC | #363 |
