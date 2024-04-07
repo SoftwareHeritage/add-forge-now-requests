@@ -226,3 +226,4 @@
 | gitea.swigg.net | gitea | successful | 2024-04-03 01:03:06 +0000UTC | #342 |
 | gitlab.switch.ch | gitlab | successful | 2024-04-04 02:18:12 +0000UTC | #362 |
 | 0xacab.org | gitlab | successful | 2024-04-05 13:49:38 +0000UTC | #363 |
+| git.devys.org | cgit | successful | 2024-04-07 03:06:17 +0000UTC | #364 |
