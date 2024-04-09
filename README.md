@@ -227,3 +227,4 @@
 | gitlab.switch.ch | gitlab | successful | 2024-04-04 02:18:12 +0000UTC | #362 |
 | 0xacab.org | gitlab | successful | 2024-04-05 13:49:38 +0000UTC | #363 |
 | git.devys.org | cgit | successful | 2024-04-07 03:06:17 +0000UTC | #364 |
+| gricad-gitlab.univ-grenoble-alpes.fr | gitlab | successful | 2024-04-09 13:36:54 +0000UTC | #365 |
