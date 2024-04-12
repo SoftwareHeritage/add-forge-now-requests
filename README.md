@@ -229,3 +229,4 @@
 | git.devys.org | cgit | successful | 2024-04-07 03:06:17 +0000UTC | #364 |
 | gricad-gitlab.univ-grenoble-alpes.fr | gitlab | successful | 2024-04-09 13:36:54 +0000UTC | #365 |
 | gitlab.windenergy.dtu.dk | gitlab | successful | 2024-04-11 02:58:27 +0000UTC | #366 |
+| git.liburcu.org | gitweb | successful | 2024-04-12 02:03:59 +0000UTC | #368 |
