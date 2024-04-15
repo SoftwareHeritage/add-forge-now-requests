@@ -230,3 +230,4 @@
 | gricad-gitlab.univ-grenoble-alpes.fr | gitlab | successful | 2024-04-09 13:36:54 +0000UTC | #365 |
 | gitlab.windenergy.dtu.dk | gitlab | successful | 2024-04-11 02:58:27 +0000UTC | #366 |
 | git.liburcu.org | gitweb | successful | 2024-04-12 02:03:59 +0000UTC | #368 |
+| git.linwood.dev | gitea | successful | 2024-04-15 03:22:53 +0000UTC | #369 |
