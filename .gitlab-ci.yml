@@ -209,4 +209,4 @@ production_status_unsuccessful:
   extends:
     - .on_failure_status
   dependencies:
-    - "1p_register-lister"
+    - "staging_status_successful"
