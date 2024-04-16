@@ -231,3 +231,4 @@
 | gitlab.windenergy.dtu.dk | gitlab | successful | 2024-04-11 02:58:27 +0000UTC | #366 |
 | git.liburcu.org | gitweb | successful | 2024-04-12 02:03:59 +0000UTC | #368 |
 | git.linwood.dev | gitea | successful | 2024-04-15 03:22:53 +0000UTC | #369 |
+| gitlab.wikimedia.org | gitlab | successful | 2024-04-16 04:32:24 +0000UTC | #371 |
