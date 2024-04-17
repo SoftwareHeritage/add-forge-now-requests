@@ -232,3 +232,4 @@
 | git.liburcu.org | gitweb | successful | 2024-04-12 02:03:59 +0000UTC | #368 |
 | git.linwood.dev | gitea | successful | 2024-04-15 03:22:53 +0000UTC | #369 |
 | gitlab.wikimedia.org | gitlab | successful | 2024-04-16 04:32:24 +0000UTC | #371 |
+| git.math.uzh.ch | gitlab | successful | 2024-04-17 06:51:13 +0000UTC | #372 |
