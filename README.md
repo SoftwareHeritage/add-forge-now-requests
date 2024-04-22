@@ -235,3 +235,4 @@
 | git.math.uzh.ch | gitlab | successful | 2024-04-17 06:51:13 +0000UTC | #372 |
 | git.mob-dev.fr | gitea | successful | 2024-04-22 04:00:17 +0000UTC | #375 |
 | gitlab.uncompleted.org | gitlab | successful | 2024-04-22 04:08:51 +0000UTC | #376 |
+| gitea.auro.re | gitea | successful | 2024-04-22 04:51:14 +0000UTC | #377 |
