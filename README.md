@@ -234,3 +234,4 @@
 | gitlab.wikimedia.org | gitlab | successful | 2024-04-16 04:32:24 +0000UTC | #371 |
 | git.math.uzh.ch | gitlab | successful | 2024-04-17 06:51:13 +0000UTC | #372 |
 | git.mob-dev.fr | gitea | successful | 2024-04-22 04:00:17 +0000UTC | #375 |
+| gitlab.uncompleted.org | gitlab | successful | 2024-04-22 04:08:51 +0000UTC | #376 |
