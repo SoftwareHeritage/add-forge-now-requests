@@ -236,3 +236,4 @@
 | git.mob-dev.fr | gitea | successful | 2024-04-22 04:00:17 +0000UTC | #375 |
 | gitlab.uncompleted.org | gitlab | successful | 2024-04-22 04:08:51 +0000UTC | #376 |
 | gitea.auro.re | gitea | successful | 2024-04-22 04:51:14 +0000UTC | #377 |
+| git.libre-soc.org | gitweb | successful | 2024-04-22 08:02:43 +0000UTC | #373 |
