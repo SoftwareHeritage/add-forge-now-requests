@@ -239,3 +239,4 @@
 | git.libre-soc.org | gitweb | successful | 2024-04-22 08:02:43 +0000UTC | #373 |
 | git.meli-email.org | gitea | successful | 2024-04-22 09:30:18 +0000UTC | #374 |
 | git.marx.cafe | cgit | successful | 2024-04-24 02:44:24 +0000UTC | #379 |
+| git.figboot.dev | cgit | successful | 2024-04-24 02:49:12 +0000UTC | #380 |
