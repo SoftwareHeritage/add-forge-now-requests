@@ -242,3 +242,4 @@
 | git.figboot.dev | cgit | successful | 2024-04-24 02:49:12 +0000UTC | #380 |
 | git.afu.re | cgit | successful | 2024-04-24 04:47:25 +0000UTC | #384 |
 | git.slackbuilds.org | cgit | successful | 2024-04-24 10:01:37 +0000UTC | #381 |
+| git.kompot.si | gitea | successful | 2024-04-24 12:55:25 +0000UTC | #382 |
