@@ -244,3 +244,4 @@
 | git.slackbuilds.org | cgit | successful | 2024-04-24 10:01:37 +0000UTC | #381 |
 | git.kompot.si | gitea | successful | 2024-04-24 12:55:25 +0000UTC | #382 |
 | git.cynerd.cz | cgit | successful | 2024-04-25 02:49:52 +0000UTC | #386 |
+| git.jroy.ca | cgit | successful | 2024-04-25 03:26:10 +0000UTC | #387 |
