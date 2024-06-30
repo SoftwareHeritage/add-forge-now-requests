@@ -250,3 +250,4 @@
 | git.logicalhacking.com | gitea | successful | 2024-04-28 17:46:35 +0000UTC | #391 |
 | git.almalinux.org | gitea | successful | 2024-04-28 17:57:24 +0000UTC | #389 |
 | gitlab.uni.lu | gitlab | unsuccessful | 2024-06-29 05:04:40 +0000UTC | #393 |
+| gitlab.uni.lu | gitlab | successful | 2024-06-30 01:28:38 +0000UTC | #393 |
