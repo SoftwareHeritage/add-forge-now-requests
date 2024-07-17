@@ -80,6 +80,7 @@ register_vars () {
 }
 
 scheduler_check_ingested_origins () {
+    printf "%s %s\n" "Started at: " "$(date "+%F %T")"
     ARGS=(-l -w)
     [[ "$ENV" == "staging" ]] && ARGS+=( --watch-period '10m')
     swh scheduler --config-file "$SWH_CONFIG_FILENAME" \
@@ -88,9 +89,11 @@ scheduler_check_ingested_origins () {
 }
 
 scheduler_check_listed_origins () {
+    printf "%s %s\n" "Started at: " "$(date "+%F %T")"
     swh scheduler --config-file "$SWH_CONFIG_FILENAME" \
     origin check-listed-origins -l \
     "$LISTER_TYPE" "$INSTANCE_NAME"
+    printf "%s %s\n" "Ended at: " "$(date "+%F %T")"
 }
 
 scheduler_check_success_rate () {
@@ -102,14 +105,17 @@ scheduler_check_success_rate () {
         echo "There are too many ingestion failures."
         exit 1
     fi
+    printf "%s %s\n" "Ended at: " "$(date "+%F %T")"
 }
 
 scheduler_register_lister () {
+    printf "%s %s\n" "Started at: " "$(date "+%F %T")"
     swh scheduler --config-file "$SWH_CONFIG_FILENAME" \
     add-forge-now --preset "$ENV" \
     register-lister "$LISTER_TYPE" \
     instance="$INSTANCE_NAME"
     sleep "$LISTING_DELAY"
+    printf "%s %s\n" "Ended at: " "$(date "+%F %T")"
 }
 
 #scheduler_register_lister () {
@@ -123,12 +129,14 @@ scheduler_register_lister () {
 #  }
 
 scheduler_schedule_first_visits () {
+    printf "%s %s\n" "Started at: " "$(date "+%F %T")"
     swh scheduler --config-file "$SWH_CONFIG_FILENAME" \
     add-forge-now --preset "$ENV" \
     schedule-first-visits \
     --type-name git \
     --lister-name "$LISTER_TYPE" \
     --lister-instance-name "$INSTANCE_NAME"
+    printf "%s %s\n" "Ended at: " "$(date "+%F %T")"
 }
 
 webapp_check_token () {
