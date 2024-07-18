@@ -253,3 +253,4 @@
 | gitlab.uni.lu | gitlab | successful | 2024-06-30 01:28:38 +0000UTC | #393 |
 | gitlab.gflclan.com | gitlab | unsuccessful | 2024-07-17 03:19:21 +0000UTC | #394 |
 | gitlab.gflclan.com | gitlab | successful | 2024-07-17 08:33:58 +0000UTC | #394 |
+| gitlab.gnome.org | gitlab | unsuccessful | 2024-07-18 11:00:30 +0000UTC | #397 |
