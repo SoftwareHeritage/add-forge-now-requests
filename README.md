@@ -23,6 +23,8 @@
 "$GITLAB_URL/api/v4/projects/$PROJECT_ID/trigger/pipeline"
 ```
 
+> You can omit the `REQUEST_ID` variable if there is no associated request on the web archive.
+
 ## Requests processing history
 
 > [Requests processing history 2023](.notes/Requests_processing_2023.md)
