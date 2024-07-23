@@ -257,3 +257,4 @@
 | gitlab.gflclan.com | gitlab | successful | 2024-07-17 08:33:58 +0000UTC | #394 |
 | gitlab.gnome.org | gitlab | unsuccessful | 2024-07-18 11:00:30 +0000UTC | #397 |
 | android-kvm.googlesource.com | gitiles | unsuccessful | 2024-07-23 10:12:44 +0000UTC | #400 |
+| ara-mdk.googlesource.com | gitiles | unsuccessful | 2024-07-23 10:48:09 +0000UTC | #402 |
