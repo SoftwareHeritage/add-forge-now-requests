@@ -158,14 +158,18 @@ webapp_check_token () {
 }
 
 webapp_comment_and_status () {
-    local COMMENT="For details, see ${GITLAB_URL}/swh/infra/${PROJECT_NAME}/-/issues/${ISSUE_ID}."
-    if [ "$#" -eq 0 ]; then
-        local TEXT="${COMMENT}"
-    elif [ "$#" -eq 1 ]; then
-        local TEXT="${COMMENT}\",\"new_status\":\"${1}"
+    if [ -z ${REQUEST_ID+x} ]; then
+        echo "No AFN request so no comment."
+    else
+        local COMMENT="For details, see ${GITLAB_URL}/swh/infra/${PROJECT_NAME}/-/issues/${ISSUE_ID}."
+        if [ "$#" -eq 0 ]; then
+            local TEXT="${COMMENT}"
+        elif [ "$#" -eq 1 ]; then
+            local TEXT="${COMMENT}\",\"new_status\":\"${1}"
+        fi
+        curl -s -H 'Content-Type: application/json' \
+        -H "Authorization: Bearer $WEBAPP_TOKEN" \
+        -d "{\"text\":\"${TEXT}\"}" \
+        "${WEBAPP_URL}/api/1/add-forge/request/${REQUEST_ID}/update/"
     fi
-    curl -s -H 'Content-Type: application/json' \
-    -H "Authorization: Bearer $WEBAPP_TOKEN" \
-    -d "{\"text\":\"${TEXT}\"}" \
-    "${WEBAPP_URL}/api/1/add-forge/request/${REQUEST_ID}/update/"
 }
