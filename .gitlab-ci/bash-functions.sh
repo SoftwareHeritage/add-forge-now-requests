@@ -42,7 +42,7 @@ gitlab_commit_readme_history () {
 
 gitlab_create_issue () {
 if [ -z ${REQUEST_ID+x} ]; then
-    local DESCRIPTION="No add-forge-now request associated to this pipeline."
+    local DESCRIPTION="No%20add-forge-now%20request%20associated%20with%20this%20pipeline%2E"
 else
     local DESCRIPTION="${WEBAPP_URL}/admin/add-forge/request/${REQUEST_ID}/"
 fi
