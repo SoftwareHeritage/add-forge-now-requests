@@ -140,20 +140,24 @@ scheduler_schedule_first_visits () {
 }
 
 webapp_check_token () {
-    if curl -s -H 'Content-Type: application/json' \
-    -H "Authorization: Bearer $WEBAPP_TOKEN" \
-    "${WEBAPP_URL}/api/1/add-forge/request/${REQUEST_ID}/get/" | \
-    grep -q "AuthenticationFailed"
-    then
-        NEW_WEBAPP_TOKEN=$(swh auth \
-        --oidc-server-url "$OIDC_URL" \
-        --realm-name "$OIDC_REALM" \
-        generate-token "$WEBAPP_USER" \
-        --password "$WEBAPP_PASSWORD")
-        gitlab_update_var WEBAPP_TOKEN "$NEW_WEBAPP_TOKEN" && \
-        echo "Webapp token has been regenerated."
+    if [ -z ${REQUEST_ID+x} ]; then
+        echo "No AFN request so need to check token."
     else
-        echo "Webapp token is valid."
+        if curl -s -H 'Content-Type: application/json' \
+        -H "Authorization: Bearer $WEBAPP_TOKEN" \
+        "${WEBAPP_URL}/api/1/add-forge/request/${REQUEST_ID}/get/" | \
+        grep -q "AuthenticationFailed"
+        then
+            NEW_WEBAPP_TOKEN=$(swh auth \
+            --oidc-server-url "$OIDC_URL" \
+            --realm-name "$OIDC_REALM" \
+            generate-token "$WEBAPP_USER" \
+            --password "$WEBAPP_PASSWORD")
+            gitlab_update_var WEBAPP_TOKEN "$NEW_WEBAPP_TOKEN" && \
+            echo "Webapp token has been regenerated."
+        else
+            echo "Webapp token is valid."
+        fi
     fi
 }
 
