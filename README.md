@@ -267,3 +267,4 @@
 | eigen.googlesource.com | gitiles | successful | 2024-07-24 02:35:45 +0000UTC | #410 |
 | cos.googlesource.com | gitiles | successful | 2024-07-24 05:04:23 +0000UTC | #408 |
 | bazel.googlesource.com | gitiles | successful | 2024-07-24 06:57:43 +0000UTC | #403 |
+| geovelo.googlesource.com | gitiles | successful | 2024-07-24 11:41:14 +0000UTC | #412 |
