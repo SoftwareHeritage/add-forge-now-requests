@@ -269,3 +269,4 @@
 | bazel.googlesource.com | gitiles | successful | 2024-07-24 06:57:43 +0000UTC | #403 |
 | geovelo.googlesource.com | gitiles | successful | 2024-07-24 11:41:14 +0000UTC | #412 |
 | ganeti.googlesource.com | gitiles | successful | 2024-07-24 12:22:18 +0000UTC | #413 |
+| goma.googlesource.com | gitiles | successful | 2024-07-24 13:28:09 +0000UTC | #414 |
