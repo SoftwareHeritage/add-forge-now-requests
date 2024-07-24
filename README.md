@@ -279,3 +279,4 @@
 | protobuf-dt.googlesource.com | gitiles | successful | 2024-07-24 19:19:10 +0000UTC | #425 |
 | plan9port.googlesource.com | gitiles | successful | 2024-07-24 19:38:29 +0000UTC | #424 |
 | roughtime.googlesource.com | gitiles | successful | 2024-07-24 19:46:02 +0000UTC | #427 |
+| upspin.googlesource.com | gitiles | successful | 2024-07-24 20:12:18 +0000UTC | #429 |
