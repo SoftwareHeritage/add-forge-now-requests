@@ -271,3 +271,4 @@
 | ganeti.googlesource.com | gitiles | successful | 2024-07-24 12:22:18 +0000UTC | #413 |
 | goma.googlesource.com | gitiles | successful | 2024-07-24 13:28:09 +0000UTC | #414 |
 | gwt.googlesource.com | gitiles | successful | 2024-07-24 14:08:54 +0000UTC | #415 |
+| manganese.googlesource.com | gitiles | successful | 2024-07-24 15:22:51 +0000UTC | #419 |
