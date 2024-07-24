@@ -276,3 +276,4 @@
 | kunit.googlesource.com | gitiles | successful | 2024-07-24 18:42:35 +0000UTC | #416 |
 | mundane.googlesource.com | gitiles | successful | 2024-07-24 18:50:15 +0000UTC | #421 |
 | maps-booking.googlesource.com | gitiles | successful | 2024-07-24 19:12:12 +0000UTC | #420 |
+| protobuf-dt.googlesource.com | gitiles | successful | 2024-07-24 19:19:10 +0000UTC | #425 |
