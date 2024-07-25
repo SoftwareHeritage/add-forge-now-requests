@@ -286,3 +286,4 @@
 | llvm.googlesource.com | gitiles | successful | 2024-07-25 15:26:31 +0000UTC | #418 |
 | nest-open-source.googlesource.com | gitiles | successful | 2024-07-25 15:32:25 +0000UTC | #422 |
 | linux.googlesource.com | gitiles | successful | 2024-07-25 15:32:45 +0000UTC | #417 |
+| gitlab.science.ru.nl | gitlab | unsuccessful | 2024-07-25 18:48:07 +0000UTC | #439 |
