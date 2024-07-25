@@ -129,8 +129,8 @@ stages:
 staging_status_successful:
   stage: staging_set_status
   script:
-    - gitlab_update_issue success
     - webapp_comment_and_status SCHEDULED
+    - gitlab_update_issue success
     - register_vars production
   extends:
     - .artifacts
@@ -189,9 +189,9 @@ staging_status_unsuccessful:
 production_status_successful:
   stage: production_set_status
   script:
+    - webapp_comment_and_status FIRST_ORIGIN_LOADED
     - gitlab_update_issue success
     - gitlab_close_issue
-    - webapp_comment_and_status FIRST_ORIGIN_LOADED
     - gitlab_commit_readme_history successful
   extends:
     - .on_success_status
