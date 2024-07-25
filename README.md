@@ -282,3 +282,4 @@
 | upspin.googlesource.com | gitiles | successful | 2024-07-24 20:12:18 +0000UTC | #429 |
 | weave.googlesource.com | gitiles | successful | 2024-07-25 06:08:40 +0000UTC | #432 |
 | nginx.googlesource.com | gitiles | successful | 2024-07-25 06:18:33 +0000UTC | #423 |
+| qemu-android.googlesource.com | gitiles | successful | 2024-07-25 12:49:36 +0000UTC | #426 |
