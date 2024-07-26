@@ -302,3 +302,4 @@
 | gitlab.nomagic.uk | gitlab | successful | 2024-07-26 14:49:41 +0000UTC | #443 |
 | git.pyrocko.org | gitea | successful | 2024-07-26 15:05:40 +0000UTC | #445 |
 | git.io-warnemuende.de | gitea | successful | 2024-07-26 15:07:09 +0000UTC | #447 |
+| gitlab.stud.idi.ntnu.no | gitlab | successful | 2024-07-26 17:49:06 +0000UTC | #442 |
