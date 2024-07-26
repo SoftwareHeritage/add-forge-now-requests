@@ -287,3 +287,4 @@
 | nest-open-source.googlesource.com | gitiles | successful | 2024-07-25 15:32:25 +0000UTC | #422 |
 | linux.googlesource.com | gitiles | successful | 2024-07-25 15:32:45 +0000UTC | #417 |
 | gitlab.science.ru.nl | gitlab | unsuccessful | 2024-07-25 18:48:07 +0000UTC | #439 |
+| third-party-mirror.googlesource.com | gitiles | successful | 2024-07-26 06:00:27 +0000UTC | #428 |
