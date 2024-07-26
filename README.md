@@ -293,3 +293,4 @@
 | git.coom.tech | gitea | successful | 2024-07-26 06:16:48 +0000UTC | #436 |
 | vanadium.googlesource.com | gitiles | successful | 2024-07-26 06:36:20 +0000UTC | #431 |
 | git.ignore.pl | cgit | successful | 2024-07-26 06:52:57 +0000UTC | #438 |
+| gitlab.science.ru.nl | gitlab | successful | 2024-07-26 10:02:47 +0000UTC | #439 |
