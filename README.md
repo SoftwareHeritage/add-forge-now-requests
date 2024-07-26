@@ -295,3 +295,4 @@
 | git.ignore.pl | cgit | successful | 2024-07-26 06:52:57 +0000UTC | #438 |
 | gitlab.science.ru.nl | gitlab | successful | 2024-07-26 10:02:47 +0000UTC | #439 |
 | git.dog | gitea | successful | 2024-07-26 10:07:50 +0000UTC | #444 |
+| git.immae.eu | cgit | successful | 2024-07-26 10:09:15 +0000UTC | #440 |
