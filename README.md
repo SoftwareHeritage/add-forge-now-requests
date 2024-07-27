@@ -305,3 +305,4 @@
 | gitlab.stud.idi.ntnu.no | gitlab | successful | 2024-07-26 17:49:06 +0000UTC | #442 |
 | code-repo.d4science.org | gitea | successful | 2024-07-26 18:25:24 +0000UTC | #449 |
 | git.openlogisticsfoundation.org | gitlab | successful | 2024-07-27 06:29:04 +0000UTC | #450 |
+| git.nemunai.re | gitea | successful | 2024-07-27 09:40:48 +0000UTC | #451 |
