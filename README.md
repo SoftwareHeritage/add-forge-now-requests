@@ -312,3 +312,4 @@
 | git.ligo.org | gitlab | successful | 2024-07-29 07:28:45 +0000UTC | #448 |
 | us3-mirror-android.googlesource.com | gitiles | successful | 2024-07-29 07:32:15 +0000UTC | #430 |
 | git.floragunn.com | gitlab | successful | 2024-07-29 14:24:33 +0000UTC | #454 |
+| git.aite.xyz | gitea | successful | 2024-07-29 15:47:07 +0000UTC | #455 |
