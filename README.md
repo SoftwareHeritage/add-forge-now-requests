@@ -317,3 +317,4 @@
 | git.gsi.de | gitlab | successful | 2024-07-29 16:57:54 +0000UTC | #456 |
 | git.ecdf.ed.ac.uk | gitlab | successful | 2024-07-29 19:40:35 +0000UTC | #458 |
 | git.fmrib.ox.ac.uk | gitlab | unsuccessful | 2024-07-29 20:52:13 +0000UTC | #459 |
+| git.scipost.org | gitlab | successful | 2024-07-29 23:52:14 +0000UTC | #461 |
