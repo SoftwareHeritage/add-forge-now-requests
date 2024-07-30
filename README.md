@@ -324,3 +324,4 @@
 | git.chainmaker.org.cn | gitlab | successful | 2024-07-30 11:37:30 +0000UTC | #462 |
 | code.stanford.edu | gitlab | successful | 2024-07-30 14:32:52 +0000UTC | #466 |
 | gitlab.galileo.usg.edu | gitlab | successful | 2024-07-30 14:34:24 +0000UTC | #467 |
+| cm-gitlab.stanford.edu | gitlab | successful | 2024-07-30 20:32:25 +0000UTC | #465 |
