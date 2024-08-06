@@ -336,3 +336,4 @@
 | gitlab03.wpi.edu | gitlab | successful | 2024-08-05 21:33:40 +0000UTC | #476 |
 | gitlab.kit.edu | gitlab | successful | 2024-08-06 07:24:54 +0000UTC | #473 |
 | gitlab01.classe.cornell.edu | gitlab | successful | 2024-08-06 07:39:43 +0000UTC | #474 |
+| repo.cse.taylor.edu | gitlab | unsuccessful | 2024-08-06 08:50:20 +0000UTC | #478 |
