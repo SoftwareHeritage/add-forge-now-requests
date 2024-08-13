@@ -356,3 +356,4 @@
 | gitlab.uvm.edu | gitlab | successful | 2024-08-13 14:02:32 +0000UTC | #495 |
 | git.mst.edu | gitlab | successful | 2024-08-13 14:03:41 +0000UTC | #496 |
 | git.janouch.name | gitea | successful | 2024-08-13 14:25:32 +0000UTC | #497 |
+| git.csclub.uwaterloo.ca | gitea | successful | 2024-08-13 14:49:09 +0000UTC | #500 |
