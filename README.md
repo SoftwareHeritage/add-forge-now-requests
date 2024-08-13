@@ -362,3 +362,4 @@
 | git.rozuvan.net | cgit | successful | 2024-08-13 16:31:32 +0000UTC | #503 |
 | git.theorangeone.net | gitea | successful | 2024-08-13 16:46:51 +0000UTC | #502 |
 | git-crysp.uwaterloo.ca | gogs | successful | 2024-08-13 16:57:49 +0000UTC | #499 |
+| gitlab.fhnw.ch | gitlab | successful | 2024-08-13 19:09:42 +0000UTC | #504 |
