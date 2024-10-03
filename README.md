@@ -382,3 +382,4 @@
 | iacgit.ethz.ch | gitlab | successful | 2024-10-03 14:55:22 +0000UTC | #523 |
 | gitlab.math.ethz.ch | gitlab | successful | 2024-10-03 15:30:19 +0000UTC | #518 |
 | spclgitlab.ethz.ch | gitlab | successful | 2024-10-03 16:26:35 +0000UTC | #524 |
+| git.scicore.unibas.ch | gitlab | successful | 2024-10-03 16:38:32 +0000UTC | #525 |
