@@ -387,3 +387,4 @@
 | git.libcamera.org | cgit | successful | 2024-10-03 20:11:42 +0000UTC | #527 |
 | git.ideasonboard.com | cgit | successful | 2024-10-03 20:14:43 +0000UTC | #528 |
 | gitlab.beilich.de | gitlab | successful | 2024-10-03 20:15:01 +0000UTC | #529 |
+| git-st.inf.tu-dresden.de | gitlab | successful | 2024-10-03 20:45:26 +0000UTC | #530 |
