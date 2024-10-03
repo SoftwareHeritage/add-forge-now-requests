@@ -377,3 +377,4 @@
 | git.passcal.nmt.edu | gitlab | successful | 2024-10-02 17:50:28 +0000UTC | #516 |
 | code.cs.earlham.edu | gitlab | successful | 2024-10-02 22:15:37 +0000UTC | #517 |
 | git.bsse.ethz.ch | gitlab | successful | 2024-10-02 22:41:55 +0000UTC | #519 |
+| gitlab.seismo.ethz.ch | gitlab | successful | 2024-10-03 13:24:09 +0000UTC | #521 |
