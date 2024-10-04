@@ -397,3 +397,4 @@
 | git.deluge-torrent.org | cgit | successful | 2024-10-04 14:59:58 +0000UTC | #533 |
 | git.ishanjain.me | gitea | unsuccessful | 2024-10-04 16:14:00 +0000UTC | #542 |
 | git.jacknet.io | gitea | successful | 2024-10-04 17:30:22 +0000UTC | #544 |
+| git.in.moodle.com | gitlab | successful | 2024-10-04 18:54:39 +0000UTC | #540 |
