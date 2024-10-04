@@ -395,3 +395,4 @@
 | gitea.burntworld.ca | gitea | successful | 2024-10-04 14:43:45 +0000UTC | #536 |
 | gitea.exu.li | gitea | successful | 2024-10-04 14:44:45 +0000UTC | #537 |
 | git.deluge-torrent.org | cgit | successful | 2024-10-04 14:59:58 +0000UTC | #533 |
+| git.ishanjain.me | gitea | unsuccessful | 2024-10-04 16:14:00 +0000UTC | #542 |
