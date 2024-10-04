@@ -393,3 +393,4 @@
 | gitea.artixlinux.org | gitea | successful | 2024-10-04 14:33:22 +0000UTC | #535 |
 | git.drobilla.net | cgit | successful | 2024-10-04 14:40:50 +0000UTC | #534 |
 | gitea.burntworld.ca | gitea | successful | 2024-10-04 14:43:45 +0000UTC | #536 |
+| gitea.exu.li | gitea | successful | 2024-10-04 14:44:45 +0000UTC | #537 |
