@@ -400,3 +400,4 @@
 | git.in.moodle.com | gitlab | successful | 2024-10-04 18:54:39 +0000UTC | #540 |
 | git.ista.ac.at | gitlab | successful | 2024-10-04 21:37:04 +0000UTC | #543 |
 | git.jwetzell.com | gitea | successful | 2024-10-05 10:34:17 +0000UTC | #550 |
+| git.ishanjain.me | gitea | successful | 2024-10-05 10:38:35 +0000UTC | #542 |
