@@ -406,4 +406,4 @@
 | git.jakesthoughts.xyz | cgit | successful | 2024-10-05 11:29:20 +0000UTC | #545 |
 | git.jon.eus | cgit | successful | 2024-10-05 11:33:31 +0000UTC | #547 |
 | git.jpnc.info | cgit | successful | 2024-10-05 11:34:16 +0000UTC | #549 |
-| git.kyriasis.com | cgit | unsuccessful | 2024-10-05 18:50:47 +0000UTC | #555 |
+| gitlab2.cip.ifi.lmu.de | gitlab | unsuccessful | 2024-10-05 18:50:48 +0000UTC | #556 |
