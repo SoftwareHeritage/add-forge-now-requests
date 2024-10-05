@@ -408,3 +408,4 @@
 | git.jpnc.info | cgit | successful | 2024-10-05 11:34:16 +0000UTC | #549 |
 | gitlab2.cip.ifi.lmu.de | gitlab | unsuccessful | 2024-10-05 18:50:48 +0000UTC | #556 |
 | gitlab.act.reading.ac.uk | gitlab | successful | 2024-10-05 20:22:35 +0000UTC | #557 |
+| csgitlab.reading.ac.uk | gitlab | successful | 2024-10-05 20:52:37 +0000UTC | #558 |
