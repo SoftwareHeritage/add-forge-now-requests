@@ -410,3 +410,4 @@
 | gitlab.act.reading.ac.uk | gitlab | successful | 2024-10-05 20:22:35 +0000UTC | #557 |
 | csgitlab.reading.ac.uk | gitlab | successful | 2024-10-05 20:52:37 +0000UTC | #558 |
 | gitlab.adullact.net | gitlab | successful | 2024-10-06 01:13:56 +0000UTC | #559 |
+| git.kiszka.org | gitweb | successful | 2024-10-06 04:47:13 +0000UTC | #552 |
