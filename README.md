@@ -419,3 +419,4 @@
 | gitlab.bacula.org | gitlab | successful | 2024-10-07 17:54:59 +0000UTC | #560 |
 | gitlab.ethz.ch | gitlab | successful | 2024-10-07 18:39:10 +0000UTC | #520 |
 | gitlab.cwp.govt.nz | gitlab | successful | 2024-10-07 19:45:07 +0000UTC | #570 |
+| gitlab2.cip.ifi.lmu.de | gitlab | successful | 2024-10-07 20:11:30 +0000UTC | #556 |
