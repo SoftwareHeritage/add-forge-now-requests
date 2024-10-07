@@ -417,3 +417,4 @@
 | gitlab.bixilon.de | gitlab | successful | 2024-10-07 17:06:10 +0000UTC | #561 |
 | gitlab.cs.duke.edu | gitlab | successful | 2024-10-07 17:11:56 +0000UTC | #565 |
 | gitlab.bacula.org | gitlab | successful | 2024-10-07 17:54:59 +0000UTC | #560 |
+| gitlab.ethz.ch | gitlab | successful | 2024-10-07 18:39:10 +0000UTC | #520 |
