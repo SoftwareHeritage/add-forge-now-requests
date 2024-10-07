@@ -414,3 +414,4 @@
 | git.kyriasis.com | cgit | successful | 2024-10-07 14:49:09 +0000UTC | #555 |
 | gitlab.codelutin.com | gitlab | successful | 2024-10-07 16:30:29 +0000UTC | #564 |
 | gitlab.chara.gsu.edu | gitlab | successful | 2024-10-07 16:37:48 +0000UTC | #562 |
+| gitlab.bixilon.de | gitlab | successful | 2024-10-07 17:06:10 +0000UTC | #561 |
