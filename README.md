@@ -422,3 +422,4 @@
 | gitlab2.cip.ifi.lmu.de | gitlab | successful | 2024-10-07 20:11:30 +0000UTC | #556 |
 | gitlab.cs.mcgill.ca | gitlab | successful | 2024-10-07 21:13:07 +0000UTC | #567 |
 | gitlab.csn.tu-chemnitz.de | gitlab | successful | 2024-10-07 21:13:23 +0000UTC | #568 |
+| gitlab.cse.iitb.ac.in | gitlab | successful | 2024-10-07 22:12:37 +0000UTC | #566 |
