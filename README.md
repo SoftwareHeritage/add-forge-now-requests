@@ -425,3 +425,4 @@
 | gitlab.cse.iitb.ac.in | gitlab | successful | 2024-10-07 22:12:37 +0000UTC | #566 |
 | gitlab.digilol.net | gitlab | successful | 2024-10-08 08:19:44 +0000UTC | #572 |
 | gitlab.depp.it | gitlab | successful | 2024-10-08 09:12:51 +0000UTC | #571 |
+| gitlab.di.unipmn.it | gitlab | successful | 2024-10-08 09:20:32 +0000UTC | #573 |
