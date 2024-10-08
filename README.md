@@ -426,3 +426,4 @@
 | gitlab.digilol.net | gitlab | successful | 2024-10-08 08:19:44 +0000UTC | #572 |
 | gitlab.depp.it | gitlab | successful | 2024-10-08 09:12:51 +0000UTC | #571 |
 | gitlab.di.unipmn.it | gitlab | successful | 2024-10-08 09:20:32 +0000UTC | #573 |
+| gitlab.eientei.org | gitlab | successful | 2024-10-08 13:41:48 +0000UTC | #574 |
