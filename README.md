@@ -428,3 +428,4 @@
 | gitlab.di.unipmn.it | gitlab | successful | 2024-10-08 09:20:32 +0000UTC | #573 |
 | gitlab.eientei.org | gitlab | successful | 2024-10-08 13:41:48 +0000UTC | #574 |
 | gitlab.finki.ukim.mk | gitlab | successful | 2024-10-08 14:09:02 +0000UTC | #576 |
+| gitlab.esss.lu.se | gitlab | successful | 2024-10-08 15:26:24 +0000UTC | #575 |
