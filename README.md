@@ -435,3 +435,4 @@
 | gitlab.fit.cvut.cz | gitlab | successful | 2024-10-09 11:38:40 +0000UTC | #578 |
 | gitlab.chise.org | gitlab | successful | 2024-10-09 14:30:04 +0000UTC | #563 |
 | gitlab.grnet.gr | gitlab | successful | 2024-10-09 16:19:29 +0000UTC | #581 |
+| gitlab.gbar.dtu.dk | gitlab | successful | 2024-10-09 16:28:35 +0000UTC | #580 |
