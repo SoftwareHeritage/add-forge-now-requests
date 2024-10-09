@@ -430,3 +430,4 @@
 | gitlab.finki.ukim.mk | gitlab | successful | 2024-10-08 14:09:02 +0000UTC | #576 |
 | gitlab.esss.lu.se | gitlab | successful | 2024-10-08 15:26:24 +0000UTC | #575 |
 | gitlab.fjfi.cvut.cz | gitlab | successful | 2024-10-08 23:29:05 +0000UTC | #579 |
+| gitlab.gbar.dtu.dk | gitlab | unsuccessful | 2024-10-09 04:04:29 +0000UTC | #580 |
