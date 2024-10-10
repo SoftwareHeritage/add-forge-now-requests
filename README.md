@@ -453,3 +453,4 @@
 | git.fairkom.net | gitlab | successful | 2024-10-10 17:55:29 +0000UTC | #600 |
 | git.faithcollapsing.com | gitea | successful | 2024-10-10 17:56:12 +0000UTC | #601 |
 | git.fim.uni-passau.de | gitlab | successful | 2024-10-10 18:30:24 +0000UTC | #602 |
+| git.cbaines.net | cgit | successful | 2024-10-10 19:31:17 +0000UTC | #603 |
