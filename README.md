@@ -443,3 +443,4 @@
 | git.bzatek.net | gitweb | successful | 2024-10-10 10:31:29 +0000UTC | #590 |
 | gitlab.maths.lu.se | gitlab | successful | 2024-10-10 10:54:37 +0000UTC | #586 |
 | git.artsoft.org | gitweb | successful | 2024-10-10 10:58:54 +0000UTC | #588 |
+| git.chriswb.dev | gitea | successful | 2024-10-10 14:02:52 +0000UTC | #592 |
