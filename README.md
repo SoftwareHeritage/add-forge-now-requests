@@ -442,3 +442,4 @@
 | git.antares.id | gitlab | successful | 2024-10-10 10:07:36 +0000UTC | #587 |
 | git.bzatek.net | gitweb | successful | 2024-10-10 10:31:29 +0000UTC | #590 |
 | gitlab.maths.lu.se | gitlab | successful | 2024-10-10 10:54:37 +0000UTC | #586 |
+| git.artsoft.org | gitweb | successful | 2024-10-10 10:58:54 +0000UTC | #588 |
