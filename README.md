@@ -447,3 +447,4 @@
 | git.cromer.cl | gitea | successful | 2024-10-10 14:04:04 +0000UTC | #593 |
 | git.defproc.co.uk | gitlab | successful | 2024-10-10 14:07:43 +0000UTC | #595 |
 | git.darkcloud.ca | gitea | successful | 2024-10-10 14:17:37 +0000UTC | #596 |
+| gitea.philsson.com | gitea | successful | 2024-10-10 14:19:49 +0000UTC | #597 |
