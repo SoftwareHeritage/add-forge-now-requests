@@ -450,3 +450,4 @@
 | gitea.philsson.com | gitea | successful | 2024-10-10 14:19:49 +0000UTC | #597 |
 | gitea.polonkai.eu | gitea | successful | 2024-10-10 17:22:10 +0000UTC | #598 |
 | git.elektro.dtu.dk | gitlab | successful | 2024-10-10 17:23:11 +0000UTC | #599 |
+| git.fairkom.net | gitlab | successful | 2024-10-10 17:55:29 +0000UTC | #600 |
