@@ -452,3 +452,4 @@
 | git.elektro.dtu.dk | gitlab | successful | 2024-10-10 17:23:11 +0000UTC | #599 |
 | git.fairkom.net | gitlab | successful | 2024-10-10 17:55:29 +0000UTC | #600 |
 | git.faithcollapsing.com | gitea | successful | 2024-10-10 17:56:12 +0000UTC | #601 |
+| git.fim.uni-passau.de | gitlab | successful | 2024-10-10 18:30:24 +0000UTC | #602 |
