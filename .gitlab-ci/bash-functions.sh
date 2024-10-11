@@ -76,6 +76,11 @@ gitlab_update_var () {
     "${GITLAB_URL}/api/v4/projects/${PROJECT_ID}/variables/${VAR_NAME}" > /dev/null
 }
 
+print_date () {
+    local STATUS=$1
+    printf "%s at: %s\n" "$STATUS" "$(date "+%F %T %z%Z")"
+}
+
 register_vars () {
     local ENV=$1
     local SWH_CONFIG_FILENAME=${ENV^^}_CONFIG_FILENAME

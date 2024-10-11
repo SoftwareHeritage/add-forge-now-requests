@@ -6,11 +6,11 @@ default:
     - if [ -f build.env ]; then source build.env; fi
     - export SWH_CONFIG_FILENAME="$SWH_CONFIG_FILENAME"
     - source .gitlab-ci/bash-functions.sh
-    - printf "%s %s %s\n" "Started at: " "$(date "+%F %T %z%Z")"
+    - print_date Started
   tags:
     - AddForgeNowRequest
   after_script:
-    - printf "%s %s %s\n" "Ended at: " "$(date "+%F %T %z%Z")"
+    - print_date Completed
 
 variables:
   STAGING_AMQP_URL: http://scheduler0.internal.staging.swh.network:15672
