@@ -461,3 +461,4 @@
 | git.informatik.uni-rostock.de | gitlab | successful | 2024-10-11 12:38:56 +0000UTC | #606 |
 | git.ispconfig.org | gitlab | successful | 2024-10-11 13:09:12 +0000UTC | #607 |
 | gitlab.catalyst.net.nz | gitlab | successful | 2024-10-11 13:10:29 +0000UTC | #609 |
+| gitlab.chab.ethz.ch | gitlab | successful | 2024-10-11 13:21:42 +0000UTC | #610 |
