@@ -456,3 +456,4 @@
 | git.cbaines.net | cgit | successful | 2024-10-10 19:31:17 +0000UTC | #603 |
 | git.iac.ethz.ch | gitlab | successful | 2024-10-11 10:08:07 +0000UTC | #604 |
 | gitlab.fel.cvut.cz | gitlab | successful | 2024-10-11 10:12:29 +0000UTC | #577 |
+| git.iccas.de | gitlab | successful | 2024-10-11 11:28:44 +0000UTC | #605 |
