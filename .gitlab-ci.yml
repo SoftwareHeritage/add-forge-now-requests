@@ -10,6 +10,7 @@ default:
   tags:
     - AddForgeNowRequest
   after_script:
+    - source .gitlab-ci/bash-functions.sh
     - print_date Completed
 
 variables:
