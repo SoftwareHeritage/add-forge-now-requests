@@ -458,3 +458,4 @@
 | gitlab.fel.cvut.cz | gitlab | successful | 2024-10-11 10:12:29 +0000UTC | #577 |
 | git.iccas.de | gitlab | successful | 2024-10-11 11:28:44 +0000UTC | #605 |
 | gitlab.citic.udc.es | gitlab | successful | 2024-10-11 12:08:47 +0000UTC | #611 |
+| git.informatik.uni-rostock.de | gitlab | successful | 2024-10-11 12:38:56 +0000UTC | #606 |
