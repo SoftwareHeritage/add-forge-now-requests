@@ -462,3 +462,4 @@
 | git.ispconfig.org | gitlab | successful | 2024-10-11 13:09:12 +0000UTC | #607 |
 | gitlab.catalyst.net.nz | gitlab | successful | 2024-10-11 13:10:29 +0000UTC | #609 |
 | gitlab.chab.ethz.ch | gitlab | successful | 2024-10-11 13:21:42 +0000UTC | #610 |
+| gitlab.cobolworx.com | gitlab | successful | 2024-10-11 17:46:48 +0000UTC | #612 |
