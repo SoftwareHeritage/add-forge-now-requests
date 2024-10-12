@@ -477,3 +477,4 @@
 | gitlab.mpi-magdeburg.mpg.de | gitlab | successful | 2024-10-12 21:26:27 +0000UTC | #624 |
 | gitlab-new.bap.jp | gitlab | successful | 2024-10-12 22:00:17 +0000UTC | #627 |
 | git.laborejo.org | gitea | successful | 2024-10-12 22:02:45 +0000UTC | #628 |
+| gitlab.mpcdf.mpg.de | gitlab | successful | 2024-10-12 23:38:00 +0000UTC | #622 |
