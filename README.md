@@ -467,3 +467,4 @@
 | gitlab.fim.uni-passau.de | gitlab | successful | 2024-10-12 09:42:45 +0000UTC | #616 |
 | gitlab.deep-nope.me | gitlab | successful | 2024-10-12 11:00:05 +0000UTC | #613 |
 | gitlab.elaine.uni-rostock.de | gitlab | successful | 2024-10-12 11:02:13 +0000UTC | #615 |
+| gitea.muc.ccc.de | gitea | successful | 2024-10-12 11:09:46 +0000UTC | #619 |
