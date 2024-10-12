@@ -465,3 +465,4 @@
 | gitlab.cobolworx.com | gitlab | successful | 2024-10-11 17:46:48 +0000UTC | #612 |
 | gitlab.amd.e-technik.uni-rostock.de | gitlab | successful | 2024-10-11 18:09:48 +0000UTC | #608 |
 | gitlab.fim.uni-passau.de | gitlab | successful | 2024-10-12 09:42:45 +0000UTC | #616 |
+| gitlab.deep-nope.me | gitlab | successful | 2024-10-12 11:00:05 +0000UTC | #613 |
