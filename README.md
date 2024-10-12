@@ -473,3 +473,4 @@
 | code.chipmunk.land | gitea | successful | 2024-10-12 13:54:55 +0000UTC | #620 |
 | gitlab.mis.mpg.de | gitlab | successful | 2024-10-12 19:21:11 +0000UTC | #621 |
 | gitlab.mpim-bonn.mpg.de | gitlab | successful | 2024-10-12 20:56:24 +0000UTC | #625 |
+| gitlab.mpip-mainz.mpg.de | gitlab | successful | 2024-10-12 20:56:46 +0000UTC | #626 |
