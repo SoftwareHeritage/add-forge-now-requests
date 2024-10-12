@@ -470,3 +470,4 @@
 | gitea.muc.ccc.de | gitea | successful | 2024-10-12 11:09:46 +0000UTC | #619 |
 | gitlab.infosun.fim.uni-passau.de | gitlab | successful | 2024-10-12 11:14:10 +0000UTC | #617 |
 | gitlab.ebrains.eu | gitlab | successful | 2024-10-12 12:21:32 +0000UTC | #614 |
+| code.chipmunk.land | gitea | successful | 2024-10-12 13:54:55 +0000UTC | #620 |
