@@ -472,3 +472,4 @@
 | gitlab.ebrains.eu | gitlab | successful | 2024-10-12 12:21:32 +0000UTC | #614 |
 | code.chipmunk.land | gitea | successful | 2024-10-12 13:54:55 +0000UTC | #620 |
 | gitlab.mis.mpg.de | gitlab | successful | 2024-10-12 19:21:11 +0000UTC | #621 |
+| gitlab.mpim-bonn.mpg.de | gitlab | successful | 2024-10-12 20:56:24 +0000UTC | #625 |
