@@ -474,3 +474,4 @@
 | gitlab.mis.mpg.de | gitlab | successful | 2024-10-12 19:21:11 +0000UTC | #621 |
 | gitlab.mpim-bonn.mpg.de | gitlab | successful | 2024-10-12 20:56:24 +0000UTC | #625 |
 | gitlab.mpip-mainz.mpg.de | gitlab | successful | 2024-10-12 20:56:46 +0000UTC | #626 |
+| gitlab.mpi-magdeburg.mpg.de | gitlab | successful | 2024-10-12 21:26:27 +0000UTC | #624 |
