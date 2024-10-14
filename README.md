@@ -486,3 +486,4 @@
 | gitlab.pik-potsdam.de | gitlab | successful | 2024-10-14 11:29:09 +0000UTC | #629 |
 | gitlab.reutlingen-university.de | gitlab | successful | 2024-10-14 11:33:33 +0000UTC | #634 |
 | gitlab.rm.ingv.it | gitlab | successful | 2024-10-14 13:55:47 +0000UTC | #636 |
+| gitlab.psi.ch | gitlab | successful | 2024-10-14 15:12:44 +0000UTC | #633 |
