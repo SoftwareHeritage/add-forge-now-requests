@@ -479,3 +479,4 @@
 | git.laborejo.org | gitea | successful | 2024-10-12 22:02:45 +0000UTC | #628 |
 | gitlab.mpcdf.mpg.de | gitlab | successful | 2024-10-12 23:38:00 +0000UTC | #622 |
 | gitlab.mpi-klsb.mpg.de | gitlab | successful | 2024-10-12 23:56:13 +0000UTC | #623 |
+| gitlab.pks.mpg.de | gitlab | successful | 2024-10-14 11:00:23 +0000UTC | #630 |
