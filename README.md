@@ -481,3 +481,4 @@
 | gitlab.mpi-klsb.mpg.de | gitlab | successful | 2024-10-12 23:56:13 +0000UTC | #623 |
 | gitlab.pks.mpg.de | gitlab | successful | 2024-10-14 11:00:23 +0000UTC | #630 |
 | gitlab.pod.cvut.cz | gitlab | successful | 2024-10-14 11:01:09 +0000UTC | #631 |
+| gitlab.priv.socib.es | gitlab | successful | 2024-10-14 11:01:53 +0000UTC | #632 |
