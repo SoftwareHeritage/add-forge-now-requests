@@ -484,3 +484,4 @@
 | gitlab.priv.socib.es | gitlab | successful | 2024-10-14 11:01:53 +0000UTC | #632 |
 | gitlab-forschung.reutlingen-university.de | gitlab | successful | 2024-10-14 11:04:18 +0000UTC | #635 |
 | gitlab.pik-potsdam.de | gitlab | successful | 2024-10-14 11:29:09 +0000UTC | #629 |
+| gitlab.reutlingen-university.de | gitlab | successful | 2024-10-14 11:33:33 +0000UTC | #634 |
