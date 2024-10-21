@@ -505,3 +505,4 @@
 | git.lfb.rwth-aachen.de | gitlab | successful | 2024-10-21 13:33:43 +0000UTC | #677 |
 | git.local-it.org | gitea | successful | 2024-10-21 13:39:51 +0000UTC | #682 |
 | git.forum.ircam.fr | gitlab | successful | 2024-10-21 18:37:31 +0000UTC | #684 |
+| gitbio.ens-lyon.fr | gitlab | successful | 2024-10-21 18:39:03 +0000UTC | #686 |
