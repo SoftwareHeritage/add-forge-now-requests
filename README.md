@@ -504,3 +504,4 @@
 | git.lekensteyn.nl | cgit | successful | 2024-10-21 13:32:49 +0000UTC | #676 |
 | git.lfb.rwth-aachen.de | gitlab | successful | 2024-10-21 13:33:43 +0000UTC | #677 |
 | git.local-it.org | gitea | successful | 2024-10-21 13:39:51 +0000UTC | #682 |
+| git.forum.ircam.fr | gitlab | successful | 2024-10-21 18:37:31 +0000UTC | #684 |
