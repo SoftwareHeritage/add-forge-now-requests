@@ -500,3 +500,4 @@
 | gitlab.ssemi.cz | gitlab | successful | 2024-10-15 09:13:48 +0000UTC | #648 |
 | gitlab.zapb.de | gitlab | successful | 2024-10-21 11:28:51 +0000UTC | #673 |
 | git.linta.de | cgit | successful | 2024-10-21 13:17:27 +0000UTC | #679 |
+| git.linux-help.org | gitea | successful | 2024-10-21 13:18:11 +0000UTC | #680 |
