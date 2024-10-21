@@ -32,7 +32,7 @@ gitlab_commit_readme_history () {
     echo "| ${INSTANCE_NAME} | ${LISTER_TYPE} | ${STATUS} | ${VISIT_DATE} | #${ISSUE_ID} |" >> README.new
     curl -s -X POST \
      -F "branch=main" \
-     -F "commit_message=afnr: 🤖 process ${STATUS}ly ${INSTANCE_NAME}" \
+     -F "commit_message=🤖 process ${STATUS}ly ${INSTANCE_NAME}" \
      -F "actions[][action]=update" \
      -F "actions[][file_path]=README.md" \
      -F "actions[][content]=<README.new" \
