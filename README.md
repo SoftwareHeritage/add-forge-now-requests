@@ -501,3 +501,4 @@
 | gitlab.zapb.de | gitlab | successful | 2024-10-21 11:28:51 +0000UTC | #673 |
 | git.linta.de | cgit | successful | 2024-10-21 13:17:27 +0000UTC | #679 |
 | git.linux-help.org | gitea | successful | 2024-10-21 13:18:11 +0000UTC | #680 |
+| git.lekensteyn.nl | cgit | successful | 2024-10-21 13:32:49 +0000UTC | #676 |
