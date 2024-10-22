@@ -507,3 +507,4 @@
 | git.forum.ircam.fr | gitlab | successful | 2024-10-21 18:37:31 +0000UTC | #684 |
 | gitbio.ens-lyon.fr | gitlab | successful | 2024-10-21 18:39:03 +0000UTC | #686 |
 | git.inpt.fr | gitlab | successful | 2024-10-21 23:23:31 +0000UTC | #688 |
+| git.ias.u-psud.fr | gitlab | successful | 2024-10-22 00:08:03 +0000UTC | #685 |
