@@ -519,3 +519,4 @@
 | git.fws.fr | gitea | successful | 2024-10-23 09:08:26 +0000UTC | #695 |
 | git.katzei.fr | gitea | successful | 2024-10-23 09:09:14 +0000UTC | #696 |
 | git.frogeye.fr | gitea | successful | 2024-10-23 09:41:50 +0000UTC | #698 |
+| forger.sitiv.fr | gitea | successful | 2024-10-23 10:09:44 +0000UTC | #697 |
