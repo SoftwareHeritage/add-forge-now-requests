@@ -531,3 +531,4 @@
 | gitcrcm.marseille.inserm.fr | gitlab | successful | 2024-10-23 13:20:22 +0000UTC | #706 |
 | gitlab.ccsd.cnrs.fr | gitlab | successful | 2024-10-23 19:51:33 +0000UTC | #708 |
 | gitlab.depp.education.fr | gitlab | successful | 2024-10-23 19:54:52 +0000UTC | #711 |
+| git.khirnov.net | cgit | successful | 2024-10-23 20:20:37 +0000UTC | #707 |
