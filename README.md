@@ -521,3 +521,4 @@
 | git.frogeye.fr | gitea | successful | 2024-10-23 09:41:50 +0000UTC | #698 |
 | forger.sitiv.fr | gitea | successful | 2024-10-23 10:09:44 +0000UTC | #697 |
 | git.univ-pau.fr | gitlab | successful | 2024-10-23 10:12:03 +0000UTC | #699 |
+| git.mylloon.fr | gitea | successful | 2024-10-23 10:13:34 +0000UTC | #700 |
