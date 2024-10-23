@@ -515,3 +515,4 @@
 | git.cybertron.fr | gitlab | successful | 2024-10-22 19:13:54 +0000UTC | #693 |
 | git.legaragenumerique.fr | gitea | successful | 2024-10-22 19:44:36 +0000UTC | #694 |
 | gitea.evolix.org | gitea | successful | 2024-10-22 20:23:02 +0000UTC | #692 |
+| git.linuxtv.org | cgit | successful | 2024-10-23 02:29:08 +0000UTC | #681 |
