@@ -526,3 +526,4 @@
 | git.unicaen.fr | gitlab | successful | 2024-10-23 12:21:38 +0000UTC | #690 |
 | gitlab.sib.swiss | gitlab | successful | 2024-10-23 12:46:30 +0000UTC | #702 |
 | gitlab.college-de-france.fr | gitlab | successful | 2024-10-23 12:49:11 +0000UTC | #704 |
+| gitlab.enssat.fr | gitlab | successful | 2024-10-23 12:49:33 +0000UTC | #705 |
