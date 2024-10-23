@@ -524,3 +524,4 @@
 | git.mylloon.fr | gitea | successful | 2024-10-23 10:13:34 +0000UTC | #700 |
 | git.tetalab.org | gitea | successful | 2024-10-23 10:15:55 +0000UTC | #701 |
 | git.unicaen.fr | gitlab | successful | 2024-10-23 12:21:38 +0000UTC | #690 |
+| gitlab.sib.swiss | gitlab | successful | 2024-10-23 12:46:30 +0000UTC | #702 |
