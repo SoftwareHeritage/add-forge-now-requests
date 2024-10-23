@@ -529,3 +529,4 @@
 | gitlab.enssat.fr | gitlab | successful | 2024-10-23 12:49:33 +0000UTC | #705 |
 | git.dcc.sib.swiss | gitlab | successful | 2024-10-23 13:08:39 +0000UTC | #703 |
 | gitcrcm.marseille.inserm.fr | gitlab | successful | 2024-10-23 13:20:22 +0000UTC | #706 |
+| gitlab.ccsd.cnrs.fr | gitlab | successful | 2024-10-23 19:51:33 +0000UTC | #708 |
