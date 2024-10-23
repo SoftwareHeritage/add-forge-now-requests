@@ -533,3 +533,4 @@
 | gitlab.depp.education.fr | gitlab | successful | 2024-10-23 19:54:52 +0000UTC | #711 |
 | git.khirnov.net | cgit | successful | 2024-10-23 20:20:37 +0000UTC | #707 |
 | gitlab.emi.u-bordeaux.fr | gitlab | successful | 2024-10-23 20:25:39 +0000UTC | #712 |
+| gitlab.erc-atmo.eu | gitlab | successful | 2024-10-23 20:28:27 +0000UTC | #713 |
