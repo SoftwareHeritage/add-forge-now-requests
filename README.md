@@ -543,3 +543,4 @@
 | gitlab.fresnel.fr | gitlab | successful | 2024-10-24 09:19:35 +0000UTC | #718 |
 | gitlab.has-sante.fr | gitlab | successful | 2024-10-24 09:19:47 +0000UTC | #719 |
 | gitlab.iiep.unesco.org | gitlab | successful | 2024-10-24 13:53:38 +0000UTC | #722 |
+| gitlab.huma-num.fr | gitlab | successful | 2024-10-24 16:20:28 +0000UTC | #720 |
