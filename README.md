@@ -538,3 +538,4 @@
 | gitlab.cemea.org | gitlab | successful | 2024-10-23 21:14:14 +0000UTC | #709 |
 | gitlab.cristal.univ-lille.fr | gitlab | successful | 2024-10-23 21:24:02 +0000UTC | #710 |
 | gitlabev.imtbs-tsp.eu | gitlab | successful | 2024-10-24 08:47:09 +0000UTC | #715 |
+| gitlab-forge.din.developpement-durable.gouv.fr | gitlab | successful | 2024-10-24 09:18:57 +0000UTC | #717 |
