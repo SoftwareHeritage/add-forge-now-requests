@@ -546,3 +546,4 @@
 | gitlab.huma-num.fr | gitlab | successful | 2024-10-24 16:20:28 +0000UTC | #720 |
 | gitlab.ifremer.fr | gitlab | successful | 2024-10-24 18:20:28 +0000UTC | #721 |
 | gitlab.imt-atlantique.fr | gitlab | successful | 2024-10-24 20:08:04 +0000UTC | #723 |
+| gitlab.inha.fr | gitlab | successful | 2024-10-24 20:38:22 +0000UTC | #725 |
