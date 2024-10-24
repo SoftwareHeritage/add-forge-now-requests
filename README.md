@@ -540,3 +540,4 @@
 | gitlabev.imtbs-tsp.eu | gitlab | successful | 2024-10-24 08:47:09 +0000UTC | #715 |
 | gitlab-forge.din.developpement-durable.gouv.fr | gitlab | successful | 2024-10-24 09:18:57 +0000UTC | #717 |
 | gitlab-fil.univ-lille.fr | gitlab | successful | 2024-10-24 09:19:08 +0000UTC | #716 |
+| gitlab.fresnel.fr | gitlab | successful | 2024-10-24 09:19:35 +0000UTC | #718 |
