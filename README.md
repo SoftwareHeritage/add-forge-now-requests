@@ -547,3 +547,4 @@
 | gitlab.ifremer.fr | gitlab | successful | 2024-10-24 18:20:28 +0000UTC | #721 |
 | gitlab.imt-atlantique.fr | gitlab | successful | 2024-10-24 20:08:04 +0000UTC | #723 |
 | gitlab.inha.fr | gitlab | successful | 2024-10-24 20:38:22 +0000UTC | #725 |
+| gitlab.irit.fr | gitlab | successful | 2024-10-24 20:49:25 +0000UTC | #726 |
