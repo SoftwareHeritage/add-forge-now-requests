@@ -545,3 +545,4 @@
 | gitlab.iiep.unesco.org | gitlab | successful | 2024-10-24 13:53:38 +0000UTC | #722 |
 | gitlab.huma-num.fr | gitlab | successful | 2024-10-24 16:20:28 +0000UTC | #720 |
 | gitlab.ifremer.fr | gitlab | successful | 2024-10-24 18:20:28 +0000UTC | #721 |
+| gitlab.imt-atlantique.fr | gitlab | successful | 2024-10-24 20:08:04 +0000UTC | #723 |
