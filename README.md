@@ -565,3 +565,4 @@
 | git.icare.univ-lille.fr | gitlab | successful | 2024-10-25 14:03:54 +0000UTC | #743 |
 | gitlab.enpc.fr | gitlab | successful | 2024-10-25 14:05:18 +0000UTC | #745 |
 | git.beta.francetravail.fr | gitlab | successful | 2024-10-25 14:08:53 +0000UTC | #740 |
+| gitlab.cerema.fr | gitlab | successful | 2024-10-25 14:34:57 +0000UTC | #744 |
