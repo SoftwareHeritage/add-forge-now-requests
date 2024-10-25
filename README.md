@@ -551,3 +551,4 @@
 | gitlab.irstea.fr | gitlab | successful | 2024-10-24 21:20:37 +0000UTC | #727 |
 | gitlab.inf.telecom-sudparis.eu | gitlab | successful | 2024-10-24 21:38:11 +0000UTC | #724 |
 | gitlab.isae-supaero.fr | gitlab | successful | 2024-10-24 22:21:24 +0000UTC | #728 |
+| gitlab.iut-blagnac.fr | gitlab | successful | 2024-10-25 03:15:37 +0000UTC | #730 |
