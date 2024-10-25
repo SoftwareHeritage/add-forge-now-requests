@@ -555,3 +555,4 @@
 | gitlab.lava.polymtl.ca | gitlab | successful | 2024-10-25 09:14:14 +0000UTC | #732 |
 | gitlab.meca.polymtl.ca | gitlab | successful | 2024-10-25 09:18:27 +0000UTC | #735 |
 | gitlab.mim-libre.fr | gitlab | successful | 2024-10-25 09:47:08 +0000UTC | #736 |
+| gitlab.lam.fr | gitlab | successful | 2024-10-25 10:20:02 +0000UTC | #731 |
