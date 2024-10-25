@@ -563,3 +563,4 @@
 | gitawonk.com | gitea | successful | 2024-10-25 13:57:42 +0000UTC | #739 |
 | git.cines.fr | gitlab | successful | 2024-10-25 14:00:33 +0000UTC | #742 |
 | git.icare.univ-lille.fr | gitlab | successful | 2024-10-25 14:03:54 +0000UTC | #743 |
+| gitlab.enpc.fr | gitlab | successful | 2024-10-25 14:05:18 +0000UTC | #745 |
