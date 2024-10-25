@@ -553,3 +553,4 @@
 | gitlab.isae-supaero.fr | gitlab | successful | 2024-10-24 22:21:24 +0000UTC | #728 |
 | gitlab.iut-blagnac.fr | gitlab | successful | 2024-10-25 03:15:37 +0000UTC | #730 |
 | gitlab.lava.polymtl.ca | gitlab | successful | 2024-10-25 09:14:14 +0000UTC | #732 |
+| gitlab.meca.polymtl.ca | gitlab | successful | 2024-10-25 09:18:27 +0000UTC | #735 |
