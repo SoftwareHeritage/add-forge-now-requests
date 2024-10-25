@@ -560,3 +560,4 @@
 | git.ademe.fr | gitlab | successful | 2024-10-25 10:30:05 +0000UTC | #738 |
 | gitlab.maisondelasimulation.fr | gitlab | successful | 2024-10-25 11:25:01 +0000UTC | #734 |
 | gitlab.limos.fr | gitlab | successful | 2024-10-25 13:28:44 +0000UTC | #733 |
+| gitawonk.com | gitea | successful | 2024-10-25 13:57:42 +0000UTC | #739 |
