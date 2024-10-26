@@ -568,3 +568,4 @@
 | gitlab.cerema.fr | gitlab | successful | 2024-10-25 14:34:57 +0000UTC | #744 |
 | git.breakpoint.cc | cgit | successful | 2024-10-25 23:59:59 +0000UTC | #741 |
 | gitlab.mjus.gba.gob.ar | gitlab | successful | 2024-10-26 10:47:15 +0000UTC | #748 |
+| gitlab.mobilites-m.fr | gitlab | successful | 2024-10-26 10:47:19 +0000UTC | #749 |
