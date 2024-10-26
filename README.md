@@ -570,3 +570,4 @@
 | gitlab.mjus.gba.gob.ar | gitlab | successful | 2024-10-26 10:47:15 +0000UTC | #748 |
 | gitlab.mobilites-m.fr | gitlab | successful | 2024-10-26 10:47:19 +0000UTC | #749 |
 | gitlab.math.unistra.fr | gitlab | successful | 2024-10-26 10:48:55 +0000UTC | #750 |
+| gitlab.forge.hefr.ch | gitlab | successful | 2024-10-26 12:22:50 +0000UTC | #746 |
