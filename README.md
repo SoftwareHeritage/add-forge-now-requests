@@ -572,3 +572,4 @@
 | gitlab.math.unistra.fr | gitlab | successful | 2024-10-26 10:48:55 +0000UTC | #750 |
 | gitlab.forge.hefr.ch | gitlab | successful | 2024-10-26 12:22:50 +0000UTC | #746 |
 | gitlab.isima.fr | gitlab | successful | 2024-10-26 15:14:19 +0000UTC | #747 |
+| gitlab.paca.inrae.fr | gitlab | successful | 2024-10-26 15:14:30 +0000UTC | #753 |
