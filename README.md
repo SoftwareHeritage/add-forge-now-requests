@@ -576,3 +576,4 @@
 | forge.apps.education.fr | gitlab | successful | 2024-10-26 17:10:53 +0000UTC | #751 |
 | gitlab.oca.eu | gitlab | successful | 2024-10-26 17:23:57 +0000UTC | #752 |
 | gitlab-perspicuous-computing-science.mpi-klsb.mpg.de | gitlab | unsuccessful | 2024-10-26 18:35:40 +0000UTC | #756 |
+| gitlab.pedago.ensiie.fr | gitlab | successful | 2024-10-26 22:43:33 +0000UTC | #755 |
