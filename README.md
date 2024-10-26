@@ -569,3 +569,4 @@
 | git.breakpoint.cc | cgit | successful | 2024-10-25 23:59:59 +0000UTC | #741 |
 | gitlab.mjus.gba.gob.ar | gitlab | successful | 2024-10-26 10:47:15 +0000UTC | #748 |
 | gitlab.mobilites-m.fr | gitlab | successful | 2024-10-26 10:47:19 +0000UTC | #749 |
+| gitlab.math.unistra.fr | gitlab | successful | 2024-10-26 10:48:55 +0000UTC | #750 |
