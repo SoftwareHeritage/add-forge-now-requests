@@ -577,3 +577,4 @@
 | gitlab.oca.eu | gitlab | successful | 2024-10-26 17:23:57 +0000UTC | #752 |
 | gitlab-perspicuous-computing-science.mpi-klsb.mpg.de | gitlab | unsuccessful | 2024-10-26 18:35:40 +0000UTC | #756 |
 | gitlab.pedago.ensiie.fr | gitlab | successful | 2024-10-26 22:43:33 +0000UTC | #755 |
+| gitlab.sorbonne-paris-nord.fr | gitlab | successful | 2024-10-26 23:32:13 +0000UTC | #762 |
