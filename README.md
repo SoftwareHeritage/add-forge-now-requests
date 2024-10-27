@@ -580,3 +580,4 @@
 | gitlab.sorbonne-paris-nord.fr | gitlab | successful | 2024-10-26 23:32:13 +0000UTC | #762 |
 | gitlab.pmcs2i.ec-lyon.fr | gitlab | successful | 2024-10-26 23:36:11 +0000UTC | #758 |
 | gitlab.savoirfairelinux.com | gitlab | successful | 2024-10-27 00:09:27 +0000UTC | #761 |
+| gitlab.rpbs.univ-paris-diderot.fr | gitlab | successful | 2024-10-27 01:38:08 +0000UTC | #760 |
