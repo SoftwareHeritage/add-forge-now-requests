@@ -584,3 +584,4 @@
 | gitlab.phaidra.org | gitlab | successful | 2024-10-27 07:56:58 +0000UTC | #757 |
 | gitlab.pasteur.fr | gitlab | successful | 2024-10-27 08:13:45 +0000UTC | #754 |
 | gitlab.univ-lr.fr | gitlab | successful | 2024-10-27 08:46:13 +0000UTC | #763 |
+| gitlab-perspicuous-computing-science.mpi-klsb.mpg.de | gitlab | successful | 2024-10-27 15:51:36 +0000UTC | #756 |
