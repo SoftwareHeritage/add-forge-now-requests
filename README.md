@@ -583,3 +583,4 @@
 | gitlab.rpbs.univ-paris-diderot.fr | gitlab | successful | 2024-10-27 01:38:08 +0000UTC | #760 |
 | gitlab.phaidra.org | gitlab | successful | 2024-10-27 07:56:58 +0000UTC | #757 |
 | gitlab.pasteur.fr | gitlab | successful | 2024-10-27 08:13:45 +0000UTC | #754 |
+| gitlab.univ-lr.fr | gitlab | successful | 2024-10-27 08:46:13 +0000UTC | #763 |
