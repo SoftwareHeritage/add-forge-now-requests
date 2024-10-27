@@ -582,3 +582,4 @@
 | gitlab.savoirfairelinux.com | gitlab | successful | 2024-10-27 00:09:27 +0000UTC | #761 |
 | gitlab.rpbs.univ-paris-diderot.fr | gitlab | successful | 2024-10-27 01:38:08 +0000UTC | #760 |
 | gitlab.phaidra.org | gitlab | successful | 2024-10-27 07:56:58 +0000UTC | #757 |
+| gitlab.pasteur.fr | gitlab | successful | 2024-10-27 08:13:45 +0000UTC | #754 |
