@@ -596,3 +596,4 @@
 | git.marussy.com | cgit | successful | 2024-10-28 17:12:42 +0000UTC | #774 |
 | git.matejamaric.com | cgit | successful | 2024-10-28 17:13:21 +0000UTC | #775 |
 | git.maboxlinux.org | gitea | successful | 2024-10-28 17:19:34 +0000UTC | #772 |
+| git.maths.cam.ac.uk | gitlab | successful | 2024-10-28 18:55:03 +0000UTC | #776 |
