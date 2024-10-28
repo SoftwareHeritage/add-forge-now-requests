@@ -595,3 +595,4 @@
 | git.lysator.liu.se | gitlab | successful | 2024-10-28 17:03:17 +0000UTC | #771 |
 | git.marussy.com | cgit | successful | 2024-10-28 17:12:42 +0000UTC | #774 |
 | git.matejamaric.com | cgit | successful | 2024-10-28 17:13:21 +0000UTC | #775 |
+| git.maboxlinux.org | gitea | successful | 2024-10-28 17:19:34 +0000UTC | #772 |
