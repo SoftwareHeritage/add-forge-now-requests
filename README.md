@@ -586,3 +586,4 @@
 | gitlab.univ-lr.fr | gitlab | successful | 2024-10-27 08:46:13 +0000UTC | #763 |
 | gitlab-perspicuous-computing-science.mpi-klsb.mpg.de | gitlab | successful | 2024-10-27 15:51:36 +0000UTC | #756 |
 | gitlab.villejuif.fr | gitlab | successful | 2024-10-28 15:06:33 +0000UTC | #764 |
+| git.loe.auf.uni-rostock.de | gitlab | successful | 2024-10-28 15:09:40 +0000UTC | #767 |
