@@ -603,3 +603,4 @@
 | git.mdrn.pl | gitweb | successful | 2024-10-28 18:57:34 +0000UTC | #780 |
 | git.midipix.org | cgit | successful | 2024-10-28 20:05:50 +0000UTC | #783 |
 | git.microline.ru | gitlab | successful | 2024-10-28 20:40:31 +0000UTC | #782 |
+| git.metabarcoding.org | gitlab | successful | 2024-10-28 20:58:31 +0000UTC | #781 |
