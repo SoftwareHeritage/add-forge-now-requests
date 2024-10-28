@@ -599,3 +599,4 @@
 | git.maths.cam.ac.uk | gitlab | successful | 2024-10-28 18:55:03 +0000UTC | #776 |
 | git.mathux.org | gitea | successful | 2024-10-28 18:55:21 +0000UTC | #777 |
 | git.mccd.space | cgit | successful | 2024-10-28 18:56:27 +0000UTC | #778 |
+| git.mchi.mcgill.ca | gitlab | successful | 2024-10-28 18:57:03 +0000UTC | #779 |
