@@ -588,3 +588,4 @@
 | gitlab.villejuif.fr | gitlab | successful | 2024-10-28 15:06:33 +0000UTC | #764 |
 | git.loe.auf.uni-rostock.de | gitlab | successful | 2024-10-28 15:09:40 +0000UTC | #767 |
 | git.louiz.org | cgit | successful | 2024-10-28 15:20:10 +0000UTC | #768 |
+| git.lacl.fr | gitlab | successful | 2024-10-28 15:38:09 +0000UTC | #766 |
