@@ -612,3 +612,4 @@
 | git.mpib-berlin.mpg.de | gitlab | successful | 2024-10-30 05:08:54 +0000UTC | #790 |
 | git.larlet.fr | gitea | successful | 2024-10-30 17:16:39 +0000UTC | #793 |
 | git.morello-project.org | gitlab | successful | 2024-10-30 18:56:12 +0000UTC | #788 |
+| git.moe.team | gitea | successful | 2024-10-31 09:21:05 +0000UTC | #786 |
