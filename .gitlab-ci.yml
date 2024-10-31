@@ -1,5 +1,5 @@
 image:
-  name: container-registry.softwareheritage.org/swh/infra/swh-apps/add_forge_now:20241024.2
+  name: container-registry.softwareheritage.org/swh/infra/swh-apps/add_forge_now:20241030.1
 
 default:
   before_script:
