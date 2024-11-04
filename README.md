@@ -614,3 +614,4 @@
 | git.morello-project.org | gitlab | successful | 2024-10-30 18:56:12 +0000UTC | #788 |
 | git.moe.team | gitea | successful | 2024-10-31 09:21:05 +0000UTC | #786 |
 | git.clayosmith.net | cgit | successful | 2024-11-04 17:24:04 +0000UTC | #797 |
+| git.mikekantor.xyz | cgit | successful | 2024-11-04 17:40:40 +0000UTC | #795 |
