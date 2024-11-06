@@ -620,3 +620,4 @@
 | cgit.hisiste.com | cgit | successful | 2024-11-05 09:47:28 +0000UTC | #799 |
 | git.sn4il.site | cgit | successful | 2024-11-05 09:48:59 +0000UTC | #800 |
 | git.hiegel.fr | cgit | successful | 2024-11-05 10:04:54 +0000UTC | #805 |
+| git.josher.dev | cgit | successful | 2024-11-06 12:02:07 +0000UTC | #807 |
