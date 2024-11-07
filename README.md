@@ -630,3 +630,4 @@
 | code.mastervirt.ru | cgit | successful | 2024-11-07 00:23:11 +0000UTC | #808 |
 | git.xianwang.io | cgit | successful | 2024-11-07 05:26:15 +0000UTC | #815 |
 | gitlab.ulb.tu-darmstadt.de | gitlab | successful | 2024-11-07 17:17:35 +0000UTC | #826 |
+| git.giaever.org | gogs | successful | 2024-11-07 17:17:50 +0000UTC | #825 |
