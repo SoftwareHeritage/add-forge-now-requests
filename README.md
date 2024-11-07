@@ -634,3 +634,4 @@
 | git.idleman.fr | gogs | successful | 2024-11-07 18:17:13 +0000UTC | #828 |
 | git.ewft.org | gogs | successful | 2024-11-07 18:17:52 +0000UTC | #829 |
 | src.libcode.org | gogs | successful | 2024-11-07 18:21:05 +0000UTC | #830 |
+| git.spip.net | gitlab | successful | 2024-11-07 18:33:11 +0000UTC | #824 |
