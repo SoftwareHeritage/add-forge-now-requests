@@ -632,3 +632,4 @@
 | gitlab.ulb.tu-darmstadt.de | gitlab | successful | 2024-11-07 17:17:35 +0000UTC | #826 |
 | git.giaever.org | gogs | successful | 2024-11-07 17:17:50 +0000UTC | #825 |
 | git.idleman.fr | gogs | successful | 2024-11-07 18:17:13 +0000UTC | #828 |
+| git.ewft.org | gogs | successful | 2024-11-07 18:17:52 +0000UTC | #829 |
