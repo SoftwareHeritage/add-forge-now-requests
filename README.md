@@ -641,3 +641,4 @@
 | git.matthewhall.xyz | cgit | successful | 2024-11-12 12:43:56 +0000UTC | #835 |
 | git.nicdob.com | cgit | successful | 2024-11-12 12:44:59 +0000UTC | #836 |
 | channels.ones-now.com | cgit | successful | 2024-11-12 12:45:43 +0000UTC | #837 |
+| git.embl.de | gitlab | successful | 2024-11-14 20:57:31 +0000UTC | #841 |
