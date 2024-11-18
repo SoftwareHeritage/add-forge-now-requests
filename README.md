@@ -644,3 +644,4 @@
 | git.embl.de | gitlab | successful | 2024-11-14 20:57:31 +0000UTC | #841 |
 | gitlab.unige.ch | gitlab | successful | 2024-11-14 21:51:15 +0000UTC | #842 |
 | git.irsamc.ups-tlse.fr | gitea | successful | 2024-11-15 14:55:23 +0000UTC | #844 |
+| gitea.openium.fr | gitea | successful | 2024-11-18 20:06:35 +0000UTC | #846 |
