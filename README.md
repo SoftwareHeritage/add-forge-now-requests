@@ -647,3 +647,4 @@
 | gitea.openium.fr | gitea | successful | 2024-11-18 20:06:35 +0000UTC | #846 |
 | git.kaz.bzh | gitea | successful | 2024-11-18 21:01:04 +0000UTC | #845 |
 | git.ipr.univ-rennes.fr | gitea | successful | 2024-11-18 21:07:28 +0000UTC | #847 |
+| forge.univ-lyon1.fr | gitlab | successful | 2024-11-18 22:38:39 +0000UTC | #848 |
