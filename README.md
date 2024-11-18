@@ -646,3 +646,4 @@
 | git.irsamc.ups-tlse.fr | gitea | successful | 2024-11-15 14:55:23 +0000UTC | #844 |
 | gitea.openium.fr | gitea | successful | 2024-11-18 20:06:35 +0000UTC | #846 |
 | git.kaz.bzh | gitea | successful | 2024-11-18 21:01:04 +0000UTC | #845 |
+| git.ipr.univ-rennes.fr | gitea | successful | 2024-11-18 21:07:28 +0000UTC | #847 |
