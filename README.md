@@ -654,3 +654,4 @@
 | pss-gitlab.math.univ-paris-diderot.fr | gitlab | successful | 2024-11-19 13:39:50 +0000UTC | #854 |
 | git-xen.lmgc.univ-montp2.fr | gitlab | successful | 2024-11-19 13:41:14 +0000UTC | #855 |
 | gitlab.imo.universite-paris-saclay.fr | gitlab | successful | 2024-11-19 13:42:02 +0000UTC | #856 |
+| depot.lipn.univ-paris13.fr | gitlab | successful | 2024-11-19 13:58:55 +0000UTC | #853 |
