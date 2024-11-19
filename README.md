@@ -649,3 +649,4 @@
 | git.ipr.univ-rennes.fr | gitea | successful | 2024-11-18 21:07:28 +0000UTC | #847 |
 | forge.univ-lyon1.fr | gitlab | successful | 2024-11-18 22:38:39 +0000UTC | #848 |
 | plmlab.math.cnrs.fr | gitlab | successful | 2024-11-19 12:06:38 +0000UTC | #850 |
+| gitlab.math.univ-paris-diderot.fr | gitlab | successful | 2024-11-19 12:28:02 +0000UTC | #851 |
