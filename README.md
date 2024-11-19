@@ -656,3 +656,4 @@
 | gitlab.imo.universite-paris-saclay.fr | gitlab | successful | 2024-11-19 13:42:02 +0000UTC | #856 |
 | depot.lipn.univ-paris13.fr | gitlab | successful | 2024-11-19 13:58:55 +0000UTC | #853 |
 | gitlabinfo.iutmontp.univ-montp2.fr | gitlab | successful | 2024-11-19 14:26:53 +0000UTC | #857 |
+| git.tardisproject.uk | gitlab | successful | 2024-11-19 14:57:43 +0000UTC | #858 |
