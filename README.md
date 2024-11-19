@@ -655,3 +655,4 @@
 | git-xen.lmgc.univ-montp2.fr | gitlab | successful | 2024-11-19 13:41:14 +0000UTC | #855 |
 | gitlab.imo.universite-paris-saclay.fr | gitlab | successful | 2024-11-19 13:42:02 +0000UTC | #856 |
 | depot.lipn.univ-paris13.fr | gitlab | successful | 2024-11-19 13:58:55 +0000UTC | #853 |
+| gitlabinfo.iutmontp.univ-montp2.fr | gitlab | successful | 2024-11-19 14:26:53 +0000UTC | #857 |
