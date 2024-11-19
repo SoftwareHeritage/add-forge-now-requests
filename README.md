@@ -659,3 +659,4 @@
 | git.tardisproject.uk | gitlab | successful | 2024-11-19 14:57:43 +0000UTC | #858 |
 | gitlab.lib.utah.edu | gitlab | successful | 2024-11-19 15:21:20 +0000UTC | #863 |
 | gitlab.it.mcgill.ca | gitlab | successful | 2024-11-19 15:25:00 +0000UTC | #862 |
+| forge-2.ircam.fr | gitlab | successful | 2024-11-19 15:27:26 +0000UTC | #859 |
