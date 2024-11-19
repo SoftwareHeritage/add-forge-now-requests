@@ -651,3 +651,4 @@
 | plmlab.math.cnrs.fr | gitlab | successful | 2024-11-19 12:06:38 +0000UTC | #850 |
 | gitlab.math.univ-paris-diderot.fr | gitlab | successful | 2024-11-19 12:28:02 +0000UTC | #851 |
 | git-cral.univ-lyon1.fr | gitlab | successful | 2024-11-19 12:58:11 +0000UTC | #852 |
+| pss-gitlab.math.univ-paris-diderot.fr | gitlab | successful | 2024-11-19 13:39:50 +0000UTC | #854 |
