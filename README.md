@@ -661,3 +661,4 @@
 | gitlab.it.mcgill.ca | gitlab | successful | 2024-11-19 15:25:00 +0000UTC | #862 |
 | forge-2.ircam.fr | gitlab | successful | 2024-11-19 15:27:26 +0000UTC | #859 |
 | premonition.stanford.edu | gitlab | successful | 2024-11-19 16:10:07 +0000UTC | #860 |
+| gitlab.liris.cnrs.fr | gitlab | successful | 2024-11-20 13:56:22 +0000UTC | #849 |
