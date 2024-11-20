@@ -665,3 +665,4 @@
 | git.lipovcan.cz | gitea | successful | 2024-11-20 16:14:23 +0000UTC | #866 |
 | gitlab.humanbrainproject.org | gitlab | successful | 2024-11-20 17:18:30 +0000UTC | #869 |
 | cgit.janouch.name | cgit | successful | 2024-11-20 17:32:55 +0000UTC | #867 |
+| git.cubieserver.de | gitea | successful | 2024-11-20 17:33:28 +0000UTC | #868 |
