@@ -672,3 +672,4 @@
 | gitdab.com | gitea | successful | 2024-11-21 08:05:17 +0000UTC | #865 |
 | gaufre.informatique.univ-paris-diderot.fr | gitlab | successful | 2024-11-21 09:01:16 +0000UTC | #873 |
 | class-git.engineering.uiowa.edu | gitlab | successful | 2024-11-21 11:19:31 +0000UTC | #875 |
+| git.ad5001.eu | gitea | successful | 2024-11-21 11:32:53 +0000UTC | #876 |
