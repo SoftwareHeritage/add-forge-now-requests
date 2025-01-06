@@ -1,6 +1,6 @@
 # Requests processing history 2023
 
-> [README](../README.md)
+> [Project page](https://gitlab.softwareheritage.org/swh/infra/add-forge-now-requests)
 
 | Instance Name    | Lister Type       | Last Visit Status | Visit Date     | Issue ID     |
 |------------------|-------------------|-------------------|----------------|--------------|
