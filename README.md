@@ -32,3 +32,4 @@
 
 | Instance Name    | Lister Type       | Last Visit Status | Visit Date     | Issue ID     |
 |------------------|-------------------|-------------------|----------------|--------------|| git.lubuntu.me | gitea | successful | 2025-01-20 10:06:05 +0000UTC | #889 |
+| git.redrise.ru | gitea | successful | 2025-01-20 17:57:17 +0000UTC | #890 |
