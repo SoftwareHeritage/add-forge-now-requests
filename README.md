@@ -39,3 +39,4 @@
 | git.omeckman.net | cgit | successful | 2025-01-21 12:11:46 +0000UTC | #892 |
 | git.nihil.ws | cgit | successful | 2025-01-21 12:36:44 +0000UTC | #895 |
 | git.alpaga.dev | gitea | successful | 2025-01-21 15:52:19 +0000UTC | #896 |
+| git.tstarr.us | gitea | successful | 2025-01-21 16:23:07 +0000UTC | #897 |
