@@ -38,3 +38,4 @@
 | git.azuminha.com | cgit | successful | 2025-01-21 11:52:43 +0000UTC | #893 |
 | git.omeckman.net | cgit | successful | 2025-01-21 12:11:46 +0000UTC | #892 |
 | git.nihil.ws | cgit | successful | 2025-01-21 12:36:44 +0000UTC | #895 |
+| git.alpaga.dev | gitea | successful | 2025-01-21 15:52:19 +0000UTC | #896 |
