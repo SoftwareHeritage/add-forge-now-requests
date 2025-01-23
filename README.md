@@ -41,3 +41,4 @@
 | git.alpaga.dev | gitea | successful | 2025-01-21 15:52:19 +0000UTC | #896 |
 | git.tstarr.us | gitea | successful | 2025-01-21 16:23:07 +0000UTC | #897 |
 | code.m3tam3re.com | gitea | successful | 2025-01-21 18:32:36 +0000UTC | #898 |
+| gitea.ycharbi.fr | gitea | successful | 2025-01-23 09:43:46 +0000UTC | #900 |
