@@ -62,3 +62,4 @@
 | git.resf.org | gitea | successful | 2025-02-18 15:08:28 +0000UTC | #919 |
 | git.marvid.fr | gitea | successful | 2025-02-18 15:45:19 +0000UTC | #921 |
 | gitea.fhgr.ch | gitea | successful | 2025-02-18 16:04:38 +0000UTC | #924 |
+| gitlab.hhi.fraunhofer.de | gitlab | unsuccessful | 2025-02-18 16:22:55 +0000UTC | #929 |
