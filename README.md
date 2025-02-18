@@ -61,3 +61,4 @@
 | git.abbiamoundominio.org | gitea | successful | 2025-02-18 14:57:53 +0000UTC | #922 |
 | git.resf.org | gitea | successful | 2025-02-18 15:08:28 +0000UTC | #919 |
 | git.marvid.fr | gitea | successful | 2025-02-18 15:45:19 +0000UTC | #921 |
+| gitea.fhgr.ch | gitea | successful | 2025-02-18 16:04:38 +0000UTC | #924 |
