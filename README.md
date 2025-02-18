@@ -45,3 +45,4 @@
 | git.yourcmc.ru | gitea | successful | 2025-01-23 13:58:54 +0000UTC | #899 |
 | forge.le-florida.org | gitea | successful | 2025-02-18 09:34:54 +0000UTC | #907 |
 | gitea.ykn.fr | gitea | successful | 2025-02-18 10:32:11 +0000UTC | #904 |
+| git.poivron-robotique.fr | gitea | successful | 2025-02-18 10:34:20 +0000UTC | #906 |
