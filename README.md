@@ -60,3 +60,4 @@
 | git.tilera.org | gitea | successful | 2025-02-18 14:57:29 +0000UTC | #918 |
 | git.abbiamoundominio.org | gitea | successful | 2025-02-18 14:57:53 +0000UTC | #922 |
 | git.resf.org | gitea | successful | 2025-02-18 15:08:28 +0000UTC | #919 |
+| git.marvid.fr | gitea | successful | 2025-02-18 15:45:19 +0000UTC | #921 |
