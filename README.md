@@ -69,3 +69,4 @@
 | gitlab.hhi.fraunhofer.de | gitlab | successful | 2025-02-19 00:32:24 +0000UTC | #929 |
 | git.nhenry.fr | gitea | successful | 2025-02-19 01:06:49 +0000UTC | #917 |
 | vcgit.hhi.fraunhofer.de | gitlab | successful | 2025-02-19 02:22:51 +0000UTC | #930 |
+| gitlab.scai.fraunhofer.de | gitlab | successful | 2025-02-19 02:26:21 +0000UTC | #933 |
