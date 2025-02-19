@@ -73,3 +73,4 @@
 | gitlab-ext.iosb.fraunhofer.de | gitlab | successful | 2025-02-19 02:56:08 +0000UTC | #932 |
 | git.delaage.fr | gitea | successful | 2025-02-19 09:10:30 +0000UTC | #936 |
 | gitlab.cc-asp.fraunhofer.de | gitlab | successful | 2025-02-19 09:52:10 +0000UTC | #925 |
+| neemgit.informatik.uni-bremen.de | gitlab | successful | 2025-02-19 11:15:24 +0000UTC | #938 |
