@@ -78,3 +78,4 @@
 | cls-gitlab.phil.uni-wuerzburg.de | gitlab | successful | 2025-02-19 13:37:16 +0000UTC | #941 |
 | core-gitlfs.tpi.uni-jena.de | gitlab | successful | 2025-02-19 13:56:30 +0000UTC | #944 |
 | git.physik.uni-wuerzburg.de | gitlab | successful | 2025-02-19 14:16:33 +0000UTC | #940 |
+| gitlab.informatik.uni-bremen.de | gitlab | successful | 2025-02-19 14:27:56 +0000UTC | #934 |
