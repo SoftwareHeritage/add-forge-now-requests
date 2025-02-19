@@ -83,3 +83,4 @@
 | gitlab.igg.uni-bonn.de | gitlab | successful | 2025-02-19 15:23:19 +0000UTC | #946 |
 | git.uni-jena.de | gitlab | successful | 2025-02-19 15:28:50 +0000UTC | #943 |
 | git.ais.uni-bonn.de | gitlab | successful | 2025-02-19 15:42:19 +0000UTC | #947 |
+| gl.kwarc.info | gitlab | successful | 2025-02-19 15:47:48 +0000UTC | #945 |
