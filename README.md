@@ -75,3 +75,4 @@
 | gitlab.cc-asp.fraunhofer.de | gitlab | successful | 2025-02-19 09:52:10 +0000UTC | #925 |
 | neemgit.informatik.uni-bremen.de | gitlab | successful | 2025-02-19 11:15:24 +0000UTC | #938 |
 | gitlab.csl.uni-bremen.de | gitlab | successful | 2025-02-19 12:45:03 +0000UTC | #937 |
+| cls-gitlab.phil.uni-wuerzburg.de | gitlab | successful | 2025-02-19 13:37:16 +0000UTC | #941 |
