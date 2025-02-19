@@ -72,3 +72,4 @@
 | gitlab.scai.fraunhofer.de | gitlab | successful | 2025-02-19 02:26:21 +0000UTC | #933 |
 | gitlab-ext.iosb.fraunhofer.de | gitlab | successful | 2025-02-19 02:56:08 +0000UTC | #932 |
 | git.delaage.fr | gitea | successful | 2025-02-19 09:10:30 +0000UTC | #936 |
+| gitlab.cc-asp.fraunhofer.de | gitlab | successful | 2025-02-19 09:52:10 +0000UTC | #925 |
