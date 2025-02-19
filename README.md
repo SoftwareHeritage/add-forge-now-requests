@@ -67,3 +67,4 @@
 | gitlab.fokus.fraunhofer.de | gitlab | successful | 2025-02-19 00:02:44 +0000UTC | #927 |
 | gitlab-extern.ivi.fraunhofer.de | gitlab | successful | 2025-02-19 00:22:09 +0000UTC | #928 |
 | gitlab.hhi.fraunhofer.de | gitlab | successful | 2025-02-19 00:32:24 +0000UTC | #929 |
+| git.nhenry.fr | gitea | successful | 2025-02-19 01:06:49 +0000UTC | #917 |
