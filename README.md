@@ -64,3 +64,4 @@
 | gitea.fhgr.ch | gitea | successful | 2025-02-18 16:04:38 +0000UTC | #924 |
 | gitlab.hhi.fraunhofer.de | gitlab | unsuccessful | 2025-02-18 16:22:55 +0000UTC | #929 |
 | gitlab.fit.fraunhofer.de | gitlab | successful | 2025-02-18 23:41:45 +0000UTC | #926 |
+| gitlab.fokus.fraunhofer.de | gitlab | successful | 2025-02-19 00:02:44 +0000UTC | #927 |
