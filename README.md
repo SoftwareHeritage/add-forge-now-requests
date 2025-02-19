@@ -80,3 +80,4 @@
 | git.physik.uni-wuerzburg.de | gitlab | successful | 2025-02-19 14:16:33 +0000UTC | #940 |
 | gitlab.informatik.uni-bremen.de | gitlab | successful | 2025-02-19 14:27:56 +0000UTC | #934 |
 | git.tpi.uni-jena.de | gitlab | successful | 2025-02-19 15:08:20 +0000UTC | #942 |
+| gitlab.igg.uni-bonn.de | gitlab | successful | 2025-02-19 15:23:19 +0000UTC | #946 |
