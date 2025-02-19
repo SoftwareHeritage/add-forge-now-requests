@@ -86,3 +86,4 @@
 | gl.kwarc.info | gitlab | successful | 2025-02-19 15:47:48 +0000UTC | #945 |
 | ascgitlab.helmholtz-munich.de | gitlab | successful | 2025-02-19 16:08:52 +0000UTC | #948 |
 | gitlab2.informatik.uni-wuerzburg.de | gitlab | successful | 2025-02-19 16:35:47 +0000UTC | #939 |
+| git.uni-due.de | gitlab | successful | 2025-02-19 21:50:08 +0000UTC | #949 |
