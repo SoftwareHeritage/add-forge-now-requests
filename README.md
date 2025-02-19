@@ -76,3 +76,4 @@
 | neemgit.informatik.uni-bremen.de | gitlab | successful | 2025-02-19 11:15:24 +0000UTC | #938 |
 | gitlab.csl.uni-bremen.de | gitlab | successful | 2025-02-19 12:45:03 +0000UTC | #937 |
 | cls-gitlab.phil.uni-wuerzburg.de | gitlab | successful | 2025-02-19 13:37:16 +0000UTC | #941 |
+| core-gitlfs.tpi.uni-jena.de | gitlab | successful | 2025-02-19 13:56:30 +0000UTC | #944 |
