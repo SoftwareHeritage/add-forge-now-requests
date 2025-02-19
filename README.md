@@ -82,3 +82,4 @@
 | git.tpi.uni-jena.de | gitlab | successful | 2025-02-19 15:08:20 +0000UTC | #942 |
 | gitlab.igg.uni-bonn.de | gitlab | successful | 2025-02-19 15:23:19 +0000UTC | #946 |
 | git.uni-jena.de | gitlab | successful | 2025-02-19 15:28:50 +0000UTC | #943 |
+| git.ais.uni-bonn.de | gitlab | successful | 2025-02-19 15:42:19 +0000UTC | #947 |
