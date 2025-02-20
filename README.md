@@ -87,3 +87,4 @@
 | ascgitlab.helmholtz-munich.de | gitlab | successful | 2025-02-19 16:08:52 +0000UTC | #948 |
 | gitlab2.informatik.uni-wuerzburg.de | gitlab | successful | 2025-02-19 16:35:47 +0000UTC | #939 |
 | git.uni-due.de | gitlab | successful | 2025-02-19 21:50:08 +0000UTC | #949 |
+| git.n07070.xyz | gitea | successful | 2025-02-20 04:58:45 +0000UTC | #951 |
