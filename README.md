@@ -89,3 +89,4 @@
 | git.uni-due.de | gitlab | successful | 2025-02-19 21:50:08 +0000UTC | #949 |
 | git.n07070.xyz | gitea | successful | 2025-02-20 04:58:45 +0000UTC | #951 |
 | gitlab.iscpif.fr | gitlab | successful | 2025-02-20 14:38:18 +0000UTC | #952 |
+| git.sualokin.xyz | cgit | successful | 2025-02-25 03:30:05 +0000UTC | #955 |
