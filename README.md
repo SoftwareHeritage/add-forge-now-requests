@@ -90,3 +90,4 @@
 | git.n07070.xyz | gitea | successful | 2025-02-20 04:58:45 +0000UTC | #951 |
 | gitlab.iscpif.fr | gitlab | successful | 2025-02-20 14:38:18 +0000UTC | #952 |
 | git.sualokin.xyz | cgit | successful | 2025-02-25 03:30:05 +0000UTC | #955 |
+| gitlab.univ-nantes.fr | gitlab | successful | 2025-03-06 03:20:41 +0000UTC | #957 |
