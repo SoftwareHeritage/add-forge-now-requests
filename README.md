@@ -94,3 +94,4 @@
 | code.lm7.fr | gitea | successful | 2025-03-07 06:35:03 +0000UTC | #958 |
 | git.octree.ch | gitlab | successful | 2025-03-13 07:06:05 +0000UTC | #960 |
 | gitlab.sidnlabs.nl | gitlab | successful | 2025-03-13 07:09:36 +0000UTC | #961 |
+| git.paulk.fr | cgit | successful | 2025-03-13 07:29:51 +0000UTC | #959 |
