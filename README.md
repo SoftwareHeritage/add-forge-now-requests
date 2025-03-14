@@ -95,3 +95,4 @@
 | git.octree.ch | gitlab | successful | 2025-03-13 07:06:05 +0000UTC | #960 |
 | gitlab.sidnlabs.nl | gitlab | successful | 2025-03-13 07:09:36 +0000UTC | #961 |
 | git.paulk.fr | cgit | successful | 2025-03-13 07:29:51 +0000UTC | #959 |
+| git.roflcopter.fr | gitea | successful | 2025-03-14 10:32:14 +0000UTC | #962 |
