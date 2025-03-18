@@ -102,3 +102,4 @@
 | git.woz.blue | cgit | successful | 2025-03-18 09:37:05 +0000UTC | #963 |
 | gitlab.uni-osnabrueck.de | gitlab | successful | 2025-03-18 09:38:08 +0000UTC | #964 |
 | s3gitlab.paluno.uni-due.de | gitlab | successful | 2025-03-18 09:39:41 +0000UTC | #965 |
+| gitlab.diz.uni-marburg.de | gitlab | successful | 2025-03-18 12:32:38 +0000UTC | #966 |
