@@ -98,3 +98,4 @@
 | git.roflcopter.fr | gitea | successful | 2025-03-14 10:32:14 +0000UTC | #962 |
 | git.woz.blue | cgit | unsuccessful | 2025-03-18 03:04:28 +0000UTC | #963 |
 | gitlab.uni-osnabrueck.de | gitlab | unsuccessful | 2025-03-18 03:07:13 +0000UTC | #964 |
+| s3gitlab.paluno.uni-due.de | gitlab | unsuccessful | 2025-03-18 03:27:44 +0000UTC | #965 |
