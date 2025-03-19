@@ -114,3 +114,4 @@
 | mgit.cs.uni-saarland.de | gitlab | successful | 2025-03-19 14:58:45 +0000UTC | #976 |
 | ccb-gitlab.cs.uni-saarland.de | gitlab | successful | 2025-03-19 14:59:50 +0000UTC | #977 |
 | projects.cispa.saarland | gitlab | successful | 2025-03-19 16:08:38 +0000UTC | #978 |
+| gitlab-lehre.informatik.uni-halle.de | gitlab | successful | 2025-03-19 18:51:46 +0000UTC | #980 |
