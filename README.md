@@ -116,3 +116,4 @@
 | projects.cispa.saarland | gitlab | successful | 2025-03-19 16:08:38 +0000UTC | #978 |
 | gitlab-lehre.informatik.uni-halle.de | gitlab | successful | 2025-03-19 18:51:46 +0000UTC | #980 |
 | git.itm.uni-luebeck.de | gitlab | successful | 2025-03-19 19:23:35 +0000UTC | #982 |
+| gitlab.informatik.uni-halle.de | gitlab | successful | 2025-03-19 19:51:49 +0000UTC | #979 |
