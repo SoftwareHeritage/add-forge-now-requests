@@ -106,3 +106,4 @@
 | gitlab.uni-marburg.de | gitlab | successful | 2025-03-18 16:01:09 +0000UTC | #967 |
 | git-ps.informatik.uni-kiel.de | gitlab | successful | 2025-03-19 10:08:32 +0000UTC | #969 |
 | git.zs.informatik.uni-kiel.de | gitlab | successful | 2025-03-19 10:39:59 +0000UTC | #970 |
+| gitlab.rz.uni-bamberg.de | gitlab | successful | 2025-03-19 10:40:38 +0000UTC | #971 |
