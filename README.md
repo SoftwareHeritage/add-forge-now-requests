@@ -112,3 +112,4 @@
 | gitlab.cs.uni-duesseldorf.de | gitlab | successful | 2025-03-19 12:48:25 +0000UTC | #973 |
 | dgit.cs.uni-saarland.de | gitlab | successful | 2025-03-19 13:10:11 +0000UTC | #975 |
 | mgit.cs.uni-saarland.de | gitlab | successful | 2025-03-19 14:58:45 +0000UTC | #976 |
+| ccb-gitlab.cs.uni-saarland.de | gitlab | successful | 2025-03-19 14:59:50 +0000UTC | #977 |
