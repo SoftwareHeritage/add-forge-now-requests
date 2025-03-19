@@ -108,3 +108,4 @@
 | git.zs.informatik.uni-kiel.de | gitlab | successful | 2025-03-19 10:39:59 +0000UTC | #970 |
 | gitlab.rz.uni-bamberg.de | gitlab | successful | 2025-03-19 10:40:38 +0000UTC | #971 |
 | git.informatik.uni-kiel.de | gitlab | successful | 2025-03-19 11:07:29 +0000UTC | #968 |
+| sme.uni-bamberg.de | gitlab | successful | 2025-03-19 12:47:40 +0000UTC | #972 |
