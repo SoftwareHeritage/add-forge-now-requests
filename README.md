@@ -104,3 +104,4 @@
 | s3gitlab.paluno.uni-due.de | gitlab | successful | 2025-03-18 09:39:41 +0000UTC | #965 |
 | gitlab.diz.uni-marburg.de | gitlab | successful | 2025-03-18 12:32:38 +0000UTC | #966 |
 | gitlab.uni-marburg.de | gitlab | successful | 2025-03-18 16:01:09 +0000UTC | #967 |
+| git-ps.informatik.uni-kiel.de | gitlab | successful | 2025-03-19 10:08:32 +0000UTC | #969 |
