@@ -120,3 +120,4 @@
 | git.uni-wuppertal.de | gitlab | successful | 2025-03-19 19:52:42 +0000UTC | #981 |
 | gitlab.cs.uni-saarland.de | gitlab | successful | 2025-03-20 10:49:05 +0000UTC | #974 |
 | gitlab.rob.uni-luebeck.de | gitlab | successful | 2025-03-20 10:53:27 +0000UTC | #983 |
+| git.ime.uni-luebeck.de | gitlab | successful | 2025-03-20 10:54:33 +0000UTC | #984 |
