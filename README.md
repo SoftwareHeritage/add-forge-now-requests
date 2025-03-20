@@ -119,3 +119,4 @@
 | gitlab.informatik.uni-halle.de | gitlab | successful | 2025-03-19 19:51:49 +0000UTC | #979 |
 | git.uni-wuppertal.de | gitlab | successful | 2025-03-19 19:52:42 +0000UTC | #981 |
 | gitlab.cs.uni-saarland.de | gitlab | successful | 2025-03-20 10:49:05 +0000UTC | #974 |
+| gitlab.rob.uni-luebeck.de | gitlab | successful | 2025-03-20 10:53:27 +0000UTC | #983 |
