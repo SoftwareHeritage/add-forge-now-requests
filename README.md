@@ -126,3 +126,4 @@
 | git.hexanyn.fr | gitlab | successful | 2025-03-21 12:46:28 +0000UTC | #991 |
 | git.iiens.net | gitlab | successful | 2025-03-21 13:26:45 +0000UTC | #990 |
 | git.esiee.fr | gitlab | successful | 2025-03-21 13:40:47 +0000UTC | #986 |
+| git.oecd-nea.org | gitlab | successful | 2025-03-21 14:14:02 +0000UTC | #988 |
