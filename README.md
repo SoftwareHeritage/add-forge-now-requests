@@ -128,3 +128,4 @@
 | git.esiee.fr | gitlab | successful | 2025-03-21 13:40:47 +0000UTC | #986 |
 | git.oecd-nea.org | gitlab | successful | 2025-03-21 14:14:02 +0000UTC | #988 |
 | git.s2.rpn.ch | gitlab | successful | 2025-03-21 15:48:52 +0000UTC | #995 |
+| git.startinblox.com | gitlab | successful | 2025-03-21 16:41:32 +0000UTC | #997 |
