@@ -123,3 +123,4 @@
 | git.ime.uni-luebeck.de | gitlab | successful | 2025-03-20 10:54:33 +0000UTC | #984 |
 | gitlab.iti.uni-luebeck.de | gitlab | successful | 2025-03-21 11:09:57 +0000UTC | #985 |
 | git-crypto.elen.ucl.ac.be | gitlab | successful | 2025-03-21 12:43:19 +0000UTC | #987 |
+| git.hexanyn.fr | gitlab | successful | 2025-03-21 12:46:28 +0000UTC | #991 |
