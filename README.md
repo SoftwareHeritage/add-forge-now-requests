@@ -134,3 +134,4 @@
 | git.inp.nsk.su | gitlab | successful | 2025-03-22 05:28:21 +0000UTC | #998 |
 | git.ifro.edu.br | gitlab | successful | 2025-03-22 05:39:06 +0000UTC | #1000 |
 | git.cs.ou.nl | gitlab | successful | 2025-03-22 05:47:48 +0000UTC | #992 |
+| gitlab.ingeniarius.pt | gitlab | successful | 2025-03-22 06:38:29 +0000UTC | #999 |
