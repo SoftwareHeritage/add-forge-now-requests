@@ -1,5 +1,6 @@
 image:
   name: container-registry.softwareheritage.org/swh/infra/swh-apps/add_forge_now:20250317.3
+  pull_policy: if-not-present
 
 default:
   before_script:
