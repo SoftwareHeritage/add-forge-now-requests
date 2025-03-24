@@ -140,3 +140,4 @@
 | git.softtodo.tn | gitlab | successful | 2025-03-24 21:52:22 +0000UTC | #1006 |
 | gitlab.abutech.uz | gitlab | successful | 2025-03-24 21:58:25 +0000UTC | #1004 |
 | git.gem.ec-nantes.fr | gitlab | successful | 2025-03-24 22:26:08 +0000UTC | #1001 |
+| git.code.tecnalia.com | gitlab | successful | 2025-03-24 22:37:39 +0000UTC | #1003 |
