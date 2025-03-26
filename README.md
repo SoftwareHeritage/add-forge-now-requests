@@ -150,3 +150,4 @@
 | gitlab.encs.vancouver.wsu.edu | gitlab | successful | 2025-03-26 15:58:14 +0000UTC | #1009 |
 | git.h.hackclub.app | gitea | successful | 2025-03-26 16:00:35 +0000UTC | #1015 |
 | git.mthie.com | gitea | successful | 2025-03-26 16:01:26 +0000UTC | #1016 |
+| git.osmarks.net | gitea | successful | 2025-03-26 16:57:55 +0000UTC | #1014 |
