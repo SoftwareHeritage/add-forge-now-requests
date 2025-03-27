@@ -154,3 +154,4 @@
 | git.uha4point0.fr | gitlab | successful | 2025-03-27 10:36:50 +0000UTC | #1018 |
 | git.muerell.de | gitea | successful | 2025-03-27 10:53:00 +0000UTC | #1017 |
 | gitea.typename.fr | gitea | successful | 2025-03-27 10:59:06 +0000UTC | #1020 |
+| gitlab.extra.irsn.fr | gitlab | successful | 2025-03-27 12:30:48 +0000UTC | #1022 |
