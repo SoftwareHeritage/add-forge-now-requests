@@ -152,3 +152,4 @@
 | git.mthie.com | gitea | successful | 2025-03-26 16:01:26 +0000UTC | #1016 |
 | git.osmarks.net | gitea | successful | 2025-03-26 16:57:55 +0000UTC | #1014 |
 | git.uha4point0.fr | gitlab | successful | 2025-03-27 10:36:50 +0000UTC | #1018 |
+| git.muerell.de | gitea | successful | 2025-03-27 10:53:00 +0000UTC | #1017 |
