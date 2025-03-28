@@ -156,3 +156,4 @@
 | gitea.typename.fr | gitea | successful | 2025-03-27 10:59:06 +0000UTC | #1020 |
 | gitlab.extra.irsn.fr | gitlab | successful | 2025-03-27 12:30:48 +0000UTC | #1022 |
 | gitlab.esiea.fr | gitlab | successful | 2025-03-27 13:00:01 +0000UTC | #1021 |
+| git.pix-n-chill.fr | gitea | successful | 2025-03-28 03:56:11 +0000UTC | #1023 |
