@@ -157,3 +157,4 @@
 | gitlab.extra.irsn.fr | gitlab | successful | 2025-03-27 12:30:48 +0000UTC | #1022 |
 | gitlab.esiea.fr | gitlab | successful | 2025-03-27 13:00:01 +0000UTC | #1021 |
 | git.pix-n-chill.fr | gitea | successful | 2025-03-28 03:56:11 +0000UTC | #1023 |
+| dci-gitlab.cines.fr | gitlab | successful | 2025-03-28 11:54:09 +0000UTC | #1027 |
