@@ -160,3 +160,4 @@
 | dci-gitlab.cines.fr | gitlab | successful | 2025-03-28 11:54:09 +0000UTC | #1027 |
 | gitlab.labos.polytechnique.fr | gitlab | successful | 2025-03-28 13:10:46 +0000UTC | #1024 |
 | gitub.u-bordeaux.fr | gitlab | successful | 2025-03-28 13:11:43 +0000UTC | #1025 |
+| cameleon.univ-lyon1.fr | gitlab | successful | 2025-03-28 13:13:16 +0000UTC | #1026 |
