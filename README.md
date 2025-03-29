@@ -166,3 +166,4 @@
 | forge.oasu.u-bordeaux.fr | gitlab | successful | 2025-03-28 15:14:01 +0000UTC | #1032 |
 | forge.chapril.org | gitea | successful | 2025-03-28 15:45:29 +0000UTC | #1028 |
 | forge.ird.fr | gitlab | successful | 2025-03-28 16:42:35 +0000UTC | #1030 |
+| lily-is.land | gitlab | successful | 2025-03-29 05:24:30 +0000UTC | #1033 |
