@@ -178,3 +178,4 @@
 | gitlab.rd.nic.fr | gitlab | successful | 2025-03-31 16:30:39 +0000UTC | #1041 |
 | gogs.elic.ucl.ac.be | gogs | successful | 2025-03-31 16:51:04 +0000UTC | #1044 |
 | gogs.prunetwork.fr | gitea | successful | 2025-03-31 16:52:24 +0000UTC | #1046 |
+| gitlab.ec-lyon.fr | gitlab | successful | 2025-03-31 17:50:29 +0000UTC | #1040 |
