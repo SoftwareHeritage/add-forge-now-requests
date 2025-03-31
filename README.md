@@ -170,3 +170,4 @@
 | forge.ti-nuage.fr | gitea | successful | 2025-03-31 10:23:52 +0000UTC | #1034 |
 | git.labolyon.fr | gitea | successful | 2025-03-31 11:25:13 +0000UTC | #1035 |
 | git.univ-cotedazur.fr | gitlab | successful | 2025-03-31 11:46:34 +0000UTC | #1037 |
+| gitlab-preprod.in2p3.fr | gitlab | successful | 2025-03-31 15:49:11 +0000UTC | #1038 |
