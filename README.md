@@ -175,3 +175,4 @@
 | gogs.am-networks.fr | gogs | successful | 2025-03-31 16:21:51 +0000UTC | #1042 |
 | gogs.caricand.fr | gogs | successful | 2025-03-31 16:22:50 +0000UTC | #1043 |
 | gogs.sincrone.fr | gitea | successful | 2025-03-31 16:24:57 +0000UTC | #1047 |
+| gitlab.rd.nic.fr | gitlab | successful | 2025-03-31 16:30:39 +0000UTC | #1041 |
