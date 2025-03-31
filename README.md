@@ -172,3 +172,4 @@
 | git.univ-cotedazur.fr | gitlab | successful | 2025-03-31 11:46:34 +0000UTC | #1037 |
 | gitlab-preprod.in2p3.fr | gitlab | successful | 2025-03-31 15:49:11 +0000UTC | #1038 |
 | gitlab-sml.din.developpement-durable.gouv.fr | gitlab | successful | 2025-03-31 15:50:11 +0000UTC | #1039 |
+| gogs.am-networks.fr | gogs | successful | 2025-03-31 16:21:51 +0000UTC | #1042 |
