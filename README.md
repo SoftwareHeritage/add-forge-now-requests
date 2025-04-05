@@ -180,3 +180,4 @@
 | gogs.prunetwork.fr | gitea | successful | 2025-03-31 16:52:24 +0000UTC | #1046 |
 | gitlab.ec-lyon.fr | gitlab | successful | 2025-03-31 17:50:29 +0000UTC | #1040 |
 | gitlab.di.ens.fr | gitlab | unsuccessful | 2025-04-05 04:45:42 +0000UTC | #1049 |
+| git.art-software.fr | gitea | successful | 2025-04-05 06:12:25 +0000UTC | #1050 |
