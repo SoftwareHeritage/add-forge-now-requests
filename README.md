@@ -182,3 +182,4 @@
 | gitlab.di.ens.fr | gitlab | unsuccessful | 2025-04-05 04:45:42 +0000UTC | #1049 |
 | git.art-software.fr | gitea | successful | 2025-04-05 06:12:25 +0000UTC | #1050 |
 | git.wut.ee | gitea | successful | 2025-04-05 06:16:30 +0000UTC | #1051 |
+| voparis-gitlab.obspm.fr | gitlab | successful | 2025-04-07 05:22:45 +0000UTC | #1052 |
