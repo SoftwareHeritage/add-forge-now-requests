@@ -186,3 +186,4 @@
 | git.lacontrevoie.fr | gitea | successful | 2025-04-07 05:51:52 +0000UTC | #1054 |
 | git.cyberjinh.fr | gitea | successful | 2025-04-07 05:53:16 +0000UTC | #1056 |
 | git.k-space.ee | gitea | successful | 2025-04-07 06:11:08 +0000UTC | #1055 |
+| gitlab.di.ens.fr | gitlab | successful | 2025-04-07 08:53:35 +0000UTC | #1049 |
