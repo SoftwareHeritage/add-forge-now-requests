@@ -188,3 +188,4 @@
 | git.k-space.ee | gitea | successful | 2025-04-07 06:11:08 +0000UTC | #1055 |
 | gitlab.di.ens.fr | gitlab | successful | 2025-04-07 08:53:35 +0000UTC | #1049 |
 | code.groupe-genes.fr | gitea | successful | 2025-04-10 04:16:19 +0000UTC | #1058 |
+| git.rockylinux.org | gitlab | successful | 2025-04-10 07:14:32 +0000UTC | #1057 |
