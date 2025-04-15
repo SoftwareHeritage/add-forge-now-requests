@@ -190,3 +190,4 @@
 | code.groupe-genes.fr | gitea | successful | 2025-04-10 04:16:19 +0000UTC | #1058 |
 | git.rockylinux.org | gitlab | successful | 2025-04-10 07:14:32 +0000UTC | #1057 |
 | git.resel.fr | gitlab | successful | 2025-04-10 08:22:23 +0000UTC | #1059 |
+| git.pa1ch.fr | cgit | successful | 2025-04-15 05:09:33 +0000UTC | #1061 |
