@@ -191,3 +191,4 @@
 | git.rockylinux.org | gitlab | successful | 2025-04-10 07:14:32 +0000UTC | #1057 |
 | git.resel.fr | gitlab | successful | 2025-04-10 08:22:23 +0000UTC | #1059 |
 | git.pa1ch.fr | cgit | successful | 2025-04-15 05:09:33 +0000UTC | #1061 |
+| gl.mathhub.info | gitlab | successful | 2025-04-17 11:43:50 +0000UTC | #1060 |
