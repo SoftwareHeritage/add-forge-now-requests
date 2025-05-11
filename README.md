@@ -194,3 +194,4 @@
 | gl.mathhub.info | gitlab | successful | 2025-04-17 11:43:50 +0000UTC | #1060 |
 | gitlab.ub.uni-giessen.de | gitlab | unsuccessful | 2025-04-20 01:48:17 +0000UTC | #1062 |
 | gitlab.ub.uni-giessen.de | gitlab | successful | 2025-04-21 18:14:22 +0000UTC | #1062 |
+| git-lium.univ-lemans.fr | gitlab | unsuccessful | 2025-05-11 16:06:08 +0000UTC | #1064 |
