@@ -198,3 +198,4 @@
 | git-lium.univ-lemans.fr | gitlab | successful | 2025-05-19 09:15:01 +0000UTC | #1064 |
 | scm.dersco.re | cgit | successful | 2025-05-20 06:03:00 +0000UTC | #1065 |
 | code.inno3.eu | gitlab | successful | 2025-05-21 09:31:20 +0000UTC | #1068 |
+| edu-git.ac-versailles.fr | gitlab | successful | 2025-05-21 09:34:12 +0000UTC | #1069 |
