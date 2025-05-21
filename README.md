@@ -202,3 +202,4 @@
 | git.biohpc.swmed.edu | gitlab | successful | 2025-05-21 09:35:11 +0000UTC | #1070 |
 | git.oeru.org | gitlab | successful | 2025-05-21 09:37:21 +0000UTC | #1072 |
 | gitlab-mshe.univ-fcomte.fr | gitlab | successful | 2025-05-21 11:13:18 +0000UTC | #1074 |
+| gitlab.univ-rouen.fr | gitlab | successful | 2025-05-21 11:13:51 +0000UTC | #1075 |
