@@ -200,3 +200,4 @@
 | code.inno3.eu | gitlab | successful | 2025-05-21 09:31:20 +0000UTC | #1068 |
 | edu-git.ac-versailles.fr | gitlab | successful | 2025-05-21 09:34:12 +0000UTC | #1069 |
 | git.biohpc.swmed.edu | gitlab | successful | 2025-05-21 09:35:11 +0000UTC | #1070 |
+| git.oeru.org | gitlab | successful | 2025-05-21 09:37:21 +0000UTC | #1072 |
