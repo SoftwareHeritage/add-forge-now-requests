@@ -205,3 +205,4 @@
 | gitlab.univ-rouen.fr | gitlab | successful | 2025-05-21 11:13:51 +0000UTC | #1075 |
 | git.fpfis.tech.ec.europa.eu | gitlab | successful | 2025-05-21 13:36:26 +0000UTC | #1071 |
 | llrgit.in2p3.fr | gitlab | successful | 2025-05-22 09:31:01 +0000UTC | #1078 |
+| gitlab.adorsaz.ch | gitlab | successful | 2025-05-22 09:31:46 +0000UTC | #1079 |
