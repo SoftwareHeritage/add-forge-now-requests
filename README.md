@@ -208,3 +208,4 @@
 | gitlab.adorsaz.ch | gitlab | successful | 2025-05-22 09:31:46 +0000UTC | #1079 |
 | gitlab.sealedair.io | gitlab | successful | 2025-05-22 09:35:55 +0000UTC | #1081 |
 | lab.unif.app | gitlab | successful | 2025-05-22 09:37:31 +0000UTC | #1084 |
+| unh-pfem-gitlab.ara.inrae.fr | gitlab | successful | 2025-05-22 09:38:40 +0000UTC | #1082 |
