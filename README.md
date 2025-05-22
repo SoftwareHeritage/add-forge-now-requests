@@ -213,3 +213,4 @@
 | gitlab.tetras-libre.fr | gitlab | successful | 2025-05-22 09:48:53 +0000UTC | #1076 |
 | labs.nereide.fr | gitlab | successful | 2025-05-22 10:39:47 +0000UTC | #1077 |
 | gitlab.univ-st-etienne.fr | gitlab | successful | 2025-05-22 10:49:24 +0000UTC | #1086 |
+| git.dti.crosemont.quebec | gitlab | successful | 2025-05-22 10:53:41 +0000UTC | #1080 |
