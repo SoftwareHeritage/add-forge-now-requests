@@ -210,3 +210,4 @@
 | lab.unif.app | gitlab | successful | 2025-05-22 09:37:31 +0000UTC | #1084 |
 | unh-pfem-gitlab.ara.inrae.fr | gitlab | successful | 2025-05-22 09:38:40 +0000UTC | #1082 |
 | devops.telecomste.fr | gitlab | successful | 2025-05-22 09:48:29 +0000UTC | #1085 |
+| gitlab.tetras-libre.fr | gitlab | successful | 2025-05-22 09:48:53 +0000UTC | #1076 |
