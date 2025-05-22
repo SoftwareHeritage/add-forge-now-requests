@@ -206,3 +206,4 @@
 | git.fpfis.tech.ec.europa.eu | gitlab | successful | 2025-05-21 13:36:26 +0000UTC | #1071 |
 | llrgit.in2p3.fr | gitlab | successful | 2025-05-22 09:31:01 +0000UTC | #1078 |
 | gitlab.adorsaz.ch | gitlab | successful | 2025-05-22 09:31:46 +0000UTC | #1079 |
+| gitlab.sealedair.io | gitlab | successful | 2025-05-22 09:35:55 +0000UTC | #1081 |
