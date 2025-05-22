@@ -207,3 +207,4 @@
 | llrgit.in2p3.fr | gitlab | successful | 2025-05-22 09:31:01 +0000UTC | #1078 |
 | gitlab.adorsaz.ch | gitlab | successful | 2025-05-22 09:31:46 +0000UTC | #1079 |
 | gitlab.sealedair.io | gitlab | successful | 2025-05-22 09:35:55 +0000UTC | #1081 |
+| lab.unif.app | gitlab | successful | 2025-05-22 09:37:31 +0000UTC | #1084 |
