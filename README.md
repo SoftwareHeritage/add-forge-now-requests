@@ -225,3 +225,4 @@
 | gitlab.ensta.fr | gitlab | unsuccessful | 2025-05-27 13:20:17 +0000UTC | #1105 |
 | git.ortolang.fr | gitlab | successful | 2025-05-27 14:14:55 +0000UTC | #1097 |
 | gitlab.sb-roscoff.fr | gitlab | successful | 2025-05-27 14:47:31 +0000UTC | #1099 |
+| git.zapashcanon.fr | gitea | successful | 2025-05-27 15:16:15 +0000UTC | #1103 |
