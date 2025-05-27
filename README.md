@@ -218,3 +218,4 @@
 | scm.univ-tours.fr | gitlab | successful | 2025-05-27 10:50:42 +0000UTC | #1091 |
 | gitlab.telecomnancy.univ-lorraine.fr | gitlab | successful | 2025-05-27 10:55:12 +0000UTC | #1087 |
 | git.se.informatik.uni-kiel.de | gitlab | successful | 2025-05-27 10:57:42 +0000UTC | #1088 |
+| gitlab.viarezo.fr | gitlab | successful | 2025-05-27 11:34:07 +0000UTC | #1094 |
