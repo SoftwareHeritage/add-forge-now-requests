@@ -220,3 +220,4 @@
 | git.se.informatik.uni-kiel.de | gitlab | successful | 2025-05-27 10:57:42 +0000UTC | #1088 |
 | gitlab.viarezo.fr | gitlab | successful | 2025-05-27 11:34:07 +0000UTC | #1094 |
 | git.cyu.fr | gitlab | successful | 2025-05-27 12:05:26 +0000UTC | #1095 |
+| gitlab.envt.fr | gitlab | successful | 2025-05-27 12:12:44 +0000UTC | #1093 |
