@@ -228,3 +228,4 @@
 | git.zapashcanon.fr | gitea | successful | 2025-05-27 15:16:15 +0000UTC | #1103 |
 | gitlab-rech.insa-toulouse.fr | gitlab | successful | 2025-05-27 15:18:57 +0000UTC | #1100 |
 | gitlab.galaxy.ibpc.fr | gitlab | successful | 2025-05-27 15:19:47 +0000UTC | #1101 |
+| git.enib.fr | gitlab | successful | 2025-05-27 15:46:20 +0000UTC | #1098 |
