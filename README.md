@@ -223,3 +223,4 @@
 | gitlab.envt.fr | gitlab | successful | 2025-05-27 12:12:44 +0000UTC | #1093 |
 | git.lamsade.dauphine.fr | gitlab | successful | 2025-05-27 12:17:12 +0000UTC | #1096 |
 | gitlab.ensta.fr | gitlab | unsuccessful | 2025-05-27 13:20:17 +0000UTC | #1105 |
+| git.ortolang.fr | gitlab | successful | 2025-05-27 14:14:55 +0000UTC | #1097 |
