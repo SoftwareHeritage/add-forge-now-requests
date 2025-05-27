@@ -221,3 +221,4 @@
 | gitlab.viarezo.fr | gitlab | successful | 2025-05-27 11:34:07 +0000UTC | #1094 |
 | git.cyu.fr | gitlab | successful | 2025-05-27 12:05:26 +0000UTC | #1095 |
 | gitlab.envt.fr | gitlab | successful | 2025-05-27 12:12:44 +0000UTC | #1093 |
+| git.lamsade.dauphine.fr | gitlab | successful | 2025-05-27 12:17:12 +0000UTC | #1096 |
