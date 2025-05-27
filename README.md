@@ -230,3 +230,4 @@
 | gitlab.galaxy.ibpc.fr | gitlab | successful | 2025-05-27 15:19:47 +0000UTC | #1101 |
 | git.enib.fr | gitlab | successful | 2025-05-27 15:46:20 +0000UTC | #1098 |
 | gitlab.laas.fr | gitlab | successful | 2025-05-27 16:10:01 +0000UTC | #1090 |
+| gitlab.osupytheas.fr | gitlab | successful | 2025-05-27 17:47:14 +0000UTC | #1104 |
