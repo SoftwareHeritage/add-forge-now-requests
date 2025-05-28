@@ -231,3 +231,4 @@
 | git.enib.fr | gitlab | successful | 2025-05-27 15:46:20 +0000UTC | #1098 |
 | gitlab.laas.fr | gitlab | successful | 2025-05-27 16:10:01 +0000UTC | #1090 |
 | gitlab.osupytheas.fr | gitlab | successful | 2025-05-27 17:47:14 +0000UTC | #1104 |
+| gitlab.dpt-info.univ-littoral.fr | gitlab | successful | 2025-05-28 09:15:53 +0000UTC | #1106 |
