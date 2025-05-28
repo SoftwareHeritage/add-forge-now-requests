@@ -233,3 +233,4 @@
 | gitlab.osupytheas.fr | gitlab | successful | 2025-05-27 17:47:14 +0000UTC | #1104 |
 | gitlab.dpt-info.univ-littoral.fr | gitlab | successful | 2025-05-28 09:15:53 +0000UTC | #1106 |
 | forge.soutade.fr | gitea | successful | 2025-05-28 09:16:35 +0000UTC | #1107 |
+| git.passageenseine.fr | gitea | successful | 2025-05-28 11:23:17 +0000UTC | #1111 |
