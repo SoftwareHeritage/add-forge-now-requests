@@ -239,3 +239,4 @@
 | devsgn.ign.fr | gitlab | successful | 2025-05-28 12:14:55 +0000UTC | #1115 |
 | code.waarp.fr | gitlab | successful | 2025-05-28 12:17:56 +0000UTC | #1114 |
 | drf-gitlab.cea.fr | gitlab | successful | 2025-05-28 12:48:40 +0000UTC | #1116 |
+| gitlab.ensta.fr | gitlab | successful | 2025-05-28 12:49:28 +0000UTC | #1105 |
