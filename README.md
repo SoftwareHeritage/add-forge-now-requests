@@ -240,3 +240,4 @@
 | code.waarp.fr | gitlab | successful | 2025-05-28 12:17:56 +0000UTC | #1114 |
 | drf-gitlab.cea.fr | gitlab | successful | 2025-05-28 12:48:40 +0000UTC | #1116 |
 | gitlab.ensta.fr | gitlab | successful | 2025-05-28 12:49:28 +0000UTC | #1105 |
+| epos-ci.brgm.fr | gitlab | successful | 2025-05-28 13:51:17 +0000UTC | #1118 |
