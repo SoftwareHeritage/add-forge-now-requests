@@ -235,3 +235,4 @@
 | forge.soutade.fr | gitea | successful | 2025-05-28 09:16:35 +0000UTC | #1107 |
 | git.passageenseine.fr | gitea | successful | 2025-05-28 11:23:17 +0000UTC | #1111 |
 | gitlab.forge.gouv.qc.ca | gitlab | successful | 2025-05-28 11:54:24 +0000UTC | #1112 |
+| gitlab.cri.minesparis.psl.eu | gitlab | successful | 2025-05-28 12:05:21 +0000UTC | #1113 |
