@@ -250,3 +250,4 @@
 | gitlab.binets.fr | gitlab | successful | 2025-05-28 15:22:10 +0000UTC | #1092 |
 | forge.tedomum.net | gitlab | successful | 2025-05-28 15:54:32 +0000UTC | #1121 |
 | git.airweb.fr | gitlab | successful | 2025-05-28 15:58:23 +0000UTC | #1125 |
+| git-etudiants.lacl.fr | gitlab | successful | 2025-05-28 16:15:30 +0000UTC | #1122 |
