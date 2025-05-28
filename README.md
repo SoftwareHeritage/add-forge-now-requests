@@ -247,3 +247,4 @@
 | forge.cadoles.com | gitea | successful | 2025-05-28 14:43:46 +0000UTC | #1120 |
 | git.achatsolutions.fr | gitlab | successful | 2025-05-28 15:17:17 +0000UTC | #1124 |
 | etulab.univ-amu.fr | gitlab | successful | 2025-05-28 15:18:25 +0000UTC | #1119 |
+| gitlab.binets.fr | gitlab | successful | 2025-05-28 15:22:10 +0000UTC | #1092 |
