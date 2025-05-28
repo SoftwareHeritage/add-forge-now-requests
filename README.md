@@ -243,3 +243,4 @@
 | epos-ci.brgm.fr | gitlab | successful | 2025-05-28 13:51:17 +0000UTC | #1118 |
 | e-gitlab.univ-lemans.fr | gitlab | successful | 2025-05-28 14:10:42 +0000UTC | #1117 |
 | gitlab.idiap.ch | gitlab | successful | 2025-05-28 14:20:08 +0000UTC | #1109 |
+| gitlab.insa-rennes.fr | gitlab | successful | 2025-05-28 14:22:09 +0000UTC | #1110 |
