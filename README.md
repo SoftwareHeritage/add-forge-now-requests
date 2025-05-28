@@ -237,3 +237,4 @@
 | gitlab.forge.gouv.qc.ca | gitlab | successful | 2025-05-28 11:54:24 +0000UTC | #1112 |
 | gitlab.cri.minesparis.psl.eu | gitlab | successful | 2025-05-28 12:05:21 +0000UTC | #1113 |
 | devsgn.ign.fr | gitlab | successful | 2025-05-28 12:14:55 +0000UTC | #1115 |
+| code.waarp.fr | gitlab | successful | 2025-05-28 12:17:56 +0000UTC | #1114 |
