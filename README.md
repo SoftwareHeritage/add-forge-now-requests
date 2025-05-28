@@ -254,3 +254,4 @@
 | git-web.sa-cim.fr | gitlab | successful | 2025-05-28 16:16:33 +0000UTC | #1123 |
 | git.allella.fr | gitea | successful | 2025-05-28 16:19:09 +0000UTC | #1126 |
 | git.anje-justice.fr | gitlab | successful | 2025-05-28 16:20:24 +0000UTC | #1127 |
+| git.cbi.igbmc.fr | gitlab | successful | 2025-05-28 16:48:38 +0000UTC | #1128 |
