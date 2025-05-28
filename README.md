@@ -241,3 +241,4 @@
 | drf-gitlab.cea.fr | gitlab | successful | 2025-05-28 12:48:40 +0000UTC | #1116 |
 | gitlab.ensta.fr | gitlab | successful | 2025-05-28 12:49:28 +0000UTC | #1105 |
 | epos-ci.brgm.fr | gitlab | successful | 2025-05-28 13:51:17 +0000UTC | #1118 |
+| e-gitlab.univ-lemans.fr | gitlab | successful | 2025-05-28 14:10:42 +0000UTC | #1117 |
