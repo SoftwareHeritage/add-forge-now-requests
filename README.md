@@ -234,3 +234,4 @@
 | gitlab.dpt-info.univ-littoral.fr | gitlab | successful | 2025-05-28 09:15:53 +0000UTC | #1106 |
 | forge.soutade.fr | gitea | successful | 2025-05-28 09:16:35 +0000UTC | #1107 |
 | git.passageenseine.fr | gitea | successful | 2025-05-28 11:23:17 +0000UTC | #1111 |
+| gitlab.forge.gouv.qc.ca | gitlab | successful | 2025-05-28 11:54:24 +0000UTC | #1112 |
