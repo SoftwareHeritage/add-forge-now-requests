@@ -267,3 +267,4 @@
 | gitlab.ikw.uni-osnabrueck.de | gitlab | successful | 2025-06-02 13:38:03 +0000UTC | #1139 |
 | gitlab.uni-hannover.de | gitlab | successful | 2025-06-02 14:13:11 +0000UTC | #1142 |
 | gitlab.dei.unipd.it | gitlab | successful | 2025-06-02 14:14:47 +0000UTC | #1143 |
+| gitlab.physics.unitn.it | gitlab | successful | 2025-06-02 14:15:44 +0000UTC | #1144 |
