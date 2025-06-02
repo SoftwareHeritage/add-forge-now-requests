@@ -269,3 +269,4 @@
 | gitlab.dei.unipd.it | gitlab | successful | 2025-06-02 14:14:47 +0000UTC | #1143 |
 | gitlab.physics.unitn.it | gitlab | successful | 2025-06-02 14:15:44 +0000UTC | #1144 |
 | dei-gitlab.dei.unibo.it | gitlab | successful | 2025-06-02 14:28:35 +0000UTC | #1145 |
+| dvcs.apice.unibo.it | gitlab | successful | 2025-06-02 14:39:53 +0000UTC | #1146 |
