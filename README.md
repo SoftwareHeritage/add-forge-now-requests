@@ -257,3 +257,4 @@
 | git.cbi.igbmc.fr | gitlab | successful | 2025-05-28 16:48:38 +0000UTC | #1128 |
 | git.etis-lab.fr | gitlab | successful | 2025-06-02 10:27:11 +0000UTC | #1132 |
 | git.chevro.fr | gitlab | successful | 2025-06-02 10:31:25 +0000UTC | #1129 |
+| git.hostux.fr | gitea | successful | 2025-06-02 10:32:46 +0000UTC | #1135 |
