@@ -264,3 +264,4 @@
 | git.grifon.fr | gitea | successful | 2025-06-02 10:51:36 +0000UTC | #1134 |
 | git.icam.fr | gitlab | successful | 2025-06-02 10:53:59 +0000UTC | #1136 |
 | git.isir.upmc.fr | gitlab | successful | 2025-06-02 10:55:53 +0000UTC | #1137 |
+| gitlab.ikw.uni-osnabrueck.de | gitlab | successful | 2025-06-02 13:38:03 +0000UTC | #1139 |
