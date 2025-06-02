@@ -262,3 +262,4 @@
 | git.dryusdan.fr | gitea | successful | 2025-06-02 10:45:59 +0000UTC | #1131 |
 | git.fainsin.bzh | gitea | successful | 2025-06-02 10:48:08 +0000UTC | #1133 |
 | git.grifon.fr | gitea | successful | 2025-06-02 10:51:36 +0000UTC | #1134 |
+| git.icam.fr | gitlab | successful | 2025-06-02 10:53:59 +0000UTC | #1136 |
