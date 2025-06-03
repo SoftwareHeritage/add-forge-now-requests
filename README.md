@@ -277,3 +277,4 @@
 | git.l3s.uni-hannover.de | gitlab | successful | 2025-06-03 09:57:14 +0000UTC | #1149 |
 | git.unimore.it | gitlab | successful | 2025-06-03 10:59:41 +0000UTC | #1152 |
 | gitlab.sron.nl | gitlab | successful | 2025-06-03 11:00:27 +0000UTC | #1153 |
+| git.ram.eemcs.utwente.nl | gitlab | successful | 2025-06-03 11:02:02 +0000UTC | #1154 |
