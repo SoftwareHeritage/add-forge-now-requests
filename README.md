@@ -274,3 +274,4 @@
 | gitlab.informatik.uni-osnabrueck.de | gitlab | successful | 2025-06-02 14:46:35 +0000UTC | #1138 |
 | git.sc.uni-leipzig.de | gitlab | successful | 2025-06-02 21:31:11 +0000UTC | #1141 |
 | gitlab.projekt.uni-hannover.de | gitlab | successful | 2025-06-03 09:25:43 +0000UTC | #1148 |
+| git.l3s.uni-hannover.de | gitlab | successful | 2025-06-03 09:57:14 +0000UTC | #1149 |
