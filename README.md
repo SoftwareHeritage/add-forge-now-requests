@@ -294,3 +294,4 @@
 | gitlab.ifi.uzh.ch | gitlab | successful | 2025-06-03 15:20:19 +0000UTC | #1167 |
 | star-rep.inf.usi.ch | gitlab | successful | 2025-06-03 16:48:24 +0000UTC | #1171 |
 | www.gitlab.ci.inf.usi.ch | gitlab | successful | 2025-06-03 17:02:32 +0000UTC | #1172 |
+| gitlab.cloudlab.zhaw.ch | gitlab | successful | 2025-06-03 17:06:06 +0000UTC | #1175 |
