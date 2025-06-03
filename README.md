@@ -287,3 +287,4 @@
 | gitlab.climate.unibe.ch | gitlab | successful | 2025-06-03 13:08:22 +0000UTC | #1162 |
 | gitlab.aei.uni-hannover.de | gitlab | successful | 2025-06-03 13:42:11 +0000UTC | #1160 |
 | gitlab.adoy.net | gitlab | successful | 2025-06-03 13:42:12 +0000UTC | #1164 |
+| gitlab.bbbaden.ch | gitlab | successful | 2025-06-03 14:06:49 +0000UTC | #1157 |
