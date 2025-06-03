@@ -299,3 +299,4 @@
 | git.1pixel.ch | gitlab | successful | 2025-06-03 17:14:33 +0000UTC | #1177 |
 | gitlabcse.unil.ch | gitlab | successful | 2025-06-03 17:15:12 +0000UTC | #1174 |
 | gitlab.distantaccess.com | gitlab | successful | 2025-06-03 17:18:24 +0000UTC | #1176 |
+| gitlab.uzh.ch | gitlab | successful | 2025-06-03 17:44:39 +0000UTC | #1168 |
