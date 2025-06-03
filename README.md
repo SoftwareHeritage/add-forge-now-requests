@@ -284,3 +284,4 @@
 | spacegit.unibe.ch | gitlab | successful | 2025-06-03 12:35:14 +0000UTC | #1159 |
 | tests.ing.unibs.it | gitlab | successful | 2025-06-03 12:38:39 +0000UTC | #1151 |
 | gitlab.ia.utwente.nl | gitlab | successful | 2025-06-03 13:03:41 +0000UTC | #1161 |
+| gitlab.climate.unibe.ch | gitlab | successful | 2025-06-03 13:08:22 +0000UTC | #1162 |
