@@ -278,3 +278,4 @@
 | git.unimore.it | gitlab | successful | 2025-06-03 10:59:41 +0000UTC | #1152 |
 | gitlab.sron.nl | gitlab | successful | 2025-06-03 11:00:27 +0000UTC | #1153 |
 | git.ram.eemcs.utwente.nl | gitlab | successful | 2025-06-03 11:02:02 +0000UTC | #1154 |
+| gitlab.eqipe.ch | gitlab | successful | 2025-06-03 11:03:44 +0000UTC | #1155 |
