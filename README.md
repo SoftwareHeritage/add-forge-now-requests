@@ -290,3 +290,4 @@
 | gitlab.bbbaden.ch | gitlab | successful | 2025-06-03 14:06:49 +0000UTC | #1157 |
 | sissource.ethz.ch | gitlab | successful | 2025-06-03 14:39:24 +0000UTC | #1163 |
 | git-repo.iml.unibe.ch | gitlab | successful | 2025-06-03 14:39:52 +0000UTC | #1165 |
+| git.sos.ethz.ch | gitlab | successful | 2025-06-03 14:47:18 +0000UTC | #1166 |
