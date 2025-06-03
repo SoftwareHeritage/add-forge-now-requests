@@ -282,3 +282,4 @@
 | gitlab.inf.unibe.ch | gitlab | successful | 2025-06-03 11:05:14 +0000UTC | #1156 |
 | git.hci.uni-hannover.de | gitlab | successful | 2025-06-03 12:18:28 +0000UTC | #1158 |
 | spacegit.unibe.ch | gitlab | successful | 2025-06-03 12:35:14 +0000UTC | #1159 |
+| tests.ing.unibs.it | gitlab | successful | 2025-06-03 12:38:39 +0000UTC | #1151 |
