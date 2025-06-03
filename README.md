@@ -293,3 +293,4 @@
 | git.sos.ethz.ch | gitlab | successful | 2025-06-03 14:47:18 +0000UTC | #1166 |
 | gitlab.ifi.uzh.ch | gitlab | successful | 2025-06-03 15:20:19 +0000UTC | #1167 |
 | star-rep.inf.usi.ch | gitlab | successful | 2025-06-03 16:48:24 +0000UTC | #1171 |
+| www.gitlab.ci.inf.usi.ch | gitlab | successful | 2025-06-03 17:02:32 +0000UTC | #1172 |
