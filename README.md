@@ -296,3 +296,4 @@
 | www.gitlab.ci.inf.usi.ch | gitlab | successful | 2025-06-03 17:02:32 +0000UTC | #1172 |
 | gitlab.cloudlab.zhaw.ch | gitlab | successful | 2025-06-03 17:06:06 +0000UTC | #1175 |
 | gitlab.nccr-automation.ch | gitlab | successful | 2025-06-03 17:06:41 +0000UTC | #1173 |
+| git.1pixel.ch | gitlab | successful | 2025-06-03 17:14:33 +0000UTC | #1177 |
