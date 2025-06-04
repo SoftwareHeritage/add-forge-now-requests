@@ -307,3 +307,4 @@
 | gogs.algocloud.cz | gogs | successful | 2025-06-04 09:27:08 +0000UTC | #1180 |
 | cgit.alxu.ca | cgit | successful | 2025-06-04 09:29:28 +0000UTC | #1181 |
 | git.kis.fr | gitlab | successful | 2025-06-04 09:47:06 +0000UTC | #1186 |
+| gitlab.bfabric.org | gitlab | successful | 2025-06-04 09:56:39 +0000UTC | #1170 |
