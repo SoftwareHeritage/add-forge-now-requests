@@ -314,3 +314,4 @@
 | git.libretic.fr | gitea | successful | 2025-06-04 11:24:31 +0000UTC | #1190 |
 | git.librezo.fr | gitea | successful | 2025-06-04 11:25:19 +0000UTC | #1191 |
 | git.liris.cnrs.fr | gitlab | successful | 2025-06-04 11:36:14 +0000UTC | #1192 |
+| git.labfox.fr | gitea | successful | 2025-06-04 12:04:00 +0000UTC | #1189 |
