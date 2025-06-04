@@ -304,3 +304,4 @@
 | gitlab.inf.unibz.it | gitlab | successful | 2025-06-04 07:28:40 +0000UTC | #1150 |
 | gitlab.t4d.ch | gitlab | successful | 2025-06-04 09:24:50 +0000UTC | #1178 |
 | git.it.essbilbao.org | gitlab | successful | 2025-06-04 09:26:07 +0000UTC | #1179 |
+| gogs.algocloud.cz | gogs | successful | 2025-06-04 09:27:08 +0000UTC | #1180 |
