@@ -312,3 +312,4 @@
 | git.lab.viaco.fr | gitlab | successful | 2025-06-04 10:59:15 +0000UTC | #1188 |
 | git.irdl.fr | gitea | successful | 2025-06-04 11:04:51 +0000UTC | #1184 |
 | git.libretic.fr | gitea | successful | 2025-06-04 11:24:31 +0000UTC | #1190 |
+| git.librezo.fr | gitea | successful | 2025-06-04 11:25:19 +0000UTC | #1191 |
