@@ -301,3 +301,4 @@
 | gitlab.distantaccess.com | gitlab | successful | 2025-06-03 17:18:24 +0000UTC | #1176 |
 | gitlab.uzh.ch | gitlab | successful | 2025-06-03 17:44:39 +0000UTC | #1168 |
 | code.ini.uzh.ch | gitlab | successful | 2025-06-03 19:25:37 +0000UTC | #1169 |
+| gitlab.inf.unibz.it | gitlab | successful | 2025-06-04 07:28:40 +0000UTC | #1150 |
