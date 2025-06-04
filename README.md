@@ -311,3 +311,4 @@
 | git.iut-rodez.fr | gitea | successful | 2025-06-04 10:06:13 +0000UTC | #1185 |
 | git.lab.viaco.fr | gitlab | successful | 2025-06-04 10:59:15 +0000UTC | #1188 |
 | git.irdl.fr | gitea | successful | 2025-06-04 11:04:51 +0000UTC | #1184 |
+| git.libretic.fr | gitea | successful | 2025-06-04 11:24:31 +0000UTC | #1190 |
