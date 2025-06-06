@@ -320,3 +320,4 @@
 | git.kytech.fr | gitea | successful | 2025-06-04 13:38:54 +0000UTC | #1187 |
 | git.mhcomm.fr | gitlab | successful | 2025-06-06 10:57:23 +0000UTC | #1195 |
 | git.mp2i-vms.fr | gitea | successful | 2025-06-06 10:59:50 +0000UTC | #1196 |
+| git.msh-lse.fr | gitlab | successful | 2025-06-06 11:01:26 +0000UTC | #1197 |
