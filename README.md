@@ -344,3 +344,4 @@
 | gitea.pongnot.fr | gitea | successful | 2025-06-06 20:18:00 +0000UTC | #1221 |
 | gituja.eenet.ee | gitlab | successful | 2025-06-06 20:48:49 +0000UTC | #1222 |
 | gitinfo.cnam.fr | gitlab | successful | 2025-06-06 20:49:52 +0000UTC | #1223 |
+| gitlab.42paris.fr | gitlab | successful | 2025-06-06 20:51:45 +0000UTC | #1224 |
