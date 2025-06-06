@@ -338,3 +338,4 @@
 | git.virtit.fr | gitea | successful | 2025-06-06 13:53:55 +0000UTC | #1213 |
 | git.vulpecula.fr | gitlab | successful | 2025-06-06 13:55:23 +0000UTC | #1214 |
 | git.yaodb-blog.fr | gitlab | successful | 2025-06-06 20:12:33 +0000UTC | #1216 |
+| git.echosystem.fr | gitea | successful | 2025-06-06 20:14:57 +0000UTC | #1218 |
