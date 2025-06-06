@@ -340,3 +340,4 @@
 | git.yaodb-blog.fr | gitlab | successful | 2025-06-06 20:12:33 +0000UTC | #1216 |
 | git.echosystem.fr | gitea | successful | 2025-06-06 20:14:57 +0000UTC | #1218 |
 | gitea.fabienmcl.fr | gitea | successful | 2025-06-06 20:15:49 +0000UTC | #1219 |
+| gitea.lyc-lecastel.fr | gitea | successful | 2025-06-06 20:17:04 +0000UTC | #1220 |
