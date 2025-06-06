@@ -329,3 +329,4 @@
 | git.myceliandre.fr | gitea | successful | 2025-06-06 11:52:17 +0000UTC | #1198 |
 | git.starxpert.fr | gitlab | successful | 2025-06-06 11:53:16 +0000UTC | #1204 |
 | git.tansorier.fr | gitea | successful | 2025-06-06 13:47:43 +0000UTC | #1206 |
+| git.theoludwig.fr | gitea | successful | 2025-06-06 13:48:23 +0000UTC | #1207 |
