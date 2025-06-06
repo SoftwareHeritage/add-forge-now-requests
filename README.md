@@ -346,3 +346,4 @@
 | gitinfo.cnam.fr | gitlab | successful | 2025-06-06 20:49:52 +0000UTC | #1223 |
 | gitlab.42paris.fr | gitlab | successful | 2025-06-06 20:51:45 +0000UTC | #1224 |
 | gitea.dariow.fr | gitea | successful | 2025-06-06 21:34:12 +0000UTC | #1217 |
+| git.seco.com | gitlab | successful | 2025-06-06 23:56:38 +0000UTC | #1215 |
