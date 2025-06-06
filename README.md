@@ -327,3 +327,4 @@
 | git.resilien.fr | gitea | successful | 2025-06-06 11:44:11 +0000UTC | #1202 |
 | git.rezel.net | gitea | successful | 2025-06-06 11:48:13 +0000UTC | #1203 |
 | git.myceliandre.fr | gitea | successful | 2025-06-06 11:52:17 +0000UTC | #1198 |
+| git.starxpert.fr | gitlab | successful | 2025-06-06 11:53:16 +0000UTC | #1204 |
