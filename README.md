@@ -323,3 +323,4 @@
 | git.msh-lse.fr | gitlab | successful | 2025-06-06 11:01:26 +0000UTC | #1197 |
 | git.neogeo.fr | gitlab | successful | 2025-06-06 11:24:21 +0000UTC | #1199 |
 | git.svallee.fr | gitea | successful | 2025-06-06 11:34:21 +0000UTC | #1205 |
+| git.pandacube.fr | gitea | successful | 2025-06-06 11:41:39 +0000UTC | #1201 |
