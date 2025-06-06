@@ -342,3 +342,4 @@
 | gitea.fabienmcl.fr | gitea | successful | 2025-06-06 20:15:49 +0000UTC | #1219 |
 | gitea.lyc-lecastel.fr | gitea | successful | 2025-06-06 20:17:04 +0000UTC | #1220 |
 | gitea.pongnot.fr | gitea | successful | 2025-06-06 20:18:00 +0000UTC | #1221 |
+| gituja.eenet.ee | gitlab | successful | 2025-06-06 20:48:49 +0000UTC | #1222 |
