@@ -334,3 +334,4 @@
 | git.tontontux.fr | gitea | successful | 2025-06-06 13:50:13 +0000UTC | #1209 |
 | git.ummisco.fr | gitlab | successful | 2025-06-06 13:51:13 +0000UTC | #1210 |
 | git.univ-reunion.fr | gitea | successful | 2025-06-06 13:51:46 +0000UTC | #1211 |
+| git.valvin.fr | gitea | successful | 2025-06-06 13:53:08 +0000UTC | #1212 |
