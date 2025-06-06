@@ -318,3 +318,4 @@
 | git.lutes.upmc.fr | gitlab | successful | 2025-06-04 12:06:44 +0000UTC | #1193 |
 | git.metatux.fr | gitea | successful | 2025-06-04 12:11:38 +0000UTC | #1194 |
 | git.kytech.fr | gitea | successful | 2025-06-04 13:38:54 +0000UTC | #1187 |
+| git.mhcomm.fr | gitlab | successful | 2025-06-06 10:57:23 +0000UTC | #1195 |
