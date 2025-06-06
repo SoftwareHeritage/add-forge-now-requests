@@ -332,3 +332,4 @@
 | git.theoludwig.fr | gitea | successful | 2025-06-06 13:48:23 +0000UTC | #1207 |
 | git.tobast.fr | gitea | successful | 2025-06-06 13:49:38 +0000UTC | #1208 |
 | git.tontontux.fr | gitea | successful | 2025-06-06 13:50:13 +0000UTC | #1209 |
+| git.ummisco.fr | gitlab | successful | 2025-06-06 13:51:13 +0000UTC | #1210 |
