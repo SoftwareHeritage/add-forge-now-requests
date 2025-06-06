@@ -326,3 +326,4 @@
 | git.pandacube.fr | gitea | successful | 2025-06-06 11:41:39 +0000UTC | #1201 |
 | git.resilien.fr | gitea | successful | 2025-06-06 11:44:11 +0000UTC | #1202 |
 | git.rezel.net | gitea | successful | 2025-06-06 11:48:13 +0000UTC | #1203 |
+| git.myceliandre.fr | gitea | successful | 2025-06-06 11:52:17 +0000UTC | #1198 |
