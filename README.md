@@ -367,3 +367,4 @@
 | gitlab.emse.fr | gitlab | successful | 2025-06-10 14:14:49 +0000UTC | #1241 |
 | gitlab.institut-agro-dijon.fr | gitlab | successful | 2025-06-10 16:12:28 +0000UTC | #1248 |
 | gitlab.kafein-studio.fr | gitlab | successful | 2025-06-10 16:15:42 +0000UTC | #1251 |
+| gitlab.ginfo.centrale-marseille.fr | gitlab | successful | 2025-06-10 17:08:39 +0000UTC | #1245 |
