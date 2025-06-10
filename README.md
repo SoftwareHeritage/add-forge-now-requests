@@ -365,3 +365,4 @@
 | gitlab.domainepublic.net | gitlab | successful | 2025-06-10 12:34:48 +0000UTC | #1238 |
 | gitlab.ensta-bretagne.fr | gitlab | successful | 2025-06-10 13:46:09 +0000UTC | #1242 |
 | gitlab.emse.fr | gitlab | successful | 2025-06-10 14:14:49 +0000UTC | #1241 |
+| gitlab.institut-agro-dijon.fr | gitlab | successful | 2025-06-10 16:12:28 +0000UTC | #1248 |
