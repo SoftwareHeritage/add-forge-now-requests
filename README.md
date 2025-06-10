@@ -371,3 +371,4 @@
 | gitlab.etu.imt-nord-europe.fr | gitlab | successful | 2025-06-10 17:26:16 +0000UTC | #1243 |
 | gitlab.geekinfo.fr | gitlab | successful | 2025-06-10 17:28:08 +0000UTC | #1244 |
 | gitlab.imag.fr | gitlab | successful | 2025-06-10 17:30:46 +0000UTC | #1246 |
+| gitlab.insa-rouen.fr | gitlab | successful | 2025-06-10 18:01:21 +0000UTC | #1247 |
