@@ -352,3 +352,4 @@
 | gitlab-dynamap.timone.univ-amu.fr | gitlab | successful | 2025-06-10 09:57:26 +0000UTC | #1225 |
 | gitlab.aniti.fr | gitlab | successful | 2025-06-10 10:02:38 +0000UTC | #1227 |
 | gitlab.cluster.ensisa.uha.fr | gitlab | successful | 2025-06-10 10:17:20 +0000UTC | #1230 |
+| gitlab.darkmat.fr | gitlab | successful | 2025-06-10 10:18:29 +0000UTC | #1231 |
