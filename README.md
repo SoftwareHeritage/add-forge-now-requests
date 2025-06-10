@@ -351,3 +351,4 @@
 | gitlab.albalogic.fr | gitlab | successful | 2025-06-10 09:40:50 +0000UTC | #1226 |
 | gitlab-dynamap.timone.univ-amu.fr | gitlab | successful | 2025-06-10 09:57:26 +0000UTC | #1225 |
 | gitlab.aniti.fr | gitlab | successful | 2025-06-10 10:02:38 +0000UTC | #1227 |
+| gitlab.cluster.ensisa.uha.fr | gitlab | successful | 2025-06-10 10:17:20 +0000UTC | #1230 |
