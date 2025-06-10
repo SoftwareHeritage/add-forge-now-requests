@@ -354,3 +354,4 @@
 | gitlab.cluster.ensisa.uha.fr | gitlab | successful | 2025-06-10 10:17:20 +0000UTC | #1230 |
 | gitlab.darkmat.fr | gitlab | successful | 2025-06-10 10:18:29 +0000UTC | #1231 |
 | gitlab.datachamp.fr | gitlab | successful | 2025-06-10 10:20:02 +0000UTC | #1233 |
+| gitlab.datasud.fr | gitlab | successful | 2025-06-10 10:21:20 +0000UTC | #1234 |
