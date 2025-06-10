@@ -362,3 +362,4 @@
 | gitlab.deokonai.fr | gitlab | successful | 2025-06-10 11:36:38 +0000UTC | #1236 |
 | gitlab.divioseo.fr | gitlab | successful | 2025-06-10 12:03:37 +0000UTC | #1237 |
 | gitlab.ecedi.fr | gitlab | successful | 2025-06-10 12:11:50 +0000UTC | #1239 |
+| gitlab.domainepublic.net | gitlab | successful | 2025-06-10 12:34:48 +0000UTC | #1238 |
