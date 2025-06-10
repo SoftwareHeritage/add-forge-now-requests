@@ -361,3 +361,4 @@
 | gitlab.ecole.ensicaen.fr | gitlab | successful | 2025-06-10 11:23:15 +0000UTC | #1240 |
 | gitlab.deokonai.fr | gitlab | successful | 2025-06-10 11:36:38 +0000UTC | #1236 |
 | gitlab.divioseo.fr | gitlab | successful | 2025-06-10 12:03:37 +0000UTC | #1237 |
+| gitlab.ecedi.fr | gitlab | successful | 2025-06-10 12:11:50 +0000UTC | #1239 |
