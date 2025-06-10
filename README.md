@@ -356,3 +356,4 @@
 | gitlab.datachamp.fr | gitlab | successful | 2025-06-10 10:20:02 +0000UTC | #1233 |
 | gitlab.datasud.fr | gitlab | successful | 2025-06-10 10:21:20 +0000UTC | #1234 |
 | gitlab.ciel-kastler.fr | gitlab | successful | 2025-06-10 10:26:32 +0000UTC | #1229 |
+| gitlab.dawan.fr | gitlab | successful | 2025-06-10 10:42:24 +0000UTC | #1235 |
