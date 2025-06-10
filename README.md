@@ -373,3 +373,4 @@
 | gitlab.imag.fr | gitlab | successful | 2025-06-10 17:30:46 +0000UTC | #1246 |
 | gitlab.insa-rouen.fr | gitlab | successful | 2025-06-10 18:01:21 +0000UTC | #1247 |
 | gitlab.k-net.fr | gitlab | successful | 2025-06-10 18:04:35 +0000UTC | #1250 |
+| gitlab.kaisens.fr | gitlab | successful | 2025-06-10 18:06:29 +0000UTC | #1252 |
