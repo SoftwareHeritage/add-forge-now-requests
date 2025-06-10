@@ -369,3 +369,4 @@
 | gitlab.kafein-studio.fr | gitlab | successful | 2025-06-10 16:15:42 +0000UTC | #1251 |
 | gitlab.ginfo.centrale-marseille.fr | gitlab | successful | 2025-06-10 17:08:39 +0000UTC | #1245 |
 | gitlab.etu.imt-nord-europe.fr | gitlab | successful | 2025-06-10 17:26:16 +0000UTC | #1243 |
+| gitlab.geekinfo.fr | gitlab | successful | 2025-06-10 17:28:08 +0000UTC | #1244 |
