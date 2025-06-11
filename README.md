@@ -381,3 +381,4 @@
 | gitlab.ows.fr | gitlab | successful | 2025-06-11 08:51:30 +0000UTC | #1259 |
 | gitlab.pixelswap.fr | gitlab | successful | 2025-06-11 08:52:13 +0000UTC | #1260 |
 | psd-repo.uchicago.edu | gitlab | successful | 2025-06-11 08:53:24 +0000UTC | #1261 |
+| git.chuso.net | gitea | successful | 2025-06-11 09:04:37 +0000UTC | #1262 |
