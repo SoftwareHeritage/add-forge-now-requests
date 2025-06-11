@@ -377,3 +377,4 @@
 | gitlab.mwsc.fr | gitlab | successful | 2025-06-11 08:30:01 +0000UTC | #1257 |
 | gitlab.kernl.fr | gitlab | successful | 2025-06-11 08:46:21 +0000UTC | #1253 |
 | gitlab.mipn.fr | gitlab | successful | 2025-06-11 08:49:24 +0000UTC | #1256 |
+| gitlab.osureunion.fr | gitlab | successful | 2025-06-11 08:50:48 +0000UTC | #1258 |
