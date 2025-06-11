@@ -379,3 +379,4 @@
 | gitlab.mipn.fr | gitlab | successful | 2025-06-11 08:49:24 +0000UTC | #1256 |
 | gitlab.osureunion.fr | gitlab | successful | 2025-06-11 08:50:48 +0000UTC | #1258 |
 | gitlab.ows.fr | gitlab | successful | 2025-06-11 08:51:30 +0000UTC | #1259 |
+| gitlab.pixelswap.fr | gitlab | successful | 2025-06-11 08:52:13 +0000UTC | #1260 |
