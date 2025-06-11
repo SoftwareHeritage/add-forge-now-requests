@@ -375,3 +375,4 @@
 | gitlab.k-net.fr | gitlab | successful | 2025-06-10 18:04:35 +0000UTC | #1250 |
 | gitlab.kaisens.fr | gitlab | successful | 2025-06-10 18:06:29 +0000UTC | #1252 |
 | gitlab.mwsc.fr | gitlab | successful | 2025-06-11 08:30:01 +0000UTC | #1257 |
+| gitlab.kernl.fr | gitlab | successful | 2025-06-11 08:46:21 +0000UTC | #1253 |
