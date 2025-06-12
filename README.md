@@ -386,3 +386,4 @@
 | git.rcc.uchicago.edu | gitlab | successful | 2025-06-11 15:56:04 +0000UTC | #1263 |
 | git.kska.io | gitea | successful | 2025-06-12 10:38:27 +0000UTC | #1265 |
 | gitlab.iessanclemente.net | gitlab | successful | 2025-06-12 10:39:36 +0000UTC | #1266 |
+| gitlab.gast.it.uc3m.es | gitlab | successful | 2025-06-12 10:40:18 +0000UTC | #1267 |
