@@ -393,3 +393,4 @@
 | github.tel.uva.es | gitlab | successful | 2025-06-12 11:18:25 +0000UTC | #1274 |
 | gitlab.iri.upc.edu | gitlab | successful | 2025-06-12 12:17:42 +0000UTC | #1273 |
 | git.bcbl.eu | gitlab | successful | 2025-06-12 13:59:32 +0000UTC | #1275 |
+| egitlab.iti.es | gitlab | successful | 2025-06-12 14:34:57 +0000UTC | #1277 |
