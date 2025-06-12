@@ -390,3 +390,4 @@
 | gitlab.ifca.es | gitlab | successful | 2025-06-12 10:44:09 +0000UTC | #1269 |
 | gitlab.netcom.it.uc3m.es | gitlab | successful | 2025-06-12 10:45:15 +0000UTC | #1270 |
 | igit.ific.uv.es | gitlab | successful | 2025-06-12 10:46:40 +0000UTC | #1272 |
+| github.tel.uva.es | gitlab | successful | 2025-06-12 11:18:25 +0000UTC | #1274 |
