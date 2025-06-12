@@ -399,3 +399,4 @@
 | gitlab.bcamath.org | gitlab | successful | 2025-06-12 15:23:22 +0000UTC | #1268 |
 | gitlab.geo3bcn.csic.es | gitlab | successful | 2025-06-12 16:02:35 +0000UTC | #1284 |
 | git.csic.es | gitlab | successful | 2025-06-12 16:30:24 +0000UTC | #1282 |
+| gitlab.iiia.csic.es | gitlab | successful | 2025-06-12 16:41:52 +0000UTC | #1283 |
