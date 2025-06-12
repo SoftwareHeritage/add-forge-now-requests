@@ -384,3 +384,4 @@
 | git.chuso.net | gitea | successful | 2025-06-11 09:04:37 +0000UTC | #1262 |
 | gitlab.mines-albi.fr | gitlab | successful | 2025-06-11 10:07:39 +0000UTC | #1255 |
 | git.rcc.uchicago.edu | gitlab | successful | 2025-06-11 15:56:04 +0000UTC | #1263 |
+| git.kska.io | gitea | successful | 2025-06-12 10:38:27 +0000UTC | #1265 |
