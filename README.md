@@ -408,3 +408,4 @@
 | gitem.epsem.upc.edu | gitlab | successful | 2025-06-13 09:58:43 +0000UTC | #1285 |
 | gitrepos.virvig.eu | gitlab | successful | 2025-06-13 10:02:11 +0000UTC | #1286 |
 | gitlab.univ-artois.fr | gitlab | successful | 2025-06-13 10:10:32 +0000UTC | #1291 |
+| gitlab.urbiloglabs.fr | gitlab | successful | 2025-06-13 10:42:18 +0000UTC | #1293 |
