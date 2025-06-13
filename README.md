@@ -412,3 +412,4 @@
 | gitlab.vedecom.fr | gitlab | successful | 2025-06-13 10:43:42 +0000UTC | #1294 |
 | gitn.sigma.fr | gitlab | successful | 2025-06-13 11:19:16 +0000UTC | #1296 |
 | gitnet.fr | gitea | successful | 2025-06-13 11:30:56 +0000UTC | #1297 |
+| gitlab.univ-lorraine.fr | gitlab | successful | 2025-06-13 11:41:35 +0000UTC | #1292 |
