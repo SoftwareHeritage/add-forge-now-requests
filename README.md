@@ -403,3 +403,4 @@
 | gitlab-rdlab.cs.upc.edu | gitlab | successful | 2025-06-12 17:57:33 +0000UTC | #1280 |
 | gitioc.upc.edu | gitlab | successful | 2025-06-12 20:49:28 +0000UTC | #1281 |
 | gitlab.sdv.fr | gitlab | successful | 2025-06-13 08:49:31 +0000UTC | #1290 |
+| gitlab.vpauto.fr | gitlab | successful | 2025-06-13 08:55:19 +0000UTC | #1295 |
