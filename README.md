@@ -418,3 +418,4 @@
 | gvipers.imt-nord-europe.fr | gitlab | successful | 2025-06-13 14:00:20 +0000UTC | #1299 |
 | hartree.chimie.ens.fr | gitlab | successful | 2025-06-13 14:01:26 +0000UTC | #1300 |
 | ifpen-gitlab.appcollaboratif.fr | gitlab | successful | 2025-06-13 14:03:02 +0000UTC | #1301 |
+| manouchian.univ-smb.fr | gitlab | successful | 2025-06-13 14:04:07 +0000UTC | #1302 |
