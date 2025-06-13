@@ -410,3 +410,4 @@
 | gitlab.univ-artois.fr | gitlab | successful | 2025-06-13 10:10:32 +0000UTC | #1291 |
 | gitlab.urbiloglabs.fr | gitlab | successful | 2025-06-13 10:42:18 +0000UTC | #1293 |
 | gitlab.vedecom.fr | gitlab | successful | 2025-06-13 10:43:42 +0000UTC | #1294 |
+| gitn.sigma.fr | gitlab | successful | 2025-06-13 11:19:16 +0000UTC | #1296 |
