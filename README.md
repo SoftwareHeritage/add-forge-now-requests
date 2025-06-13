@@ -427,3 +427,4 @@
 | mi-git.univ-tlse2.fr | gitlab | successful | 2025-06-13 16:05:01 +0000UTC | #1303 |
 | git.gugod.fr | gitea | successful | 2025-06-13 16:09:40 +0000UTC | #1313 |
 | dev.duhaz.fr | gogs | successful | 2025-06-13 16:12:35 +0000UTC | #1316 |
+| gitlab.marceldev.fr | gitlab | successful | 2025-06-13 16:14:13 +0000UTC | #1312 |
