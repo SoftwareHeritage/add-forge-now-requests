@@ -402,3 +402,4 @@
 | gitlab.iiia.csic.es | gitlab | successful | 2025-06-12 16:41:52 +0000UTC | #1283 |
 | gitlab-rdlab.cs.upc.edu | gitlab | successful | 2025-06-12 17:57:33 +0000UTC | #1280 |
 | gitioc.upc.edu | gitlab | successful | 2025-06-12 20:49:28 +0000UTC | #1281 |
+| gitlab.sdv.fr | gitlab | successful | 2025-06-13 08:49:31 +0000UTC | #1290 |
