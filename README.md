@@ -414,3 +414,4 @@
 | gitnet.fr | gitea | successful | 2025-06-13 11:30:56 +0000UTC | #1297 |
 | gitlab.univ-lorraine.fr | gitlab | successful | 2025-06-13 11:41:35 +0000UTC | #1292 |
 | mostgitlab.legi.grenoble-inp.fr | gitlab | successful | 2025-06-13 13:07:27 +0000UTC | #1305 |
+| gittrack.enaco.fr | gitlab | successful | 2025-06-13 13:59:13 +0000UTC | #1298 |
