@@ -415,3 +415,4 @@
 | gitlab.univ-lorraine.fr | gitlab | successful | 2025-06-13 11:41:35 +0000UTC | #1292 |
 | mostgitlab.legi.grenoble-inp.fr | gitlab | successful | 2025-06-13 13:07:27 +0000UTC | #1305 |
 | gittrack.enaco.fr | gitlab | successful | 2025-06-13 13:59:13 +0000UTC | #1298 |
+| gvipers.imt-nord-europe.fr | gitlab | successful | 2025-06-13 14:00:20 +0000UTC | #1299 |
