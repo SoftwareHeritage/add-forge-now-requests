@@ -430,3 +430,4 @@
 | gitlab.marceldev.fr | gitlab | successful | 2025-06-13 16:14:13 +0000UTC | #1312 |
 | code.electrolab.fr | gitlab | successful | 2025-06-13 16:21:13 +0000UTC | #1315 |
 | forge.lefuturiste.fr | gitea | successful | 2025-06-13 16:30:37 +0000UTC | #1318 |
+| tig.phys.ens.fr | gitlab | successful | 2025-06-13 16:50:53 +0000UTC | #1310 |
