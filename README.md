@@ -420,3 +420,4 @@
 | ifpen-gitlab.appcollaboratif.fr | gitlab | successful | 2025-06-13 14:03:02 +0000UTC | #1301 |
 | manouchian.univ-smb.fr | gitlab | successful | 2025-06-13 14:04:07 +0000UTC | #1302 |
 | mnemosyne.ithaca.fr | gitlab | successful | 2025-06-13 14:06:08 +0000UTC | #1304 |
+| gitlab.macg.io | gitlab | successful | 2025-06-13 14:08:54 +0000UTC | #1306 |
