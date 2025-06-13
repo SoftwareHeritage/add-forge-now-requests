@@ -425,3 +425,4 @@
 | romeogit.univ-reims.fr | gitlab | unsuccessful | 2025-06-13 14:58:47 +0000UTC | #1308 |
 | romeogit.univ-reims.fr | gitlab | successful | 2025-06-13 16:03:46 +0000UTC | #1308 |
 | mi-git.univ-tlse2.fr | gitlab | successful | 2025-06-13 16:05:01 +0000UTC | #1303 |
+| git.gugod.fr | gitea | successful | 2025-06-13 16:09:40 +0000UTC | #1313 |
