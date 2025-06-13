@@ -432,3 +432,4 @@
 | forge.lefuturiste.fr | gitea | successful | 2025-06-13 16:30:37 +0000UTC | #1318 |
 | tig.phys.ens.fr | gitlab | successful | 2025-06-13 16:50:53 +0000UTC | #1310 |
 | forge.cloud.silique.fr | gitea | successful | 2025-06-13 16:55:47 +0000UTC | #1317 |
+| forge.yaal.coop | gitea | successful | 2025-06-13 17:28:28 +0000UTC | #1319 |
