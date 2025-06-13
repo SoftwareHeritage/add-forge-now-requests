@@ -422,3 +422,4 @@
 | mnemosyne.ithaca.fr | gitlab | successful | 2025-06-13 14:06:08 +0000UTC | #1304 |
 | gitlab.macg.io | gitlab | successful | 2025-06-13 14:08:54 +0000UTC | #1306 |
 | repo.fib.upc.es | gitlab | successful | 2025-06-13 14:35:31 +0000UTC | #1288 |
+| romeogit.univ-reims.fr | gitlab | unsuccessful | 2025-06-13 14:58:47 +0000UTC | #1308 |
