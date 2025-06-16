@@ -444,3 +444,4 @@
 | git.cohabit.fr | gitea | successful | 2025-06-16 13:50:49 +0000UTC | #1327 |
 | git.abonnel.fr | gitea | successful | 2025-06-16 14:25:11 +0000UTC | #1323 |
 | git.dgnum.eu | gitea | successful | 2025-06-16 14:45:18 +0000UTC | #1331 |
+| port.numenaute.org | gitea | successful | 2025-06-16 16:04:27 +0000UTC | #1307 |
