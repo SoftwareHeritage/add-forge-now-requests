@@ -442,3 +442,4 @@
 | git.dahwa.fr | gogs | successful | 2025-06-16 13:40:15 +0000UTC | #1328 |
 | git.belanyi.fr | gitea | successful | 2025-06-16 13:48:01 +0000UTC | #1326 |
 | git.cohabit.fr | gitea | successful | 2025-06-16 13:50:49 +0000UTC | #1327 |
+| git.abonnel.fr | gitea | successful | 2025-06-16 14:25:11 +0000UTC | #1323 |
