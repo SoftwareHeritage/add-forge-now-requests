@@ -435,3 +435,4 @@
 | forge.yaal.coop | gitea | successful | 2025-06-13 17:28:28 +0000UTC | #1319 |
 | git.antoineperrin.fr | gitea | successful | 2025-06-16 12:31:47 +0000UTC | #1325 |
 | git.dalembert.upmc.fr | gitea | successful | 2025-06-16 12:42:38 +0000UTC | #1329 |
+| forge.zarchbox.fr | gitea | successful | 2025-06-16 12:43:07 +0000UTC | #1320 |
