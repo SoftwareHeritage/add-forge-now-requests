@@ -437,3 +437,4 @@
 | git.dalembert.upmc.fr | gitea | successful | 2025-06-16 12:42:38 +0000UTC | #1329 |
 | forge.zarchbox.fr | gitea | successful | 2025-06-16 12:43:07 +0000UTC | #1320 |
 | forgejo.linux07.fr | gitea | successful | 2025-06-16 13:24:33 +0000UTC | #1321 |
+| forgejo.rezo-rm.fr | gitea | successful | 2025-06-16 13:26:12 +0000UTC | #1322 |
