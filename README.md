@@ -462,3 +462,4 @@
 | git.rz.uni-augsburg.de | gitlab | successful | 2025-06-17 18:01:58 +0000UTC | #1350 |
 | gdv-gitlab.inf.uni-bayreuth.de | gitlab | successful | 2025-06-17 18:42:53 +0000UTC | #1351 |
 | git.cbm.gsi.de | gitlab | successful | 2025-06-17 19:57:47 +0000UTC | #1346 |
+| gitlab.huc.knaw.nl | gitlab | successful | 2025-06-17 23:16:47 +0000UTC | #1345 |
