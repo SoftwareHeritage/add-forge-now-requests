@@ -458,3 +458,4 @@
 | git.txs.es | gitea | successful | 2025-06-17 16:45:41 +0000UTC | #1343 |
 | git.computational.bio.uni-giessen.de | gitlab | successful | 2025-06-17 16:59:35 +0000UTC | #1348 |
 | gitlab.uni-kassel.de | gitlab | successful | 2025-06-17 17:30:23 +0000UTC | #1349 |
+| gitlab.tp.nt.uni-siegen.de | gitlab | successful | 2025-06-17 17:58:28 +0000UTC | #1347 |
