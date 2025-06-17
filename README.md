@@ -460,3 +460,4 @@
 | gitlab.uni-kassel.de | gitlab | successful | 2025-06-17 17:30:23 +0000UTC | #1349 |
 | gitlab.tp.nt.uni-siegen.de | gitlab | successful | 2025-06-17 17:58:28 +0000UTC | #1347 |
 | git.rz.uni-augsburg.de | gitlab | successful | 2025-06-17 18:01:58 +0000UTC | #1350 |
+| gdv-gitlab.inf.uni-bayreuth.de | gitlab | successful | 2025-06-17 18:42:53 +0000UTC | #1351 |
