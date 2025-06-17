@@ -448,3 +448,4 @@
 | git.doap.fr | gitea | successful | 2025-06-16 18:07:22 +0000UTC | #1332 |
 | git.openembedded.org | cgit | successful | 2025-06-17 08:54:02 +0000UTC | #1339 |
 | git.lix.systems | gitea | successful | 2025-06-17 09:39:33 +0000UTC | #1334 |
+| git.mcth.fr | gitea | successful | 2025-06-17 09:41:06 +0000UTC | #1336 |
