@@ -450,3 +450,4 @@
 | git.lix.systems | gitea | successful | 2025-06-17 09:39:33 +0000UTC | #1334 |
 | git.mcth.fr | gitea | successful | 2025-06-17 09:41:06 +0000UTC | #1336 |
 | git.pattard.fr | gitea | successful | 2025-06-17 09:42:21 +0000UTC | #1337 |
+| git.rooty.fr | gitea | successful | 2025-06-17 10:23:07 +0000UTC | #1338 |
