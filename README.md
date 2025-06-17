@@ -453,3 +453,4 @@
 | git.rooty.fr | gitea | successful | 2025-06-17 10:23:07 +0000UTC | #1338 |
 | git.pleroma.social | gitlab | successful | 2025-06-17 10:50:47 +0000UTC | #1330 |
 | git.tryp.io | gitea | successful | 2025-06-17 10:54:45 +0000UTC | #1340 |
+| git.openwrt.org | gitweb | successful | 2025-06-17 13:26:20 +0000UTC | #1341 |
