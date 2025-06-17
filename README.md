@@ -446,3 +446,4 @@
 | git.dgnum.eu | gitea | successful | 2025-06-16 14:45:18 +0000UTC | #1331 |
 | port.numenaute.org | gitea | successful | 2025-06-16 16:04:27 +0000UTC | #1307 |
 | git.doap.fr | gitea | successful | 2025-06-16 18:07:22 +0000UTC | #1332 |
+| git.openembedded.org | cgit | successful | 2025-06-17 08:54:02 +0000UTC | #1339 |
