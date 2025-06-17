@@ -456,3 +456,4 @@
 | git.openwrt.org | gitweb | successful | 2025-06-17 13:26:20 +0000UTC | #1341 |
 | gitea.bakatrouble.me | gitea | successful | 2025-06-17 16:36:19 +0000UTC | #1344 |
 | git.txs.es | gitea | successful | 2025-06-17 16:45:41 +0000UTC | #1343 |
+| git.computational.bio.uni-giessen.de | gitlab | successful | 2025-06-17 16:59:35 +0000UTC | #1348 |
