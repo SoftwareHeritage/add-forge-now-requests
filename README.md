@@ -454,3 +454,4 @@
 | git.pleroma.social | gitlab | successful | 2025-06-17 10:50:47 +0000UTC | #1330 |
 | git.tryp.io | gitea | successful | 2025-06-17 10:54:45 +0000UTC | #1340 |
 | git.openwrt.org | gitweb | successful | 2025-06-17 13:26:20 +0000UTC | #1341 |
+| gitea.bakatrouble.me | gitea | successful | 2025-06-17 16:36:19 +0000UTC | #1344 |
