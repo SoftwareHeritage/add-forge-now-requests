@@ -464,3 +464,4 @@
 | git.cbm.gsi.de | gitlab | successful | 2025-06-17 19:57:47 +0000UTC | #1346 |
 | gitlab.huc.knaw.nl | gitlab | successful | 2025-06-17 23:16:47 +0000UTC | #1345 |
 | gitlab.cl.uni-heidelberg.de | gitlab | successful | 2025-06-18 01:05:10 +0000UTC | #1342 |
+| resy-gitlab.inf.uni-bayreuth.de | gitlab | successful | 2025-06-18 09:27:08 +0000UTC | #1352 |
