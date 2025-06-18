@@ -467,3 +467,4 @@
 | resy-gitlab.inf.uni-bayreuth.de | gitlab | successful | 2025-06-18 09:27:08 +0000UTC | #1352 |
 | gitlab.uni-bayreuth.de | gitlab | successful | 2025-06-18 09:29:11 +0000UTC | #1353 |
 | gitlab.uni-weimar.de | gitlab | successful | 2025-06-18 09:30:43 +0000UTC | #1354 |
+| dev.sisa.com.ar | gitlab | successful | 2025-06-18 09:36:46 +0000UTC | #1357 |
