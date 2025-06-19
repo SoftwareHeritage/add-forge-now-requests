@@ -480,3 +480,4 @@
 | git.qaar.ru | gitlab | successful | 2025-06-19 14:05:50 +0000UTC | #1367 |
 | gitlab.normandie-univ.fr | gitlab | successful | 2025-06-19 14:07:02 +0000UTC | #1368 |
 | gitlab.caltech.edu | gitlab | successful | 2025-06-19 14:26:24 +0000UTC | #1362 |
+| gitlab.liparad.uvsq.fr | gitlab | successful | 2025-06-19 14:27:40 +0000UTC | #1369 |
