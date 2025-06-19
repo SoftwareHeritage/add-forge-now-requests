@@ -474,3 +474,4 @@
 | git.circ.rochester.edu | gitlab | successful | 2025-06-19 09:43:32 +0000UTC | #1360 |
 | winbiz21dev.winbiz.ch | gitlab | successful | 2025-06-19 13:14:07 +0000UTC | #1366 |
 | gitlab.rc.umass.edu | gitlab | unsuccessful | 2025-06-19 13:42:04 +0000UTC | #1361 |
+| gitlab.leinen.ch | gitlab | successful | 2025-06-19 13:42:35 +0000UTC | #1365 |
