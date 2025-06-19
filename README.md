@@ -469,3 +469,4 @@
 | gitlab.uni-weimar.de | gitlab | successful | 2025-06-18 09:30:43 +0000UTC | #1354 |
 | dev.sisa.com.ar | gitlab | successful | 2025-06-18 09:36:46 +0000UTC | #1357 |
 | athene2.informatik.unibw-muenchen.de | gitlab | successful | 2025-06-18 10:05:02 +0000UTC | #1356 |
+| git-classes.mst.edu | gitlab | successful | 2025-06-19 08:41:56 +0000UTC | #1359 |
