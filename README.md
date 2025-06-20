@@ -490,3 +490,4 @@
 | git.foo.be | gitea | successful | 2025-06-20 10:13:32 +0000UTC | #1377 |
 | git.solarpunk.moe | gitea | successful | 2025-06-20 10:13:59 +0000UTC | #1378 |
 | gitlab.unamur.be | gitlab | successful | 2025-06-20 10:14:53 +0000UTC | #1379 |
+| git.romanh.de | gitea | successful | 2025-06-20 10:17:14 +0000UTC | #1381 |
