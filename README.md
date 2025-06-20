@@ -488,3 +488,4 @@
 | git.nixnet.services | gitea | successful | 2025-06-20 09:42:05 +0000UTC | #1375 |
 | git.kun.is | gitea | successful | 2025-06-20 09:42:36 +0000UTC | #1376 |
 | git.foo.be | gitea | successful | 2025-06-20 10:13:32 +0000UTC | #1377 |
+| git.solarpunk.moe | gitea | successful | 2025-06-20 10:13:59 +0000UTC | #1378 |
