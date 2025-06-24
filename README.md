@@ -496,3 +496,4 @@
 | gitea.tqlwsl.moe | gitea | successful | 2025-06-20 11:49:45 +0000UTC | #1383 |
 | git.chalmers.se | gitlab | successful | 2025-06-20 12:00:43 +0000UTC | #1384 |
 | git.suyu.dev | gitea | successful | 2025-06-20 16:28:03 +0000UTC | #1382 |
+| git.zom.bi | gitea | successful | 2025-06-24 09:03:13 +0000UTC | #1386 |
