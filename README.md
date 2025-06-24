@@ -500,3 +500,4 @@
 | www.xumy.vip | gitea | successful | 2025-06-24 09:23:59 +0000UTC | #1387 |
 | git.asgard.odbornaskola.cz | gitea | successful | 2025-06-24 09:24:47 +0000UTC | #1388 |
 | git.testing.dog | gitea | successful | 2025-06-24 09:26:17 +0000UTC | #1390 |
+| git.deldel.fr | gitea | successful | 2025-06-24 09:27:02 +0000UTC | #1391 |
