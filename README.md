@@ -504,3 +504,4 @@
 | git.tunuifranken.info | gitea | successful | 2025-06-24 09:28:38 +0000UTC | #1392 |
 | git.wkit.fun | gitea | successful | 2025-06-24 09:30:50 +0000UTC | #1393 |
 | git.mytinydc.com | gitea | successful | 2025-06-24 09:31:43 +0000UTC | #1394 |
+| git.southfox.me | gitea | successful | 2025-06-24 10:25:31 +0000UTC | #1389 |
