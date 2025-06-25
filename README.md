@@ -508,3 +508,4 @@
 | code.untyped.org | gitea | successful | 2025-06-25 15:03:22 +0000UTC | #1396 |
 | git.infoforall.fr | gitea | successful | 2025-06-25 15:06:07 +0000UTC | #1398 |
 | git.nicolaslang.fr | gitea | successful | 2025-06-25 15:22:05 +0000UTC | #1395 |
+| git.autourdeminuit.com | gitea | successful | 2025-06-25 15:25:06 +0000UTC | #1397 |
