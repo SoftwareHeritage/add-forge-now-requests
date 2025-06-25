@@ -506,3 +506,4 @@
 | git.mytinydc.com | gitea | successful | 2025-06-24 09:31:43 +0000UTC | #1394 |
 | git.southfox.me | gitea | successful | 2025-06-24 10:25:31 +0000UTC | #1389 |
 | code.untyped.org | gitea | successful | 2025-06-25 15:03:22 +0000UTC | #1396 |
+| git.infoforall.fr | gitea | successful | 2025-06-25 15:06:07 +0000UTC | #1398 |
