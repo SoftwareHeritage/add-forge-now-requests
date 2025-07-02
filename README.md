@@ -529,3 +529,4 @@
 | git.cse.iitb.ac.in | gitlab | successful | 2025-07-02 14:38:29 +0000UTC | #1426 |
 | gitlab.dsi.universite-paris-saclay.fr | gitlab | successful | 2025-07-02 15:04:57 +0000UTC | #1424 |
 | git.weebo.fr | gitea | successful | 2025-07-02 15:06:12 +0000UTC | #1425 |
+| gitlab.vinci.be | gitlab | successful | 2025-07-02 15:12:30 +0000UTC | #1427 |
