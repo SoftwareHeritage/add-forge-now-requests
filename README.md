@@ -526,3 +526,4 @@
 | git.applefritter.com | gitea | successful | 2025-06-26 14:24:58 +0000UTC | #1416 |
 | git.cs.tu-dortmund.de | gitea | successful | 2025-06-27 02:08:27 +0000UTC | #1418 |
 | gitea.iitdh.ac.in | gitea | successful | 2025-07-02 09:38:11 +0000UTC | #1419 |
+| git.cse.iitb.ac.in | gitlab | successful | 2025-07-02 14:38:29 +0000UTC | #1426 |
