@@ -531,3 +531,4 @@
 | git.weebo.fr | gitea | successful | 2025-07-02 15:06:12 +0000UTC | #1425 |
 | gitlab.vinci.be | gitlab | successful | 2025-07-02 15:12:30 +0000UTC | #1427 |
 | git.ics.fr | gitlab | successful | 2025-07-18 15:50:30 +0000UTC | #1428 |
+| git.drainerdomain.xyz | cgit | successful | 2025-07-18 15:54:24 +0000UTC | #1429 |
