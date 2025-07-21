@@ -532,3 +532,4 @@
 | gitlab.vinci.be | gitlab | successful | 2025-07-02 15:12:30 +0000UTC | #1427 |
 | git.ics.fr | gitlab | successful | 2025-07-18 15:50:30 +0000UTC | #1428 |
 | git.drainerdomain.xyz | cgit | successful | 2025-07-18 15:54:24 +0000UTC | #1429 |
+| gitea.squi.fr | gitea | successful | 2025-07-21 13:28:43 +0000UTC | #1430 |
