@@ -536,3 +536,4 @@
 | forge.inrae.fr | gitlab | successful | 2025-07-23 21:37:17 +0000UTC | #1431 |
 | git.williamjcm.ovh | gitea | successful | 2025-08-06 10:08:07 +0000UTC | #1432 |
 | git.riquer.fr | gitea | successful | 2025-11-25 10:57:03 +0000UTC | #1435 |
+| git.mills.io | gitea | successful | 2025-11-25 16:55:50 +0000UTC | #1436 |
