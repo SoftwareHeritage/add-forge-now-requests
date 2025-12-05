@@ -539,3 +539,4 @@
 | git.mills.io | gitea | successful | 2025-11-25 16:55:50 +0000UTC | #1436 |
 | git.astrolabe.coop | gitea | successful | 2025-12-05 02:33:56 +0000UTC | #1437 |
 | git.cs.usask.ca | gitlab | successful | 2025-12-05 08:05:22 +0000UTC | #1439 |
+| git.mjanja.ch | gitea | successful | 2025-12-05 08:06:39 +0000UTC | #1440 |
