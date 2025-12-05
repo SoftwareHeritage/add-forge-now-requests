@@ -29,6 +29,11 @@ variables:
   MILESTONE_ID: 53
   INGESTION_SUCCESS_LIMIT: 30
 
+workflow:
+  name: 'processing AFNR#$REQUEST_ID $LISTER_TYPE $INSTANCE_NAME'
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "trigger"
+
 # STAGES
 
 stages:
