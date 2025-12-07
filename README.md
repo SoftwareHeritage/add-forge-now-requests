@@ -541,3 +541,4 @@
 | git.cs.usask.ca | gitlab | successful | 2025-12-05 08:05:22 +0000UTC | #1439 |
 | git.mjanja.ch | gitea | successful | 2025-12-05 08:06:39 +0000UTC | #1440 |
 | git.je | gitea | successful | 2025-12-05 14:07:39 +0000UTC | #1438 |
+| git.riquer.fr | gitea | successful | 2025-12-07 02:20:29 +0000UTC | #1442 |
