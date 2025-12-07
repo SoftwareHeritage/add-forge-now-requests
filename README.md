@@ -543,3 +543,4 @@
 | git.je | gitea | successful | 2025-12-05 14:07:39 +0000UTC | #1438 |
 | git.riquer.fr | gitea | successful | 2025-12-07 02:20:29 +0000UTC | #1442 |
 | git.finf.uni-hannover.de | gitlab | unsuccessful | 2025-12-07 02:42:08 +0000UTC | #1443 |
+| git.redxen.eu | gitea | successful | 2025-12-07 04:34:39 +0000UTC | #1441 |
