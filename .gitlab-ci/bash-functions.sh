@@ -12,7 +12,7 @@ check_network_ports () {
         "$WEBAPP_URL" "$OIDC_URL" "https://${INSTANCE_NAME}" $SCHEDULER_URLS
     do
         echo -e "\n# $url #"
-        curl -sI --connect-timeout 5 "$url" | \
+        curl -fsSI --connect-timeout 5 "$url" | \
         grep '^HTTP/\(1\.1\|2\)[[:space:]]*\(2..\|3..\)'
     done
 }
