@@ -548,3 +548,4 @@
 | software.annas-archive.li | gitlab | successful | 2025-12-08 10:15:38 +0000UTC | #1447 |
 | git.fablabkerala.in | gitlab | successful | 2025-12-08 10:45:00 +0000UTC | #1448 |
 | git.sekoya.org | gitlab | successful | 2025-12-16 03:44:04 +0000UTC | #1449 |
+| git.phc.dm.unipi.it | gitea | successful | 2025-12-16 04:19:20 +0000UTC | #1450 |
