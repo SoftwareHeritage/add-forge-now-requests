@@ -6,6 +6,7 @@ default:
   before_script:
     - export SWH_CONFIG_FILENAME="$SWH_CONFIG_FILENAME"
     - source .gitlab-ci/bash-functions.sh
+    - curlrc
     - print_date Started
   tags:
     - AddForgeNowRequest

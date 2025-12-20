@@ -100,6 +100,12 @@ gitlab_update_var () {
     "${GITLAB_URL}/api/v4/projects/${PROJECT_ID}/variables/${VAR_NAME}" > /dev/null
 }
 
+curlrc () {
+    export CURL_HOME="$CI_PROJECT_DIR"
+    {
+    } > "$CURL_HOME/.curlrc"
+}
+
 print_date () {
     local STATUS=$1
     printf "%s at: %s\n" "$STATUS" "$(date "+%F %T %z%Z")"
