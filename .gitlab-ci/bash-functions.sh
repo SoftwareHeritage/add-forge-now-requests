@@ -10,11 +10,12 @@ check_network_ports () {
         echo -e "\n# $domain_name 5672 #"
         nc -zv "$domain_name" 5672
     done
+    local c=cookies.txt
     for url in "$STAGING_AMQP_URL" "$PRODUCTION_AMQP_URL" \
         "$WEBAPP_URL" "$OIDC_URL" "$FORGE_URL" $SCHEDULER_URLS
     do
         echo -e "\n# $url #"
-        curl -fsSI --connect-timeout 5 "$url" | \
+        curl -fsSI -j -b $c -c $c --retry 5 --connect-timeout 5 "$url" | \
         grep '^HTTP/\(1\.1\|2\)[[:space:]]*\(2..\|3..\)'
     done
 }
