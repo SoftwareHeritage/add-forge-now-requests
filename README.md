@@ -553,3 +553,4 @@
 | git.tiyn.eu | gitea | successful | 2025-12-18 08:08:18 +0000UTC | #1454 |
 | git.tilde.green | gitea | successful | 2025-12-20 07:02:49 +0000UTC | #1455 |
 | git.fossgalaxy.com | gitlab | successful | 2026-01-03 03:56:16 +0000UTC | #1458 |
+| git.jordan.im | cgit | successful | 2026-01-03 04:40:35 +0000UTC | #1459 |
