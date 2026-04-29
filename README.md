@@ -559,3 +559,4 @@
 | git.ozlabs.org | gitweb | successful | 2026-03-26 06:24:02 +0000UTC | #1463 |
 | cgit.freedesktop.org | cgit | unsuccessful | 2026-03-26 10:54:07 +0000UTC | #1462 |
 | cgit.freedesktop.org | cgit | successful | 2026-04-29 13:45:34 +0000UTC | #1465 |
+| git.xicon.eu | gitea | successful | 2026-04-29 14:01:23 +0000UTC | #1466 |
