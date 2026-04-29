@@ -4,7 +4,6 @@ image:
 
 default:
   before_script:
-    - if [ -f build.env ]; then source build.env; fi
     - export SWH_CONFIG_FILENAME="$SWH_CONFIG_FILENAME"
     - source .gitlab-ci/bash-functions.sh
     - print_date Started
@@ -50,8 +49,9 @@ stages:
   artifacts:
     untracked: true
     expire_in: 14 days
-    paths:
-      - "build.env"
+    reports:
+      dotenv:
+        - build.env
 
 .on_success_status:
   rules:
