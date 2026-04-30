@@ -178,6 +178,8 @@ webapp_comment_and_status () {
         curl -s -H 'Content-Type: application/json' \
         -H "Authorization: Bearer $WEBAPP_TOKEN" \
         -d "{\"text\":\"${TEXT}\"}" \
-        "${WEBAPP_URL}/api/1/add-forge/request/${REQUEST_ID}/update/"
+        "${WEBAPP_URL}/api/1/add-forge/request/${REQUEST_ID}/update/" |
+        # copy of swh-web AddForgeNowRequestPublicSerializer.Meta.fields
+        jq '{id, forge_url, forge_type, status, submission_date}'
     fi
 }
