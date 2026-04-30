@@ -562,3 +562,4 @@
 | git.xicon.eu | gitea | successful | 2026-04-29 14:01:23 +0000UTC | #1466 |
 | gitlab.irisa.fr | gitlab | successful | 2026-04-30 11:17:32 +0000UTC | #1469 |
 | gitlab.irisa.fr | gitlab | successful | 2026-04-30 12:01:27 +0000UTC | #1469 |
+| git.m-labs.hk | gitea | successful | 2026-04-30 12:05:46 +0000UTC | #1467 |
