@@ -9,6 +9,7 @@
 ᐅ TOKEN=xxxxxxxx
 ᐅ REF_NAME=main
 ᐅ LISTER_TYPE=gitlab
+ᐅ FORGE_URL="https://git.bluemosh.com/"
 ᐅ INSTANCE_NAME="git.bluemosh.com"
 ᐅ REQUEST_ID=14
 ᐅ GITLAB_URL=https://gitlab.softwareheritage.org
@@ -18,6 +19,7 @@
      -F "token=$TOKEN" \
      -F "ref=$REF_NAME" \
      -F "variables[LISTER_TYPE]=$LISTER_TYPE" \
+     -F "variables[FORGE_URL]=$FORGE_URL" \
      -F "variables[INSTANCE_NAME]=$INSTANCE_NAME" \
      -F "variables[REQUEST_ID]=$REQUEST_ID" \
 "$GITLAB_URL/api/v4/projects/$PROJECT_ID/trigger/pipeline"
