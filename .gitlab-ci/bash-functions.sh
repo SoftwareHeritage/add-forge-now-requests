@@ -53,6 +53,7 @@ gitlab_create_issue () {
     local -x TITLE="[Add Forge Now] process ${INSTANCE_NAME}"
     local -x LABELS="AddForgeNow"
     DESCRIPTION+="Type: ${LISTER_TYPE}  ${EOL}"
+    DESCRIPTION+="URL: ${FORGE_URL}  ${EOL}"
     local URL="${GITLAB_URL}/api/v4/projects/${PROJECT_ID}/issues"
     URL+='?title={{TITLE:url}}'
     URL+='&labels={{LABELS:url}}'
