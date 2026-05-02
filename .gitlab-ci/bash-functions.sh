@@ -72,7 +72,7 @@ gitlab_update_issue () {
     local END_MSG="For the pipeline details, see:  ${EOL}"
     END_MSG+="${CI_PIPELINE_URL}."
     local SUCCESS_MSG="Request successfully processed"
-    local FAILED_MSG="Request completely messed up"
+    local FAILED_MSG="Request failed"
     [ "$STATUS" = "success" ] && local -x COMMENT="${SUCCESS_MSG}${MID_MSG}${END_MSG}"
     [ "$STATUS" = "failure" ] && local -x COMMENT="${FAILED_MSG}${MID_MSG}${END_MSG}"
     curl -s -X POST -H "PRIVATE-TOKEN: ${ADD_FORGE_NOW_ISSUE_TOKEN}" \
