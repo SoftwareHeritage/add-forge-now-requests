@@ -73,6 +73,7 @@ gitlab_update_issue () {
     local CI_LAST_JOB="[${CI_LAST_JOB_STAGE} ${CI_LAST_JOB_NAME} job](${CI_LAST_JOB_URL})"
     local SUCCESS_MSG="Request successfully processed"
     local FAILED_MSG="Request failed in ${CI_LAST_JOB}.  ${EOL}"
+    # TODO: show significant errors from the job
     [ "$STATUS" = "success" ] && local -x COMMENT="${SUCCESS_MSG}${MID_MSG}${END_MSG}"
     [ "$STATUS" = "failure" ] && local -x COMMENT="${FAILED_MSG}${END_MSG}"
     curl -s -X POST -H "PRIVATE-TOKEN: ${ADD_FORGE_NOW_ISSUE_TOKEN}" \
