@@ -1,6 +1,6 @@
 set -euo pipefail
 
-EOL='%0D%0A'
+EOL=$'\r\n'
 
 check_network_ports () {
     SCHEDULER_URLS=$(awk '/^[[:space:]]*url:/{print $2}' /etc/swh/scheduler-*.yml)
@@ -44,34 +44,36 @@ gitlab_commit_readme_history () {
 
 gitlab_create_issue () {
     if [ -z "${REQUEST_ID+unset}" ]; then
-        local DESCRIPTION="No%20add-forge-now%20request%20associated%20with%20this%20pipeline%2E"
+        local -x DESCRIPTION="No add-forge-now request associated with this pipeline."
     else
-        local DESCRIPTION="${WEBAPP_URL}/admin/add-forge/request/${REQUEST_ID}/"
+        local -x DESCRIPTION="${WEBAPP_URL}/admin/add-forge/request/${REQUEST_ID}/"
     fi
-    local TITLE="%5BAdd%20Forge%20Now%5D%20process%20https%3A%2F%2F${INSTANCE_NAME}"
-    local LABELS="AddForgeNow"
-    DESCRIPTION+="%20%20${EOL}Type%3A%20${LISTER_TYPE}"
+    local -x TITLE="[Add Forge Now] process https://${INSTANCE_NAME}"
+    local -x LABELS="AddForgeNow"
+    DESCRIPTION+="  ${EOL}Type: ${LISTER_TYPE}"
     local URL="${GITLAB_URL}/api/v4/projects/${PROJECT_ID}/issues"
-    URL+="?title=${TITLE}"
-    URL+="&labels=${LABELS}"
-    URL+="&description=${DESCRIPTION}"
-    URL+="&milestone_id=${MILESTONE_ID}"
+    URL+='?title={{TITLE:url}}'
+    URL+='&labels={{LABELS:url}}'
+    URL+='&description={{DESCRIPTION:url}}'
+    URL+='&milestone_id={{MILESTONE_ID:url}}'
     ISSUE_ID=$(curl -s -X POST -H "PRIVATE-TOKEN: ${ADD_FORGE_NOW_ISSUE_TOKEN}" \
-    "$URL" \
+    --variable %TITLE --variable %LABEL --variable %DESCRIPTION --variable %MILESTONE_ID \
+    --expand-url "$URL" \
     | jq '.iid')
     export ISSUE_ID=$ISSUE_ID
 }
 
 gitlab_update_issue () {
     local STATUS=$1
-    local MID_MSG="%20in%20${ENV}%20environment%2E%20%20${EOL}"
-    local END_MSG="For%20the%20pipeline%20details%2C%20see%3A%20%20${EOL}${CI_PIPELINE_URL}%2E"
-    local SUCCESS_MSG="Request%20successfully%20processed"
-    local FAILED_MSG="Request%20completly%20messed%20up"
-    [ "$STATUS" = "success" ] && local COMMENT="${SUCCESS_MSG}${MID_MSG}${END_MSG}"
-    [ "$STATUS" = "failure" ] && local COMMENT="${FAILED_MSG}${MID_MSG}${END_MSG}"
+    local MID_MSG=" in ${ENV} environment.  ${EOL}"
+    local END_MSG="For the pipeline details, see:  ${EOL}${CI_PIPELINE_URL}."
+    local SUCCESS_MSG="Request successfully processed"
+    local FAILED_MSG="Request completly messed up"
+    [ "$STATUS" = "success" ] && local -x COMMENT="${SUCCESS_MSG}${MID_MSG}${END_MSG}"
+    [ "$STATUS" = "failure" ] && local -x COMMENT="${FAILED_MSG}${MID_MSG}${END_MSG}"
     curl -s -X POST -H "PRIVATE-TOKEN: ${ADD_FORGE_NOW_ISSUE_TOKEN}" \
-    "${GITLAB_URL}/api/v4/projects/${PROJECT_ID}/issues/${ISSUE_ID}/notes?body=${COMMENT}"
+    --variable %COMMENT --expand-url \
+    "${GITLAB_URL}/api/v4/projects/${PROJECT_ID}/issues/${ISSUE_ID}/notes?body={{COMMENT:url}}"
 }
 
 gitlab_update_var () {
