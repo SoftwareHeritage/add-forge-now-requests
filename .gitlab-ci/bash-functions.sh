@@ -50,7 +50,7 @@ gitlab_create_issue () {
     else
         local -x DESCRIPTION="${WEBAPP_URL}/admin/add-forge/request/${REQUEST_ID}/  ${EOL}"
     fi
-    local -x TITLE="[Add Forge Now] process https://${INSTANCE_NAME}"
+    local -x TITLE="[Add Forge Now] process ${INSTANCE_NAME}"
     local -x LABELS="AddForgeNow"
     DESCRIPTION+="Type: ${LISTER_TYPE}  ${EOL}"
     local URL="${GITLAB_URL}/api/v4/projects/${PROJECT_ID}/issues"
