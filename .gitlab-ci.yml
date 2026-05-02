@@ -80,6 +80,7 @@ stages:
   stage: .pre
   script:
     - gitlab_create_issue
+    - workaround_listers
     - register_vars staging
   extends:
     - .artifacts
@@ -147,6 +148,7 @@ staging_status_successful:
   script:
     - webapp_comment_and_status SCHEDULED
     - gitlab_update_issue success
+    - workaround_listers
     - register_vars production
   extends:
     - .artifacts
@@ -156,6 +158,7 @@ staging_status_unsuccessful:
   stage: staging_set_status
   script:
     - gitlab_update_issue failure
+    - workaround_listers
     - register_vars production
   extends:
     - .artifacts

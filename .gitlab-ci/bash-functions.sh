@@ -81,12 +81,30 @@ print_date () {
     printf "%s at: %s\n" "$STATUS" "$(date "+%F %T %z%Z")"
 }
 
+# FIXME: remove once listers accept forge URLs instead of API URLs
+workaround_listers () {
+    case "$LISTER_TYPE" in
+        gitlab | heptapod)
+            LISTER_URL="${FORGE_URL%/}/api/v4"
+        ;;
+        gogs | gitea | forgejo)
+            LISTER_URL="${FORGE_URL%/}/api/v1"
+        ;;
+        *)
+            LISTER_URL="${FORGE_URL}"
+        ;;
+    esac
+    export LISTER_URL
+}
+
 register_vars () {
     local ENV=$1
     local SWH_CONFIG_FILENAME=${ENV^^}_CONFIG_FILENAME
     {
         echo "ENV=$ENV"
         echo "ISSUE_ID=$ISSUE_ID"
+        # FIXME: remove once listers accept forge URLs instead of API URLs
+        echo "LISTER_URL=$LISTER_URL"
         echo "SWH_CONFIG_FILENAME=${!SWH_CONFIG_FILENAME}"
     } > build.env
 }
