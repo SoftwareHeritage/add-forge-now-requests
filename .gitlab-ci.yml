@@ -11,7 +11,12 @@ default:
     - AddForgeNowRequest
   after_script:
     - source .gitlab-ci/bash-functions.sh
+    - register_this_job_as_last_job
     - print_date Completed
+  artifacts:
+    reports:
+      dotenv:
+        - last_job.env
 
 variables:
   STAGING_AMQP_URL: http://scheduler0.internal.staging.swh.network:15672
@@ -52,6 +57,7 @@ stages:
     reports:
       dotenv:
         - build.env
+        - last_job.env
 
 .on_success_status:
   rules:

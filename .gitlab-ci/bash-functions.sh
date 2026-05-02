@@ -91,6 +91,14 @@ register_vars () {
     } > build.env
 }
 
+register_this_job_as_last_job () {
+    {
+        echo "CI_LAST_JOB_NAME=$CI_JOB_NAME"
+        echo "CI_LAST_JOB_STAGE=$CI_JOB_STAGE"
+        echo "CI_LAST_JOB_URL=$CI_JOB_URL"
+    } > last_job.env
+}
+
 scheduler_check_ingested_origins () {
     ARGS=(-l -w)
     [[ "$ENV" == "staging" ]] && ARGS+=( --watch-period '10m')
