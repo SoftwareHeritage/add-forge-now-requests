@@ -71,10 +71,11 @@ gitlab_update_issue () {
     local MID_MSG=" in ${ENV} environment.  ${EOL}"
     local END_MSG="For the pipeline details, see:  ${EOL}"
     END_MSG+="${CI_PIPELINE_URL}."
+    local CI_LAST_JOB="[${CI_LAST_JOB_STAGE} ${CI_LAST_JOB_NAME} job](${CI_LAST_JOB_URL})"
     local SUCCESS_MSG="Request successfully processed"
-    local FAILED_MSG="Request failed"
+    local FAILED_MSG="Request failed in ${CI_LAST_JOB}.  ${EOL}"
     [ "$STATUS" = "success" ] && local -x COMMENT="${SUCCESS_MSG}${MID_MSG}${END_MSG}"
-    [ "$STATUS" = "failure" ] && local -x COMMENT="${FAILED_MSG}${MID_MSG}${END_MSG}"
+    [ "$STATUS" = "failure" ] && local -x COMMENT="${FAILED_MSG}${END_MSG}"
     curl -s -X POST -H "PRIVATE-TOKEN: ${ADD_FORGE_NOW_ISSUE_TOKEN}" \
     --variable %COMMENT --expand-url \
     "${GITLAB_URL}/api/v4/projects/${PROJECT_ID}/issues/${ISSUE_ID}/notes?body={{COMMENT:url}}" |
