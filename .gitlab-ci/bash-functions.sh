@@ -9,7 +9,7 @@ check_network_ports () {
         nc -zv "$domain_name" 5672
     done
     for url in "$STAGING_AMQP_URL" "$PRODUCTION_AMQP_URL" \
-        "$WEBAPP_URL" "$OIDC_URL" "https://${INSTANCE_NAME}" $SCHEDULER_URLS
+        "$WEBAPP_URL" "$OIDC_URL" "$FORGE_URL" $SCHEDULER_URLS
     do
         echo -e "\n# $url #"
         curl -fsSI --connect-timeout 5 "$url" | \
