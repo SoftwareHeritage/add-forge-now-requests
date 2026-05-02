@@ -46,10 +46,13 @@ gitlab_create_issue () {
     else
         local DESCRIPTION="${WEBAPP_URL}/admin/add-forge/request/${REQUEST_ID}/"
     fi
+    local TITLE="%5BAdd%20Forge%20Now%5D%20process%20https%3A%2F%2F${INSTANCE_NAME}"
+    local LABELS="AddForgeNow"
+    DESCRIPTION+="%20%20%0D%0AType%3A%20${LISTER_TYPE}"
     local URL="${GITLAB_URL}/api/v4/projects/${PROJECT_ID}/issues"
-    URL+="?title=%5BAdd%20Forge%20Now%5D%20process%20https%3A%2F%2F${INSTANCE_NAME}"
-    URL+="&labels=AddForgeNow"
-    URL+="&description=${DESCRIPTION}%20%20%0D%0AType%3A%20${LISTER_TYPE}"
+    URL+="?title=${TITLE}"
+    URL+="&labels=${LABELS}"
+    URL+="&description=${DESCRIPTION}"
     URL+="&milestone_id=${MILESTONE_ID}"
     ISSUE_ID=$(curl -s -X POST -H "PRIVATE-TOKEN: ${ADD_FORGE_NOW_ISSUE_TOKEN}" \
     "$URL" \
