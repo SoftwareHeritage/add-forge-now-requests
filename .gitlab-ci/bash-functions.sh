@@ -50,19 +50,29 @@ gitlab_create_issue () {
     else
         local -x DESCRIPTION="${WEBAPP_URL}/admin/add-forge/request/${REQUEST_ID}/  ${EOL}"
     fi
-    local -x TITLE="[Add Forge Now] process ${INSTANCE_NAME}"
-    local -x LABELS="AddForgeNow"
     DESCRIPTION+="Type: ${LISTER_TYPE}  ${EOL}"
     DESCRIPTION+="URL: ${FORGE_URL}  ${EOL}"
-    local URL="${GITLAB_URL}/api/v4/projects/${PROJECT_ID}/issues"
-    URL+='?title={{TITLE:url}}'
-    URL+='&labels={{LABELS:url}}'
-    URL+='&description={{DESCRIPTION:url}}'
-    URL+='&milestone_id={{MILESTONE_ID:url}}'
-    ISSUE_ID=$(curl -s -X POST -H "PRIVATE-TOKEN: ${ADD_FORGE_NOW_ISSUE_TOKEN}" \
-    --variable %TITLE --variable %LABEL --variable %DESCRIPTION --variable %MILESTONE_ID \
-    --expand-url "$URL" \
-    | jq '.iid')
+    if [ -z "${ISSUE_ID+unset}" ]; then
+        local -x TITLE="[Add Forge Now] process ${INSTANCE_NAME}"
+        local -x LABELS="AddForgeNow"
+        local URL="${GITLAB_URL}/api/v4/projects/${PROJECT_ID}/issues"
+        URL+='?title={{TITLE:url}}'
+        URL+='&labels={{LABELS:url}}'
+        URL+='&description={{DESCRIPTION:url}}'
+        URL+='&milestone_id={{MILESTONE_ID:url}}'
+        ISSUE_ID=$(curl -s -X POST -H "PRIVATE-TOKEN: ${ADD_FORGE_NOW_ISSUE_TOKEN}" \
+        --variable %TITLE --variable %LABEL --variable %DESCRIPTION --variable %MILESTONE_ID \
+        --expand-url "$URL" \
+        | jq '.iid')
+    else
+        local -x COMMENT="[Add Forge Now] reprocess ${INSTANCE_NAME}  ${EOL}"
+        COMMENT+="$DESCRIPTION"
+        COMMENT+="/reopen${EOL}" # Ensure issue is open
+        curl -s -X POST -H "PRIVATE-TOKEN: ${ADD_FORGE_NOW_ISSUE_TOKEN}" \
+        --variable %COMMENT --expand-url \
+        "${GITLAB_URL}/api/v4/projects/${PROJECT_ID}/issues/${ISSUE_ID}/notes?body={{COMMENT:url}}" |
+        jq
+    fi
     export ISSUE_ID=$ISSUE_ID
 }
 
