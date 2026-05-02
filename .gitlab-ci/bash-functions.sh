@@ -146,12 +146,14 @@ scheduler_register_lister () {
     swh scheduler --config-file "$SWH_CONFIG_FILENAME" \
     add-forge-now --preset "$ENV" \
     register-lister "$LISTER_TYPE" \
+    url="$LISTER_URL" \
     instance="$INSTANCE_NAME"
     sleep "$LISTING_DELAY"
 }
 
 #scheduler_register_lister () {
-#    ARGS=( instance="$INSTANCE_NAME" )
+#    ARGS=( url="$LISTER_URL" )
+#    ARGS+=( instance="$INSTANCE_NAME" )
 #    [ "$ENV" == 'staging' ] && ARGS+=( max_pages=1 )
 #    swh scheduler --config-file "$SWH_CONFIG_FILENAME" \
 #    add-forge-now --preset "$ENV" \
