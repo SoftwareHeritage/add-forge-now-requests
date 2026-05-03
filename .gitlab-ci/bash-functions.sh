@@ -79,7 +79,7 @@ gitlab_create_issue () {
 
 gitlab_update_issue () {
     local STATUS=$1
-    local MID_MSG=" in ${ENV} environment.  ${EOL}"
+    local MID_MSG=" in the ${ENV} environment.  ${EOL}"
     local END_MSG="See the [pipeline](${CI_PIPELINE_URL}) for details.  ${EOL}"
     local CI_LAST_JOB="[${CI_LAST_JOB_STAGE} ${CI_LAST_JOB_NAME} job](${CI_LAST_JOB_URL})"
     local SUCCESS_MSG="Request successfully processed"
