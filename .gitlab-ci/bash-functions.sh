@@ -21,7 +21,8 @@ check_network_ports () {
 
 gitlab_close_issue () {
     curl -s -X PUT -H "PRIVATE-TOKEN: ${ADD_FORGE_NOW_ISSUE_TOKEN}" \
-    "${GITLAB_URL}/api/v4/projects/${PROJECT_ID}/issues/${ISSUE_ID}?state_event=close"
+    "${GITLAB_URL}/api/v4/projects/${PROJECT_ID}/issues/${ISSUE_ID}?state_event=close" |
+    jq
 }
 
 gitlab_commit_readme_history () {
@@ -39,7 +40,8 @@ gitlab_commit_readme_history () {
      -F "actions[][file_path]=README.md" \
      -F "actions[][content]=<README.new" \
      -H "PRIVATE-TOKEN: ${ADD_FORGE_NOW_ISSUE_TOKEN}" \
-    "${GITLAB_URL}/api/v4/projects/${PROJECT_ID}/repository/commits"
+    "${GITLAB_URL}/api/v4/projects/${PROJECT_ID}/repository/commits" |
+    jq
 }
 
 gitlab_create_issue () {
@@ -73,7 +75,8 @@ gitlab_update_issue () {
     [ "$STATUS" = "failure" ] && local -x COMMENT="${FAILED_MSG}${MID_MSG}${END_MSG}"
     curl -s -X POST -H "PRIVATE-TOKEN: ${ADD_FORGE_NOW_ISSUE_TOKEN}" \
     --variable %COMMENT --expand-url \
-    "${GITLAB_URL}/api/v4/projects/${PROJECT_ID}/issues/${ISSUE_ID}/notes?body={{COMMENT:url}}"
+    "${GITLAB_URL}/api/v4/projects/${PROJECT_ID}/issues/${ISSUE_ID}/notes?body={{COMMENT:url}}" |
+    jq
 }
 
 gitlab_update_var () {
