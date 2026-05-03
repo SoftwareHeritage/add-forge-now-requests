@@ -49,7 +49,7 @@ gitlab_create_issue () {
     if [ -z "${REQUEST_ID+unset}" ]; then
         local -x DESCRIPTION="No add-forge-now request associated with this pipeline.  ${EOL}"
     else
-        local -x DESCRIPTION="${WEBAPP_URL}/admin/add-forge/request/${REQUEST_ID}/  ${EOL}"
+        local -x DESCRIPTION="Request: #[${REQUEST_ID}](${WEBAPP_URL}/admin/add-forge/request/${REQUEST_ID}/)  ${EOL}"
     fi
     DESCRIPTION+="Type: ${LISTER_TYPE}  ${EOL}"
     DESCRIPTION+="URL: ${FORGE_URL}  ${EOL}"
