@@ -21,6 +21,7 @@ check_network_ports () {
 }
 
 gitlab_close_issue () {
+    test "$GITLAB_CLOSE_ISSUE" -eq 1
     curl -s -X PUT -H "PRIVATE-TOKEN: ${ADD_FORGE_NOW_ISSUE_TOKEN}" \
     "${GITLAB_URL}/api/v4/projects/${PROJECT_ID}/issues/${ISSUE_ID}?state_event=close" |
     jq
@@ -87,6 +88,79 @@ gitlab_update_issue () {
     # TODO: show significant errors from the job
     [ "$STATUS" = "success" ] && local -x COMMENT="${SUCCESS_MSG}${MID_MSG}"
     [ "$STATUS" = "failure" ] && local -x COMMENT="${FAILED_MSG}"
+    # Enable closing the GitLab issue by default
+    GITLAB_CLOSE_ISSUE=1
+    # Change the comment if success in production was not total
+    if [ "$ENV" = "production" ] && [ "$STATUS" = "success" ] ; then
+
+        # Gather status of ingested origins again
+        scheduler_check_ingested_origins &> log
+
+        # Extract counts for all visit status types
+        < log \
+        sed \
+            -n \
+            -E '/^Forge .* scheduler\.$/,${/:/p}' \
+        > counts
+
+        # Extract the success and total counts
+        SUCCESS="$(sed -n 's/^successful *: *//p' counts)"
+        TOTAL="$(sed -n 's/^total *: *//p' counts)"
+
+        # Check if some origin visits were not successful
+        if [ "$SUCCESS" -ne "$TOTAL" ] ; then
+            # The AFN admins need to investigate the problems so keep the issue open
+            GITLAB_CLOSE_ISSUE=0
+
+            # Replace success comment because some were not successful
+            COMMENT="Request partially successfully processed${MID_MSG}"
+            COMMENT+=${EOL}
+
+            # Transform the status counts into a table
+            COMMENT+="The origin visit status counts:  ${EOL}"
+            COMMENT+="$(< counts sed 's/^./\u&/;s/_/ /g;s/^/ /;s/ *:.*/ /' | tr '\n' '|' | sed 's/^/|/')${EOL}"
+            COMMENT+="$(< counts sed 's/.*:.*/ - /' | tr '\n' '|' | sed 's/^/|/')${EOL}"
+            COMMENT+="$(< counts sed 's/.*: */ /;s/$/ /' | tr '\n' '|' | sed 's/^/|/')${EOL}"
+            COMMENT+=${EOL}
+
+            # Extract table of origin visits that were not successful
+            # and also transform it into Markdown format.
+            < log \
+            sed -n -E '
+                /^url /,${
+                    /^Forge .* scheduler\.$/,$b
+                    s/^/| /
+                    s/$/ |/
+                    s/-  -/- | -/g
+                    s/  ([^ ])/ | \1/g
+                    s/url/URL/
+                    s/last_visit_status/Status/
+                    s/last_visit/Visit/
+                    s/  +/ /g
+                    s/ -+ / - /g
+                    s/\.[0-9]+\+00:00//
+                    / successful /d
+                    p
+                }
+            ' \
+            > table
+
+            # Include the first few origins only
+            HEADER=2
+            MAX=10
+            FIRST=$((HEADER+1))
+            ROWS=$((HEADER+MAX))
+            tail -n +$FIRST < table > origins
+            COMMENT+="These origin visits were not successful:  ${EOL}"
+            COMMENT+="$(head -n $ROWS table)${EOL}"
+            BAD="$(wc -l < origins)"
+            HIDDEN=$((BAD-MAX))
+            if [ "$BAD" -gt $MAX ] ; then
+                COMMENT+="| [${HIDDEN} more hidden](${CI_LAST_JOB_URL}). |${EOL}"
+            fi
+            COMMENT+=${EOL}
+        fi
+    fi
     COMMENT+="${END_MSG}"
     curl -s -X POST -H "PRIVATE-TOKEN: ${ADD_FORGE_NOW_ISSUE_TOKEN}" \
     --variable %COMMENT --expand-url \
