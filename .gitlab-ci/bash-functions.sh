@@ -103,6 +103,7 @@ gitlab_update_var () {
 curlrc () {
     export CURL_HOME="$CI_PROJECT_DIR"
     {
+        printf 'user-agent = "Software Heritage Add Forge Now pipeline for %s"' "$LISTER_TYPE"
     } > "$CURL_HOME/.curlrc"
 }
 
