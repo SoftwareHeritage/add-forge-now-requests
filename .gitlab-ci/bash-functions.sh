@@ -25,7 +25,7 @@ gitlab_close_issue () {
 gitlab_commit_readme_history () {
     trap "rm README.new" EXIT
     local STATUS=$1
-    local VISIT_DATE=$(date "+%F %T %z%Z")
+    local VISIT_DATE ; VISIT_DATE=$(date "+%F %T %z%Z")
     curl -s -H "PRIVATE_TOKEN: ${ADD_FORGE_NOW_ISSUE_TOKEN}" \
     "${GITLAB_URL}/api/v4/projects/${PROJECT_ID}/repository/files/README.md?ref=main" | \
     jq -r .content | base64 -d > README.new
