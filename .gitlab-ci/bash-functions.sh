@@ -3,7 +3,7 @@ set -euo pipefail
 EOL=$'\r\n'
 
 check_network_ports () {
-    SCHEDULER_URLS=$(awk '/^[[:space:]]*url:/{print $2}' /etc/swh/scheduler-*.yml)
+    mapfile -t SCHEDULER_URLS < <(awk '/^[[:space:]]*url:/{print $2}' /etc/swh/scheduler-*.yml)
     for url in "$STAGING_AMQP_URL" "$PRODUCTION_AMQP_URL"
     do
         domain_name=$(awk -F '/' '{split($3,a,":");print a[1]}' <<< "$url")
@@ -12,7 +12,7 @@ check_network_ports () {
     done
     local c=cookies.txt
     for url in "$STAGING_AMQP_URL" "$PRODUCTION_AMQP_URL" \
-        "$WEBAPP_URL" "$OIDC_URL" "$FORGE_URL" $SCHEDULER_URLS
+        "$WEBAPP_URL" "$OIDC_URL" "$FORGE_URL" "${SCHEDULER_URLS[@]}"
     do
         echo -e "\n# $url #"
         curl -fsSI -j -b $c -c $c --retry 5 --connect-timeout 5 "$url" | \
