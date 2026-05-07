@@ -80,6 +80,7 @@ gitlab_create_issue () {
 
 gitlab_update_issue () {
     local STATUS=$1
+    local LABELS=()
     local MID_MSG=" in the ${ENV} environment.  ${EOL}"
     local END_MSG="See the [pipeline](${CI_PIPELINE_URL}) for details.  ${EOL}"
     local CI_LAST_JOB="[${CI_LAST_JOB_STAGE} ${CI_LAST_JOB_NAME} job](${CI_LAST_JOB_URL})"
@@ -159,9 +160,34 @@ gitlab_update_issue () {
                 COMMENT+="| [${HIDDEN} more hidden](${CI_LAST_JOB_URL}). |${EOL}"
             fi
             COMMENT+=${EOL}
+
+            LABEL+=(PartialSuccess)
+        else
+            LABELS+=(CompleteSuccess)
         fi
+    elif [ "$STATUS" = "failure" ] ; then
+        case "${CI_LAST_JOB_NAME}" in
+            02_check_ports_and_token)
+                LABELS+=(ForgeOrInfraFailure)
+            ;;
+            03_comment_request)
+                LABELS+=(WebFailure)
+            ;;
+            1*_register_lister|2*_check_listed_origins)
+                LABELS+=(ListerFailure)
+            ;;
+            3s_schedule_first_visits|4*_check-ingested-origins)
+                LABELS+=(LoaderFailure)
+            ;;
+            *)
+                LABELS+=(UnknownFailure)
+            ;;
+        esac
     fi
     COMMENT+="${END_MSG}"
+    if [ ${#LABELS[@]} -gt 0 ]; then
+        COMMENT+="/label ${LABELS[*]}${EOL}"
+    fi
     curl -s -X POST -H "PRIVATE-TOKEN: ${ADD_FORGE_NOW_ISSUE_TOKEN}" \
     --variable %COMMENT --expand-url \
     "${GITLAB_URL}/api/v4/projects/${PROJECT_ID}/issues/${ISSUE_ID}/notes?body={{COMMENT:url}}" |
