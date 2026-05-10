@@ -41,7 +41,7 @@ gitlab_commit_readme_history () {
 }
 
 gitlab_create_issue () {
-    if [ -z ${REQUEST_ID+x} ]; then
+    if [ -z "${REQUEST_ID+unset}" ]; then
         local DESCRIPTION="No%20add-forge-now%20request%20associated%20with%20this%20pipeline%2E"
     else
         local DESCRIPTION="${WEBAPP_URL}/admin/add-forge/request/${REQUEST_ID}/"
@@ -144,7 +144,7 @@ scheduler_schedule_first_visits () {
 }
 
 webapp_check_token () {
-    if [ -z ${REQUEST_ID+x} ]; then
+    if [ -z "${REQUEST_ID+unset}" ]; then
         echo "No AFN request so need to check token."
     else
         if curl -s -H 'Content-Type: application/json' \
@@ -166,7 +166,7 @@ webapp_check_token () {
 }
 
 webapp_comment_and_status () {
-    if [ -z ${REQUEST_ID+x} ]; then
+    if [ -z "${REQUEST_ID+unset}" ]; then
         echo "No AFN request so no comment."
     else
         local COMMENT="For details, see ${GITLAB_URL}/swh/infra/${PROJECT_NAME}/-/issues/${ISSUE_ID}."
