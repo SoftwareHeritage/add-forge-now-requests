@@ -250,23 +250,24 @@ register_this_job_as_last_job () {
     } > last_job.env
 }
 
+scheduler () {
+    swh scheduler --config-file "$SWH_CONFIG_FILENAME" "$@"
+}
+
 scheduler_check_ingested_origins () {
     ARGS=(-l -w)
     [[ "$ENV" == "staging" ]] && ARGS+=( --watch-period '10m')
-    swh scheduler --config-file "$SWH_CONFIG_FILENAME" \
-    origin check-ingested-origins "${ARGS[@]}" \
+    scheduler origin check-ingested-origins "${ARGS[@]}" \
     "$LISTER_TYPE" "$INSTANCE_NAME"
 }
 
 scheduler_check_listed_origins () {
-    swh scheduler --config-file "$SWH_CONFIG_FILENAME" \
-    origin check-listed-origins -l \
+    scheduler origin check-listed-origins -l \
     "$LISTER_TYPE" "$INSTANCE_NAME"
 }
 
 scheduler_check_success_rate () {
-    success_rate=$(swh scheduler --config-file "$SWH_CONFIG_FILENAME" \
-    origin check-ingested-origins \
+    success_rate=$(scheduler origin check-ingested-origins \
     "$LISTER_TYPE" "$INSTANCE_NAME" | \
     awk '/success rate:/{split($3,a,".");print a[1]}')
     if [ "$success_rate" -lt "$INGESTION_SUCCESS_LIMIT" ]; then
@@ -276,8 +277,7 @@ scheduler_check_success_rate () {
 }
 
 scheduler_register_lister () {
-    swh scheduler --config-file "$SWH_CONFIG_FILENAME" \
-    add-forge-now --preset "$ENV" \
+    scheduler add-forge-now --preset "$ENV" \
     register-lister "$LISTER_TYPE" \
     url="$LISTER_URL" \
     instance="$INSTANCE_NAME"
@@ -288,16 +288,14 @@ scheduler_register_lister () {
 #    ARGS=( url="$LISTER_URL" )
 #    ARGS+=( instance="$INSTANCE_NAME" )
 #    [ "$ENV" == 'staging' ] && ARGS+=( max_pages=1 )
-#    swh scheduler --config-file "$SWH_CONFIG_FILENAME" \
-#    add-forge-now --preset "$ENV" \
+#    scheduler add-forge-now --preset "$ENV" \
 #    register-lister "$LISTER_TYPE" \
 #    "${ARGS[@]}"
 #    sleep "$LISTING_DELAY"
 #}
 
 scheduler_schedule_first_visits () {
-    swh scheduler --config-file "$SWH_CONFIG_FILENAME" \
-    add-forge-now --preset "$ENV" \
+    scheduler add-forge-now --preset "$ENV" \
     schedule-first-visits \
     --type-name git \
     --lister-name "$LISTER_TYPE" \
