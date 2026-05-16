@@ -1,5 +1,5 @@
 image:
-  name: container-registry.softwareheritage.org/swh/infra/swh-apps/add_forge_now:20250918.2
+  name: container-registry.softwareheritage.org/swh/infra/swh-apps/add_forge_now:20260529.3
   pull_policy: if-not-present
 
 default:
@@ -136,7 +136,6 @@ stages:
   stage: staging_ingest_origins
   script:
     - scheduler_check_ingested_origins
-    - scheduler_check_success_rate
   extends:
     - .on_success_status
   needs:
@@ -198,7 +197,6 @@ staging_status_unsuccessful:
   stage: production_ingest-origins
   script:
     - scheduler_check_ingested_origins
-    - scheduler_check_success_rate
   extends:
     - .on_success_status
   needs:

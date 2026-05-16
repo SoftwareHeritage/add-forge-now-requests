@@ -257,6 +257,7 @@ scheduler () {
 scheduler_check_ingested_origins () {
     ARGS=(-l -w)
     [[ "$ENV" == "staging" ]] && ARGS+=( --watch-period '10m')
+    ARGS+=( --minimum-success "$INGESTION_SUCCESS_LIMIT" )
     scheduler origin check-ingested-origins "${ARGS[@]}" \
     "$LISTER_TYPE" "$INSTANCE_NAME"
 }
@@ -264,16 +265,6 @@ scheduler_check_ingested_origins () {
 scheduler_check_listed_origins () {
     scheduler origin check-listed-origins -l \
     "$LISTER_TYPE" "$INSTANCE_NAME"
-}
-
-scheduler_check_success_rate () {
-    success_rate=$(scheduler origin check-ingested-origins \
-    "$LISTER_TYPE" "$INSTANCE_NAME" | \
-    awk '/success rate:/{split($3,a,".");print a[1]}')
-    if [ "$success_rate" -lt "$INGESTION_SUCCESS_LIMIT" ]; then
-        echo "There are too many ingestion failures."
-        exit 1
-    fi
 }
 
 scheduler_register_lister () {
