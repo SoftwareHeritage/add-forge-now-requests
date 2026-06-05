@@ -63,7 +63,7 @@ gitlab_create_issue () {
         URL+='&description={{DESCRIPTION:url}}'
         URL+='&milestone_id={{MILESTONE_ID:url}}'
         ISSUE_ID=$(curl -s -X POST -H "PRIVATE-TOKEN: ${ADD_FORGE_NOW_ISSUE_TOKEN}" \
-        --variable %TITLE --variable %LABEL --variable %DESCRIPTION --variable %MILESTONE_ID \
+        --variable %TITLE --variable %LABELS --variable %DESCRIPTION --variable %MILESTONE_ID \
         --expand-url "$URL" \
         | jq '.iid')
     else
@@ -161,7 +161,7 @@ gitlab_update_issue () {
             fi
             COMMENT+=${EOL}
 
-            LABEL+=(PartialSuccess)
+            LABELS+=(PartialSuccess)
         else
             LABELS+=(CompleteSuccess)
         fi
