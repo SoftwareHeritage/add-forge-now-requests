@@ -54,6 +54,7 @@ gitlab_create_issue () {
     fi
     DESCRIPTION+="Type: ${LISTER_TYPE}  ${EOL}"
     DESCRIPTION+="URL: ${FORGE_URL}  ${EOL}"
+    DESCRIPTION+="Pipeline: #[${CI_PIPELINE_ID}](${CI_PIPELINE_URL})  ${EOL}"
     if [ -z "${ISSUE_ID+unset}" ]; then
         local -x TITLE="[Add Forge Now] process ${INSTANCE_NAME}"
         local -x LABELS="AddForgeNow"
