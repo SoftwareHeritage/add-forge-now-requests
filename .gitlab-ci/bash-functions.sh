@@ -257,29 +257,29 @@ scheduler () {
 }
 
 scheduler_list_task_runs () {
-    ret=$?
-    if [ $ret -ne 0 ] ; then
-        scheduler task list \
-        --after "$CI_PIPELINE_CREATED_AT" \
-        --before "$(date --utc --iso-8601=seconds | sed s/+.*//)" \
-        --list-runs-metadata
-    fi
-    return $ret
+    scheduler task list \
+    --after "$CI_PIPELINE_CREATED_AT" \
+    --before "$(date --utc --iso-8601=seconds | sed s/+.*//)" \
+    --list-runs-metadata
 }
 
 scheduler_check_ingested_origins () {
     ARGS=(-l -w)
     [[ "$ENV" == "staging" ]] && ARGS+=( --watch-period '10m')
     ARGS+=( --minimum-success "$INGESTION_SUCCESS_LIMIT" )
+    local ret=0
     scheduler origin check-ingested-origins "${ARGS[@]}" \
-    "$LISTER_TYPE" "$INSTANCE_NAME" || \
-    scheduler_list_task_runs
+    "$LISTER_TYPE" "$INSTANCE_NAME" || ret=$?
+    scheduler_list_task_runs || true
+    return "$ret"
 }
 
 scheduler_check_listed_origins () {
+    local ret=0
     scheduler origin check-listed-origins -l \
-    "$LISTER_TYPE" "$INSTANCE_NAME" || \
-    scheduler_list_task_runs
+    "$LISTER_TYPE" "$INSTANCE_NAME" || ret=$?
+    scheduler_list_task_runs || true
+    return "$ret"
 }
 
 scheduler_register_lister () {
