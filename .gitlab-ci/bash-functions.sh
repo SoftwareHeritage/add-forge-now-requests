@@ -21,10 +21,11 @@ check_network_ports () {
 }
 
 gitlab_close_issue () {
-    test "$GITLAB_CLOSE_ISSUE" -eq 1
-    curl -s -X PUT -H "PRIVATE-TOKEN: ${ADD_FORGE_NOW_ISSUE_TOKEN}" \
-    "${GITLAB_URL}/api/v4/projects/${PROJECT_ID}/issues/${ISSUE_ID}?state_event=close" |
-    jq
+    if [ "$GITLAB_CLOSE_ISSUE" -eq 1 ] ; then
+        curl -s -X PUT -H "PRIVATE-TOKEN: ${ADD_FORGE_NOW_ISSUE_TOKEN}" \
+        "${GITLAB_URL}/api/v4/projects/${PROJECT_ID}/issues/${ISSUE_ID}?state_event=close" |
+        jq
+    fi
 }
 
 gitlab_commit_readme_history () {
