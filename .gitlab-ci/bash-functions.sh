@@ -64,11 +64,23 @@ gitlab_create_issue () {
         URL+='&labels={{LABELS:url}}'
         URL+='&description={{DESCRIPTION:url}}'
         URL+='&milestone_id={{MILESTONE_ID:url}}'
-        ISSUE_ID=$(curl -s -X POST -H "PRIVATE-TOKEN: ${ADD_FORGE_NOW_ISSUE_TOKEN}" \
+        local RESPONSE=gitlab-create-issue-response.json
+        curl -s -X POST -H "PRIVATE-TOKEN: ${ADD_FORGE_NOW_ISSUE_TOKEN}" \
         --variable %TITLE --variable %LABELS --variable %DESCRIPTION --variable %MILESTONE_ID \
-        --expand-url "$URL" \
-        | jq '.iid')
+        --expand-url "$URL" |
+        tee "$RESPONSE" |
+        jq
+        ISSUE_ID="$(jq --raw-output '.iid' < "$RESPONSE")"
+        ISSUE_URL="$(jq --raw-output '.web_url' < "$RESPONSE")"
+        rm -f "$RESPONSE"
     else
+        local URL="${GITLAB_URL}/api/v4/projects/${PROJECT_ID}/issues/${ISSUE_ID}"
+        local RESPONSE=gitlab-update-issue-response.json
+        curl -s -X POST -H "PRIVATE-TOKEN: ${ADD_FORGE_NOW_ISSUE_TOKEN}" "$URL" \
+        tee "$RESPONSE" |
+        jq
+        ISSUE_URL="$(jq --raw-output '.web_url' < "$RESPONSE")"
+        rm -f "$RESPONSE"
         local -x COMMENT="[Add Forge Now] reprocess ${INSTANCE_NAME}  ${EOL}"
         COMMENT+="$DESCRIPTION"
         COMMENT+="/reopen${EOL}" # Ensure issue is open
@@ -77,7 +89,7 @@ gitlab_create_issue () {
         "${GITLAB_URL}/api/v4/projects/${PROJECT_ID}/issues/${ISSUE_ID}/notes?body={{COMMENT:url}}" |
         jq
     fi
-    export ISSUE_ID=$ISSUE_ID
+    export ISSUE_ID ISSUE_URL
 }
 
 gitlab_update_issue () {
@@ -238,6 +250,7 @@ register_vars () {
     {
         echo "ENV=$ENV"
         echo "ISSUE_ID=$ISSUE_ID"
+        echo "ISSUE_URL=$ISSUE_URL"
         # FIXME: remove once listers accept forge URLs instead of API URLs
         echo "LISTER_URL=$LISTER_URL"
         echo "SWH_CONFIG_FILENAME=${!SWH_CONFIG_FILENAME}"
@@ -334,7 +347,7 @@ webapp_comment_and_status () {
     if [ -z "${REQUEST_ID+unset}" ]; then
         echo "No AFN request so no comment."
     else
-        local -x COMMENT="For details, see ${GITLAB_URL}/swh/infra/${PROJECT_NAME}/-/issues/${ISSUE_ID}."
+        local -x COMMENT="For details, see ${ISSUE_URL}."
         if [ "$#" -eq 1 ]; then
             local -x STATUS="$1"
         fi
