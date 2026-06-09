@@ -259,7 +259,10 @@ scheduler () {
 scheduler_list_task_runs () {
     ret=$?
     if [ $ret -ne 0 ] ; then
-        scheduler task list --list-runs-metadata
+        scheduler task list \
+        --after "$CI_PIPELINE_CREATED_AT" \
+        --before "$(date --utc --iso-8601=seconds | sed s/+.*//)" \
+        --list-runs-metadata
     fi
     return $ret
 }
