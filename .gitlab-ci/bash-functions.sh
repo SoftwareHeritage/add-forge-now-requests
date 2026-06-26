@@ -271,8 +271,8 @@ scheduler () {
 
 scheduler_list_task_runs () {
     scheduler task list \
-    --after "$(printf '%s' "$CI_PIPELINE_CREATED_AT" | sed -E 's/(Z|\+).*$//')" \
-    --before "$(date --utc --iso-8601=seconds | sed s/+.*//)" \
+    --after "$CI_PIPELINE_CREATED_AT" \
+    --before "$(date --utc --iso-8601=seconds)" \
     --list-runs-metadata
 }
 
