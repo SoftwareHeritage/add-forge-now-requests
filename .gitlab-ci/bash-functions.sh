@@ -296,11 +296,14 @@ scheduler_check_listed_origins () {
 }
 
 scheduler_register_lister () {
-    scheduler add-forge-now --preset "$ENV" \
-    register-lister "$LISTER_TYPE" \
-    url="$LISTER_URL" \
-    instance="$INSTANCE_NAME"
-    sleep "$LISTING_DELAY"
+    local LISTER_TASK_ID=$(scheduler add-forge-now --preset "$ENV" \
+        register-lister "$LISTER_TYPE" \
+        url="$LISTER_URL" \
+        instance="$INSTANCE_NAME" | grep Task | head -1 | sed -r 's/Task ([0-9]+)/\1/g')
+    export -f scheduler
+    timeout "$LISTING_DELAY" bash -c \
+        "until scheduler task list --task-id $LISTER_TASK_ID \
+        --list-runs-metadata | grep -E \"ended: [0-9]+\"; do sleep 1; done" || true
 }
 
 #scheduler_register_lister () {
