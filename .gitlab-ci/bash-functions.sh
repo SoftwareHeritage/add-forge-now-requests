@@ -296,7 +296,8 @@ scheduler_check_listed_origins () {
 }
 
 scheduler_register_lister () {
-    local LISTER_TASK_ID=$(scheduler add-forge-now --preset "$ENV" \
+    local LISTER_TASK_ID
+    LISTER_TASK_ID=$(scheduler add-forge-now --preset "$ENV" \
         register-lister "$LISTER_TYPE" \
         url="$LISTER_URL" \
         instance="$INSTANCE_NAME" | grep Task | head -1 | sed -r 's/Task ([0-9]+)/\1/g')
