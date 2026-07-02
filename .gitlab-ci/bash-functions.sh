@@ -358,11 +358,11 @@ webapp_comment_and_status () {
         if [ "$#" -eq 1 ]; then
             local -x STATUS="$1"
         fi
-        local JSON ; JSON=$(jq -n '.text = env.COMMENT | if env.STATUS then .new_status = env.STATUS end')
+        local JSON ; JSON=$(jq -n '.text = env.COMMENT | .issue_id = env.ISSUE_ID | if env.STATUS then .new_status = env.STATUS end')
         curl -s --json "$JSON" \
         -H "Authorization: Bearer $WEBAPP_TOKEN" \
         "${WEBAPP_URL}/api/1/add-forge/request/${REQUEST_ID}/update/" |
         # copy of swh-web AddForgeNowRequestPublicSerializer.Meta.fields
-        jq '{id, forge_url, forge_type, status, submission_date}'
+        jq '{id, forge_url, forge_type, status, submission_date, issue_id}'
     fi
 }
