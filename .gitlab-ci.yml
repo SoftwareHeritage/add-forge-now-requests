@@ -45,8 +45,8 @@ stages:
   - staging_list_origins
   - staging_ingest_origins
   - staging_set_status
-  - production_list-origins
-  - production_ingest-origins
+  - production_list_origins
+  - production_ingest_origins
   - production_set_status
 
 # TEMPLATES
@@ -72,7 +72,7 @@ stages:
 
 .production_dependencies:
   needs:
-    - job: 1p_register-lister
+    - job: 1p_register_lister
       artifacts: true
 
 # JOBS
@@ -164,8 +164,8 @@ staging_status_unsuccessful:
     - .artifacts
     - .on_failure_status
 
-1p_register-lister:
-  stage: production_list-origins
+1p_register_lister:
+  stage: production_list_origins
   script:
     - scheduler_register_lister
   extends:
@@ -174,35 +174,35 @@ staging_status_unsuccessful:
   dependencies:
     - "staging_status_successful"
 
-2p_check-listed-origins:
-  stage: production_list-origins
+2p_check_listed_origins:
+  stage: production_list_origins
   script:
     - scheduler_check_listed_origins
   extends:
     - .on_success_status
     - .production_dependencies
 
-3p_schedule-first-visits:
-  stage: production_ingest-origins
+3p_schedule_first_visits:
+  stage: production_ingest_origins
   script:
     - scheduler_schedule_first_visits
   extends:
     - .on_success_status
   needs:
-    - job: 1p_register-lister
+    - job: 1p_register_lister
       artifacts: true
-    - job: 2p_check-listed-origins
+    - job: 2p_check_listed_origins
 
-4p_check-ingested-origins:
-  stage: production_ingest-origins
+4p_check_ingested_origins:
+  stage: production_ingest_origins
   script:
     - scheduler_check_ingested_origins
   extends:
     - .on_success_status
   needs:
-    - job: 1p_register-lister
+    - job: 1p_register_lister
       artifacts: true
-    - job: 3p_schedule-first-visits
+    - job: 3p_schedule_first_visits
 
 production_status_successful:
   stage: production_set_status
@@ -214,9 +214,9 @@ production_status_successful:
   extends:
     - .on_success_status
   needs:
-    - job: 1p_register-lister
+    - job: 1p_register_lister
       artifacts: true
-    - job: 4p_check-ingested-origins
+    - job: 4p_check_ingested_origins
 
 production_status_unsuccessful:
   stage: production_set_status

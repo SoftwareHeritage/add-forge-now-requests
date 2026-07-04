@@ -190,7 +190,7 @@ gitlab_update_issue () {
             1*_register_lister|2*_check_listed_origins)
                 LABELS+=(ListerFailure)
             ;;
-            3s_schedule_first_visits|4*_check-ingested-origins)
+            3*_schedule_first_visits|4*_check_ingested_origins)
                 LABELS+=(LoaderFailure)
             ;;
             *)
