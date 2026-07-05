@@ -201,10 +201,14 @@ gitlab_update_issue () {
     if [ ${#LABELS[@]} -gt 0 ]; then
         COMMENT+="/label ${LABELS[*]}${EOL}"
     fi
-    curl -s -X POST -H "PRIVATE-TOKEN: ${ADD_FORGE_NOW_ISSUE_TOKEN}" \
-    --variable %COMMENT --expand-url \
-    "${GITLAB_URL}/api/v4/projects/${PROJECT_ID}/issues/${ISSUE_ID}/notes?body={{COMMENT:url}}" |
-    jq
+    if [ -z "${ISSUE_ID+unset}" ]; then
+        echo "No GitLab issue set, request failed in ${CI_LAST_JOB}."
+    else
+        curl -s -X POST -H "PRIVATE-TOKEN: ${ADD_FORGE_NOW_ISSUE_TOKEN}" \
+        --variable %COMMENT --expand-url \
+        "${GITLAB_URL}/api/v4/projects/${PROJECT_ID}/issues/${ISSUE_ID}/notes?body={{COMMENT:url}}" |
+        jq
+    fi
 }
 
 gitlab_update_var () {
