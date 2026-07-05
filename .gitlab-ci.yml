@@ -70,11 +70,6 @@ stages:
     - if: $CI_PIPELINE_SOURCE == "trigger"
       when: on_failure
 
-.production_dependencies:
-  needs:
-    - job: 1p_register_lister
-      artifacts: true
-
 # JOBS
 
 01_create_issue_and_register:
@@ -180,7 +175,9 @@ staging_status_unsuccessful:
     - scheduler_check_listed_origins
   extends:
     - .on_success_status
-    - .production_dependencies
+  needs:
+    - job: 1p_register_lister
+      artifacts: true
 
 3p_schedule_first_visits:
   stage: production_ingest_origins
