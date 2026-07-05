@@ -161,7 +161,6 @@ staging_status_unsuccessful:
   script:
     - scheduler_register_lister
   extends:
-    - .artifacts
     - .on_success_status
   dependencies:
     - "staging_status_successful"
