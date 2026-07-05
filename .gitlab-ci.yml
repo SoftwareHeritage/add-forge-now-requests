@@ -99,7 +99,6 @@ stages:
     - .on_success_status
   needs:
     - job: 01_create_issue_and_register
-      artifacts: true
     - job: 02_check_ports_and_token
 
 1s_register_lister:
@@ -117,7 +116,6 @@ stages:
     - .on_success_status
   needs:
     - job: 01_create_issue_and_register
-      artifacts: true
     - job: 1s_register_lister
 
 3s_schedule_first_visits:
@@ -135,7 +133,6 @@ stages:
     - .on_success_status
   needs:
     - job: 01_create_issue_and_register
-      artifacts: true
     - job: 3s_schedule_first_visits
 
 staging_status_successful:
@@ -177,7 +174,6 @@ staging_status_unsuccessful:
     - .on_success_status
   needs:
     - job: 1p_register_lister
-      artifacts: true
 
 3p_schedule_first_visits:
   stage: production_ingest_origins
@@ -187,7 +183,6 @@ staging_status_unsuccessful:
     - .on_success_status
   needs:
     - job: 1p_register_lister
-      artifacts: true
     - job: 2p_check_listed_origins
 
 4p_check_ingested_origins:
@@ -198,7 +193,6 @@ staging_status_unsuccessful:
     - .on_success_status
   needs:
     - job: 1p_register_lister
-      artifacts: true
     - job: 3p_schedule_first_visits
 
 production_status_successful:
@@ -212,7 +206,6 @@ production_status_successful:
     - .on_success_status
   needs:
     - job: 1p_register_lister
-      artifacts: true
     - job: 4p_check_ingested_origins
 
 production_status_unsuccessful:
