@@ -210,7 +210,6 @@ production_status_unsuccessful:
   stage: production_set_status
   script:
     - gitlab_update_issue failure
-#    - webapp_comment_and_status UNSUCCESSFUL
   extends:
     - .on_failure_status
   dependencies:
