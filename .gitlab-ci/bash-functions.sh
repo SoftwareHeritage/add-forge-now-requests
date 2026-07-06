@@ -27,25 +27,6 @@ gitlab_close_issue () {
     fi
 }
 
-gitlab_commit_readme_history () {
-    trap "rm README.new" EXIT
-    local STATUS=$1
-    local VISIT_DATE ; VISIT_DATE=$(date "+%F %T %z%Z")
-    curl -s -H "PRIVATE_TOKEN: ${ADD_FORGE_NOW_ISSUE_TOKEN}" \
-    "${GITLAB_URL}/api/v4/projects/${PROJECT_ID}/repository/files/README.md?ref=main" | \
-    jq -r .content | base64 -d > README.new
-    echo "| ${INSTANCE_NAME} | ${LISTER_TYPE} | ${STATUS} | ${VISIT_DATE} | #${ISSUE_ID} |" >> README.new
-    curl -s -X POST \
-     -F "branch=main" \
-     -F "commit_message=🤖 process ${STATUS}ly ${INSTANCE_NAME}" \
-     -F "actions[][action]=update" \
-     -F "actions[][file_path]=README.md" \
-     -F "actions[][content]=<README.new" \
-     -H "PRIVATE-TOKEN: ${ADD_FORGE_NOW_ISSUE_TOKEN}" \
-    "${GITLAB_URL}/api/v4/projects/${PROJECT_ID}/repository/commits" |
-    jq
-}
-
 gitlab_create_issue () {
     if [ -z "${REQUEST_ID+unset}" ]; then
         local -x DESCRIPTION="No add-forge-now request associated with this pipeline.  ${EOL}"

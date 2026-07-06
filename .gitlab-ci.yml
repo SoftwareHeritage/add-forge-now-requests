@@ -200,7 +200,6 @@ production_status_successful:
     - webapp_comment_and_status FIRST_ORIGIN_LOADED
     - gitlab_update_issue success
     - gitlab_close_issue
-    - gitlab_commit_readme_history successful
   extends:
     - .on_success_status
   needs:
@@ -212,7 +211,6 @@ production_status_unsuccessful:
   script:
     - gitlab_update_issue failure
 #    - webapp_comment_and_status UNSUCCESSFUL
-    - gitlab_commit_readme_history unsuccessful
   extends:
     - .on_failure_status
   dependencies:
