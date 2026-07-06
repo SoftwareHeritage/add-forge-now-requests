@@ -10,12 +10,11 @@ check_network_ports () {
         echo -e "\n# $domain_name 5672 #"
         nc -zv "$domain_name" 5672
     done
-    local c=cookies.txt
     for url in "$STAGING_AMQP_URL" "$PRODUCTION_AMQP_URL" \
-        "$WEBAPP_URL" "$OIDC_URL" "$FORGE_URL" "${SCHEDULER_URLS[@]}"
+        "$WEBAPP_URL" "$OIDC_URL" "${SCHEDULER_URLS[@]}"
     do
         echo -e "\n# $url #"
-        curl -fsSI -j -b $c -c $c --retry 5 --connect-timeout 5 "$url" | \
+        curl -fsSI --retry 5 --connect-timeout 5 "$url" | \
         grep '^HTTP/\(1\.1\|2\)[[:space:]]*\(2..\|3..\)'
     done
 }
@@ -182,7 +181,7 @@ gitlab_update_issue () {
     elif [ "$STATUS" = "failure" ] ; then
         case "${CI_LAST_JOB_NAME}" in
             02_check_ports_and_token)
-                LABELS+=(ForgeOrInfraFailure)
+                LABELS+=(InfraFailure)
             ;;
             03_comment_request)
                 LABELS+=(WebFailure)
