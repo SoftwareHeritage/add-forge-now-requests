@@ -42,6 +42,7 @@ workflow:
 # STAGES
 
 stages:
+  - pre_set_status
   - staging_list_origins
   - staging_ingest_origins
   - staging_set_status
@@ -77,7 +78,7 @@ stages:
   script:
     - gitlab_create_issue
     - workaround_listers
-    - register_vars staging
+    - register_vars pre
   extends:
     - .artifacts
   rules:
@@ -90,6 +91,8 @@ stages:
     - webapp_check_token
   extends:
     - .on_success_status
+  needs:
+    - job: 01_create_issue_and_register
 
 03_comment_request:
   stage: .pre
@@ -101,12 +104,38 @@ stages:
     - job: 01_create_issue_and_register
     - job: 02_check_ports_and_token
 
+pre_status_successful:
+  stage: pre_set_status
+  script:
+    - workaround_listers
+    - register_vars staging
+  extends:
+    - .artifacts
+    - .on_success_status
+  needs:
+    - job: 01_create_issue_and_register
+    - job: 02_check_ports_and_token
+    - job: 03_comment_request
+
+pre_status_unsuccessful:
+  stage: pre_set_status
+  script:
+    - gitlab_update_issue failure
+  extends:
+    - .on_failure_status
+  needs:
+    - job: 01_create_issue_and_register
+    - job: 02_check_ports_and_token
+    - job: 03_comment_request
+
 1s_register_lister:
   stage: staging_list_origins
   script:
     - scheduler_register_lister
   extends:
     - .on_success_status
+  needs:
+    - job: pre_status_successful
 
 2s_check_listed_origins:
   stage: staging_list_origins
@@ -115,7 +144,7 @@ stages:
   extends:
     - .on_success_status
   needs:
-    - job: 01_create_issue_and_register
+    - job: pre_status_successful
     - job: 1s_register_lister
 
 3s_schedule_first_visits:
@@ -124,6 +153,9 @@ stages:
     - scheduler_schedule_first_visits
   extends:
     - .on_success_status
+  needs:
+    - job: pre_status_successful
+    - job: 2s_check_listed_origins
 
 4s_check_ingested_origins:
   stage: staging_ingest_origins
@@ -132,7 +164,7 @@ stages:
   extends:
     - .on_success_status
   needs:
-    - job: 01_create_issue_and_register
+    - job: pre_status_successful
     - job: 3s_schedule_first_visits
 
 staging_status_successful:
@@ -145,16 +177,22 @@ staging_status_successful:
   extends:
     - .artifacts
     - .on_success_status
+  needs:
+    - job: pre_status_successful
+    - job: 4s_check_ingested_origins
 
 staging_status_unsuccessful:
   stage: staging_set_status
   script:
     - gitlab_update_issue failure
-    - workaround_listers
-    - register_vars production
   extends:
-    - .artifacts
     - .on_failure_status
+  needs:
+    - job: pre_status_successful
+    - job: 1s_register_lister
+    - job: 2s_check_listed_origins
+    - job: 3s_schedule_first_visits
+    - job: 4s_check_ingested_origins
 
 1p_register_lister:
   stage: production_list_origins
@@ -162,8 +200,8 @@ staging_status_unsuccessful:
     - scheduler_register_lister
   extends:
     - .on_success_status
-  dependencies:
-    - "staging_status_successful"
+  needs:
+    - job: staging_status_successful
 
 2p_check_listed_origins:
   stage: production_list_origins
@@ -172,6 +210,7 @@ staging_status_unsuccessful:
   extends:
     - .on_success_status
   needs:
+    - job: staging_status_successful
     - job: 1p_register_lister
 
 3p_schedule_first_visits:
@@ -181,7 +220,7 @@ staging_status_unsuccessful:
   extends:
     - .on_success_status
   needs:
-    - job: 1p_register_lister
+    - job: staging_status_successful
     - job: 2p_check_listed_origins
 
 4p_check_ingested_origins:
@@ -191,7 +230,7 @@ staging_status_unsuccessful:
   extends:
     - .on_success_status
   needs:
-    - job: 1p_register_lister
+    - job: staging_status_successful
     - job: 3p_schedule_first_visits
 
 production_status_successful:
@@ -203,7 +242,7 @@ production_status_successful:
   extends:
     - .on_success_status
   needs:
-    - job: 1p_register_lister
+    - job: staging_status_successful
     - job: 4p_check_ingested_origins
 
 production_status_unsuccessful:
@@ -212,5 +251,9 @@ production_status_unsuccessful:
     - gitlab_update_issue failure
   extends:
     - .on_failure_status
-  dependencies:
-    - "staging_status_successful"
+  needs:
+    - job: staging_status_successful
+    - job: 1p_register_lister
+    - job: 2p_check_listed_origins
+    - job: 3p_schedule_first_visits
+    - job: 4p_check_ingested_origins
