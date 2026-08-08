@@ -219,7 +219,7 @@ workaround_listers () {
             LISTER_URL="${FORGE_URL%/}/api/v4"
         ;;
         gogs | gitea | forgejo)
-            LISTER_URL="${FORGE_URL%/}/api/v1"
+            LISTER_URL="${FORGE_URL%/}/api/v1/"
         ;;
         phabricator | phorge)
             LISTER_URL="${FORGE_URL%/}/api/diffusion.repository.search"
