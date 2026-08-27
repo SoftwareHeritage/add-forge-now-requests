@@ -240,7 +240,9 @@ register_vars () {
         echo "ISSUE_URL=$ISSUE_URL"
         # FIXME: remove once listers accept forge URLs instead of API URLs
         echo "LISTER_URL=$LISTER_URL"
-        echo "SWH_CONFIG_FILENAME=${!SWH_CONFIG_FILENAME}"
+        if [ -n "${!SWH_CONFIG_FILENAME+set}" ] ; then
+            echo "SWH_CONFIG_FILENAME=${!SWH_CONFIG_FILENAME}"
+        fi
     } > build.env
 }
 
