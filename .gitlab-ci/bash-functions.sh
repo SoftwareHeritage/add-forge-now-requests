@@ -155,11 +155,17 @@ gitlab_update_issue () {
         fi
     elif [ "$STATUS" = "failure" ] ; then
         case "${CI_JOB_NAME}" in
+            01_create_issue_and_register)
+                LABELS+=(PipelineFailure)
+            ;;
             02_check_ports_and_token)
                 LABELS+=(InfraFailure)
             ;;
             03_comment_request)
                 LABELS+=(WebFailure)
+            ;;
+            0*_pre)
+                LABELS+=(PipelineFailure)
             ;;
             1*_register_lister|2*_check_listed_origins)
                 LABELS+=(ListerFailure)
