@@ -12,12 +12,9 @@ default:
     - AddForgeNowRequest
   after_script:
     - source .gitlab-ci/bash-functions.sh
-    - register_this_job_as_last_job
+    - gitlab_update_issue
+    - webapp_comment_and_status
     - print_date Completed
-  artifacts:
-    reports:
-      dotenv:
-        - last_job.env
 
 variables:
   STAGING_AMQP_URL: http://scheduler0.internal.staging.swh.network:15672
@@ -42,13 +39,12 @@ workflow:
 # STAGES
 
 stages:
-  - pre_set_status
+  - staging_pre
   - staging_list_origins
   - staging_ingest_origins
-  - staging_set_status
+  - production_pre
   - production_list_origins
   - production_ingest_origins
-  - production_set_status
 
 # TEMPLATES
 
@@ -59,7 +55,6 @@ stages:
     reports:
       dotenv:
         - build.env
-        - last_job.env
 
 .on_success_status:
   rules:
@@ -104,25 +99,14 @@ stages:
     - job: 01_create_issue_and_register
     - job: 02_check_ports_and_token
 
-pre_status_successful:
-  stage: pre_set_status
+0s_pre:
+  stage: staging_pre
   script:
     - workaround_listers
     - register_vars staging
   extends:
     - .artifacts
     - .on_success_status
-  needs:
-    - job: 01_create_issue_and_register
-    - job: 02_check_ports_and_token
-    - job: 03_comment_request
-
-pre_status_unsuccessful:
-  stage: pre_set_status
-  script:
-    - gitlab_update_issue failure
-  extends:
-    - .on_failure_status
   needs:
     - job: 01_create_issue_and_register
     - job: 02_check_ports_and_token
@@ -135,7 +119,7 @@ pre_status_unsuccessful:
   extends:
     - .on_success_status
   needs:
-    - job: pre_status_successful
+    - job: 0s_pre
 
 2s_check_listed_origins:
   stage: staging_list_origins
@@ -144,7 +128,7 @@ pre_status_unsuccessful:
   extends:
     - .on_success_status
   needs:
-    - job: pre_status_successful
+    - job: 0s_pre
     - job: 1s_register_lister
 
 3s_schedule_first_visits:
@@ -154,7 +138,7 @@ pre_status_unsuccessful:
   extends:
     - .on_success_status
   needs:
-    - job: pre_status_successful
+    - job: 0s_pre
     - job: 2s_check_listed_origins
 
 4s_check_ingested_origins:
@@ -164,34 +148,18 @@ pre_status_unsuccessful:
   extends:
     - .on_success_status
   needs:
-    - job: pre_status_successful
+    - job: 0s_pre
     - job: 3s_schedule_first_visits
 
-staging_status_successful:
-  stage: staging_set_status
+0p_pre:
+  stage: production_pre
   script:
-    - webapp_comment_and_status SCHEDULED
-    - gitlab_update_issue success
     - workaround_listers
     - register_vars production
   extends:
     - .artifacts
     - .on_success_status
   needs:
-    - job: pre_status_successful
-    - job: 4s_check_ingested_origins
-
-staging_status_unsuccessful:
-  stage: staging_set_status
-  script:
-    - gitlab_update_issue failure
-  extends:
-    - .on_failure_status
-  needs:
-    - job: pre_status_successful
-    - job: 1s_register_lister
-    - job: 2s_check_listed_origins
-    - job: 3s_schedule_first_visits
     - job: 4s_check_ingested_origins
 
 1p_register_lister:
@@ -201,7 +169,7 @@ staging_status_unsuccessful:
   extends:
     - .on_success_status
   needs:
-    - job: staging_status_successful
+    - job: 0p_pre
 
 2p_check_listed_origins:
   stage: production_list_origins
@@ -210,7 +178,7 @@ staging_status_unsuccessful:
   extends:
     - .on_success_status
   needs:
-    - job: staging_status_successful
+    - job: 0p_pre
     - job: 1p_register_lister
 
 3p_schedule_first_visits:
@@ -220,7 +188,7 @@ staging_status_unsuccessful:
   extends:
     - .on_success_status
   needs:
-    - job: staging_status_successful
+    - job: 0p_pre
     - job: 2p_check_listed_origins
 
 4p_check_ingested_origins:
@@ -230,30 +198,5 @@ staging_status_unsuccessful:
   extends:
     - .on_success_status
   needs:
-    - job: staging_status_successful
+    - job: 0p_pre
     - job: 3p_schedule_first_visits
-
-production_status_successful:
-  stage: production_set_status
-  script:
-    - webapp_comment_and_status FIRST_ORIGIN_LOADED
-    - gitlab_update_issue success
-    - gitlab_close_issue
-  extends:
-    - .on_success_status
-  needs:
-    - job: staging_status_successful
-    - job: 4p_check_ingested_origins
-
-production_status_unsuccessful:
-  stage: production_set_status
-  script:
-    - gitlab_update_issue failure
-  extends:
-    - .on_failure_status
-  needs:
-    - job: staging_status_successful
-    - job: 1p_register_lister
-    - job: 2p_check_listed_origins
-    - job: 3p_schedule_first_visits
-    - job: 4p_check_ingested_origins

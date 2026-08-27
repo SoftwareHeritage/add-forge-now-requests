@@ -19,14 +19,6 @@ check_network_ports () {
     done
 }
 
-gitlab_close_issue () {
-    if [ "$GITLAB_CLOSE_ISSUE" -eq 1 ] ; then
-        curl -s -X PUT -H "PRIVATE-TOKEN: ${ADD_FORGE_NOW_ISSUE_TOKEN}" \
-        "${GITLAB_URL}/api/v4/projects/${PROJECT_ID}/issues/${ISSUE_ID}?state_event=close" |
-        jq
-    fi
-}
-
 gitlab_create_issue () {
     if [ -z "${REQUEST_ID+unset}" ]; then
         local -x DESCRIPTION="No add-forge-now request associated with this pipeline.  ${EOL}"
@@ -73,18 +65,20 @@ gitlab_create_issue () {
 }
 
 gitlab_update_issue () {
-    local STATUS=$1
+    local STATUS="$CI_JOB_STATUS"
     local LABELS=()
     local MID_MSG=" in the ${ENV} environment.  ${EOL}"
     local END_MSG="See the [pipeline](${CI_PIPELINE_URL}) for details.  ${EOL}"
-    local CI_LAST_JOB="[${CI_LAST_JOB_STAGE} ${CI_LAST_JOB_NAME} job](${CI_LAST_JOB_URL})"
+    local CI_JOB="[${CI_JOB_STAGE} ${CI_JOB_NAME} job](${CI_JOB_URL})"
     local SUCCESS_MSG="Request successfully processed"
-    local FAILED_MSG="Request failed in ${CI_LAST_JOB}.  ${EOL}"
+    local FAILED_MSG="Request failed in ${CI_JOB}.  ${EOL}"
+    local CANCELLED_MSG="Request cancelled in ${CI_JOB}.  ${EOL}"
     # TODO: show significant errors from the job
     [ "$STATUS" = "success" ] && local -x COMMENT="${SUCCESS_MSG}${MID_MSG}"
     [ "$STATUS" = "failure" ] && local -x COMMENT="${FAILED_MSG}"
-    # Enable closing the GitLab issue by default
-    GITLAB_CLOSE_ISSUE=1
+    [ "$STATUS" = "cancelled" ] && local -x COMMENT="${CANCELLED_MSG}"
+    # Keep the issue open by default
+    local CLOSE_ISSUE=0
     # Change the comment if success in production was not total
     if [ "$ENV" = "production" ] && [ "$STATUS" = "success" ] ; then
 
@@ -104,9 +98,6 @@ gitlab_update_issue () {
 
         # Check if some origin visits were not successful
         if [ "$SUCCESS" -ne "$TOTAL" ] ; then
-            # The AFN admins need to investigate the problems so keep the issue open
-            GITLAB_CLOSE_ISSUE=0
-
             # Replace success comment because some were not successful
             COMMENT="Request partially successfully processed${MID_MSG}"
             COMMENT+=${EOL}
@@ -151,16 +142,18 @@ gitlab_update_issue () {
             BAD="$(wc -l < origins)"
             HIDDEN=$((BAD-MAX))
             if [ "$BAD" -gt $MAX ] ; then
-                COMMENT+="| [${HIDDEN} more hidden](${CI_LAST_JOB_URL}). |${EOL}"
+                COMMENT+="| [${HIDDEN} more hidden](${CI_JOB_URL}). |${EOL}"
             fi
             COMMENT+=${EOL}
 
             LABELS+=(PartialSuccess)
         else
             LABELS+=(CompleteSuccess)
+            # There was total success so close the issue
+            CLOSE_ISSUE=1
         fi
     elif [ "$STATUS" = "failure" ] ; then
-        case "${CI_LAST_JOB_NAME}" in
+        case "${CI_JOB_NAME}" in
             02_check_ports_and_token)
                 LABELS+=(InfraFailure)
             ;;
@@ -182,8 +175,11 @@ gitlab_update_issue () {
     if [ ${#LABELS[@]} -gt 0 ]; then
         COMMENT+="/label ${LABELS[*]}${EOL}"
     fi
+    if [ "$CLOSE_ISSUE" -eq 1 ] ; then
+        COMMENT+="/close${EOL}"
+    fi
     if [ -z "${ISSUE_ID+unset}" ]; then
-        echo "No GitLab issue set, request failed in ${CI_LAST_JOB}."
+        echo "No GitLab issue set, request failed in ${CI_JOB}."
     else
         curl -s -X POST -H "PRIVATE-TOKEN: ${ADD_FORGE_NOW_ISSUE_TOKEN}" \
         --variable %COMMENT --expand-url \
@@ -244,14 +240,6 @@ register_vars () {
             echo "SWH_CONFIG_FILENAME=${!SWH_CONFIG_FILENAME}"
         fi
     } > build.env
-}
-
-register_this_job_as_last_job () {
-    {
-        echo "CI_LAST_JOB_NAME=$CI_JOB_NAME"
-        echo "CI_LAST_JOB_STAGE=$CI_JOB_STAGE"
-        echo "CI_LAST_JOB_URL=$CI_JOB_URL"
-    } > last_job.env
 }
 
 scheduler () {
@@ -341,8 +329,17 @@ webapp_comment_and_status () {
         echo "No AFN request so no comment."
     else
         local -x COMMENT="For details, see ${ISSUE_URL}."
-        if [ "$#" -eq 1 ]; then
-            local -x STATUS="$1"
+        if [ "$ENV" = 'pre' ] && [ "$CI_JOB_NAME" = '03_comment_request' ] && [ "$CI_JOB_STATUS" = 'running' ] ; then
+            echo "Adding AFN#${REQUEST_ID} request comment with no status change."
+        elif [ "$ENV" = 'staging' ] && [ "$CI_JOB_NAME" = '4s_check_ingested_origins' ] && [ "$CI_JOB_STATUS" = 'success' ] ; then
+            local -x STATUS='SCHEDULED'
+            echo "Adding AFN#${REQUEST_ID} request comment with new status ${STATUS}."
+        elif [ "$ENV" = 'production' ] && [ "$CI_JOB_NAME" = '4p_check_ingested_origins' ] && [ "$CI_JOB_STATUS" = 'success' ] ; then
+            local -x STATUS='FIRST_ORIGIN_LOADED'
+            echo "Adding AFN#${REQUEST_ID} request comment with new status ${STATUS}."
+        else
+            echo "No AFN#${REQUEST_ID} request comment/update for $ENV $CI_JOB_NAME $CI_JOB_STATUS"
+            return
         fi
         local JSON ; JSON=$(jq -n '.text = env.COMMENT | .issue_id = env.ISSUE_ID | if env.STATUS then .new_status = env.STATUS end')
         curl -s --json "$JSON" \
