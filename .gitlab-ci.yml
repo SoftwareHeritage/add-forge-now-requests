@@ -12,6 +12,7 @@ default:
     - AddForgeNowRequest
   after_script:
     - source .gitlab-ci/bash-functions.sh
+    - print_status
     - gitlab_update_issue
     - webapp_comment_and_status
     - print_date Completed

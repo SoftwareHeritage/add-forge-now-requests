@@ -203,6 +203,10 @@ curlrc () {
     } > "$CURL_HOME/.curlrc"
 }
 
+print_status () {
+    printf "Job %s %s status is now %s at %s\n" "$CI_JOB_STAGE" "$CI_JOB_NAME" "$CI_JOB_STATUS" "$(date "+%F %T %z%Z")"
+}
+
 print_date () {
     local STATUS=$1
     printf "%s at: %s\n" "$STATUS" "$(date "+%F %T %z%Z")"
