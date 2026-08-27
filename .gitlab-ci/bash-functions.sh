@@ -70,6 +70,7 @@ gitlab_update_issue () {
     local MID_MSG=" in the ${ENV} environment.  ${EOL}"
     local END_MSG="See the [pipeline](${CI_PIPELINE_URL}) for details.  ${EOL}"
     local CI_JOB="[${CI_JOB_STAGE} ${CI_JOB_NAME} job](${CI_JOB_URL})"
+    local CI_JOB_TXT="${CI_JOB_STAGE} ${CI_JOB_NAME} job ${CI_JOB_URL}"
     local SUCCESS_MSG="Request successfully processed"
     local FAILED_MSG="Request failed in ${CI_JOB}.  ${EOL}"
     local CANCELLED_MSG="Request cancelled in ${CI_JOB}.  ${EOL}"
@@ -179,7 +180,7 @@ gitlab_update_issue () {
         COMMENT+="/close${EOL}"
     fi
     if [ -z "${ISSUE_ID+unset}" ]; then
-        echo "No GitLab issue set, request failed in ${CI_JOB}."
+        echo "No GitLab issue set, request status is ${STATUS} in ${CI_JOB_TXT}"
     else
         curl -s -X POST -H "PRIVATE-TOKEN: ${ADD_FORGE_NOW_ISSUE_TOKEN}" \
         --variable %COMMENT --expand-url \
