@@ -81,7 +81,7 @@ gitlab_update_issue () {
     # Keep the issue open by default
     local CLOSE_ISSUE=0
     # Change the comment if success in production was not total
-    if [ "$ENV" = "production" ] && [ "$STATUS" = "success" ] ; then
+    if [ "$ENV" = "production" ] && [ "$CI_JOB_NAME" = 4p_check_ingested_origins ] && [ "$STATUS" = "success" ] ; then
 
         # Gather status of ingested origins again
         scheduler_check_ingested_origins &> log
