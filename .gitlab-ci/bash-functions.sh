@@ -211,7 +211,7 @@ curlrc () {
 }
 
 print_status () {
-    printf "Job %s %s status is now %s at %s\n" "$CI_JOB_STAGE" "$CI_JOB_NAME" "$CI_JOB_STATUS" "$(date "+%F %T %z%Z")"
+    printf "Job %s %s %s status is now %s at %s\n" "$ENV" "$CI_JOB_STAGE" "$CI_JOB_NAME" "$CI_JOB_STATUS" "$(date "+%F %T %z%Z")"
 }
 
 print_date () {
