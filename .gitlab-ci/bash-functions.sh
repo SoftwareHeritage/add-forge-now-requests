@@ -187,11 +187,13 @@ gitlab_update_issue () {
     fi
     if [ -z "${ISSUE_ID+unset}" ]; then
         echo "No GitLab issue set, request status is ${STATUS} in ${CI_JOB_TXT}"
-    else
+    elif [[ "$STATUS" != success || "$CI_JOB_NAME" == 4*_check_ingested_origins ]] ; then
         curl -s -X POST -H "PRIVATE-TOKEN: ${ADD_FORGE_NOW_ISSUE_TOKEN}" \
         --variable %COMMENT --expand-url \
         "${GITLAB_URL}/api/v4/projects/${PROJECT_ID}/issues/${ISSUE_ID}/notes?body={{COMMENT:url}}" |
         jq
+    else
+        echo "No AFN#${REQUEST_ID} GitLab issue #${ISSUE_ID} comment/update for ${ENV} ${CI_JOB_STAGE} ${CI_JOB_NAME} ${CI_JOB_STATUS}"
     fi
 }
 
