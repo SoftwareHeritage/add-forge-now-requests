@@ -76,7 +76,7 @@ gitlab_update_issue () {
     local CANCELLED_MSG="Request cancelled in ${CI_JOB}.  ${EOL}"
     # TODO: show significant errors from the job
     [ "$STATUS" = "success" ] && local -x COMMENT="${SUCCESS_MSG}${MID_MSG}"
-    [ "$STATUS" = "failure" ] && local -x COMMENT="${FAILED_MSG}"
+    [ "$STATUS" = "failed" ] && local -x COMMENT="${FAILED_MSG}"
     [ "$STATUS" = "cancelled" ] && local -x COMMENT="${CANCELLED_MSG}"
     # Keep the issue open by default
     local CLOSE_ISSUE=0
@@ -153,7 +153,7 @@ gitlab_update_issue () {
             # There was total success so close the issue
             CLOSE_ISSUE=1
         fi
-    elif [ "$STATUS" = "failure" ] ; then
+    elif [ "$STATUS" = "failed" ] ; then
         case "${CI_JOB_NAME}" in
             01_create_issue_and_register)
                 LABELS+=(PipelineFailure)
