@@ -253,6 +253,12 @@ register_vars () {
     } > build.env
 }
 
+load_vars () {
+    if [ -f build.env ] ; then
+        source build.env
+    fi
+}
+
 scheduler () {
     swh scheduler --config-file "$SWH_CONFIG_FILENAME" "$@"
 }
