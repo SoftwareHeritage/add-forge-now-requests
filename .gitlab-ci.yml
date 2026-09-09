@@ -73,8 +73,9 @@ stages:
 01_create_issue_and_register:
   stage: .pre
   script:
-    - gitlab_create_issue
     - workaround_listers
+    - register_vars pre
+    - gitlab_create_issue
     - register_vars pre
   extends:
     - .artifacts
