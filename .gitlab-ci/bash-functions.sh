@@ -245,10 +245,10 @@ register_vars () {
     local SWH_CONFIG_FILENAME=${ENV^^}_CONFIG_FILENAME
     {
         echo "ENV=$ENV"
-        if [ -n "${!ISSUE_ID+set}" ] ; then
+        if [ -n "${ISSUE_ID+set}" ] ; then
             echo "ISSUE_ID=$ISSUE_ID"
         fi
-        if [ -n "${!ISSUE_URL+set}" ] ; then
+        if [ -n "${ISSUE_URL+set}" ] ; then
             echo "ISSUE_URL=$ISSUE_URL"
         fi
         # FIXME: remove once listers accept forge URLs instead of API URLs
