@@ -351,7 +351,11 @@ webapp_comment_and_status () {
     if [ -z "${REQUEST_ID+unset}" ]; then
         echo "No AFN request so no comment."
     else
-        local -x COMMENT="For details, see ${ISSUE_URL}."
+        if [ -z "${ISSUE_ID+unset}" ]; then
+            local -x COMMENT=""
+	else
+            local -x COMMENT="For details, see ${ISSUE_URL}."
+        fi
         if [ "$ENV" = 'pre' ] && [ "$CI_JOB_NAME" = '03_comment_request' ] && [ "$CI_JOB_STATUS" = 'running' ] ; then
             echo "Adding AFN#${REQUEST_ID} request comment with no status change."
         elif [ "$ENV" = 'staging' ] && [ "$CI_JOB_NAME" = '4s_check_ingested_origins' ] && [ "$CI_JOB_STATUS" = 'success' ] ; then
