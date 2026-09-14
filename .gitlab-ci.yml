@@ -163,6 +163,9 @@ stages:
     - .artifacts
     - .on_success_status
   needs:
+    - job: 01_create_issue_and_register
+    - job: 02_check_ports_and_token
+    - job: 03_comment_request
     - job: 4s_check_ingested_origins
 
 1p_register_lister:
