@@ -90,7 +90,7 @@ gitlab_update_issue () {
         < log \
         sed \
             -n \
-            -E '/^Forge .* scheduler\.$/,${/:/p}' \
+            -E '/^Forge .* scheduler\.$/{:loop; n; /^[A-Za-z_ ]+: [0-9]+(\.[0-9]+%)?$/{p; b loop;};}' \
         > counts
 
         # Extract the success and total counts
