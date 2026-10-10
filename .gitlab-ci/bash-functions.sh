@@ -300,11 +300,12 @@ scheduler_register_lister () {
     LISTER_TASK_ID=$(scheduler add-forge-now --preset "$ENV" \
         register-lister "$LISTER_TYPE" \
         url="$LISTER_URL" \
-        instance="$INSTANCE_NAME" | grep Task | head -1 | sed -r 's/Task ([0-9]+)/\1/g')
+        instance="$INSTANCE_NAME" | tee /dev/stderr | grep Task | head -1 | sed -r 's/Task ([0-9]+)/\1/g')
     export -f scheduler
-    timeout "$LISTING_DELAY" bash -c \
+    timeout --verbose "$LISTING_DELAY" bash -c \
         "until scheduler task list --task-id $LISTER_TASK_ID \
-        --list-runs-metadata | grep -E \"ended: [0-9]+\"; do sleep 1; done" || true
+        --list-runs-metadata | tee /dev/stderr | grep -qE \"ended: [0-9]+\"; do sleep 1m; done" || true
+    print_date 'Listed'
 }
 
 #scheduler_register_lister () {
