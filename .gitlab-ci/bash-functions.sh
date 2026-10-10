@@ -48,7 +48,7 @@ gitlab_create_issue () {
     else
         local URL="${GITLAB_URL}/api/v4/projects/${PROJECT_ID}/issues/${ISSUE_ID}"
         local RESPONSE=gitlab-update-issue-response.json
-        curl -s -X POST -H "PRIVATE-TOKEN: ${ADD_FORGE_NOW_ISSUE_TOKEN}" "$URL" \
+        curl -s -X POST -H "PRIVATE-TOKEN: ${ADD_FORGE_NOW_ISSUE_TOKEN}" "$URL" |
         tee "$RESPONSE" |
         jq
         ISSUE_URL="$(jq --raw-output '.web_url' < "$RESPONSE")"
